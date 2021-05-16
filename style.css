@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(253, 251, 251);
+}
+
+/**Header**/ 
+#cabecalho{
+  display: block;
+  top: 0;
+  background-color: #7FD1B9;
+}
+#titulo{
+  font-family: 'Pangolin', cursive;
+}
+#home{
+  font-family: 'Pangolin', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+#hardskills{
+  font-family: 'Pangolin', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#softskills{
+  font-family: 'Pangolin', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#minha_foto{
+  width: 200px;
+}
