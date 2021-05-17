@@ -1,15 +1,18 @@
 body{
   background-color: rgb(253, 251, 251);
+  margin: 0%;
+  
 }
 
 /**Header**/ 
 #cabecalho{
   display: block;
-  top: 0;
   background-color: #7FD1B9;
+  
 }
 #titulo{
   font-family: 'Pangolin', cursive;
+  margin-top: 0%;
 }
 #home{
   font-family: 'Pangolin', cursive;
@@ -18,20 +21,62 @@ body{
   
 }
 
-#hardskills{
+#skills{
   font-family: 'Pangolin', cursive;
   text-decoration: none;
   font-size: 30px;
   margin-left: 30px;
 }
 
-#softskills{
+.social_media{
   font-family: 'Pangolin', cursive;
   text-decoration: none;
   font-size: 30px;
   margin-left: 30px;
 }
+/**/
 
 #minha_foto{
   width: 200px;
 }
+
+/**Section**/
+.gif{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.listas{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 0%;
+}
+#licoes_aprendidas{
+  padding-inline-start: 3%;
+}
+#licoes_a_aprender{
+  padding-inline-start: 5%;
+}
+/**/
+
+/**footer**/
+#rodape{
+  margin-bottom: 0%;
+  background-color: #7FD1B9;
+  display: flex;
+}
+
+.learnings{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-right: 50%;
+}
+
+.pikachu-gif{
+  position: absolute;
+  top: 95%;
+  left: 65%;
+}
+
+
