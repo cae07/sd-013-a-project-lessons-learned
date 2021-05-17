@@ -38,6 +38,8 @@ body{
 
 #minha_foto{
   width: 200px;
+  border: #EEF4ED;
+  border-radius: 10%;
 }
 
 /**Section**/
@@ -58,24 +60,46 @@ body{
 #licoes_a_aprender{
   padding-inline-start: 5%;
 }
+
+.table{
+  text-align: left;
+  padding-inline-start: 1%;
+}
+.table-head{
+  font-family: 'Pangolin', cursive;
+  font-size: 30px;
+}
+.table-data{
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+}
+.table-data a{
+  text-decoration: none;
+  color: #0C0A3E;
+}
 /**/
 
 /**footer**/
 #rodape{
-  margin-bottom: 0%;
   background-color: #7FD1B9;
   display: flex;
+}
+.article_title{
+  margin-left: 1%;
 }
 
 .learnings{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-right: 50%;
+  margin-left: 1%;
 }
 
 .pikachu-gif{
   position: absolute;
-  top: 95%;
+  top:  110%;
   left: 65%;
 }
 
