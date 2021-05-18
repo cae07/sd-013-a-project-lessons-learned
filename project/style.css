@@ -9,4 +9,19 @@ body {
 
 #minha_foto {
     height: 300px;
+    display: inline-block;
+}
+
+.esquerda {
+    float: left;
+}
+
+.direita {
+    display: inline-block;
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+    word-wrap: break-word;
+    
+    
 }
