@@ -9,4 +9,14 @@ body {
     height:300px;
     width:auto;
 }
+section {
+    text-align: center;
+}
+
+#licoes_aprendidas {
+    text-decoration: underline;
+    font-size: 18px;
+    width:auto;
+    height:auto;
+}
 
