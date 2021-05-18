@@ -6,17 +6,23 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  background-color: rgb(26, 170, 81);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  
 }
 
 #titulo {
-
+    color: green;
 }
 
 #minha_foto {
   width: 250px;
   height: 250px;
+  margin-top: 100px;
 }
 
 #licoes_aprendidas {
@@ -27,18 +33,17 @@ display: inline-block;
 display: inline-block;
 }
 
-#rodape{
+#rodape {
     margin-left: 20px;
     padding: 5px;
 
 }
 
 p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times New Roman, Times, serif;
     color: darkgreen;
-    font-size:x-large;
-    line-height:40px;
-    
+    font-size: x-large;
+    line-height: 40px;
 }
 
 #tabelas {
@@ -47,7 +52,6 @@ p {
 }
 
 .lado-direito {
-    
     width: 30%;
 }
 
@@ -60,5 +64,10 @@ div {
 }
 
 .lado-esquerdo {
+    margin: 1px;
+}
+table, th, td {
+    border: blue solid 1px;
+    margin: 5px;
     
 }
