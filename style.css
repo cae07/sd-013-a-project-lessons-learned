@@ -3,20 +3,30 @@ body{
   text-align: center;
 }
 .cabecalho{
-  position: fixed;
-  top: 0%;
+  position:fixed;
+  top:0px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bold;
 }
 #titulo{
   color: red;
   font-size: 30px;
+  top: 0px;
+  margin-top: 0px;
+  position: fixed;
+}
+.lado-esquerdo{
+  display: -webkit-inline-box;
+  width: 30%;
+}
+.lado-direito{
+  display: -webkit-inline-box;
+  width: 30%;
 }
 #navegacao {
   display: inline-block;
   position: absolute;
   background-color: rosybrown;
-  left: 27.65%;
   padding: 25px;
   margin: 15px;
   border: red;
@@ -24,5 +34,8 @@ body{
 .Navigation-Li{
   list-style-type: none;
   color: blue;
+  text-align: left;
+}
+#minha_foto{
   text-align: left;
 }
