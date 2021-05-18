@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat';
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -61,20 +61,20 @@ h1 {
 }
 
 .cabecalho-tabela {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h2 {
-  color:blueviolet;
+  color: blueviolet;
   line-height: 10px;
 }
 
 .lado-esquerdo {
-  float:left;
+  float: left;
 }
 
 .lado-direito {
-  float:right;
+  float: right;
 }
 
 #secao-artigos {
