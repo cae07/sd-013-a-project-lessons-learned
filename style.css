@@ -1,10 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);}
 
-#cabecalho {  
+#cabecalho {
+  text-align: center;  
   top: 0;
-  position: fixed;}
-  
+  position: fixed;
+  width: 100%;
+  background-color:  #A84EFA;}
 
 .image-body {
   margin-top: 70px;
