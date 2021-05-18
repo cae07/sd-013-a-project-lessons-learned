@@ -18,6 +18,25 @@ body {
     margin-bottom: 100px;
     padding: 50px;
     border-radius: 25%;
+    position: relative;
+    left: 300px;
 }
 
+.conteudo {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    vertical-align: middle;
+}
 
+.lado-esquerdo {
+    display: inline-block;
+    max-width: 50%;
+    float: left;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 50%;
+    float: right;
+}
