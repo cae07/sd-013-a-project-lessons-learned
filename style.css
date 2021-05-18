@@ -17,7 +17,7 @@ body {
 
 #minha_foto {
   border-radius: 25%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 main {
@@ -51,4 +51,23 @@ main {
 .lado-direito {
   float: right;
   max-width: 25%;
+}
+
+.apresentacao {
+  margin: auto;
+  border: 3px solid gray;
+  width: 1000px;
+  padding: 10px;
+}
+
+.apresentacao h2 {
+  margin-left: 100px;
+}
+
+.descricao {
+  vertical-align: top;
+  text-align: center;
+  margin-left: 30px;
+  display: inline-block;
+  max-width: 50%;
 }
