@@ -9,20 +9,24 @@
     <header id="cabecalho">
       <h1 id="titulo">Project Lessons Learned</h1>
       <nav class="menu">
-        <a href="#minha_foto">Página Inicial</a>
-        <a href="#licoes_aprendidas">Lições</a>
+        <a href="#principal">Página Inicial</a>
+        <a href="#licoes">Lições</a>
         <a href="#rodape">Contato</a>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="principal">
         <img id="minha_foto" src="images/Luiza.jpg" alt="Foto de perfil da Luiza Antiques">
-        <article>
+        <article class="lado-esquerdo">
           <h2>Primeiros passos</h2>
           <P>Em meio a pandemia, vi minha saúde mental e financeira indo cada vez mais "ralo a baixo". Para garantir um futuro melhor decidi voltar a estudar e optei pela área da tecnologia. Comecei assim sozinha com materiais encontrados na web, porém logo me deparei com a Trybe e de imediato quis entrar no curso. A minha experiência na Trybe até aqui tem sido maravilhosa, apesar de já ter visto o conteúdo abordado até aqui, dicas e conselhos tem sido de extrema importância e tenho certeza que serão extremamente úteis na minha carreira dev.</P>
         </article>
+        <aside class="lado-direito">
+          <h3>Aprendido em aula</h3>
+          <p>Mantra mais útil da minha vida de desenvolvedora até o momento "git é treino, git é para sempre e git é maravilhoso" tio Jack - Especialista na Trybe</p>
+        </aside>
       </section>
-      <section>
+      <section id="licoes">
         <ol id="licoes_aprendidas">
           <h2>Lições aprendidas</h2>
           <li>Unix</li>
@@ -50,16 +54,14 @@
           <li>SQL</li>
         </ul>
       </section>
-      <aside>
-        <h3>Aprendido em aula</h3>
-        <p>Mantra mais útil da minha vida de desenvolvedora até o momento "git é treino, git é para sempre e git é maravilhoso" tio Jack - Especialista na Trybe</p>
-      </aside>
     </main>
     <footer id="rodape">
       <h3>Contato</h3>
-      <a href="https://github.com/LuizaAntiques" target="_blank"><img class="image-contact" src="images/github.png" alt="link para github de Luiza Antiques"></a>
-      <a href="https://www.linkedin.com/in/luizaantiques/" target="_blank"><img class="image-contact" src="images/linkedin.png" alt="link para linkedin de Luiza Antiques"></a>
-      <a href="mailto:luiza.antiques@gmail.com" target="_blank"><img class="image-contact" src="images/gmail.png" alt="escreva um e-mail para Luiza Antiques"></a>
+      <div class="links-contato">
+        <a href="https://github.com/LuizaAntiques" target="_blank"><img class="imagem-contato" src="images/github.png" alt="link para github de Luiza Antiques"></a>
+        <a href="https://www.linkedin.com/in/luizaantiques/" target="_blank"><img class="imagem-contato" src="images/linkedin.png" alt="link para linkedin de Luiza Antiques"></a>
+        <a href="mailto:luiza.antiques@gmail.com" target="_blank"><img class="imagem-contato" src="images/gmail.png" alt="escreva um e-mail para Luiza Antiques"></a>
+      </div>
     </footer>
   </body>
 </html>

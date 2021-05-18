@@ -1,5 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(30, 29, 32);
+  line-height: 2em;
+}
+
+/*header*/
+
+a {
+  color: rgb(30, 29, 32);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(94, 83, 87);
 }
 
 #cabecalho {
@@ -12,17 +27,6 @@ body {
   text-align: center;
 }
 
-#minha_foto {
-  width: 350px;
-  margin: 220px 15px 30px;
-  padding: 0;
-  border: 10px solid rgb(106, 80, 87);
-}
-
-.image-contact {
-  height: 40px;
-}
-
 .menu {
   margin: 0;
   display: flex;
@@ -31,11 +35,61 @@ body {
   padding: 10px;
 }
 
-a {
-  color: rgb(30, 29, 32);
-  text-decoration: none;
+/*main*/
+
+#principal {
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-a:hover {
-  color: rgb(94, 83, 87);
+#minha_foto {
+  width: 350px;
+  margin: 30px 15px;
+  padding: 0;
+  border: 10px solid rgb(106, 80, 87);
+  border-radius: 30px;
+}
+
+#minha_foto, .lado-direito, .lado-esquerdo {
+  margin-top: 180px;
+  padding: 20px;
+}
+
+.lado-direito{
+  background-color: rgb(235, 215, 208);
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#licoes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 70%;
+}
+
+ul, ol {
+  padding: 30px 40px;
+  border: 2px dashed rgb(34, 31, 28);
+  text-align: center;
+  margin-top: 180px;
+}
+
+/*footer*/
+
+#rodape {
+  background-color: rgb(68, 55, 60);
+  color: bisque;
+}
+
+.links-contato {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagem-contato {
+  height: 40px;
 }
