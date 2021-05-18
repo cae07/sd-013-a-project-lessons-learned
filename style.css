@@ -15,4 +15,21 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+#minha_foto {
+  display: inline-block;
+  width: 30%;
+}
+
+.section1 {
+  display: inline-block;
+  width: 69%;
+}
+
+table .licoes_a_aprender li .licoes_aprendidas li {
+  padding-left: 2%;
+  width: 40%;
 }
