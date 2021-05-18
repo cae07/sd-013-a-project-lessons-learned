@@ -6,21 +6,13 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 11,5px;
+    font-size: 12px;
     margin-top: 115px;;
     line-height: 30px;
     color:black;
 }
 header {
     height: 110px;
-}
-main, footer {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-#cabecalho {
-    top: 0;
 }
 
 a {
@@ -30,5 +22,128 @@ a {
 
 a:hover{
     color:rgba(149, 151, 4, 0.911);
-    transition: 0.5s;
+}
+
+/********************/
+/** Principal/Main **/
+/********************/
+main {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.direita {
+    background-size: cover;
+    background-color: rgb(223, 219, 219);
+    float: right;
+    padding: 50px 25px;
+    height: 1350px;
+    width: 25%;
+}
+.esquerda {
+    float: left;
+    margin-top: 50px;
+    width: 75%;
+    height: 1400px;
+}
+.esquerda li{
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    float: left;
+    line-height: 15px;
+    border-radius: 10px; /** Arredonda as bordas**/
+    padding: 5px;
+    border: 1px solid green;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(206, 231, 136);
+}
+.esquerda li:hover{
+    border: 3px solid blue;
+    font-weight: 800;
+    color: black;
+}
+.direita article {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.direita section {
+    text-align: center;
+}
+.esquerda_licoes_01, .esquerda_licoes_02 {
+    height: 450px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/***************/
+/** Navegação **/
+/***************/
+.nav ul li a {
+    padding: 5px 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+/***************/
+/**  Tabelas  **/
+/***************/
+table, th, td {
+    border: 1px solid black;
+}
+.tabela {
+    height: 450px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/***************/
+/**  Imagens  **/
+/***************/
+#minha_foto{
+    width: 200px;
+}
+.foto {
+    background-image: url(background.png);
+    background-size: 181px;
+    text-align: center;
+    background-position-y: -185px;
+    background-position-x: 85px;
+    padding: 20px;
+    background-color: green;
+}
+/***************/
+/** Cabeçalho **/
+/***************/
+#cabecalho {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+#cabecalho h1{
+    text-align: center;
+}
+#cabecalho ul li a {
+    color: white;
+}
+#cabecalho ul li a:hover {
+    color: rgba(160, 124, 24, 0.822);
+    transition: 0.3s;
+}
+.sub-header {
+    padding: 30px;
+    background-color: rgba(75, 141, 13, 0.938);
+}
+
+/***************/
+/**   Rodapé  **/
+/***************/
+footer {
+    clear: both;
+    max-width: 90%;
+    margin: 20px auto;
+    text-align: end;
 }
