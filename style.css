@@ -1,3 +1,16 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  padding-top: 65px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  height: 20%;
+  /*background-color: seagreen;*/
+
+}
+
+#minha_foto {
+  width: 100px;
 }
