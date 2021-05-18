@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -12,6 +13,10 @@ body {
   margin: 120px auto;
   background-color: rgb(180, 180, 180);
   padding: 10px;
+}
+
+.clear {
+  clear: both;
 }
 
 /* Header e Nav */
@@ -29,6 +34,7 @@ body {
   display: block;
   padding-top: 10px;
   z-index: 1;
+  letter-spacing: 5px;
 }
 
 nav {
@@ -96,3 +102,59 @@ nav ol li a:hover {
 }
 
 /* End Section1 */
+
+/* Section2 */
+#section2 {
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+#section2 h2{
+  text-transform: uppercase;
+}
+
+#section2 ol li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+/* End Section2 */
+
+/* Section3 */
+#section3 {
+  margin-top: 10px;
+  float: right;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+#section3 h2 {
+  text-transform: uppercase;
+}
+
+#section3 ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+/* End Section3 */
+
+/* lado-esquerdo e lado-direito*/
+
+#lado-esquerdo {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  display: inline-block;
+}
+
+#lado-direito {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+  float: right;
+}
