@@ -6,3 +6,8 @@ header {
   position: fixed;
   top: 0;
 }
+
+nav li {
+  display: inline-block;
+  padding-right: 40px;
+}
