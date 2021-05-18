@@ -84,7 +84,7 @@ ol , ul {
 
 div , section {
   border: 1px solid gray;
-  box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #0c0b0b;
   border-radius: 3em;
 }
 
@@ -93,14 +93,11 @@ div {
 }
 
 section {
-  margin-top: 20%;
-  margin-bottom: 30px;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin: 20% 30px 30px;
 }
 
 .listas {
-  background-color: #000000;
+  background-color: #050505;
 }
 
 .table-content {
@@ -115,6 +112,6 @@ td , th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
+tr:nth-child( even ) {
   background-color: #f00d0d;
 }
