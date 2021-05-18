@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 30px;
   color: black;
+  margin-top: 115px;
 }
+
 header {
   height: 100px;
 }
@@ -33,6 +36,9 @@ em {
 #cabecalho {
   top: 0;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;  
 }
 
 #cabecalho h1 {
@@ -79,6 +85,7 @@ main {
   height: 800px;
   color: black;
 }
+
 .lado-esquerdo li {
   list-style: none;
   width: 150px;
@@ -122,7 +129,7 @@ main {
   margin: 0 auto;
 }
 
-.container-licoes-1 h2, .container-licoes-2 h2 {
+.container-licoes-1 h2 , .container-licoes-2 h2 {
   color: black;
   text-align: center;
 }
@@ -131,7 +138,7 @@ main {
   text-align: center;
 }
 
-table, th, td {
+table , th , td {
   border: 1px solid black;
 }
 
@@ -142,6 +149,7 @@ th , td {
 table th {
   background-color: rgb(202, 199, 199);
 }
+
 .tabela {
   color: black;
   height: 260px;
@@ -149,6 +157,7 @@ table th {
   text-align: center;
   margin: 0 auto;
 }
+
 .tabela table {
   color: black;
 }
