@@ -7,3 +7,9 @@ body {
   top: 0;
   background-color: rgb(118, 255, 209);
 }
+
+#minha_foto {
+  width: 150px;
+  position: relative;
+  top: 85px;
+}
