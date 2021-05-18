@@ -1,91 +1,100 @@
 body {
-    background-color: rgb(253,251,251);
-    font-family: Helvetica, sans-serif;
-    font-size: 15px;
+  background-color: rgb(253,251,251);
+  font-family: Helvetica, sans-serif;
+  font-size: 15 px;
 }
 
 #cabecalho {
-    background-color: #2ab1f5;
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+  background-color: rgb(42, 177, 245);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 #cabecalho h1 {
-    text-align: center;
-    color:white;
+  text-align: center;
+  color: white;
 }
 
 nav ul li {
-    list-style: none;
-    background-color: #955bfb;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: 5px;
+  list-style: none;
+  background-color: rgb(149, 91, 251);
+  display: inline-block;
+  border: 1 px solid black;
+  border-radius: 3 px;
+  padding: 5 px;
 }
 
 nav ul li a {
-    color:white;
+  color: white;
 }
 
 nav ul li a:hover {
-    color: red;
+  color: red;
 }
 
 nav ul li a:visited {
-    color: black;
+  color: black;
 }
 
 img {
-    width: 25%;
-    position: absolute;
-    right:1%;
-    top: 20%;
+  width: 25%;
+  position: absolute;
+  right: 1%;
+  top: 20%;
 }
 
-#licoes_aprendidas {
-    position:absolute;
-    top: 20%;
-    left: 2%;
+#licoes_aprendidas1 {
+  position: absolute;
+  top: 20%;
+  left: 2%;
 }
 
-#licoes_a_aprender {
-    position:absolute;
-    top: 20%;
-    left: 35%;
+#licoes_a_aprender1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
 }
 
 article {
-    position:absolute;
-    top: 70%;
-    left: 1%;
-    width: 60%;
-    display: inline-block;
-    text-align: justify;
-    line-height: 20px;
+  position: absolute;
+  top: 80%;
+  left: 1%;
+  width: 60%;
+  display: inline-block;
+  text-align: justify;
+  line-height: 20 px;
 }
 
 aside {
-    position:absolute;
-    top: 80%;
-    right: 1%;
-    width: 25%;
-    display:inline-block;
-    text-align: justify;
-    line-height: 20px;
+  position: absolute;
+  top: 80%;
+  right: 1%;
+  width: 25%;
+  display: inline-block;
+  text-align: justify;
+  line-height: 20 px;
 }
 
 footer {
-    position:absolute;
-    bottom: 0px;
-    left: 1px;
-    height: 20px;
-    border: 1px solid black;
+  position: absolute;
+  bottom: 0 px;
+  left: 1px;
+  height: 20 px;
+  border: 1px solid black;
 }
 
 footer p {
-    margin: 0 0 0 0;
+  margin: 0 px;
+  bottom: 0 px;
+}
+
+table {
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 25%;
+
 }
