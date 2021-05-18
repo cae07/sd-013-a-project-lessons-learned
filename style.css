@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 
-.main{
+.main {
   width: 60%;
 }
 
@@ -17,7 +17,7 @@ body {
   text-align: center;
 }
 
-#cabecalho li{
+#cabecalho li {
   list-style: none;
   display: inline-block;
   margin-left: 30px;
@@ -34,12 +34,12 @@ body {
   clear: both;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
   width: 35%;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
   width: 35%;
 }
