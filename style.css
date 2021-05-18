@@ -26,3 +26,16 @@ img {
   border: 1px solid black;
 }
 
+.lado-direito {
+  width: 400px;
+  line-height: 2;
+  float: right;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  line-height: 2;
+  float: left;
+}
+
+
