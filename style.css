@@ -24,6 +24,8 @@ body{
 
 #minha_foto{
   margin-top: 170px;
+  border: 1px solid black;
+  padding: 1px;
 }
 
 .m{
@@ -43,4 +45,15 @@ a:visited{
 
 a:hoover{
   color: olivedrab;
+}
+
+.e{
+  width: 48%;
+  display: inline-block;
+}
+
+.d{
+  width: 48%;
+  display: inline-block;
+  top: 20%;
 }
