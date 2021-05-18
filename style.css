@@ -43,6 +43,7 @@ display: inline-block;
   margin-bottom: 10px;
   display: inline-block;
   font-family: Montserrat, sans-serif;
+  line-height: 25px;
 }
 
 #licoes_a_aprender {
@@ -50,6 +51,7 @@ display: inline-block;
   margin-bottom: 10px;
   display: inline-block;
   font-family: Montserrat, sans-serif;
+  line-height: 25px;
 }
 
 .sub-titulo {
