@@ -2,11 +2,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#id {
+#cabecalho {
   position: fixed;
   top: 0;
 }
 
 img {
   width: 250px;
+  padding-top: 80px;
 }
