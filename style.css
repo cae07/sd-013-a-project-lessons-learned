@@ -7,6 +7,8 @@ body {
 #cabecalho { 
   display: block; 
   background-color: #7fd1b9; 
+  position: fixed;
+  top: 0;
 }
 
 #titulo {
@@ -117,6 +119,7 @@ body {
 
 .pikachu-gif {
   position: absolute;
-  top: 94%;
+  top: 95%;
   left: 65%;
+  width: 15%;
 }
