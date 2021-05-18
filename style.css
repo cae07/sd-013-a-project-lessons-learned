@@ -1,0 +1,155 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: large;
+    line-height: 20px;
+    display: grid;
+    color: rgb(15, 15, 15);
+    grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 15% 1fr 18%;
+    grid-gap: 0px;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(253, 251, 251);
+  }
+  
+  header {
+    background: #036b52;
+    grid-area: header;
+    top: 0;
+    position: fixed;
+    min-width: 1366px;
+    max-width: 1920px;
+  }
+  
+  #titulo {
+    color: #0c0c0c;
+  }
+  
+  #cabecalho {
+    top: 0;
+  }
+  
+  nav {
+    background: #2fc18c;
+    grid-area: nav;
+    margin: 0;
+  }
+  
+  section {
+    background: #ABABAB;
+    grid-area: section;
+    background-color: #f3f3f3;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+    box-shadow: 5px 5px 5px 5px #000;
+  }
+  
+  aside {
+    background: #2fc18c;
+    grid-area: aside;
+  }
+  
+  footer {
+    background: #036b52;
+    grid-area: footer;
+  }
+  
+  header,
+  nav,
+  section,
+  aside,
+  footer {
+    padding: 0px;
+  }
+  
+  .btn {
+    background-color: #8860c6;
+    border: none;
+    padding: 20px;
+    margin: 2px;
+    text-decoration: none;
+    margin-left: -10px;
+    width: 200px !important
+  }
+  
+  .btn:hover {
+    background-color: #66DE75;
+    padding: 22px;
+    box-shadow: 5px 5px #41197f;
+  }
+  
+  .nav-itens,
+  li {
+    margin-left: 10px;
+    padding: 0px;
+  }
+  
+  iframe {
+    display: inline-block;
+  }
+  
+  .header-icon {
+    max-height: 60px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .menu {
+    text-align: center;
+    background-color: #66DE75;
+    padding: 8px;
+    box-shadow: 5px 5px #41197f;
+    margin-left: -10px;
+  }
+  
+  .copyright,
+  .ao-lado,
+  .conteudo-txt {
+    margin-left: 10px;
+    color: #f7fffd;
+  }
+  
+  .img-corpo {
+    float: left;
+    max-height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 30px;
+  }
+  
+  ol.ll {
+    float: left;
+  }
+  
+  ul.lr,
+  p.lr {
+    float: left;
+    padding-left: 100px;
+  }
+  
+  .quebra {
+    max-width: 10px;
+  }
+  
+  h2.link {
+    margin-left: 20px;
+  }
+  
+  th,
+  td {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .tt {
+    text-align: center;
+  }
+  
+  .cabeçalho {
+    top: 0;
+  }
