@@ -13,6 +13,11 @@ body {
   display: none;
 }
 
+.icone {
+  width: 30px;
+  height: 30px;
+}
+
 #minha_foto {
   margin-top: 155px;
   width: 150px;
@@ -26,4 +31,3 @@ body {
   width: 1336px;
   height: 150px;
 }
-
