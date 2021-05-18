@@ -2,12 +2,10 @@
 
 
 body {
-  /* REQUISITO 1 */
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-  /* REQUISITO 2 */
   position: fixed;
   top: 0;
   left: 0;
@@ -63,12 +61,13 @@ footer {
 
 a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #40C18C;
 }
 
 .link_header {
   color: white;
+  font-weight: 500;
 }
 
 a:hover {
