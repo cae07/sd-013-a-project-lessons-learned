@@ -45,7 +45,7 @@ body {
   color: inherit;
   margin-left: 50px;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .div_foto {
@@ -73,11 +73,11 @@ body {
   justify-content: space-evenly;
   text-align: center;
   max-width: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
 }
 
 #aprendizados h4 {
-  font-weight: normal;
+  font-weight: 400;
   display: inline;
 }
 
@@ -118,36 +118,36 @@ body {
 /* estilos da tabela e correlatos */
 #tabela {
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
   border-spacing: 10px;
 }
 
 #tabela caption {
-  background-color: #a1e2a4;
+  background-color: rgb(34, 192, 19);
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
   text-shadow: 1px 1px 1px black;
   letter-spacing: 8px;
 }
 
-#tabela td, th, caption {
-  border: 1px solid #ddd;
+#tabela caption ,td ,th  {
+  border: 1px solid rgb(201, 201, 201);
   padding: 8px;
 }
 
 #tabela td:hover {
   background-color: rgb(230, 230, 230);
   transform: translateX(6px);
-  font-weight: bold;
-  transition: all ease-in-out .4s;
+  font-weight: 700;
+  transition: all ease-in-out 0.4s;
 }
 
 #tabela th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #a1e2a4;
+  background-color: rgb(34, 192, 19);
   text-shadow: 1px 1px 1px black;
   color: white;
 }
