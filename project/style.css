@@ -1,46 +1,46 @@
 body {
-    background-color:  rgb(253, 251, 251);
+    background-color:rgb(253, 251, 251);
 }
 
 #cabecalho #titulo {
-    position: fixed;
+    position:fixed;
     margin:0;
 }
 
 #minha_foto {
-    height: 300px;
+    height:300px;
     
 }
 
 .lado-esquerdo {
-    float: left;
-    margin-top: 50px;
-    width: 310px;
+    float:left;
+    margin-top:50px;
+    width:310px;
 }
 
 a {
-    text-align: center;
-    display: block;
+    text-align:center;
+    display:block;
 }
 
 p {
-    text-align: justify;
+    text-align:justify;
     margin-top: 50px;
-    display: inline-block;
-    margin-left: 50px;
-    width: 300px;
-    height: 220px;
-    word-wrap: break-word;
-    box-shadow: 10px 10px 10px black;
+    display:inline-block;
+    margin-left:50px;
+    width:300px;
+    height:220px;
+    word-wrap:break-word;
+    box-shadow:10px 10px 10px black;
 }
 
 #licoes_aprendidas {
-    float: left;
+    float:left;
 }
 
 #licoes_a_aprender {
-    display: block;
-    float: right;
+    display:block;
+    float:right;
 
 }
 
