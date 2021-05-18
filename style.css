@@ -1,4 +1,15 @@
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-image: url(trybe.jpeg);
+  background-size: cover;
+  background-position: 80%;
+  text-align: center;
+  padding: 60px 30px 90px 30px;
+
 
 }
+
