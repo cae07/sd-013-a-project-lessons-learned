@@ -9,7 +9,7 @@ body {
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
-  text-decoration-color: red ; 
+  text-decoration-color:red ; 
 }
 
 img {
@@ -20,14 +20,27 @@ img {
 }
 
 .conteiner-0 {
-  margin: 50px;  
+  margin: 50px;
 }
 
-#menu-container {
+#Estilo-1 {
   color: purple;
   text-decoration: underline;
   text-decoration-color: red;
-  font-weight: bold;
+  font-style: italic;
+}
+
+#Estilo-2 {
+  color: purple;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-style: italic;
+}
+
+#Estilo-3 {
+  color: purple;
+  text-decoration: underline;
+  text-decoration-color: red;
   font-style: italic;
 }
 
@@ -54,7 +67,7 @@ img {
   display: inline-block;
 }
 
-.artigo1 {
+.lado-esquerdo {
   display: inline-block;
   padding: 50px;
   text-align: left;
@@ -62,10 +75,10 @@ img {
   line-height: 30px;
 }
 
-.artigo-lateral {
+.lado-direito {
   display: inline-block;
   float: right;
-  max-width: 10%;  
+  max-width: 10%;
   margin-right: 80px;
   text-align: right;
   line-height: 25px;
