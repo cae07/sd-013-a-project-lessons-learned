@@ -47,7 +47,7 @@ a:hover {
   border-radius: 30px;
 }
 
-#minha_foto, .lado-direito, .lado-esquerdo {
+#minha_foto , .lado-direito , .lado-esquerdo {
   margin-top: 180px;
   padding: 20px;
 }
@@ -67,7 +67,7 @@ a:hover {
   width: 70%;
 }
 
-ul, ol {
+ul , ol {
   padding: 30px 40px;
   border: 2px dashed rgb(34, 31, 28);
   text-align: center;
