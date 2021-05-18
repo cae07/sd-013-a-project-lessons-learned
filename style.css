@@ -3,13 +3,16 @@ body {
 }
 
 #cabecalho {
+  position: relative;
   margin-top: 0;
   border: 2px solid black;
   text-align: center;
 }
 
-img {
+#minha_foto {
   display: block;
   margin-right: 0;
   margin-left: 0;
+  align-items: center;
+  
 }
