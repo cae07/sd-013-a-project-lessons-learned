@@ -16,12 +16,14 @@ img {
   font-family: sans-serif;
   font-size: 18px;
   color: aqua;
+  margin: 2px;
 }
 
 #licoes_a_aprender {
   font-family: sans-serif;
   font-size: 18px;
   border: 1px solid black;
+  padding: 2px;
 }
 
 .lado-direito {
