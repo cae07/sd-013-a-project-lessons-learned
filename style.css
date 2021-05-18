@@ -9,9 +9,7 @@ body {
 
 img {
   width: 200px;
-  padding-left: 20px;
   margin-top: 50px;  
-  padding: 10px;
 }
 
 #licoes_aprendidas {
@@ -21,7 +19,7 @@ img {
 }
 
 #licoes_a_aprender {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Verdana;
   font-size: 18px;
   border: 1px solid black;
 }
@@ -37,5 +35,3 @@ img {
   line-height: 2;
   float: left;
 }
-
-
