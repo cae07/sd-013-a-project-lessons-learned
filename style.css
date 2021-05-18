@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
@@ -7,4 +8,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#titulo {
+  line-height: auto;
 }
