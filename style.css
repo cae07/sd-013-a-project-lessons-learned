@@ -37,6 +37,7 @@ body {
 .sub-titulo {
   margin-bottom: 10px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contato li, a {
@@ -63,4 +64,10 @@ div {
 nav {
   text-align: center;
   font-size: 1.3em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
