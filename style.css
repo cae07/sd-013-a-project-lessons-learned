@@ -1,39 +1,39 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   margin: 0%;
 }
 
-/**Header**/ 
-#cabecalho{
+/** Header **/ 
+#cabecalho { 
   display: block;
-  background-color: #7FD1B9;
+  background-color: #7fd1b9;
 }
-#titulo{
+
+#titulo {
   font-family: 'Pangolin', cursive;
   margin-top: 0%;
 }
-#home{
+#home {
   font-family: 'Pangolin', cursive;
   text-decoration: none;
   font-size: 30px;
-  
 }
 
-#skills{
-  font-family: 'Pangolin', cursive;
-  text-decoration: none;
-  font-size: 30px;
-  margin-left: 30px;
-}
-
-.social_media{
+#skills {
   font-family: 'Pangolin', cursive;
   text-decoration: none;
   font-size: 30px;
   margin-left: 30px;
 }
 
-#linkedin{
+.social_media { 
+  font-family: 'Pangolin', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+#linkedin {
   position: relative;
   left: 18%;
 }
@@ -43,76 +43,79 @@ body{
   top: 100%;
   left: 22%;
 }
-/**/
+/* */
 
-#minha_foto{
+#minha_foto {
   width: 200px;
-  border: #EEF4ED;
+  border: #eef4ed;
   border-radius: 10%;
 }
 
-/**Section**/
-.gif{
+/** Section **/
+.gif {
   position: absolute;
   top: 20%;
   left: 38%;
 }
-.listas{
+.listas {
   display: flex;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin: 0%;
 }
-#licoes_aprendidas{
+
+#licoes_aprendidas {
   padding-inline-start: 3%;
 }
-#licoes_a_aprender{
+
+#licoes_a_aprender {
   padding-inline-start: 5%;
 }
 
-.table{
+.table {
   text-align: left;
   padding-inline-start: 1%;
   position: absolute;
   left: 74%;
   top: 30%;
 }
-.table-head{
+
+.table-head {
   font-family: 'Pangolin', cursive;
   font-size: 30px;
 }
-.table-data{
+.table-data {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   line-height: 30px;
 }
+
 .table-data a{
   text-decoration: none;
-  color: #0C0A3E;
+  color: #0c0a3e;
 }
-/**/
+/* */
 
-/**footer**/
-#rodape{
-  background-color: #7FD1B9;
+/** footer **/
+#rodape {
+  background-color: #7fd1b9;
   display: flex;
 }
-.article_title{
+
+.article_title {
   margin-left: 1%;
 }
 
-.learnings{
+.learnings {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   margin-right: 50%;
   margin-left: 1%;
 }
 
-.pikachu-gif{
+.pikachu-gif {
   position: absolute;
   top:  94%;
   left: 65%;
 }
-
-
