@@ -6,3 +6,16 @@
 body {
     background-color: rgb(253, 251, 251);
 } 
+
+#cabecalho {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: #0597F2;
+    height: 100px;
+}
+
+#titulo {
+    font-size: large;
+    color: #F2F2F2;
+}
