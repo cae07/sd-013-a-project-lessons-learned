@@ -22,7 +22,7 @@ a {
     transition: 0.3s;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color:rgba(149, 151, 4, 0.911);
     transition: 0.5s;
@@ -31,14 +31,12 @@ a:hover{
 em {
     font-weight: 800;
 }
-/***************/
-/** Cabeçalho **/
-/***************/
+
 #cabecalho {
     top: 0;
     width: 100%;
 }
-#cabecalho h1{
+#cabecalho h1 {
     text-align: center;
     color: black;
 }
@@ -55,9 +53,6 @@ em {
     background-color: rgba(75, 141, 13, 0.938);
 }
 
-/********************/
-/** Principal/Main **/
-/********************/
 main {
     max-width: 90%;
     margin: 0 auto;
@@ -67,7 +62,7 @@ main {
     background-color: rgb(223, 219, 219);
     float: right;
     padding: 20px 25px;
-    height: 760px; /** "grossura da direita **/
+    height: 760px;
     width: 25%;
 }
 .lado-esquerdo {
@@ -83,16 +78,16 @@ main {
     height: 100px;
     float: left;
     line-height: 15px;
-    border-radius: 3px; /** Arredonda as bordas**/
+    border-radius: 3px;
     padding: 5px;
     margin: 2px;
     border: 1px solid green;
     text-align: center;
-    background-color: rgb(224, 241, 178); /** rgb(206, 231, 136);**/
+    background-color: rgb(224, 241, 178); 
     color: black;
     transition: 0.3s;
 }
-.lado-esquerdo li:hover{
+.lado-esquerdo li:hover {
     border: 3px solid blue;
     font-weight: 800;
     color: black;
@@ -115,10 +110,7 @@ main {
     text-align: center;
 }
 
-/***************/
-/** Navegação **/
-/***************/
-.nav{
+.nav {
     text-align: center;
 }
 
@@ -131,9 +123,6 @@ main {
     margin: 0 5px;
 }
 
-/***************/
-/**  Tabelas  **/
-/***************/
 table, th, td {
     border: 1px solid black;
 }
@@ -154,17 +143,12 @@ th , td {
     padding: 5px 15px;
 }
 
-/***************/
-/**  Artigo  **/
-/***************/
 #artigo p {
     margin-top: 0px;    
 }
 
-/***************/
-/**  Imagens  **/
-/***************/
-#minha_foto{
+
+#minha_foto {
     width: 200px;
 }
 .foto {
@@ -177,9 +161,6 @@ th , td {
     background-color: green;
 }
 
-/***************/
-/**   Rodapé  **/
-/***************/
 footer {
     clear: both;
     max-width: 90%;
