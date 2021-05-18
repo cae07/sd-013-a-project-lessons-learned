@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+* {
+  border: none;
+  font-family: KoHo , sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+  padding-right: 5%;
+}
+
+a:hover {
+  color: steelblue;
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 1.5em;
+  padding-left: 15%;
+  width: 70%;
+}
+
+#cabecalho {
+  background-color: black;
+  color: azure;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 64%;
+}
+
+#minha_foto {
+  clear: both;
+  padding-top: 150px;
+}
+
+#esquerda {
+  float: left;
+  padding-left: 5%;
+}
+
+#direita {
+  float: right;
+}
+
+#licoes_aprendidas , #licoes_a_aprender {
+  clear: both;
+}
+
+nav , #licoes_aprendidas , #licoes_a_aprender , section , aside {
+  padding: 2em 0 2em 0;
+}
+
+section {
+  clear: both;
+  float: left;
+  width: 40%;
+}
+
+table {
+  border: 1px hidden black;
+}
+
+th {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table , th , td {
+  padding-right: 1em;
+}
+
+aside {
+  float: right;
+  width: 100%;
+}
+
+footer {
+  background: black;
+  color: azure;
+  clear: both;
+  text-align: right;
+  width: 100%;
+}
