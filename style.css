@@ -11,3 +11,7 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+#licoes {
+  margin-left: 20%;
+}
