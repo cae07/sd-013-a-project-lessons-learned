@@ -34,13 +34,28 @@ header {
 
 ul,ol {
   display: inline-block;
+  text-align: center;
+  margin-left: 250px;
+  
 }
 
-#conhecimento{
-  margin-left: 300px;
+li{
+  text-align: center;
+
+}
+#conhecimento{ 
+  margin-left: 390px;
 }
 
-table,th,td{
+table,th,td {
   border: 2px solid black;
   
+}
+
+.lousa {
+margin: 15px;
+border: 8px solid rgb(117, 61, 9);
+background-color: rgb(40, 56, 24);
+padding: 2px 3px 2px 3px;
+
 }
