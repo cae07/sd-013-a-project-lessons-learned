@@ -38,4 +38,11 @@ h2{
 #licoes_aprendidas,#licoes_a_aprender {
 	margin-left:550px;
 }
-
+#article, aside{
+	margin:auto;
+	width:60%;
+}
+#github a{
+	text-decoration: none;
+	margin-left: 650px;
+}
