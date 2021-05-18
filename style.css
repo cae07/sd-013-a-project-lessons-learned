@@ -103,3 +103,15 @@ body {
   text-align: center;
   font-family: Courier New, Courier, monospace;
 }
+
+.tabela {
+  margin: 0 auto;
+}
+
+.espaco {
+  margin: 2rem;
+}
+
+.espaco p {
+  margin: 1rem;
+}
