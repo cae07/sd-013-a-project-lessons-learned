@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   font-family: Helvetica, sans-serif;
   font-size: 15 px;
 }
@@ -92,9 +92,9 @@ footer p {
 }
 
 table {
-    position: absolute;
-    z-index: 2;
-    top: 65%;
-    left: 25%;
+  position: absolute;
+  z-index: 2;
+  top: 65%;
+  left: 25%;
 
 }
