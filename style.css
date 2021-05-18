@@ -8,6 +8,7 @@ body {
   background-color: rgb(82, 183, 154);
   color: white;
   padding: 10px 100px;
+  font-family: fantasy;
 }
 
 #minha_foto {
@@ -32,14 +33,11 @@ a {
 .lado-esquerdo {
   float: left;
   width: 49%;
-  height: 220px;
 }
 
 .lado-direito {
   float: right;
   width: 49%;
-  height: 170px;
-  padding-top: 50px;
 }
 
 #rodape {
