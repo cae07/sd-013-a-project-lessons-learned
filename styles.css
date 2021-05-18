@@ -1,6 +1,16 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+    background-color:rgb(253, 251, 251);
 }
-#cabecalho{
+
+#cabecalho {
+    position: fixed;
     top: 0;
+}
+
+.ocultar{
+    display: none;
+}
+
+#rodape{
+    text-align: center;
 }
