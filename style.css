@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", 'Times', serif;
 }
 
 body {
@@ -141,7 +140,7 @@ nav ol li a:hover {
 
 /* End Section3 */
 
-/* lado-esquerdo e lado-direito*/
+/* lado-esquerdo e lado-direito */
 .lado-esquerdo {
   border: 1px solid black;
   padding: 10px;
@@ -156,4 +155,24 @@ nav ol li a:hover {
   margin: 10px;
   width: 40%;
   float: right;
+}
+
+/* Table */
+table {
+  font-size: 20px;
+  font-family: monospace;
+  color: crimson;
+  margin: 60px auto;
+  line-height: 40px;
+  text-align: center;
+}
+
+table th, td {
+  border: 1px solid black;
+}
+
+table th{
+  letter-spacing: 4px;
+  padding: 6px;
+  background-color: white;
 }
