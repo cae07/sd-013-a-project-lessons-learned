@@ -71,3 +71,15 @@ main {
   display: inline-block;
   max-width: 50%;
 }
+
+.tabela {
+  margin-left: 500px;
+  text-align: center;
+  clear: both;
+  width: 30%;
+  margin-top: 200px;
+}
+
+.tabela , th , td {
+  border: 1px solid black;
+}
