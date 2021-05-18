@@ -3,15 +3,17 @@ body {
 }
 
 #cabecalho {
+  position: fixed;
   top: 0;
+  background-color: rgb(67, 197, 158);
 }
 
 #minha_foto {
   width: 350px;
   display: block;
-  margin: 0 auto;
+  margin: 60px auto 0 auto;
 }
 
-#licoes {
-  margin-left: 20%;
+.lessons {
+  display: inline-block;
 }
