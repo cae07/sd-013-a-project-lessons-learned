@@ -16,3 +16,14 @@ body {
   width: 100%;
   background-color: green;
 }
+
+#minha_foto {
+  height: 520px;
+  width: 350px;
+}
+
+#licoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
