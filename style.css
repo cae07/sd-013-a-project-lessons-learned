@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
 body {
   /* REQUISITO 1 */
   background-color: rgb(253, 251, 251);
@@ -10,6 +13,7 @@ body {
   left: 0;
   background-color:#40C18C;
   width: 100%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #titulo {
@@ -22,12 +26,18 @@ nav {
   display: inline-block;
   position: relative;
   width: 40%;
-  left: 32%;
+  left: 27%;
 }
 
 #cabecalho ul li {
   display: inline-block;
   margin-right: 5%;
+}
+
+main h1, h2 {
+  font-family: 'ubuntu', sans-serifs;
+  font-size: 2em;
+  margin: 0;
 }
 
 main article {
@@ -40,10 +50,20 @@ main aside {
   width: 20%;
 }
 
+.listas_licoes {
+  display: inline-block;
+  width: 40%;
+  padding: 0 4%;
+}
+
+footer {
+  text-align: center;
+}
+
 
 a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   color: #40C18C;
 }
 
