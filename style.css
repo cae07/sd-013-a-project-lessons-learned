@@ -12,6 +12,12 @@ body {
   margin: 5%;
   font-style: normal;
   font-weight: 600;
+  color: wheat;
+  text-align: center;
+  line-height: 2em;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51NqbdDrbOL.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #cabecalho {
@@ -20,7 +26,7 @@ body {
   right: 0;
   width: 100%;
   height: 15%;
-  background-color: firebrick;
+  background-color: rgb(20, 19, 19);
 }
 
 img {
@@ -30,16 +36,40 @@ img {
 }
 
 section {
+  clear: both;
   margin-top: 15%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+  margin-bottom: 50px;
+}
+
+table {
+  table-layout: auto;
+}
+
+footer {
+  clear: both;
+  position: fixed;
+  width: 100%;
+  margin-top: 50px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(70, 153, 22);
+}
+
+a {
   clear: both;
 }
 
-article {
-  float: left;
-  width: 40%;
-}
-
-aside {
-  float: right;
-  width: 45%;
+ol , ul {
+  list-style: square;
 }
