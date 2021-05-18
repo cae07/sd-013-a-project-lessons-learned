@@ -4,7 +4,7 @@ body {
   font-family: MontSerrat, sans-serif;
 }
 
-/*------------HEADER CONFIG----------*/
+/* ------------HEADER CONFIG---------- */
 #cabecalho {
   position: fixed;
   top: 0;
@@ -31,7 +31,7 @@ body {
   color: white;
 }
 
-/*----------MAIN CONFIG----------*/
+/* ----------MAIN CONFIG---------- */
 .main-container {
   padding-top: 100px;
 }
@@ -69,11 +69,7 @@ body {
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 500px;
-  padding: 30px, 50px, 500px, 50px;
+  padding: 30px 50px 500px;
   max-width: 45%;
   text-align: justify;
 }
