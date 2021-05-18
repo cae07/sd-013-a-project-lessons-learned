@@ -21,3 +21,19 @@ img {
   width: 150px;
   height: 150px;
 }
+
+.aside-ad {
+  text-align: center;
+}
+
+.aside-content {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.ad-wrapper {
+  display: inline-block;
+  width: 40%;
+}
