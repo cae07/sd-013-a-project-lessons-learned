@@ -167,11 +167,11 @@ table {
   text-align: center;
 }
 
-table th, td {
+table th,td {
   border: 1px solid black;
 }
 
-table th{
+table th {
   letter-spacing: 4px;
   padding: 6px;
   background-color: white;
