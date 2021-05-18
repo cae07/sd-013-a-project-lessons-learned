@@ -76,7 +76,7 @@ body {
 }
 
 .personalInfo {
-  width: 70vw;
+  max-width: 900px;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -112,7 +112,7 @@ body {
   flex-wrap: wrap;
 }
 
-.skills ul, .skills ol {
+.skills ul , .skills ol {
   color: var(--dark-gray);
   font-size: 0.9rem;
   margin: 0 2rem;
@@ -126,8 +126,30 @@ body {
   margin-bottom: 1rem;
 }
 
+.learning article {
+  float: left;
+}
+
+.learning section {
+  float: right;
+}
+
+.learning > section h4 {
+  color: var(--purple);
+  text-align: center;
+  margin: 5rem 0 1rem 0;
+}
+
+.learning > section aside {
+  background-color: var(--light-purple);
+  color: var(--white-purple);
+  width: 250px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.05);
+}
+
 .learningArticle {
-  width: 70vw;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
@@ -146,7 +168,7 @@ body {
   margin: 0 1rem;
 }
 
-.learningArticle p, .learningArticle h4 {
+.learningArticle p , .learningArticle h4 {
   text-align: justify;
   margin: 1rem 0;
 }
