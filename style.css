@@ -22,3 +22,20 @@ body {
 .image-contact {
   height: 40px;
 }
+
+.menu {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, rgb(235, 201, 190), rgb(168, 140, 131));
+  padding: 10px;
+}
+
+a {
+  color: rgb(30, 29, 32);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(94, 83, 87);
+}
