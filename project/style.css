@@ -2,10 +2,6 @@ body {
     background-color:  rgb(253, 251, 251);
 }
 
-.container {
-    display: inline-block;
-}
-
 #cabecalho #titulo{
     position: fixed;
     margin:0;
@@ -47,7 +43,9 @@ p {
     float: right;
 
 }
+
 #rodape {
     text-align: center;
     background-color: rgb(21, 245, 21);
 }
+
