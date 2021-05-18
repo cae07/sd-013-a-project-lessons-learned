@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap" rel="stylesheet">
+  <title>Aprendizado Trybe</title>
 </head>
 <body>
 
   <header id="cabecalho">
-    <h1 id="titulo">título</h1>
+    <h1 id="titulo">Aprendizado na Trybe</h1>
+    <img src="/imagens/logo_trybe.jpg" alt="logo da trybe">
     <nav>
       <a href="#">Home</a>
       <a href="#">Login</a>
@@ -18,75 +21,90 @@
   </header>
 
   <main>
-    <img id="minha_foto" src="/imagens/perfil.jpg" alt="Foto de Vinícius Dionysio, vestindo camiseta azul marinho, com fundo de muro vegetado.">
 
-    <ol id="licoes_aprendidas">
-      <li>Slack</li>
-      <li>Unix</li>
-      <li>Bash</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Funcionamento da Internet</li>
-      <li>Inteligência emocional</li>
-      <li>Semantic HTML</li>
-    </ol>
+    <section class="lessons-status">
+      <p>Vinícius Dionysio</p>
+      <img id="minha_foto" src="/imagens/perfil.jpg" alt="Foto de Vinícius Dionysio, vestindo camiseta azul marinho, com fundo de muro vegetado.">
 
-    <ul id="licoes_a_aprender">
-      <li>Python</li>
-      <li>SQL</li>
-      <li>POO</li>
-      <li>Liderança</li>
-      <li>Escuta ativa</li>
-      <li>React</li>
-      <li>Estruturas de Dados</li>
-      <li>Metodologias ágeis</li>
-      <li>Responsividade</li>
-      <li>Data scrapping</li>
-    </ul>
+      <ol aria-label="Lições aprendidas" id="licoes_aprendidas">
+        <li>Slack</li>
+        <li>Unix</li>
+        <li>Bash</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Funcionamento da Internet</li>
+        <li>Inteligência emocional</li>
+        <li>Semantic HTML</li>
+      </ol>
 
-    <article>
+      <ul aria-label="Lições a aprender" id="licoes_a_aprender">
+        <li>Python</li>
+        <li>SQL</li>
+        <li>POO</li>
+        <li>Liderança</li>
+        <li>Escuta ativa</li>
+        <li>React</li>
+        <li>Estruturas de Dados</li>
+        <li>Metodologias ágeis</li>
+        <li>Responsividade</li>
+        <li>Data scrapping</li>
+      </ul>
+    </section>
+
+    <article class="lado-esquerdo">
+      <h2>Duas semanas de muito aprendizado!</h2>
       <p>
-        Crie um artigo sobre seu aprendizado. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu.
-        <a href="https://vdionysio.github.io/" target="_blank">meu portfólio</a>
+        Durante essas duas primeiras semanas aprendi muito. Nem tudo foi absorvido facilmente, mas estou satisfeito com meu progresso. A respeito da parte mais teórica, como entender o básico sobre funcionamento da internet e de sistemas linux, foi muito enriquecedor. É importante compreender como funciona as ferramentas que usamos cotidianamente. Quanto a parte mais técnica, aprendi muito nesses últimos dias sobre HTML e CSS, a maneira mais fácil de demostrar essas habilidades adquiridas é acessando <a href="https://vdionysio.github.io/" target="_blank">meu portfólio</a>.
       </p>
     </article>
 
-    <section>
+    <section class="lado-direito">
       <aside>
+        <h3>Comandos git no automático</h3>
         <p>
-          Conte um passagem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          Seria injusto não citar a grande dupla GIT e GitHub, presentes em praticamente todos os momentos de estudo e de projeto. O passo a passo básico já está automático. Um pequeno resumo dos principais comandos logo abaixo:
         </p>
       </aside>
+
+      <table>
+        <tr>
+          <th>Comando</th>
+          <th>Função</th>
+        </tr>
+        <tr>
+          <td>git status</td>
+          <td>printa estado atual dos arquivos</td>
+        </tr>
+        <tr>
+          <td>git add .</td>
+          <td>adiciona todo conteudo alterado ao staging</td>
+        </tr>
+        <tr>
+          <td>git commit -m</td>
+          <td>adiciona conteúdos do staging ao repositório local</td>
+        </tr>
+        <tr>
+          <td>git push</td>
+          <td>envia o conteúdo do commit para o repositório remoto</td>
+        </tr>
+      </table>
+
     </section>
 
-    <table>
-      <tr>
-        <th>Comando</th>
-        <th>Função</th>
-      </tr>
-      <tr>
-        <td>git status</td>
-        <td>printa estado atual dos arquivos</td>
-      </tr>
-      <tr>
-        <td>git add .</td>
-        <td>adiciona todo conteudo alterado ao staging</td>
-      </tr>
-      <tr>
-        <td>git commit -m</td>
-        <td>adiciona conteúdos do staging ao repositório local</td>
-      </tr>
-      <tr>
-        <td>git push</td>
-        <td>envia o conteúdo do commit para o repositório remoto</td>
-      </tr>
-    </table>
   </main>
-  
+
   <footer id="rodape">
-    Rodapé
+    <p>
+      Todos direitos reservados, Vinícius Dionysio. &copy;
+    <p>
+    <a class="git-logo" href="https://github.com/vdionysio" target="_blank">
+      <img src="/imagens/github-icon-white.jpg" alt="logo com link para meu github">
+    </a>
+    <a class="linkedin-logo" href="https://www.linkedin.com/in/vinicius-dionysio-b656b019b/" target="_blank">
+      <img src="/imagens/linkedin_logo.png" alt="logo com link para meu linkedin">
+    </a>
   </footer>
 
 </body>
