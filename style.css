@@ -1,36 +1,36 @@
-*{
-    margin: 0;
+* {
+        margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-} 
+        background-color: rgb(253, 251, 251);
+}
 
 #cabecalho {
     top: 0;
     width: 100%;
-    background-color: #0597F2;
-    height: 100px;
+    background-color: #0597f2;
+        height: 100px;
 }
 
 #titulo {
     font-size: large;
-    color: #F2F2F2;
-    text-align: center;
+    color: #f2f2f2;
+        text-align: center;
 }
 
 #minha_foto {
     width: 100px;
-    border-radius: 50%;
+        border-radius: 50%;
 }
 
 #rodape {
     height: 50px;
-    background-color: #1F92BF;
+        background-color: #1f92bf;
 }
 
 #rodape h3 {
-    text-align: center;
-    font-size: medium;
-    color: white;
+        text-align: center;
+        font-size: medium;
+        color: white;
 }
