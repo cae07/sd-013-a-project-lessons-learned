@@ -7,7 +7,14 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #B5838D;
+  background-color: #C4A499;
   color: #1E1D20;
   text-align: center;
+}
+
+#minha_foto {
+  width: 350px;
+  margin: 220px 15px 30px;
+  padding: 0;
+  border: 10px solid #6A5057;
 }
