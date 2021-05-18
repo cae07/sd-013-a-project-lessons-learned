@@ -1,0 +1,15 @@
+body{
+  background-color:rgb(253, 251,251);
+}
+#cabecalho{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: green;
+}
+#minha_foto{
+  margin-top: 10%;
+  width: 400px;
+}
