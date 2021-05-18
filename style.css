@@ -1,10 +1,10 @@
 body {
-    /* REQUISITO 1 */
-    background-color: rgb(253, 251, 251); 
+  /* REQUISITO 1 */
+  background-color: rgb(253, 251, 251);
 }
 
-header#cabecalho {
-    /* REQUISITO 2 */
-    position: fixed;
-    top: 0;
+#cabecalho {
+  /* REQUISITO 2 */
+  position: fixed;
+  top: 0;
 }
