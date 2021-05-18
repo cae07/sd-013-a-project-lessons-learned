@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -7,6 +8,9 @@ body {
   top: 0;
   background-color: lightgreen;
   padding: 1px;
+  display: block;
+  position: fixed;
+  width: 100%;
 }
 
 img {
@@ -14,9 +18,49 @@ img {
   float: right;
   border: solid black 5px;
   margin: 15px;
+  position: relative;
+  top: 65px;
 }
 
 footer {
+  position: fixed;
   bottom: 0;
+  text-align: right;
+  right: 0;
+
+}
+
+#lista_ordenada {
+  position: relative;
+  top: 70px;
+}
+
+#lista_n_ordenada {
+  position: relative;
+  bottom: 175px;
+  display: inline;
+  left: 40%;
+}
+
+#meu_aprendizado {
   position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(84, 0, 100);
+}
+
+aside {
+  position: relative;
+  text-align: center;
+  bottom: 130px;
+  left: 75%;
+  background-color: black;
+  color: aliceblue;
+  width: fit-content;
+  padding: 10px;
 }
