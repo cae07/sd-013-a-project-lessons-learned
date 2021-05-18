@@ -13,6 +13,7 @@ header{
 h1 {
   text-align: center;
   color: #11a36a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -22,6 +23,7 @@ h1 {
 
 p {
   margin: 20px;
+  line-height: 1.5rem;
 }
 
 table {
