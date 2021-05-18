@@ -79,6 +79,33 @@ body {
   color: white;
 }
 
+.button_github {
+  background-color: #000000;
+  border: none;    
+  padding: 16px 24px;
+  text-align: center;      
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin: 20px 0 20px 20px;
+  position: absolute;
+  top: 150px;
+  left: 220px;
+}
+
+.button_github a {
+  text-align: center;
+  text-decoration: none;    
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button_github:hover {
+  background-color: #184757;
+  color: white;
+}
+
 #article-box {
   position: absolute;
   top: 550px;
@@ -90,7 +117,24 @@ body {
   /* margin: 600px 0 0 20px; */
 }
 
+#article-box h2 {
+  text-indent: 0;
+}
+
 /* main {
   height: auto;
   overflow-y: visible;
 } */
+
+#box_passagem_aprendizado {
+  position: absolute;
+  top: 280px;
+  left: 500px;
+  width: 200px;
+  border-left: 1px dashed black;
+  padding: 0 0 0 16px;
+  /* text-indent: 50px; */
+  /* display: block; */
+  /* margin: 0 0 500px 10px; */
+  /* margin: 600px 0 0 20px; */
+}
