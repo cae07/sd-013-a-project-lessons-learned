@@ -30,18 +30,18 @@ body {
   margin-top: 25px;
 }
 
-#artigo {
+#lado-esquerdo {
   font-weight: bold;
   float: left;
   display: block;
   width: 60%;
   text-align: justify;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: serif;
   line-height: 2;
 }
 
-#lateral {
+#lado-direito {
   color: blue;
   margin-top: 25px;
   float:right;
@@ -49,13 +49,12 @@ body {
   text-align: justify;
   border: solid;
   padding: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: serif;
   display: block;
   width: 35%;
 }
 
 #rodape {
   display: inline-block;
-  text-align: center;
-  margin-top: 50px;
+  margin: 25px 50px 2px 50px;
 }
