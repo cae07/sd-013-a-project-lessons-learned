@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);   
+  background-color: rgb(253, 251, 251);  
 }
 
 #cabecalho {
@@ -21,13 +21,31 @@ body {
   border: 5px solid green;
   border-radius: 10%;
   margin-top: 100px;
-  margin-left: 500px;  
+  margin-left: 520px;
 }
 
 #licoes_aprendidas {
-  display: inline-block;
+  display: block;
+  border: 2px solid green;
+  width: 200px;
+  margin-left: 50px;
 }
 
 #licoes_a_aprender {
+  display: block;
+  border: 2px solid green;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.lado-esquerdo {
   display: inline-block;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 400px;
+  margin-left: 50px;  
 }
