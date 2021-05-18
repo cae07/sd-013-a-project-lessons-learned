@@ -1,6 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(253, 251, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 #cabecalho {
     top: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgba(149, 151, 4, 0.911);
+    transition: 0.5s;
 }
