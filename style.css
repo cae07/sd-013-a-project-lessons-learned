@@ -3,11 +3,12 @@ body {
 }
 
 #titulo {
-	text-align: center;
+  text-align: center;
+  top: 0;
 }
 
 img {
-	width: 250px;
-	float: right;
-	border: solid black 5px;
+  width: 250px;
+  float: right;
+  border: solid black 5px;
 }
