@@ -12,52 +12,75 @@
     <h1 id="titulo">LIÇÕES APRENDIDAS - TRYBE!</h1>
   </header>
   <nav>
-    <ul>
-      <li>LIÇÕES APRENDIDAS</li>
-      <li>LIÇÕES QUE DESEJO APRENDER</li>
-      <li>ARTIGO</li>
-      <li>FINAL</li>
-    </ul>
+      <ul class="nav-style">
+        <li><a href="#licoes_aprendidas">LIÇÕES APRENDIDAS</a></li>
+        <li><a href="#">LIÇÕES QUE DESEJO APRENDER</a></li>
+        <li><a href="#">ARTIGO</a></li>
+        <li><a href="#">FINAL</a></li>
+      </ul>
   </nav>
-  <main>
-    <img id="minha_foto" src="images/minhafoto.gif" alt="Gato fofo">
-    <ol id="licoes_aprendidas">
-      <h2>LIÇÕES APRENDIDAS</h2>
-      <li>Comandos no Linux</li>
-      <li>Aprendi o que é Git e Github</li>
-      <li>Comandos básicos do Git</li>
-      <li>Aprendi como fazer uma estrutura de Páginas</li>
-      <li>Como estilizar uma página htmll com CSS</li>
-      <li>Compreendo como funciona Box Model</li>
-      <li>Posicionamento de elementos da página de diferentes formas</li>
-      <li>Aprendi o que é HTML semântico e porque ele é importante</li>
-      <li>Aprendi como montar uma página e deixá-la semânticamente válida e acessível</li>
-      <li>A diferença entre inline, block e inline-block</li>
-    </ol>
-    <ul id="licoes_a_aprender">
-      <h2>LIÇÕES QUE DESEJO APRENDER</h2>
-      <li>Javascript e Lógica de Programação</li>
-      <li>Testes automatizados com Jest</li>
-      <li>Introdução à React</li>
-      <li>Metodologia Ágeis</li>
-      <li>Context API e React Hooks</li>
-      <li>Introdução à SQL</li>
-      <li>Introdução ao MongoDB</li>
-      <li>Deployment</li>
-      <li>Arquitetura: SOLID e ORM</li>
-      <li>Sockets</li>
-    </ul>
-    <article>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sed leo tincidunt blandit. Aliquam vitae convallis enim. Fusce at metus nec purus posuere commodo. Sed mi neque, finibus quis lectus nec, porta fermentum nibh. Praesent suscipit augue rhoncus nibh scelerisque venenatis. Suspendisse tempor ipsum est, sodales aliquam est cursus quis. Nulla facilisi. Sed volutpat sodales sed.
-      </p>
-    </article>
-    <section>
-      <aside>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sed leo tincidunt blandit. Aliquam vitae convallis enim. Fusce at metus nec purus posuere commodo.
-        </p>
+  <main class="content">
+    <section class="main-content">
+        <img id="minha_foto" src="images/minhafoto.gif" alt="Gato fofo">
+        <article>
+            <ol id="licoes_aprendidas">
+            <h2>LIÇÕES APRENDIDAS</h2>
+            <li>Comandos no Linux</li>
+            <li>Aprendi o que é Git e Github</li>
+            <li>Comandos básicos do Git</li>
+            <li>Aprendi como fazer uma estrutura de Páginas</li>
+            <li>Como estilizar uma página htmll com CSS</li>
+            <li>Compreendo como funciona Box Model</li>
+            <li>Posicionamento de elementos da página de diferentes formas</li>
+            <li>Aprendi o que é HTML semântico e porque ele é importante</li>
+            <li>Aprendi como montar uma página e deixá-la semânticamente válida e acessível</li>
+            <li>A diferença entre inline, block e inline-block</li>
+          </ol>
+      </article>
+      <article>
+        <ul id="licoes_a_aprender">
+          <h2>LIÇÕES QUE DESEJO APRENDER</h2>
+          <li>Javascript e Lógica de Programação</li>
+          <li>Testes automatizados com Jest</li>
+          <li>Introdução à React</li>
+          <li>Metodologia Ágeis</li>
+          <li>Context API e React Hooks</li>
+          <li>Introdução à SQL</li>
+          <li>Introdução ao MongoDB</li>
+          <li>Deployment</li>
+          <li>Arquitetura: SOLID e ORM</li>
+          <li>Sockets</li>
+        </ul>
+      </article>
+    <section class="lado-esquerdo">
+      <article>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sed leo tincidunt blandit. Aliquam vitae convallis enim. Fusce at metus nec purus posuere commodo. Sed mi neque, finibus quis lectus nec, porta fermentum nibh. Praesent suscipit augue rhoncus nibh scelerisque venenatis. Suspendisse tempor ipsum est, sodales aliquam est cursus quis. Nulla facilisi. Sed volutpat sodales sed.
+         </p>
+     </article>
+    </section>
+      <aside class="lado-direito">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum sed leo tincidunt blandit. Aliquam vitae convallis enim. Fusce at metus nec purus posuere commodo.
+          </p>
       </aside>
-  </section>
-  </main>
+    <table border="1">
+    <tr>
+        <td>Nome</td>
+        <td>Idade</td>
+        <td>Profissão</td>
+    </tr>
+    <tr>
+        <td>Ted</td>
+        <td>22</td>
+        <td>Estudante</td>
+    </tr>
+    <tr>
+        <td>Ralf</td>
+        <td>26</td>
+        <td>Designer</td>
+    </tr>
+  </table>
+      </main>
+
   <footer id="rodape">
     <a href="https://github.com/marlondlacerda" target="_blank">Meu Github</a>
   </footer>

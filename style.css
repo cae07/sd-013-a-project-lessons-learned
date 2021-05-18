@@ -5,9 +5,38 @@ body {
 header {
   position: fixed;
   top: 0;
+  display:none;
 }
 
 nav li {
   display: inline-block;
-  padding-right: 40px;
+  padding-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-style a:hover{
+    color: #6b87ff;
+}
+.nav-style a{
+  text-decoration: none;
+  color:#ff6b87;
+}
+.lado-esquerdo {
+  float: left;
+  margin: 0 1.5%;
+  width: 60%;
+}
+.lado-direito {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+footer {
+  text-align: center;
+  clear: both;
 }
