@@ -1,15 +1,46 @@
-body{
-  background-color:rgb(253, 251,251);
+body {
+  background-color: rgb(253, 251, 251);
+  font-family:Pangolin, sans-serif;
+  font-size: 20px;
+
 }
-#cabecalho{
+
+nav li {
+  text-align: justify;
+  display: inline-block;
+  margin-left: 20%;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#cabecalho {
   margin: auto;
   width: 100%;
   text-align: center;
   position: fixed;
   top: 0;
   background-color: green;
+  height: 17%;
+  font-size: 15px;
 }
-#minha_foto{
+
+#minha_foto {
   margin-top: 10%;
   width: 400px;
+}
+
+aside p {
+  max-width: 250px;
+  margin-right: 2%;
+  color: black;
+  float: right;
+}
+
+aside p a {
+  text-decoration: none;
+  color: black;
 }
