@@ -48,9 +48,19 @@ body {
   color: black;
   border-radius: 5%;
   margin-bottom: 15px;
+  
 }
 
 #rodape {
   text-align: center;
   margin-bottom: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.3em;
 }
