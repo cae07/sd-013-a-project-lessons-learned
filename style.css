@@ -18,6 +18,29 @@ body {
 }
 
 header {
+  background-color: var(--dark);
   position: fixed;
+  overflow: hidden;
   top: 0;
+  width: 100%;
+  height: 100px;
+}
+
+main {
+  margin-top: 100px;
+  height: 1500px;
+}
+
+#titulo,
+#minha_foto {
+  display: inline;
+}
+ 
+#titulo {
+  color: var(--light);
+}
+
+#minha_foto {
+  width: 150px;
+  border-radius: 50%;
 }
