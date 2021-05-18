@@ -8,8 +8,7 @@ body {
 } 
 
 #cabecalho {
-    position: absolute;
-    top: 0px;
+    top: 0;
     width: 100%;
     background-color: #0597F2;
     height: 100px;
@@ -18,4 +17,9 @@ body {
 #titulo {
     font-size: large;
     color: #F2F2F2;
+}
+
+#minha_foto {
+    width: 100px;
+    border-radius: 50%;
 }
