@@ -5,4 +5,22 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-size: cover;
+  background-color: green;
+  padding: 10px 325px;
+  z-index: 1;
+}
+
+#cabecalho li {
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+article {
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  top: 125px;
 }
