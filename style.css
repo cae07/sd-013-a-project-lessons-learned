@@ -5,4 +5,41 @@ body {
 header{
   position: fixed;
   top: 0;
+  background-color: #ede9e990;
+  border: 2px solid black;
+  width: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #11a36a;
+}
+
+.container {
+  text-align: center;
+  padding: 200px 10px 20px 10px;
+}
+
+p {
+  margin: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+th {
+  padding: 25px;
+}
+
+#Trybe {
+  margin: 30px 0;
+  display: block;
+  text-decoration: none;
+  color: #11a36a;
+}
+
+#Trybe:hover {
+  font-size: 30px;
 }
