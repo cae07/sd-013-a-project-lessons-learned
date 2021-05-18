@@ -10,6 +10,7 @@ body {
   background-color: rgb(159, 252, 159);
   padding: 35px;
   top: 0;
+  display: block;
 }
 
 #titulo {
