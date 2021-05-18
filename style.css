@@ -83,12 +83,12 @@ main {
     height: 100px;
     float: left;
     line-height: 15px;
-    border-radius: 10px; /** Arredonda as bordas**/
+    border-radius: 3px; /** Arredonda as bordas**/
     padding: 5px;
     margin: 2px;
     border: 1px solid green;
     text-align: center;
-    background-color: rgb(206, 231, 136);
+    background-color: rgb(224, 241, 178); /** rgb(206, 231, 136);**/
     color: black;
     transition: 0.3s;
 }
@@ -136,6 +136,9 @@ main {
 /***************/
 table, th, td {
     border: 1px solid black;
+}
+table th {
+    background-color: rgb(202, 199, 199);
 }
 .tabela {
     color: black;
