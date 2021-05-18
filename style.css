@@ -28,9 +28,10 @@ header {
 
 main {
   margin-top: 100px;
+  height: 800px;
 }
 
-ol {
+ol , ul{
   padding-left: 50px;
 }
 
@@ -46,4 +47,13 @@ ol {
 #minha_foto {
   width: 150px;
   border-radius: 50%;
+}
+
+.licoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists-container {
+  display: flex;
 }
