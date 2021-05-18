@@ -6,3 +6,8 @@ body {
   position: fixed;
   top: 0;
 }
+
+#table , td , th , tr {
+  margin: auto;
+  border: 2px solid black;
+}
