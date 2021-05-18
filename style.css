@@ -50,3 +50,29 @@ body {
   background-color: rgb(73, 71, 71);
   color: #fff;
 }
+
+.button_linkedin {
+  background-color: #0088b6;
+  border: none;    
+  padding: 16px 20px;
+  text-align: center;      
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin: 20px 0 20px 20px;
+  position: fixed;
+  top: 600px;
+}
+
+.button_linkedin a {    
+  text-align: center;
+  text-decoration: none;    
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button_linkedin:hover {
+  background-color: #184757;
+  color: white;
+}
