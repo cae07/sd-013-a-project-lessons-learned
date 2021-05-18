@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 22px;
 }
 
 #cabecalho {    
@@ -31,7 +33,7 @@ body {
 }
 
 #licoes h2 {
-  margin: 20px 0 0 10px;
+  margin: 30px 0 0 10px;
 }
 
 #licoes-a-serem-aprendidas {  
@@ -108,7 +110,7 @@ body {
 
 #article-box {
   position: absolute;
-  top: 550px;
+  top: 580px;
   left: 20px;
   width: 700px;
   text-indent: 50px;
@@ -137,4 +139,15 @@ body {
   /* display: block; */
   /* margin: 0 0 500px 10px; */
   /* margin: 600px 0 0 20px; */
+}
+
+/* #article-box #box_passagem_aprendizado {
+  display: inline-block;
+} */
+
+#box-table, th, td {
+  margin: 790px 0 0 20px;
+  width: 400px;
+  border: 1px solid black;
+  text-align: center;
 }
