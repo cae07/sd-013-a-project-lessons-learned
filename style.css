@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: -apple-system;
+  font-family: sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
@@ -25,6 +25,7 @@ p {
   text-align: center;
 }
 
+
 #profile {
   margin-top: 100px;
 }
@@ -36,6 +37,20 @@ p {
   margin: 10px;
   padding: 10px;
 }
+
+#listas {
+  display: flex;
+  flex-direction: row;
+}
+
+#listas ol {
+  width: 50%;
+}
+
+#listas ul {
+  width: 50%;
+}
+
 
 #rodape {
   height: 50px;
@@ -57,6 +72,7 @@ p {
   background-color: violet;
   width: 50%;
 }
+
 .lado-direito {
   background-color: tomato;
   width: 50%;
