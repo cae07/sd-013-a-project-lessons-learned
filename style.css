@@ -1,13 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-header{
+
+header {
   display: block;
   position: fixed;
   top: 0;
-} 
+}
 
-h1{
+h1 {
   padding: 20px;
   background-color: rgb(3, 161, 127);
 }
@@ -18,4 +19,5 @@ img {
 
 .listas {
   display: inline-block;
+
 }
