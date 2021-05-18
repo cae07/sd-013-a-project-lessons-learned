@@ -14,7 +14,7 @@ header {
   width: 130px;
 }
 
-#Trybe,p {
+#Trybe , p {
   display: inline;
 }
 
@@ -35,11 +35,11 @@ header {
   margin-top: 100px;
 }
 
-ul,ol {
+ul , ol {
   display: inline-block;
   text-align: center;
   margin-left: 250px;
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Fredericka the Great' , cursive;
   color: rgb(238, 234, 234);
   font-size: 15px;
 }
@@ -48,18 +48,17 @@ li {
   text-align: center;
 }
 
-#conhecimento { 
+#conhecimento {
   margin-left: 430px;
 }
 
-table,th,td {
+table , th , td {
   border: 2px solid rgb(2, 0, 0);
 }
 
 .lousa {
-margin: 15px;
-border: 8px solid rgb(117, 61, 9);
-background-color: rgb(40, 56, 24);
-padding: 2px 3px 2px 3px;
-
+  margin: 15px;
+  border: 8px solid rgb(117, 61, 9);
+  background-color: rgb(40, 56, 24);
+  padding: 2px 3px 4px 1px;
 }
