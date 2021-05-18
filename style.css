@@ -3,12 +3,35 @@ body {
 }
 
 #cabecalho {
-  background-color: blue;
+  background-color: #cdd0cb;
+  width: 100%;
   position: fixed;
   top: 0;
+  display: inline-block;
 }
 
 #minha_foto {
-  margin-top: 40px;
+  margin-top: 75px;
   width: 150px;
+}
+
+.links {
+  list-style: none;
+}
+
+.inline-list {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e4efe7;
+}
+
+a:hover {
+  color: #064420;
 }
