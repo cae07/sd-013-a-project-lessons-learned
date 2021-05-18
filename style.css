@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: 950px;
+  margin: auto;
+  text-align: center;
 }
 
 header {
@@ -8,16 +11,81 @@ header {
   top: 0;
 }
 
+nav {
+  background-color: rgb(3, 161, 127);
+  text-decoration-color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todo-textos {
+  padding-bottom: 20px;
+}
+
 h1 {
   padding: 20px;
   background-color: rgb(3, 161, 127);
 }
 
-img {
-  display: block;
+.lado-esquerdo {
+  display: inline-block;
+  width: 450px;
 }
 
-.listas {
+.lado-direito {
   display: inline-block;
+  width: 450px;
+}
 
+section {
+  background-color: lightgray;
+}
+
+li {
+  text-align: left;
+}
+
+article {
+  text-align: justify;
+}
+
+ul {
+  list-style: square;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(3, 161, 127);
+}
+
+h1 {
+  color:rgb(61, 60, 60)
+}
+
+p, li, th, td, a, h3, nav {
+  color: rgb(61, 60, 60);
+  font-size: 14px;
+}
+
+p {
+  padding: 10px;
+  margin: 0px;
+  line-height: 15px;
+}
+
+img {
+  border-radius: 20%;
+  margin: 10px;
 }
