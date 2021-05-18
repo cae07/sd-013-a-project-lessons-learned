@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  font-size: smaller;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  border: solid 1px black;
+}
+
+#minha_foto {
+  width: 300px;
+  padding: 2px;
+  background-color: palegoldenrod;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#rodape {
+  margin: 3px;
+}
+
+.lado-direito {
+  float: right;
+  width: 48%
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 48%;
+}
+
+h2 {
+  color: blue;
+}
+
+section {
+  line-height: 1px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline-block;
+}
