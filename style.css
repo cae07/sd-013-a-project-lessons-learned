@@ -11,7 +11,7 @@ header {
 
 #minha_foto {
   margin-top: 50px;
-  width: 150px;
+  width: 130px;
 }
 
 #Trybe,p {
@@ -39,22 +39,21 @@ ul,ol {
   display: inline-block;
   text-align: center;
   margin-left: 250px;
-  font-family: 'Fredericka the Great', cursive;
-  color:rgb(238, 234, 234);
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(238, 234, 234);
   font-size: 15px;
 }
 
-li{
+li {
   text-align: center;
-
 }
-#conhecimento{ 
+
+#conhecimento { 
   margin-left: 430px;
 }
 
 table,th,td {
   border: 2px solid rgb(2, 0, 0);
-  
 }
 
 .lousa {
