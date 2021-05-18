@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(assets/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(assets/OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+h1, h2, li {
+  font-family: Poppins-Regular;
+}
+
+p {
+  font-family: OpenSans-Regular;
+}
+
+
+
+#cabecalho {
+  background-color: rgb(27, 27, 30);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  border-bottom: 5px solid rgb(55, 63, 81);
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+#cabecalho nav {
+  margin-right: 50px;
+}
+
+#cabecalho li {
+  color: rgb(88, 164, 176);
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 50px;
+  padding: 0 4px 0 4px;
+}
+
+#cabecalho li:hover {
+  background-color: rgb(51, 51, 58);
+  cursor: pointer;
+}
+
+#cabecalho li:active {
+  background-color: rgb(60, 60, 70);
+  cursor: pointer;
+}
+
+#titulo {
+  color: rgb(219, 219, 219);
+  display: inline-block;
+}
+
+main {
+  color: rgb(27, 27, 30);
+  background-color: rgb(169, 188, 208);
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 35px;
+  border-left: 5px solid rgb(216, 219, 226);
+  border-right: 5px solid rgb(216, 219, 226);
+}
+
+h2 {
+  color: rgb(9, 53, 59);
+  background-color: rgb(125, 164, 181);
+  border-radius: 10px;
+  margin: 90px 0 30px 100px;
+  padding: 10px;
+  box-shadow: 3px 3px rgba(9, 53, 59, 0.445);
+}
+
+main p {
+  text-align: center;
+}
+
+main a {
+  color: #316d76;
+  font-weight: bold;
+}
+
+main a:visited {
+  color: #673B72;
+}
+
+main li {
+  font-size: large;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#minha_foto {
+  width: 180px;
+  height:180px;
+  border-radius: 50%;
+}
+
+#descricao {
+  width: 400px;
+  text-align: justify;
+  margin-left: 60px;
+}
+
+#rodape {
+  color: rgb(219, 219, 219);
+  font-size: small;
+  background-color: rgb(27, 27, 30);
+  padding: 20px;
+  border-top: 5px solid rgb(55, 63, 81);
+  text-align: center;
+}
