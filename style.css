@@ -6,3 +6,18 @@ body {
   margin: 0;
   background: rgb(253, 251, 251);
 }
+
+img {
+  max-width: 100%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.avatar-wrapper {
+  width: 150px;
+  height: 150px;
+}
