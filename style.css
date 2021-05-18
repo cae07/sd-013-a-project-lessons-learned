@@ -1,5 +1,5 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 
 body {
@@ -49,4 +49,34 @@ h1 {
 
 #nome-contato {
   text-align: center;
+}
+
+#tabela {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.linhas {
+  border: 1px solid black;
+}
+
+.cabecalho-tabela {
+  font-weight: bold;
+}
+
+h2 {
+  color:blueviolet;
+  line-height: 10px;
+}
+
+.lado-esquerdo {
+  float:left;
+}
+
+.lado-direito {
+  float:right;
+}
+
+#secao-artigos {
+  display: inline;
 }
