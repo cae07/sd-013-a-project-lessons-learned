@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Blog do Manou</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!--Primeira parte da página-->
@@ -11,18 +12,20 @@
   </header>
   <img id="minha_foto" src="AirBrush_20210416170750.jpg" alt="Foto de Manou.exe, ou Emanoel">
   <!--Primeira lista-->
-  <ol id="licoes_aprendidas">
-    <li>Unix</li>
-    <li>Bash</li>
-    <li>LinkedIn</li>
-    <li>Git</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Soft-sklilsa</li>
-    <li>Colaboração</li>
-    <li>Auto-conhecimento</li>
-    <li>Empatia</li>
-  </ol>
+  <nav>
+    <ol id="licoes_aprendidas">
+      <li>Unix</li>
+      <li>Bash</li>
+      <li>LinkedIn</li>
+      <li>Git</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Soft-sklilsa</li>
+      <li>Colaboração</li>
+      <li>Auto-conhecimento</li>
+      <li>Empatia</li>
+    </ol>
+  </nav>
     <!--Segunda lista-->
   <ul id="licoes_a_aprender">O que também queremos:
     <li>JavaScript</li>
@@ -37,15 +40,37 @@
     <li>Essencialismo</li>
   </ul>
   <section>
-    <article>
+    <article id="artigo">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dolor non mauris placerat bibendum. Donec luctus auctor metus vel dictum. Integer dui diam, placerat ac lobortis non, posuere ac risus. Aliquam vulputate tristique justo, id egestas lacus semper eu. Vivamus cursus eleifend massa, non dapibus urna venenatis vel. Fusce tincidunt diam et dictum bibendum. Donec lacinia in metus eu pharetra. Donec venenatis ipsum quam, id hendrerit justo consequat in. Phasellus vel libero nisl. Suspendisse egestas sollicitudin diam at dictum.
     <article>
+  </section>
+    <table id="tabela">
+      <caption>Top 5 Animes:</caption>
+        <tr>
+          <th>Shingeki no Kyojin</th>
+          <th>Madoka Mágica</th>
+          <th>Full Metal Alchmist</th>
+          <th>FREE!</th>
+          <th>My Hero Academia</th>
+        </tr>
+    </table>
+    <table id="tabela">
+      <caption>Top 5 personagens:</caption>
+      <tr>
+        <th>Hamlet</th>
+        <th>Zuko</th>
+        <th>Tio Iroh</th>
+        <th>Titã fêmea</th>
+        <th>Aizen</th>
+      </tr>
+    </table>
+  <section>
+    <aside>
+      <p id="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit lorem. Ut quis pretium nunc. Orci varius natoque penatibus.</p>
+    </aside>
   </section>
   <footer id="rodape"> Quer saber mais sobre a formação Trybe ? Acesse:
     <a href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank">FormaçãoTrybe</a>
   </footer>
-
-
-
 </body>
 </html>
