@@ -8,11 +8,56 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
+  background-color:darkcyan;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
 }
 
-#minha_foto{
-  width: 500px;
+#cabecalho ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+#minha_foto {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+
+.imagem {
+  max-width: 50%;
+}
+
+.historia {
+  max-width: 50%;
+  /* background-color: red; */
+  float: right;
+}
+
+#rodape {
+  width: 100%;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.container_licoes {
+  display: flex;
+}
+
+.aprendidas {
+  width: 25%;
+  text-align: center;
+}
+
+.oque_vou_aprender {
+  width: 50%;
+  text-align: center;
 }
