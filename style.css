@@ -17,7 +17,17 @@ body {
 }
 
 .lessons {
+  text-align: center;
+}
+
+#lessons-learned {
   display: inline-block;
+  margin: 0 20px;
+}
+
+#lessons-to-learn {
+  display: inline-block;
+  margin: 0 20px;
 }
 
 #rodape {
@@ -30,4 +40,8 @@ section h2 {
   padding: 20px;
   background-color: rgb(67, 197, 158);
   text-align: center;
+}
+article p {
+  max-width: 400px;
+  border: 1px dashed black;
 }
