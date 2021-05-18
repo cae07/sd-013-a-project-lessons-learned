@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(8, 8, 8, 0.582);
   position: fixed;
   top: 0;
   left: 0;
@@ -14,4 +14,8 @@ header {
 header h1 {
   text-align: center;
   color: aliceblue;
+}
+
+.apresentacao {
+  
 }
