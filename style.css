@@ -9,7 +9,7 @@ body {
 
 img {
   width: 200px;
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 
 #licoes_aprendidas {
@@ -19,7 +19,7 @@ img {
 }
 
 #licoes_a_aprender {
-  font-family:Verdana;
+  font-family: sans-serif;
   font-size: 18px;
   border: 1px solid black;
 }
