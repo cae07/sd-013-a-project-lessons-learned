@@ -1,3 +1,8 @@
-body{
-    background-color: #45B69C;
+body {
+  background-color: rgb(69, 182, 156);
+}
+
+#titulo {
+  position: fixed;
+  top: 0;
 }
