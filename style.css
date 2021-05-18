@@ -35,3 +35,15 @@ body {
   width: 150px;
   border: 5px solid rgb(60, 127, 190);
 }
+
+h2 {
+  font-size: 15px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+#licoes_aprendidas {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
