@@ -34,14 +34,21 @@ body {
   text-align: center;
 }
 
-section h2 {
+nav h2 {
   display: block;
   color: black;
   padding: 20px;
   background-color: rgb(67, 197, 158);
   text-align: center;
 }
+
 article p {
+  display: inline-block;
   max-width: 400px;
   border: 1px dashed black;
+  text-align: justify;
+}
+
+aside {
+  float: right;
 }
