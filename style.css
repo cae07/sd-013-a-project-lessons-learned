@@ -11,3 +11,7 @@ header {
   margin-top: 50px;
   width: 200px;
 }
+
+#Trybe,p {
+  display: inline;
+}
