@@ -13,3 +13,7 @@ body {
   position: relative;
   top: 85px;
 }
+
+#rodape {
+  background-color: rgb(118, 255, 209);
+}
