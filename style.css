@@ -24,16 +24,32 @@ body {
   margin-top: 150px;
 }
 
+.titulo-lista {
+  font-family: Open Sans, sans-serif;
+}
+
+#titulo-aprendidas {
+display: inline-block;
+}
+
+#titulo-a-aprender {
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+}
+
 #licoes_aprendidas {
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline-block;
+  font-family: Montserrat, sans-serif;
 }
 
 #licoes_a_aprender {
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline-block;
+  font-family: Montserrat, sans-serif;
 }
 
 .sub-titulo {
