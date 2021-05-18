@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
+
   --purple: rgb(84, 58, 163);
 
   --light-purple: rgb(101, 78, 172);
@@ -18,7 +20,7 @@
 
   --dark-gray: rgb(75, 75, 75);
 
-  --gray-text:rgb(186, 186, 186);
+  --gray-text: rgb(186, 186, 186);
 
   --gray-background: rgb(241, 241, 241);
 }
@@ -73,15 +75,6 @@ body {
   justify-content: center;
 }
 
-.content {
-  background-color: var(--gray-background);
-  color: var(--black);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .personalInfo {
   width: 70vw;
   padding: 10px;
@@ -97,9 +90,18 @@ body {
   border-radius: 0.25rem;
 }
 
-.personalInfo aside {
+.personalInfo p {
   width: 60%;
   font-size: 0.9rem;
+}
+
+.content {
+  background-color: var(--gray-background);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills {
@@ -149,8 +151,17 @@ body {
   margin: 1rem 0;
 }
 
+.articleContent {
+  display: flex;
+}
+
+.articleContent > section {
+  align-self: center;
+}
+
 .learningSections {
   display: flex;
+  flex-direction: column;
 }
 
 #rodape {
@@ -162,9 +173,11 @@ body {
   padding: 1rem;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.164);
 }
+
 #rodape div {
   width: 70vw;
 }
+
 #rodape a {
   text-decoration: none;
   font-weight: 500;
