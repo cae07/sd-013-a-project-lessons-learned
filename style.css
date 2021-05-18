@@ -12,4 +12,16 @@ body {
     top: 0;    
     border: 2px solid black;
     width: 100%;
+    text-align: center;
+}
+
+section {
+  border: 2px solid black;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#minha_foto {
+  width: 300px;
+  margin: 50px;
 }
