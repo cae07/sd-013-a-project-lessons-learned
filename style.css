@@ -5,6 +5,15 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav a {
+  position: fixed;
+  margin-top: 160px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  color: green;
+}
 #cabecalho {
   position: fixed;
   width: 100%;
@@ -19,6 +28,9 @@ body {
 
 #minha_foto {
   margin-top: 210px;
+  padding: 1px 1px;
+  border: 0;
+  border-radius: 50%;
 }
 
 #nome {
@@ -47,7 +59,7 @@ aside {
   width: 80%;
 }
 
-main h3 {
+main h2 {
   font-family: monospace, sans-serif;
   color: #11a36a;
   float: left;
@@ -57,17 +69,47 @@ main h3 {
 #licoes_aprendidas {
   font-family: monospace, sans-serif;
   color: #11a36a;
-
 }
 
 #h3float {
-
 }
 
 #licoes_a_aprender {
   font-family: monospace, sans-serif;
   color: #11a36a;
-  margin-top: 101px;
+  margin-top: 110px;
+  margin-bottom: 50px;
 }
 
+article {
+  clear: both;
+  float: left;
+  width: 40%;
+  padding: 20px;
+  border: solid;
+  border-color: #11a36a;
+  border-radius: 10px;
+  color: #11a36a;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.lado-direito {
+  float: right;
+  width: 40%;
+  padding: 51px;
+  border: solid;
+  border-color: #11a36a;
+  border-radius: 10px;
+  color: #11a36a;
+}
 
+footer {
+  clear: both;
+  color: aliceblue;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+  background-image: url(trybe.jpeg);
+  background-size: cover;
+  background-position: 50% 60%;
+}
