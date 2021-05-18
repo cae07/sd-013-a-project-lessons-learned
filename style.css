@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: darkblue;
+  line-height: 1.5;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: green;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  margin: 0;
+  padding: 8px;
+}
+
+nav ul li {
+  width: 200px;
+}
+
+main {
+  margin-left: 8px;
+  margin-top: 130px;
+}
+
+img {
+  width: 200px;
+}
+
+article {
+  width: 50%;
+}
+
+aside {
+  width: 30%;
+  position: relative;
+  bottom: 20vh;
+  float: right;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td , th {
+  border: 2px solid black;
+}
+
+footer h4 {
+  text-align: center;
+  margin: 5px 0 0;
+  padding: 5px 0;
+  background-color: green;
+}
