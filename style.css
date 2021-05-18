@@ -7,7 +7,7 @@
 body {
   background-color: rgb(253, 251, 251);
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 #cabecalho {
@@ -17,13 +17,40 @@ body {
   background-color: green;
 }
 
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #minha_foto {
   height: 520px;
   width: 350px;
+  margin: 50px auto;
 }
 
 #licoes {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+#aprendizados {
+  margin: 30px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  max-width: 100%;
+}
+
+#link {
+  text-align: center;
+}
+
+#rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
 }
