@@ -35,14 +35,13 @@ body {
 }
 
 nav h2 {
-  display: block;
   color: black;
   padding: 20px;
   background-color: rgb(67, 197, 158);
   text-align: center;
 }
 
-article p.lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   max-width: 400px;
   border: 1px dashed black;
@@ -52,7 +51,7 @@ article p.lado-esquerdo {
   line-height: 1.6;
 }
 
-article aside p.lado-direito {
+.lado-direito {
   display: inline-block;
   max-width: 400px;
   border: 1px dashed black;
