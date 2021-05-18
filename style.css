@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(253, 251, 251);  
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -21,31 +21,80 @@ body {
   border: 5px solid green;
   border-radius: 10%;
   margin-top: 100px;
-  margin-left: 520px;
+  margin-left: 500px;
 }
 
 #licoes_aprendidas {
-  display: block;
+  display: inline-block;
   border: 2px solid green;
   width: 200px;
   margin-left: 50px;
+  line-height: 30px;
+  margin-left: 330px;
+  margin-top: 50px;
 }
 
 #licoes_a_aprender {
-  display: block;
+  display: inline-block;
   border: 2px solid green;
   width: 200px;
   margin-left: 50px;
+  line-height: 30px;
+  margin-top: 50px;
 }
 
 .lado-esquerdo {
   display: inline-block;
   width: 400px;
-  margin-left: 50px;
+  margin-left: 180px;
+  line-height: 25px;
+  position: relative;
+  margin-top: 50px;
 }
 
 .lado-direito {
   display: inline-block;
   width: 400px;
-  margin-left: 50px;  
+  margin-left: 50px;
+  line-height: 25px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+nav {
+  margin-top: 80px;
+  width: 400px; 
+  margin-left: 500px; 
+}
+
+a {
+  text-decoration: none;
+  padding: 15px; 
+  background-color: yellow;
+  color: green;
+  font-family: sans-serif;
+  border: 5px solid green;
+  font-weight: 800;  
+}
+
+a:hover {
+  background-color: green;
+  color: yellow;
+  border: 5px solid yellow;
+}
+
+a:active {
+  background-color: green;
+  border: 5px solid green;
+}
+
+footer {
+  background-color: green;
+  color :rgb(253, 251, 251);
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-left: 50px;
+  padding: 5px;
+  font-weight: 800;
+  margin-top: 80px;
 }
