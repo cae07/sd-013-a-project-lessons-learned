@@ -3,31 +3,31 @@ body {
   margin: 0%;
 }
 
-/** Header **/ 
+/** Header **/
 #cabecalho { 
-  display: block;
-  background-color: #7fd1b9;
+  display: block; 
+  background-color: #7fd1b9; 
 }
 
 #titulo {
-  font-family: 'Pangolin', cursive;
+  font-family: Pangolin, cursive;
   margin-top: 0%;
 }
 #home {
-  font-family: 'Pangolin', cursive;
+  font-family: Pangolin, cursive;
   text-decoration: none;
   font-size: 30px;
 }
 
 #skills {
-  font-family: 'Pangolin', cursive;
+  font-family: Pangolin, cursive;
   text-decoration: none;
   font-size: 30px;
   margin-left: 30px;
 }
 
 .social_media { 
-  font-family: 'Pangolin', cursive;
+  font-family: Pangolin, cursive;
   text-decoration: none;
   font-size: 30px;
   margin-left: 30px;
@@ -43,6 +43,7 @@ body {
   top: 100%;
   left: 22%;
 }
+
 /* */
 
 #minha_foto {
@@ -59,7 +60,7 @@ body {
 }
 .listas {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   margin: 0%;
 }
@@ -81,17 +82,17 @@ body {
 }
 
 .table-head {
-  font-family: 'Pangolin', cursive;
+  font-family: Pangolin, cursive;
   font-size: 30px;
 }
 .table-data {
   display: block;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   line-height: 30px;
 }
 
-.table-data a{
+.table-data a {
   text-decoration: none;
   color: #0c0a3e;
 }
@@ -108,7 +109,7 @@ body {
 }
 
 .learnings {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: bold;
   margin-right: 50%;
   margin-left: 1%;
@@ -116,6 +117,6 @@ body {
 
 .pikachu-gif {
   position: absolute;
-  top:  94%;
+  top: 94%;
   left: 65%;
 }
