@@ -7,11 +7,11 @@ body {
 }
 
 #cabecalho {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #0597F2;
-        height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0597F2;
+    height: 100px;
 }
 
 #titulo {
