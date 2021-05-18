@@ -78,6 +78,13 @@ h3 {
   width: 150px;
 }
 
+#bloco3 {
+  display: inline-block;
+  float: right;
+  margin-top: -20px;
+  margin-right: -250px;
+}
+
 #rodape {
   float: right;
   margin-right: 50px;
@@ -85,4 +92,20 @@ h3 {
   height: 50px;
   width: 100%;
   text-align: right;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: blue;
 }
