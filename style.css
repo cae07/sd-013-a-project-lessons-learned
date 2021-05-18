@@ -24,3 +24,12 @@ article , aside {
   border: 1px dotted black;
   margin-top: 20px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#link-trybe {
+  color: rgb(82, 183, 154);
+}
