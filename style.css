@@ -1,49 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --purple: #543aa3;
-    --light-purple: #654eac;
-    --yellow: #ffd445;
-    --white: #fafafa;
-    --gray-text:#bababa;
-    --gray-background: #f1f1f1;
+  --purple: rgb(84, 58, 163);
+  --light-purple: rgb(101, 78, 172);
+  --white-purple: rgb(188, 171, 240);
+  --yellow: rgb(255, 212, 69);
+  --white: rgb(250, 250, 250);
+  --black: rgb(26, 26, 26);
+  --dark-gray: rgb(75, 75, 75);
+  --gray-text:rgb(186, 186, 186);
+  --gray-background: rgb(241, 241, 241);
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Rubik', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Rubik', sans-serif;
 }
 
 #cabecalho {
-    background-color: var(--purple);
-    color: var(--white);
-
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+  background-color: var(--purple);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  padding: 0 5vw 0 5vw;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.164);
 }
-
-.header {
-    height: 3rem;
-    width: 90vw;
-
-    margin: auto;
-
-    display: flex;
-    align-items: center;
+#cabecalho ul {
+  list-style: none;
+  display: flex;
 }
-
+#cabecalho ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--white);
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+#cabecalho ul li a:hover {
+  color: var(--white-purple);
+}
 #titulo {
-    font-size: 1rem;
+  font-size: 1rem;
+}
+.personalInfoContainer {
+  margin-top: 50px;
+  background-color: var(--purple);
+  color: var(--white-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  background-color: var(--gray-background);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.personalInfo {
+  width: 90vw;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .personalInfo img {
-    width: 10rem;
+  max-width: 20%;
+  min-width: 10rem;
+  margin: 0 1rem;
+  border-radius: 0.25rem;
+}
 
-    border-radius: 0.25rem;
+.personalInfo p {
+  width: 60%;
+  font-size: 0.9rem;
+}
+
+.skills {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills ul,
+.skills ol {
+  margin: 0 2rem;
+  color: var(--dark-gray);
+}
+.skills section {
+  margin: 2rem 0;
+}
+.skills section h3 {
+  margin-bottom: 1rem;
+  color: var(--black);
 }
