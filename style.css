@@ -4,17 +4,22 @@ body {
 }
 
 /** Header **/
-#cabecalho { 
-  display: block; 
-  background-color: #7fd1b9; 
+#cabecalho {
   position: fixed;
   top: 0;
+}
+
+.header {
+  display: block;
+  background-color: #7fd1b9; 
+
 }
 
 #titulo {
   font-family: Pangolin, cursive;
   margin-top: 0%;
 }
+
 #home {
   font-family: Pangolin, cursive;
   text-decoration: none;
@@ -32,23 +37,12 @@ body {
   font-family: Pangolin, cursive;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 30px;
-}
-
-#linkedin {
-  position: relative;
-  left: 18%;
-}
-
-#github {
-  position: absolute;
-  top: 100%;
-  left: 22%;
 }
 
 /* */
 
-#minha_foto {
+#minha_foto{
+  margin-top: 100px;
   width: 200px;
   border: #eef4ed;
   border-radius: 10%;
