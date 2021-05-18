@@ -12,13 +12,22 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Lições aprendidas - Trybe!</h1>
+    <nav id="nav-bar">
+      <ul id="nav-link">
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#minha_foto">Meu rosto</a></li>
+        <li><a href="#licoes_aprendidas">Lições</a></li>
+        <li><a href="#artigo">Artigo</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
 
     <div>
       <img id="minha_foto" src="./fotos/matheus.jpg" alt="foto do matheus camillo">
     </div>
-    <div>
+    <div id="listas">
+    <div id="list-feito">
       <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Linux</li>
@@ -31,7 +40,7 @@
         <li>Semântica do HTML</li>
         <li>Soft Skills</li>
       </ol>
-    </div>
+    </div id="list-a-fazer">
     <div>
       <ul id="licoes_a_aprender">
         <li>JavaScript</li>
@@ -46,11 +55,18 @@
         <li>Trabalho em Grupo</li>
       </ul>
     </div>
-    <article>
+  </div>
+    <article id="artigo">
       <p>
         Durante esse pouco tempo na Trybe, vendo que meu aprendizado segue numa evolução incrível. Por mais que em alguns momentos eu duvide de mim e da minha capacidade de executar uma tarefa, quando eu sento na cadeira e sigo passo a passo do que é pedido, vejo que eu consigo realizar sem nenhum problema.
       </p>
     </article>
+    <section>
+      <aside>
+        <h4>Um pouco sobre mim</h4>
+        Tudo o que eu aprendi durante os primeiros dias na Trybe e como é o desafio de crescer a cada tarefa realizada.
+      </aside>
+    </section>
 
     <footer id="rodape">
       <a href="https://www.linkedin.com/in/mcamillofernandes/" target="_blank">Linkedin</a>

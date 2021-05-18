@@ -3,7 +3,6 @@
 }
 
 body {
-  
   background-color: rgb(253, 251, 251);
 }
 
@@ -15,10 +14,39 @@ body {
   text-align: center;
 }
 
-img {
-  width: 200px;
+#titulo {
+  padding: 20px;
 }
 
-section {
-  margin-top: 150px;
+#nav-link {
+  list-style: none;
+  display: inline-block;
+}
+
+#nav-link li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+#nav-link li a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 130px;
+}
+
+img {
+  width: 200px;
+  margin: 50px;
+}
+
+#listas {
+  display: inline-block;
+}
+
+#list-feito , #list-a-fazer {
+  display: inline-block;
 }
