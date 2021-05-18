@@ -23,3 +23,11 @@ body {
 #rodape {
   text-align: center;
 }
+
+section h2 {
+  display: block;
+  color: black;
+  padding: 20px;
+  background-color: rgb(67, 197, 158);
+  text-align: center;
+}
