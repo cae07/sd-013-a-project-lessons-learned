@@ -42,7 +42,17 @@ nav h2 {
   text-align: center;
 }
 
-article p {
+article p.lado-esquerdo {
+  display: inline-block;
+  max-width: 400px;
+  border: 1px dashed black;
+  text-align: justify;
+  font-size: 15px;
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+article aside p.lado-direito {
   display: inline-block;
   max-width: 400px;
   border: 1px dashed black;
