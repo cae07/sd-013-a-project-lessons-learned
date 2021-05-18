@@ -7,12 +7,13 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
-    margin-top: 115px;
+    margin-top: 0px;
     line-height: 30px;
     color:black;
 }
 header {
     height: 100px;
+   
 }
 
 a {
@@ -30,6 +31,30 @@ a:hover{
 em {
     font-weight: 800;
 }
+/***************/
+/** Cabeçalho **/
+/***************/
+#cabecalho {
+    top: 0;
+    width: 100%;
+}
+#cabecalho h1{
+    text-align: center;
+    color: black;
+}
+#cabecalho ul li a {
+    color: white;
+    transition: 0.3s;
+}
+#cabecalho ul li a:hover {
+    color: rgba(160, 124, 24, 0.822);
+    transition: 0.3s;
+}
+.container-header {
+    padding: 30px;
+    background-color: rgba(75, 141, 13, 0.938);
+}
+
 /********************/
 /** Principal/Main **/
 /********************/
@@ -41,26 +66,26 @@ main {
     background-size: cover;
     background-color: rgb(223, 219, 219);
     float: right;
-    padding: 50px 25px;
-    height: 1350px;
+    padding: 20px 25px;
+    height: 760px; /** "grossura da direita **/
     width: 25%;
 }
 .lado-esquerdo {
     float: left;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 75%;
-    height: 1400px;
+    height: 800px;
     color: black;
 }
 .lado-esquerdo li {
     list-style: none;
     width: 150px;
-    height: 150px;
+    height: 100px;
     float: left;
     line-height: 15px;
     border-radius: 10px; /** Arredonda as bordas**/
-    padding: 15px;
-    margin: 15px;
+    padding: 5px;
+    margin: 2px;
     border: 1px solid green;
     text-align: center;
     background-color: rgb(206, 231, 136);
@@ -80,13 +105,12 @@ main {
 .lado-direito section {
     text-align: center;
 }
-.container-licoes-1, .container-licoes-2 {
-    height: 450px;
+.container-licoes-1 , .container-licoes-2 {
+    height: 250px;
     width: 900px;
     margin: 0 auto;
 }
-
-.esquerda_licoes_01 h2, .esquerda_licoes_02 h2 {
+.container-licoes-1 h2, .container-licoes-2 h2 {
     color: black;
     text-align: center;
 }
@@ -115,15 +139,13 @@ table, th, td {
 }
 .tabela {
     color: black;
-    height: 450px;
+    height: 260px;
     width: 900px;
     text-align: center;
     margin: 0 auto;
 }
 .tabela table {
     color: black;
-    position: relative;
-    left: 70px;
 }
 th , td {
     padding: 5px 15px;
@@ -133,7 +155,7 @@ th , td {
 /**  Artigo  **/
 /***************/
 #artigo p {
-    margin-top: 0px;
+    margin-top: 0px;    
 }
 
 /***************/
@@ -150,29 +172,6 @@ th , td {
     background-position-x: 85px;
     padding: 20px;
     background-color: green;
-}
-/***************/
-/** Cabeçalho **/
-/***************/
-#cabecalho {
-    top: 0;
-    width: 100%;
-}
-#cabecalho h1{
-    text-align: center;
-    color: black;
-}
-#cabecalho ul li a {
-    color: white;
-    transition: 0.3s;
-}
-#cabecalho ul li a:hover {
-    color: rgba(160, 124, 24, 0.822);
-    transition: 0.3s;
-}
-.container-header {
-    padding: 30px;
-    background-color: rgba(75, 141, 13, 0.938);
 }
 
 /***************/
