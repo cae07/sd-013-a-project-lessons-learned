@@ -1,3 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+.cabecaclho {
+  position: fixed;
+  top: 0;
+}
+
+.rodape {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
