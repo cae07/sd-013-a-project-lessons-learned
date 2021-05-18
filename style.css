@@ -1,20 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 body{
-    background-color: rgb(253, 251, 251);
-    height: max;
+  background-color: rgb(253, 251, 251);
+  height: max;
+  font-size: 1em;
+  font-family: monospace;
+  margin: 5%;
 }
+
 #cabecalho{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 15%;
-    
-    background-color: firebrick;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 15%;    
+  background-color: firebrick;
 }
+
 img{
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
+
 section{
-    margin-top: 15%;
+  margin-top: 15%;
 }
