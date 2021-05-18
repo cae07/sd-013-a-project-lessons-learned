@@ -3,14 +3,13 @@ body {
 }
 
 #cabecalho {
-  position: relative;
-  margin-top: 0; 
-  border: 2px solid;
+  margin-top: 0;
+  border: 2px solid black;
   text-align: center;
 }
 
 img {
-  display:block;
+  display: block;
   margin-right: 0;
   margin-left: 0;
 }
