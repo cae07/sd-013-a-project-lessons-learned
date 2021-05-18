@@ -7,23 +7,29 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
-    margin-top: 115px;;
+    margin-top: 115px;
     line-height: 30px;
     color:black;
 }
 header {
-    height: 110px;
+    height: 100px;
 }
 
 a {
     color: black;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:hover{
+    text-decoration: none;
     color:rgba(149, 151, 4, 0.911);
+    transition: 0.5s;
 }
 
+em {
+    font-weight: 800;
+}
 /********************/
 /** Principal/Main **/
 /********************/
@@ -31,7 +37,7 @@ main {
     max-width: 90%;
     margin: 0 auto;
 }
-.direita {
+.lado-direito {
     background-size: cover;
     background-color: rgb(223, 219, 219);
     float: right;
@@ -39,46 +45,59 @@ main {
     height: 1350px;
     width: 25%;
 }
-.esquerda {
+.lado-esquerdo {
     float: left;
     margin-top: 50px;
     width: 75%;
     height: 1400px;
+    color: black;
 }
-.esquerda li{
+.lado-esquerdo li {
     list-style: none;
     width: 150px;
     height: 150px;
     float: left;
     line-height: 15px;
     border-radius: 10px; /** Arredonda as bordas**/
-    padding: 5px;
+    padding: 15px;
+    margin: 15px;
     border: 1px solid green;
     text-align: center;
-    margin: 5px;
     background-color: rgb(206, 231, 136);
+    color: black;
+    transition: 0.3s;
 }
-.esquerda li:hover{
+.lado-esquerdo li:hover{
     border: 3px solid blue;
     font-weight: 800;
     color: black;
+    transition: 0.5s;
 }
-.direita article {
+.lado-direito article {
     margin-bottom: 10px;
     text-align: center;
 }
-.direita section {
+.lado-direito section {
     text-align: center;
 }
-.esquerda_licoes_01, .esquerda_licoes_02 {
+.container-licoes-1, .container-licoes-2 {
     height: 450px;
     width: 900px;
     margin: 0 auto;
 }
 
+.esquerda_licoes_01 h2, .esquerda_licoes_02 h2 {
+    color: black;
+    text-align: center;
+}
+
 /***************/
 /** Navegação **/
 /***************/
+.nav{
+    text-align: center;
+}
+
 .nav ul li a {
     padding: 5px 20px;
 }
@@ -87,6 +106,7 @@ main {
     display: inline-block;
     margin: 0 5px;
 }
+
 /***************/
 /**  Tabelas  **/
 /***************/
@@ -94,9 +114,26 @@ table, th, td {
     border: 1px solid black;
 }
 .tabela {
+    color: black;
     height: 450px;
     width: 900px;
+    text-align: center;
     margin: 0 auto;
+}
+.tabela table {
+    color: black;
+    position: relative;
+    left: 70px;
+}
+th , td {
+    padding: 5px 15px;
+}
+
+/***************/
+/**  Artigo  **/
+/***************/
+#artigo p {
+    margin-top: 0px;
 }
 
 /***************/
@@ -120,20 +157,20 @@ table, th, td {
 #cabecalho {
     top: 0;
     width: 100%;
-    position: fixed;
-    z-index: 2;
 }
 #cabecalho h1{
     text-align: center;
+    color: black;
 }
 #cabecalho ul li a {
     color: white;
+    transition: 0.3s;
 }
 #cabecalho ul li a:hover {
     color: rgba(160, 124, 24, 0.822);
     transition: 0.3s;
 }
-.sub-header {
+.container-header {
     padding: 30px;
     background-color: rgba(75, 141, 13, 0.938);
 }
@@ -144,6 +181,7 @@ table, th, td {
 footer {
     clear: both;
     max-width: 90%;
-    margin: 20px auto;
-    text-align: end;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 12px;
 }
