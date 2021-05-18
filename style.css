@@ -1,8 +1,80 @@
 body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   top: 0px;
   position: fixed;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-decoration-color: red ; 
+}
+
+img {
+  float: right;
+  margin-right: 200px;
+  border-radius: 60% 40%;
+  border: 5px solid indigo;
+}
+
+.conteiner-0 {
+  margin: 50px;  
+}
+
+#menu-container {
+  color: purple;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.conteiner-1 {
+  display: inline-block;
+}
+
+.conteiner-2 {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.link-util {
+  margin-left: 300px;
+}
+
+.link-util-2:hover {
+  text-decoration: overline;
+  color: red;
+  font-size: 45px;
+}
+
+.conteiner-3 {
+  display: inline-block;
+}
+
+.artigo1 {
+  display: inline-block;
+  padding: 50px;
+  text-align: left;
+  max-width: 50%;
+  line-height: 30px;
+}
+
+.artigo-lateral {
+  display: inline-block;
+  float: right;
+  max-width: 10%;  
+  margin-right: 80px;
+  text-align: right;
+  line-height: 25px;
+}
+
+.border {
+  text-align: center;
+  margin: 25px;
+  margin-left: 216px;
+  margin-bottom: 50px;
+  font-size: 25px;
 }
