@@ -5,6 +5,9 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  background-color: rgb(82, 183, 154);
+  color: white;
+  padding: 10px 100px;
 }
 
 #minha_foto {
@@ -14,4 +17,10 @@ body {
 
 #rodape {
   text-align: center;
+  margin-top: 50px;
+}
+
+article , aside {
+  border: 1px dotted black;
+  margin-top: 20px;
 }
