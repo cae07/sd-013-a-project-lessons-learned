@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -6,7 +10,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  margin-left: 50px;
+  margin-left: 150px;
   margin-right: 50px;
 }
 
@@ -20,22 +24,29 @@ body {
   border-radius: 100%;
 }
 
-#navegacao{
+#navegacao {
   border: 1px solid black;
   float: left;
 }
 
-#lista-navegacao{
+#lista-navegacao {
   display: inline-block;
 }
 
-h1{
+h1 {
   font-size: 15px;
   font-weight: 400;
 }
 
-.lista-navegacao{
+.lista-navegacao {
   padding-right: 20px;
   padding-left: 20px;
 }
 
+#foto {
+  text-align: center;
+}
+
+#nome-contato {
+  text-align: center;
+}
