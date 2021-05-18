@@ -5,15 +5,13 @@
 }
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    margin-top: 0px;
     line-height: 30px;
-    color:black;
+    color: black;
 }
 header {
     height: 100px;
-   
 }
 
 a {
@@ -24,7 +22,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color:rgba(149, 151, 4, 0.911);
+    color: rgba(149, 151, 4, 0.911);
     transition: 0.5s;
 }
 
@@ -36,18 +34,26 @@ em {
     top: 0;
     width: 100%;
 }
+
 #cabecalho h1 {
     text-align: center;
     color: black;
 }
+
+.nav ul li a {
+    padding: 5px 20px;
+}
+
 #cabecalho ul li a {
     color: white;
     transition: 0.3s;
 }
+
 #cabecalho ul li a:hover {
     color: rgba(160, 124, 24, 0.822);
     transition: 0.3s;
 }
+
 .container-header {
     padding: 30px;
     background-color: rgba(75, 141, 13, 0.938);
@@ -57,6 +63,7 @@ main {
     max-width: 90%;
     margin: 0 auto;
 }
+
 .lado-direito {
     background-size: cover;
     background-color: rgb(223, 219, 219);
@@ -65,9 +72,9 @@ main {
     height: 760px;
     width: 25%;
 }
+
 .lado-esquerdo {
     float: left;
-    margin-top: 0px;
     width: 75%;
     height: 800px;
     color: black;
@@ -83,28 +90,33 @@ main {
     margin: 2px;
     border: 1px solid green;
     text-align: center;
-    background-color: rgb(224, 241, 178); 
+    background-color: rgb(224, 241, 178);
     color: black;
     transition: 0.3s;
 }
+
 .lado-esquerdo li:hover {
     border: 3px solid blue;
     font-weight: 800;
     color: black;
     transition: 0.5s;
 }
+
 .lado-direito article {
     margin-bottom: 10px;
     text-align: center;
 }
+
 .lado-direito section {
     text-align: center;
 }
+
 .container-licoes-1 , .container-licoes-2 {
     height: 250px;
     width: 900px;
     margin: 0 auto;
 }
+
 .container-licoes-1 h2, .container-licoes-2 h2 {
     color: black;
     text-align: center;
@@ -112,10 +124,6 @@ main {
 
 .nav {
     text-align: center;
-}
-
-.nav ul li a {
-    padding: 5px 20px;
 }
 
 .nav ul li {
@@ -126,6 +134,11 @@ main {
 table, th, td {
     border: 1px solid black;
 }
+
+th , td {
+    padding: 5px 15px;
+}
+
 table th {
     background-color: rgb(202, 199, 199);
 }
@@ -139,20 +152,16 @@ table th {
 .tabela table {
     color: black;
 }
-th , td {
-    padding: 5px 15px;
-}
 
 #artigo p {
     margin-top: 0px;    
 }
 
-
 #minha_foto {
     width: 200px;
 }
 .foto {
-    background-image: url(background.png);
+    background-image: url("background.png");
     background-size: 181px;
     text-align: center;
     background-position-y: -185px;
