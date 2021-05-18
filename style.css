@@ -4,7 +4,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0;
+  top: 0px;
+  border-top: 0px;
 }
 
 #titulo h1 {
