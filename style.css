@@ -1,13 +1,29 @@
 body {
+  margin: 20px 20px 0px;
+  padding: 15px;
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
+  border: 10px;
   top: 0;
+  margin: auto;
+}
+
+nav {
+  border: 10px;
+  padding-top: 55px;
+  margin: auto;
+}
+
+#minha_foto {
+  padding-top: 30px;
+  margin: auto;
 }
 
 #table , td , th , tr {
   margin: auto;
   border: 2px solid black;
 }
+
