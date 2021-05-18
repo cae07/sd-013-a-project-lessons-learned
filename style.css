@@ -10,3 +10,11 @@ body {
 #minha_foto {
     max-width: 200px;
 }
+
+#tabela_licoes_aprendidas {
+    border: 5px solid black;
+}
+
+#tabela_licoes_a_aprender {
+    border: 5px solid black;
+}
