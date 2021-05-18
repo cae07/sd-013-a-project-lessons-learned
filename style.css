@@ -29,11 +29,21 @@ body {
   margin-left: 50px;
 }
 
+#fotoetexto {
+  display: inline-block;
+  width: 100%;
+}
+
 #minha_foto {
-  display: block;
+  display: inline-block;
   margin-left: 0;
   width: 150px;
   border: 5px solid rgb(60, 127, 190);
+}
+
+#passagem {
+  display: inline-block;
+  width: 75%;
 }
 
 h2 {
