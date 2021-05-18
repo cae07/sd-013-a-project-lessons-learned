@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin-bottom: 10px ;
+}
+#minha_foto {
+  margin-top: 70px;
+}
+ol,ul {
+  display: inline-block;
+}
