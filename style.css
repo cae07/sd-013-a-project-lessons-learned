@@ -1,18 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
 
-.container{
+.container {
   width: 80%;
   margin: 150px auto;
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,6 +20,6 @@ body{
   background-color: crimson;
 }
 
-#minha_foto{
+#minha_foto {
   height: 100px;
 }
