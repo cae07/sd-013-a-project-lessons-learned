@@ -4,6 +4,27 @@ body {
 
 #cabecalho {
     top: 0;
-    border: 2px solid red;
+    background-color: rgb(2, 2, 94);
     position: fixed;
+}
+
+#titulo {
+    font-family: montserrat;
+    width: 1366px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#minha_foto {
+    width: 300px;
+    margin-top: 130px;
+    border-radius: 30%;
+}
+
+.listas {
+    top: 300px;
+    left: 450px;
+    display: inline-flex;
+    position: absolute;
 }
