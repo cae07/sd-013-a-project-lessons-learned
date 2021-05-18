@@ -4,6 +4,10 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  font-family: 'Koho', sans-serif;
+  color: aqua;
+  line-height: 25px;
 }
 
 #cabecalho {
@@ -36,6 +40,7 @@ body {
 
 main {
   margin-top: 130px;
+  margin-bottom: 155px;
 }
 
 img {
@@ -45,8 +50,62 @@ img {
 
 #listas {
   display: inline-block;
+  margin-bottom: 40px;
 }
 
 #list-feito , #list-a-fazer {
   display: inline-block;
+}
+
+#lado-esquerdo h2 , #lado-direito h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+#artigo {
+  border: 2px solid white;
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+
+#lado-esquerdo {
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px 0 0 100px;
+}
+
+#lado-direito {
+  border: 2px solid black;
+  width: 20%;
+  float: right;
+  margin-right: 20px;
+  position: absolute;
+  right: 100px;
+  bottom: 35px;
+}
+
+#rodape {
+  text-decoration: none;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid blueviolet;
+  border-collapse: collapse;
+}
+
+#tabela {
+  padding: 30px;
+  width: 500px;
+}
+
+#tabela tr {
+  text-align: center;
+}
+
+#table-content {
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
 }
