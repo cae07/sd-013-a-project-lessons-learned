@@ -30,8 +30,28 @@ nav {
   margin-right: 5%;
 }
 
-#cabecalho ul li a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+main article {
+  display: inline-block;
+  width: 30%
 }
+
+main aside {
+  display: inline-block;
+  width: 20%;
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #40C18C;
+}
+
+.link_header {
+  color: white;
+}
+
+a:hover {
+  color: rgba(10, 39, 27, 0.6);
+}
+
