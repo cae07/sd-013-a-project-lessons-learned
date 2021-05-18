@@ -42,42 +42,32 @@ body{
   font-size: 20px;
 }
 
-main article section:first-child{
-  max-width: 300px;
-  margin: 60px auto;
-  text-align: center;
-}
-
 #minha_foto{
   width: 300px;
 }
 
-.left-list{
-  float: left;
-  margin: 0 0 0 20px;
-}
-
-.right-list{
+.aside-right{
   float: right;
   margin: 0 20px 0 0;
+  border: 2px solid black;
 }
 
-#licoes_aprendidas{
-  margin: 0 0 0 30px;
-}
-
-#licoes_a_aprender{
-  list-style: square;
-  margin: 0 0 0 30px;
-}
-
-.text-article{
+.content-centralizer{
   text-align: center;
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
-.text-article p{
+#licoes_aprendidas{
+  margin: 20px;
+}
+
+#licoes_a_aprender{
+  text-align: center;
+  list-style: square;
+}
+
+.content-centralizer p{
   text-align:justify;
 }
 
