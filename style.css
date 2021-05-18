@@ -1,3 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+header {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+header h1 {
+  text-align: center;
+  color: aliceblue;
+}
