@@ -1,20 +1,46 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Farro', sans-serif;
+  color: rgb(80, 80, 67);
+  font-family: Farro, sans-serif;
+  margin: 0;
+}
+
+.main{
+  width: 60%;
 }
 
 #cabecalho {
   position: fixed;
+  width: 100%;
   top: 0;
   background-color: rgb(118, 255, 209);
+  text-align: center;
+}
+
+#cabecalho li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
 }
 
 #minha_foto {
   width: 150px;
   position: relative;
-  top: 85px;
+  top: 130px;
 }
 
 #rodape {
   background-color: rgb(118, 255, 209);
+  clear: both;
 }
+
+.lado-esquerdo{
+  float: left;
+  width: 35%;
+}
+
+.lado-direito{
+  float: right;
+  width: 35%;
+}
+
