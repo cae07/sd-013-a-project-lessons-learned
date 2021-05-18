@@ -69,13 +69,14 @@ body {
   background-color: rgb(184, 184, 184);
   border-radius: 10px;
   margin: 10px;
-  padding: 30px 50px 270px;
+  padding: 30px 50px 240px;
   max-width: 45%;
   text-align: justify;
 }
 
 article {
   padding-bottom: 100px;
+  line-height: 30px;
 }
 
 .tabela {
