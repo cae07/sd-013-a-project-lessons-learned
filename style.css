@@ -1,14 +1,12 @@
 body{
   background-color: rgb(253, 251, 251);
   margin: 0%;
-  
 }
 
 /**Header**/ 
 #cabecalho{
   display: block;
   background-color: #7FD1B9;
-  
 }
 #titulo{
   font-family: 'Pangolin', cursive;
@@ -34,6 +32,17 @@ body{
   font-size: 30px;
   margin-left: 30px;
 }
+
+#linkedin{
+  position: relative;
+  left: 18%;
+}
+
+#github {
+  position: absolute;
+  top: 100%;
+  left: 22%;
+}
 /**/
 
 #minha_foto{
@@ -46,7 +55,7 @@ body{
 .gif{
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 38%;
 }
 .listas{
   display: flex;
@@ -64,6 +73,9 @@ body{
 .table{
   text-align: left;
   padding-inline-start: 1%;
+  position: absolute;
+  left: 74%;
+  top: 30%;
 }
 .table-head{
   font-family: 'Pangolin', cursive;
@@ -99,7 +111,7 @@ body{
 
 .pikachu-gif{
   position: absolute;
-  top:  110%;
+  top:  94%;
   left: 65%;
 }
 
