@@ -32,7 +32,7 @@ nav {
 
 .lado-direito {
   float: right;
-  width: 48%
+  width: 48%;
 }
 
 .lado-esquerdo {
@@ -46,6 +46,6 @@ h2 {
 
 section {
   line-height: 1px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, sans-serif;
   display: inline-block;
 }
