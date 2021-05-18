@@ -1,7 +1,11 @@
 body {
-  margin: 20px 20px 0px;
+  color: black;
+  margin: 20px 20px 0;
   padding: 15px;
   background-color: rgb(253, 251, 251);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: normal;
 }
 
 #cabecalho {
