@@ -8,3 +8,7 @@ body {
   background-color: rgb(86, 190, 86);
   width: 100%;
 }
+
+#minha_foto {
+  width: 200px;
+}
