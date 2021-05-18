@@ -1,15 +1,29 @@
 * {
   max-width: 1366px;
   max-height: 768px;
+  margin: 0 auto;
+  padding: auto;
 }
 
 body {
   background: rgb(253, 251, 251);
 }
 
-#cabecalho {
-  position: fixed;
-  background-color: green;
-  width: 100%;
+.hidder {
+  display: none;
+}
+
+#minha_foto {
+  margin-top: 155px;
+  width: 150px;
   height: 150px;
 }
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 1336px;
+  height: 150px;
+}
+
