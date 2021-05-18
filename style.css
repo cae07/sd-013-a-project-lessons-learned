@@ -6,7 +6,25 @@ img {
   width: 100px;
 }
 
+header {
+  margin-bottom: 120px;
+  padding: 20px;
+  border: 20px;
+}
+
 #cabecalho {
   top: 0;
-  position: fixed;}
+  position: fixed;
+}
 
+li {
+  font-size: 20px;
+  color: blueviolet;
+  line-height: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.section {
+  max-width: 40%;
+  display: inline-block;
+}
