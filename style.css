@@ -7,6 +7,7 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #0597f2;
@@ -17,6 +18,10 @@ body {
     font-size: large;
     color: #f2f2f2;
         text-align: center;
+}
+
+#profile {
+    margin-top: 100px;
 }
 
 #minha_foto {
