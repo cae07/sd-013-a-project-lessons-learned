@@ -6,8 +6,19 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-size: 11,5px;
+    margin-top: 115px;;
+    line-height: 30px;
+    color:black;
 }
+header {
+    height: 110px;
+}
+main, footer {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 #cabecalho {
     top: 0;
 }
