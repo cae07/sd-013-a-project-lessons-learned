@@ -5,6 +5,12 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  border: 1px solid black;
+}
+
+#principal {
+  border: 1px solid black;
+  margin-top: 82px;
 }
 
 #minha_foto {
