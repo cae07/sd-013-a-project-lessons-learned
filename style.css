@@ -8,6 +8,23 @@ body{
   background-color: rgb(253, 251, 251);
 }
 
+.nav{
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  margin: 50px 0 0 0;
+  background-color: red;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.nav ul li{
+  display: inline;
+  margin: 0 20px 0 0;
+}
+
 #cabecalho{
   position: fixed;
   top: 0;
@@ -15,6 +32,7 @@ body{
   min-width: 100%;
   padding: 15px 0px;
 }
+
 
 #titulo{
   margin: 0px 0px 0px 50px;
@@ -24,9 +42,24 @@ body{
   font-size: 20px;
 }
 
+main article section:first-child{
+  max-width: 300px;
+  margin: 60px auto;
+  text-align: center;
+}
+
 #minha_foto{
   width: 300px;
-  margin: 70px 0 0 0;
+}
+
+.left-list{
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+.right-list{
+  float: right;
+  margin: 0 20px 0 0;
 }
 
 #licoes_aprendidas{
