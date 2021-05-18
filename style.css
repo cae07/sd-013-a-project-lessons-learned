@@ -128,8 +128,9 @@ a:hover {
   margin: 0 0 50px 50px;
 }
 
-#listas h4 {
+#listas h2 {
   color: blue;
+  padding: 20px;
 }
 
 li a {
