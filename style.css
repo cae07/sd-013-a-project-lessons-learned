@@ -7,8 +7,15 @@ body {
   top: 0;
   background-size: cover;
   background-color: green;
-  padding: 10px 325px;
+  padding: 10px;
+  padding-right: 375px;
   z-index: 1;
+}
+
+#cabecalho h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: purple;
 }
 
 #cabecalho li {
@@ -23,4 +30,5 @@ article {
   margin: 5px;
   border: 2px solid black;
   top: 125px;
+  line-break: loose;
 }
