@@ -46,6 +46,10 @@ body {
   width: 75%;
 }
 
+#passagem2 {
+  width: 100%;
+}
+
 h2 {
   font-size: 15px;
   margin-left: -15px;
@@ -55,6 +59,10 @@ h3 {
   font-size: 15px;
   margin-top: 15px;
   margin-right: 20px;
+}
+
+p {
+  font-size: 12px;
 }
 
 #licoes {
