@@ -43,12 +43,12 @@ a:visited {
   color: grey;
 }
 
-.e {
+.lado-esquerdo {
   width: 48%;
   display: inline-block;
 }
 
-.d {
+.lado-direito {
   width: 48%;
   display: inline-block;
 }
