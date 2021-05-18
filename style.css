@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body {
+  height: 100%;
+  width: 100%;
   background-color: rgb(253, 251, 251);
 }
 
 header {
-  background-color: #2fc18c;
+  background-color: rgb(47, 193, 140);
   padding: 20px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   top: 0;
 }
@@ -15,4 +23,21 @@ header {
   text-align: center;
   font-family: monospace;
   color: white;
+}
+
+#section1 {
+  width: 100vw;
+  height: 300px;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+}
+
+#position {
+  width: 200px;
+  margin: auto;
+}
+
+#minha_foto {
+  margin-top: 85px;
+  border-radius: 100%;
 }
