@@ -28,7 +28,10 @@ header {
 
 main {
   margin-top: 100px;
-  height: 1500px;
+}
+
+ol {
+  padding-left: 50px;
 }
 
 #titulo,
