@@ -2,7 +2,7 @@ body {
     background-color:  rgb(253, 251, 251);
 }
 
-#cabecalho #titulo{
+#cabecalho #titulo {
     position: fixed;
     margin:0;
 }
@@ -38,7 +38,7 @@ p {
     float: left;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
     display: block;
     float: right;
 
