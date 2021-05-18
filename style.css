@@ -10,7 +10,7 @@ body {
 
 #cabecalho {
   top: 0;
-  margin-left: 10px;
+  margin-left: 50px;
   position: fixed;
   height: 80px;
   width: 100%;
@@ -26,7 +26,7 @@ body {
 
 #conteudo {
   margin-top: 85px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 #minha_foto {
@@ -39,6 +39,12 @@ body {
 h2 {
   font-size: 15px;
   margin-left: -15px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 
 #licoes {
@@ -60,4 +66,13 @@ h2 {
   margin-top: 20px;
   margin-left: 20px;
   width: 150px;
+}
+
+#rodape {
+  float: right;
+  margin-right: 50px;
+  background-color: rgb(60, 127, 190);
+  height: 50px;
+  width: 100%;
+  text-align: right;
 }
