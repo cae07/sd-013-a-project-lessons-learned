@@ -8,8 +8,10 @@ body {
 
 #cabecalho {
   background-color: rgb(159, 252, 159);
-  padding: 35px;
+  padding: 10px;
   top: 0;
+  width: 100%;
+  position: fixed;
 }
 
 #titulo {
@@ -19,7 +21,7 @@ body {
 
 #minha_foto {
   width: 400px;
-  margin-top: 5px;
+  margin-top: 150px;
 }
 
 #licoes_aprendidas {
@@ -42,6 +44,7 @@ body {
 
 .contato li, a {
   list-style: none;
+  font-family: Montserrat, sans-serif;
   text-decoration: none;
   display: inline-block;
   padding: 5px;
