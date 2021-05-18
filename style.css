@@ -21,10 +21,14 @@ li {
   font-size: 20px;
   color: blueviolet;
   line-height: 25px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Courier New, Courier, monospace;
 }
 
-.section {
+.lado-esquerdo {
+  max-width: 40%;
+  display: inline-block;
+}
+.lado-direito {
   max-width: 40%;
   display: inline-block;
 }
