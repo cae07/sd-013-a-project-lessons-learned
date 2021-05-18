@@ -11,8 +11,6 @@ body {
 
 #minha_foto {
   display: block;
-  margin-right: 0;
-  margin-left: 0;
-  align-items: center;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
