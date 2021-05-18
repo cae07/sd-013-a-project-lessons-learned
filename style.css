@@ -49,13 +49,13 @@ img {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
   width: 40%;
   margin-bottom: 50px;
 }
 
 .lado-direito {
-  float: right;
+  display: inline-block;
   width: 45%;
   margin-bottom: 50px;
 }
@@ -84,7 +84,7 @@ ol , ul {
 
 div , section {
   border: 1px solid gray;
-  box-shadow: 5px 5px 15px 5px #0c0b0b;
+  box-shadow: 5px 5px 15px 5px #faebeb;
   border-radius: 3em;
 }
 
@@ -115,3 +115,5 @@ td , th {
 tr:nth-child( even ) {
   background-color: #f00d0d;
 }
+/* Referência de tabela */
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
