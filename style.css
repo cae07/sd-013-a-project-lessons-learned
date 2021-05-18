@@ -5,7 +5,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
-  font-family: 'Koho', sans-serif;
+  font-family: Koho, sans-serif;
   color: rgb(255, 0, 128);
   line-height: 25px;
   font-weight: 600;
@@ -24,6 +24,33 @@ body {
   padding: 20px;
 }
 
+#rodape {
+  text-decoration: none;
+  text-align: center;
+}
+
+#rodape a {
+  color: rgb(132, 11, 168);
+  font-weight: 900;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#nav-link li a {
+  color: rgb(22, 204, 22);
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#rodape a:hover {
+  background-color: salmon;
+}
+
 #nav-link {
   list-style: none;
   display: inline-block;
@@ -36,8 +63,9 @@ body {
   padding: 15px;
 }
 
-#nav-link li a {
-  text-decoration: none;
+
+#nav-link li a:hover {
+  background-color: rgb(255, 8, 0);
 }
 
 main {
@@ -85,12 +113,7 @@ img {
   bottom: 35px;
 }
 
-#rodape {
-  text-decoration: none;
-  text-align: center;
-}
-
-table, th, td {
+table , th , td {
   border: 1px solid blueviolet;
   border-collapse: collapse;
 }
@@ -110,20 +133,6 @@ table, th, td {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  padding: 5px;
-  border-radius: 50%;
-}
-
-a:hover {
-  background-color: rgb(109, 165, 228);
-}
-
-#nav-link li a {
-  color: rgb(rgb(0, 0, 0), green, blue);
-}
-
 #centraliza p {
   margin: 0 0 50px 50px;
 }
@@ -131,16 +140,4 @@ a:hover {
 #listas h2 {
   color: blue;
   padding: 20px;
-}
-
-li a {
-  color: rgb(22, 204, 22);
-  font-weight: 900;
-  font-size: 20px;
-}
-
-#rodape a {
-  color: rgb(132, 11, 168);
-  font-weight: 900;
-  font-size: 17px;
 }
