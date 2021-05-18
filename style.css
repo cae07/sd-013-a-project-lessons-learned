@@ -22,7 +22,7 @@ body{
 }
 
 .subtitulo{
-
+  font-size: 20px;
 }
 
 #minha_foto{
@@ -31,10 +31,22 @@ body{
 }
 
 #licoes_aprendidas{
-  list-style: square;
   margin: 0 0 0 30px;
 }
 
 #licoes_a_aprender{
-  
+  list-style: square;
+  margin: 0 0 0 30px;
+}
+
+#rodape{
+  bottom: 0;
+  margin: 90px 0 0 0;
+  height: 90px;
+  background-color: green;
+}
+
+#rodape a{
+  text-decoration: none;
+  color: aqua;
 }
