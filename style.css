@@ -1,8 +1,30 @@
 body {
+  margin: 100px;
   background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
   position: fixed;
   top: 0%;
+  left: 30%;
 }
+
+#minha_foto {
+  width: 300px;
+  border-radius: 25%;
+  margin: 0px 80px 65px 65px;
+  float: left;
+  padding: 0px 50px;
+}
+
+#tabela {
+  font-size: 15px;
+  max-width: 550px;
+  max-height: 500px;
+  border: dotted;
+}
+
+#link {
+  margin-top: 25px;
+}
+
