@@ -7,4 +7,31 @@ body {
   /* REQUISITO 2 */
   position: fixed;
   top: 0;
+  left: 0;
+  background-color:#40C18C;
+  width: 100%;
+}
+
+#titulo {
+  display: inline-block; 
+  margin: 0 20px;
+  color: white;
+}
+
+nav {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  left: 32%;
+}
+
+#cabecalho ul li {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+#cabecalho ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
