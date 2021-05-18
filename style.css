@@ -1,3 +1,16 @@
 body{
     background-color: rgb(253, 251, 251);
 }
+.cabecalho{
+    top: 0;
+    border: solid;   
+}
+.picture{
+    width: 300px;
+}
+.footer{
+    height: 40px;
+    width: 40px;
+    
+    
+}
