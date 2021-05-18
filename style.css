@@ -46,15 +46,12 @@ img {
   width: 200px;
 }
 
-article {
-  width: 50%;
+#flex {
+  display: flex;
 }
 
 aside {
-  width: 30%;
-  position: relative;
-  bottom: 20vh;
-  float: right;
+  margin-left: 30px;
 }
 
 table {
