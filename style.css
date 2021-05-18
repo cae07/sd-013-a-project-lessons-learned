@@ -12,6 +12,18 @@ body {
   padding: 20px;
 }
 
+#navegacao li {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid;
+  margin: 10px;
+  top:120px;
+  left: 500px;
+  text-align: center;
+  list-style: none;
+}
+
 #minha_foto {
   display: block;
   margin-top: 130px;
