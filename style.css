@@ -4,6 +4,26 @@ body {
 
 #cabecalho {
     top: 0;
-    border: 2px solid red;
+    background-color: rgb(158, 165, 233);
     position: fixed;
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1366px;
+    text-align: center;
+    padding: 10px;
+}
+
+#minha_foto {
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 25%;
+}
+
+.listas {
+    top: 90px;
+    left: 500px;
+    position: absolute;
+    display: inline-flex;
 }
