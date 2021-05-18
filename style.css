@@ -2,13 +2,21 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#titulo {
+#cabecalho {
   text-align: center;
   top: 0;
+  background-color: lightgreen;
+  padding: 1px;
 }
 
 img {
   width: 250px;
   float: right;
   border: solid black 5px;
+  margin: 15px;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
 }
