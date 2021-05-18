@@ -1,21 +1,22 @@
 body{
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    top: 0;
-    display: block;
-    background-color: rgb(206, 177, 14);
-    margin-bottom: 0;
-    margin: 60px 600px;
-    position: fixed;
+  top: 0;
+  display: block;
+  background-color: rgb(206, 177, 14);
+  position: fixed;
 }
 #titulo{
-    text-align: center;
-    font-family: monospace;
-    font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
 }
 .botao{
-    text-align: center;
-    display: block;
-    font-size: 30px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+}
+#minha_foto{
+  margin-top: 170px;
 }
