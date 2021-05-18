@@ -45,3 +45,13 @@ th {
 #Trybe:hover {
   font-size: 30px;
 }
+
+article {
+  float: left;
+  width: 60vh;
+}
+
+aside {
+  float: right;
+  width: 30vh;
+}
