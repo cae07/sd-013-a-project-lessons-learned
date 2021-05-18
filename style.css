@@ -22,3 +22,13 @@ body {
     left: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#licoes {
+    position: fixed;
+    top: 280px;
+    left: 10px;    
+}
+
+#licoes h2 {
+    margin: 20px 0 0 10px;
+}
