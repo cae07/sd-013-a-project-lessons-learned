@@ -30,14 +30,22 @@ body {
 }
 
 img {
-  display: block;
+  display: inline-block;
+  text-align: center;
   width: 200px;
   height: auto;
+  border-radius: 100%;
+  border: 3px solid wheat;
+  margin-top: 20px;
+  z-index: 2;
 }
 
-section {
-  clear: both;
-  margin-top: 15%;
+.campo-imagem {
+  border: none;
+  background-image: url('https://i.pinimg.com/originals/fd/00/98/fd00984025b813f8da694ca720b39111.jpg');
+  margin-bottom: none;
+  height: 300px;
+  border-radius: 50px;
 }
 
 .lado-esquerdo {
@@ -53,7 +61,7 @@ section {
 }
 
 table {
-  table-layout: auto;
+  display: inline-block;
 }
 
 footer {
@@ -71,5 +79,42 @@ a {
 }
 
 ol , ul {
-  list-style: square;
+  list-style: none;
+}
+
+div , section {
+  border: 1px solid gray;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 3em;
+}
+
+div {
+  margin: 50px;
+}
+
+section {
+  margin-top: 20%;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.listas {
+  background-color: #000000;
+}
+
+.table-content {
+  font-family: monospace;
+  border-collapse: collapse;
+  width: auto;
+}
+
+td , th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f00d0d;
 }
