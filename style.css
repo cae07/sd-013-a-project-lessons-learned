@@ -5,14 +5,28 @@ body{
 #cabecalho{
     position: fixed;
     top: 0;
-    background-color: lightblue;
+    background-color: lightgreen;
+    width: 100%;
+    display: inline;
+   
+}
+.foto{
+    margin-top: 150px;
+    
 }
 
 #minha_foto{
     width: 400px;
-    top: 200px;
-    float:initial
-    z-index: 1;
+    float: initial;
+    
 }
 
+.conteudo{
+    margin-top: 20px;
+}
+
+#navigation ul{
+    list-style: none;
+    display: inline-block;
+}
 
