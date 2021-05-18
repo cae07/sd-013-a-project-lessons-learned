@@ -24,6 +24,7 @@ body {
   float: right;
   padding-right: 50px;
   padding-top: 30px;
+  font-weight: bold;
 }
 
 .header-link {
@@ -68,14 +69,26 @@ body {
   background-color: rgb(184, 184, 184);
   border-radius: 10px;
   margin: 10px;
-  padding: 30px 50px 300px;
+  padding: 30px 50px 270px;
   max-width: 45%;
   text-align: justify;
 }
 
+article {
+  padding-bottom: 100px;
+}
+
 .tabela {
   width: 100%;
-  padding-top: 100px;
+  background-color: grey;
+}
+
+#linha1 {
+  background-color: wheat;
+}
+
+#linha3 {
+  background-color: wheat;
 }
 
 .learnings {
@@ -125,9 +138,4 @@ body {
   font-family: monospace;
   font-weight: 400;
   font-style: italic;
-}
-
-.even\:bg-gray-50:nth-child (even) {
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
 }
