@@ -6,8 +6,9 @@ body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
   font-family: 'Koho', sans-serif;
-  color: aqua;
+  color: rgb(255, 0, 128);
   line-height: 25px;
+  font-weight: 600;
 }
 
 #cabecalho {
@@ -16,6 +17,7 @@ body {
   background-color: blueviolet;
   width: 100%;
   text-align: center;
+  z-index: 1;
 }
 
 #titulo {
@@ -41,11 +43,12 @@ body {
 main {
   margin-top: 130px;
   margin-bottom: 155px;
+  text-align: center;
 }
 
 img {
   width: 200px;
-  margin: 50px;
+  margin: 50px 0 0 50px;
 }
 
 #listas {
@@ -57,26 +60,23 @@ img {
   display: inline-block;
 }
 
-#lado-esquerdo h2 , #lado-direito h2 {
+.lado-esquerdo h2 , .lado-direito h2 {
   text-align: center;
   margin: 5px;
 }
 
 #artigo {
-  border: 2px solid white;
   display: inline-block;
   position: relative;
   padding: 15px;
 }
 
-#lado-esquerdo {
-  border: 2px solid black;
+.lado-esquerdo {
   width: 30%;
   margin: 10px 0 0 100px;
 }
 
-#lado-direito {
-  border: 2px solid black;
+.lado-direito {
   width: 20%;
   float: right;
   margin-right: 20px;
@@ -97,7 +97,7 @@ table, th, td {
 
 #tabela {
   padding: 30px;
-  width: 500px;
+  width: 700px;
 }
 
 #tabela tr {
@@ -108,4 +108,38 @@ table, th, td {
   width: fit-content;
   margin: 10px auto;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+a:hover {
+  background-color: rgb(109, 165, 228);
+}
+
+#nav-link li a {
+  color: rgb(rgb(0, 0, 0), green, blue);
+}
+
+#centraliza p {
+  margin: 0 0 50px 50px;
+}
+
+#listas h4 {
+  color: blue;
+}
+
+li a {
+  color: rgb(22, 204, 22);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#rodape a {
+  color: rgb(132, 11, 168);
+  font-weight: 900;
+  font-size: 17px;
 }
