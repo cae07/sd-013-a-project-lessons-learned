@@ -4,6 +4,7 @@
   border: none;
   font-family: KoHo , sans-serif;
   font-size: 100%;
+  letter-spacing: 0.1em;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -11,6 +12,7 @@
 
 a {
   color: darkblue;
+  line-height: auto;
   text-decoration: none;
   padding-right: 5%;
 }
@@ -41,12 +43,12 @@ body {
   padding-top: 150px;
 }
 
-#esquerda {
+.lado-esquerdo {
   float: left;
   padding-left: 5%;
 }
 
-#direita {
+.lado-direito {
   float: right;
 }
 
@@ -55,7 +57,7 @@ body {
 }
 
 nav , #licoes_aprendidas , #licoes_a_aprender , section , aside {
-  padding: 2em 0 2em 0;
+  padding: 2em 0;
 }
 
 section {
