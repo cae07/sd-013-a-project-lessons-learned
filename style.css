@@ -9,17 +9,82 @@ body {
 
 .container {
   width: 80%;
-  margin: 150px auto;
+  margin: 20px auto;
+  background-color: rgb(180, 180, 180);
+  padding: 10px;
 }
 
+/* Header e Nav */
+
 #cabecalho {
-  position: fixed;
-  top: 0;
   width: 100%;
   height: 60px;
   background-color: crimson;
 }
 
-#minha_foto {
-  height: 100px;
+#cabecalho #titulo {
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+}
+
+nav {
+  background-color: rgb(155, 0, 31);
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+nav ol li {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+nav ol li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: crimson;
+  transition: .5s ease;
+}
+
+nav ol li a:hover {
+  color: crimson;
+  background-color: white;
+}
+
+/* End Header e Nav */
+
+#section1 {
+  text-align: center;
+}
+
+#section1 #minha_foto {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  border: solid 6px darkblue;
+  border-radius: 30%;
+}
+
+#section1 .link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  background-color: gray;
+  color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: .3s;
+}
+
+#section1 .link:hover {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
 }
