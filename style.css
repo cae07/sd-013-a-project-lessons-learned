@@ -5,3 +5,10 @@ body {
 #cabecalho {
   top: 0;
 }
+
+.footer__picture {
+  max-width: 18%;
+  position: fixed;
+  bottom: 0;
+  right: 3%;
+}
