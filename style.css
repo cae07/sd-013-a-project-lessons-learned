@@ -21,6 +21,20 @@ body{
   margin: 0px 0px 0px 50px;
 }
 
+.subtitulo{
+
+}
+
 #minha_foto{
   width: 300px;
+  margin: 70px 0 0 0;
+}
+
+#licoes_aprendidas{
+  list-style: square;
+  margin: 0 0 0 30px;
+}
+
+#licoes_a_aprender{
+  
 }
