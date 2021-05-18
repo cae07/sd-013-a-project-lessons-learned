@@ -15,3 +15,23 @@ header {
 #Trybe,p {
   display: inline;
 }
+
+.lado-esquerdo{
+  max-width: 45%;
+  display: inline-block;
+  float: left;
+}
+
+.lado-direito{
+  max-width: 45%;
+  display: inline-block;
+  float:right;
+}
+
+#rodape{
+  margin-top: 80px;
+  
+}
+ul,ol{
+  display: inline-block;
+}
