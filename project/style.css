@@ -16,7 +16,7 @@ body {
     
 }
 
-.esquerda {
+.lado-esquerdo {
     float: left;
     margin-top: 50px;
     width: 310px;
@@ -46,4 +46,8 @@ p {
     display: block;
     float: right;
 
+}
+#rodape {
+    text-align: center;
+    background-color: rgb(21, 245, 21);
 }
