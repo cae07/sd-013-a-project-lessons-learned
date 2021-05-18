@@ -1,3 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
 body{
   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+  position: fixed;
+  top: 0;
+  background-color: green;
+  min-width: 100%;
+  padding: 15px 0px;
+}
+
+#titulo{
+  margin: 0px 0px 0px 50px;
 }
