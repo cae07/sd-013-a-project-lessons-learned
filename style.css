@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 header {
@@ -26,17 +28,20 @@ header {
   max-width: 45%;
   display: inline-block;
   float: right;
+  line-height: 20px;
 }
 
 #rodape {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 ul,ol {
   display: inline-block;
   text-align: center;
   margin-left: 250px;
-  
+  font-family: 'Fredericka the Great', cursive;
+  color:rgb(238, 234, 234);
+  font-size: 15px;
 }
 
 li{
@@ -44,11 +49,11 @@ li{
 
 }
 #conhecimento{ 
-  margin-left: 390px;
+  margin-left: 430px;
 }
 
 table,th,td {
-  border: 2px solid black;
+  border: 2px solid rgb(2, 0, 0);
   
 }
 
