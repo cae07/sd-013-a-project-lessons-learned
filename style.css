@@ -1,8 +1,8 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   top: 0;
   display: block;
   background-color: rgb(206, 177, 14);
@@ -10,50 +10,45 @@ body{
   width: 100%;
 }
 
-#titulo{
+#titulo {
   text-align: center;
   font-family: monospace;
   font-size: 30px;
 }
 
-.botao{
+.botao {
   text-align: center;
   display: block;
   font-size: 30px;
 }
 
-#minha_foto{
+#minha_foto {
   margin-top: 170px;
   border: 1px solid black;
   padding: 1px;
 }
 
-.m{
+.m {
   display: inline;
   margin-right: 20px;
   font-size: 30px;
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:visited{
+a:visited {
   color: grey;
 }
 
-a:hoover{
-  color: olivedrab;
-}
-
-.e{
+.e {
   width: 48%;
   display: inline-block;
 }
 
-.d{
+.d {
   width: 48%;
   display: inline-block;
-  top: 20%;
 }
