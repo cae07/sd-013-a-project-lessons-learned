@@ -13,18 +13,31 @@
     </header>
 
     <nav>
-        <p>Home</p>
-        <p>Contatos</p>
+        <header class="hidder">
+            <h2>
+                Menu link da pagina
+            </h2>
+        </header>
+        <ul>
+            <li>Home</li>
+            <li>Recomendações</li>
+        </ul>
     </nav>
 
     <main>
-        <article>
+        <section>
+            <header>
+                <h2 class="hidder">Conteudo Principal</h2>
+            </header>
             <section id="perfil-conteudo">
+                <header>
+                    <h2 class="hidder">Foto de Perfil</h2>
+                </header>
                 <img id="minha_foto" src="/img/foto-perfil.jpeg" alt="Foto de Perfil">
             </section>
             <section>
                 <header>
-                    <h2>Licoes Aprendidas</h2>
+                    <h2>Licões Aprendidas</h2>
                 </header>
                 <ol id="licoes_aprendidas">
                     <li>Unix</li>
@@ -40,6 +53,11 @@
                 </ol>
             </section>
             <section>
+                <header class="hidder">
+                    <h2>
+                        Licoes a prender
+                    </h2>
+                </header>
                 <ul id="licoes_a_aprender">
                     <li>JavaScript</li>
                     <li>CSS3 - Grid</li>
@@ -53,7 +71,16 @@
                     <li>Sites Responsivos</li>
                 </ul>
             </section>
+        </section>
+        <article>
+            <header>
+                <h2>Meu Aprendizado</h2>
+            </header>
+            <p>
+            Eu aprediz muito nessas ultimas 2 semana aqui na <span>Trype</span> como usa o terminal bash, instalada o vscode, usa comando de criação de arquivos, delete diretorios e muito mais.<br>No modulo de git aprendedos varios comandos como <span>git add .</span> <span>git status</span>, <span>git commit -m "Messagem"</span> e varios outros comandos.<br>
+            </p>
         </article>
+
     </main>
     <footer id="rodape"> 
         <h3 class="hidder">
