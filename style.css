@@ -9,29 +9,38 @@ header {
 
 #minha_foto {
   margin-top: 50px;
-  width: 200px;
+  width: 150px;
 }
 
 #Trybe,p {
   display: inline;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   max-width: 45%;
   display: inline-block;
   float: left;
 }
 
-.lado-direito{
+.lado-direito {
   max-width: 45%;
   display: inline-block;
-  float:right;
+  float: right;
 }
 
-#rodape{
+#rodape {
   margin-top: 80px;
-  
 }
-ul,ol{
+
+ul,ol {
   display: inline-block;
+}
+
+#conhecimento{
+  margin-left: 300px;
+}
+
+table,th,td{
+  border: 2px solid black;
+  
 }
