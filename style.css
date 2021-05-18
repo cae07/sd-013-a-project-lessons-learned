@@ -11,8 +11,10 @@ body {
 }
 
 #minha_foto {
-  margin-top: 75px;
-  width: 150px;
+  margin-top: 150px;
+  width: 200px;
+  border: 1px solid black;
+  padding: 2px;
 }
 
 .links {
@@ -34,4 +36,15 @@ a:visited {
 
 a:hover {
   color: #064420;
+}
+
+.lado-esquerdo {
+  width: 49%;
+  display: inline-block;
+}
+
+.lado-direito {
+  margin-bottom: 10px;
+  width: 49%;
+  display: inline-block;
 }
