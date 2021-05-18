@@ -47,5 +47,10 @@ body {
   background-color: rgb(159, 252, 159);
   color: black;
   border-radius: 5%;
+  margin-bottom: 15px;
+}
+
+#rodape {
+  text-align: center;
   margin-bottom: 10px;
 }
