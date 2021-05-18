@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#titulo {
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	float: right;
+	border: solid black 5px;
+}
