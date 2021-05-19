@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header #cabecalho{
+header #cabecalho {
   width: 100%;
   background-color:#0095A3;
   display: flex;
@@ -38,7 +38,7 @@ header #cabecalho{
   background-color: rgba(100, 100, 100, 08);
 }
 
-#minha_foto{
+#minha_foto {
   width: 50px;
   height: 50px;
   background-color: black;
@@ -51,6 +51,9 @@ header #cabecalho{
 #rodape {
   background-color:grey;
   padding: 20px 10px 20px;
+  margin-top;
+  margin-bottom: 0;
+  padding: 10px 20px;
 }
 
 .contato {
@@ -72,9 +75,8 @@ header #cabecalho{
 
 #topo {
   display: block;
-  position:absolute;
-  top:190%;
-  border-bottom:black solid;
+  position: absolute;
+  top:140%;
 }
 
 #texto {
@@ -83,8 +85,8 @@ header #cabecalho{
 }
 
 .aprendizado {
-  width: 430px;
-  line-height: 24px;
+  width: 250px;
+  line-height: 24px
 }
 
 .list_licoes {
@@ -92,6 +94,16 @@ header #cabecalho{
   margin-top: 10%;
 }
 
-article {
+#licoes_aprendidas, #licoes_a_aprender {
+  display: inline-block;  
+  margin-left: 15%;
+  background-color:#ECECED;
+  width: 400px;
+}
+
+.lado-esquerdo, .lado-direito {
   display: inline-block;
+  margin-left: 15%;
+  width: 400px;
+  margin-top: 10%;
 }
