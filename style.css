@@ -57,7 +57,7 @@ table , td {
 }
 
 .lado-esquerdo {
-  float: left;
+  object-position: left;
   padding: 5px;
   margin: 10px;
   width: 1000px;
@@ -69,6 +69,7 @@ table , td {
 
 .lado-direito {
   display: inline-block;
+  object-position: right;
   float: right;
   width: 300px;
   margin: 20px;
