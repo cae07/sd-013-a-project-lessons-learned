@@ -73,3 +73,16 @@ aside p {
 p {
     color: rgb(6, 6, 56);
 }
+
+.table {
+    float: right;
+    margin-right: 400px;
+    border: 1px  solid black;
+    margin-top: 40px;
+    
+}
+
+tr td {
+    padding-left: 50px;
+    border: 1px solid black;
+}
