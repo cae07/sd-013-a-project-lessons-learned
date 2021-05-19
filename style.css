@@ -57,7 +57,6 @@ aside {
   line-height: 22px;
   font-family: fantasy;
   font-size: 23px;
-  
 }
 
 #licoes_aprendidas {
@@ -79,19 +78,22 @@ aside {
   padding: 10px;
   text-align: center;
   box-shadow: 15px 15px 15px black;
+  
 }
 
 tr td {
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
-  font-family: fantasy;
+  font-family: sans-serif;
+  font-size: 17px;
 }
 
 thead tr th {
   color: rgb(6, 6, 56);
+  font-family: fantasy;
   font-size: 25px;
-  font-style: italic;
+  
 }
 
 td a {
