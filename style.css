@@ -5,12 +5,16 @@ body {
 
 .cabecalho {
     background-color: #202020;
-    width: 100%;
+    width: 1166px;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
     border-bottom: 5px solid green;
+    margin: 0 100px 0 100px;
+    border-radius: 5px;
+
+    
 }
 
 .titulo {
@@ -25,3 +29,87 @@ body {
     margin: 0px;
    font-size: 50px;
 }
+
+/*NAV, foco em animação e estrutura da Navbar*/
+nav {
+    width: 620px;
+    height: 50px;
+    background-color: purple;;
+    position: relative;
+    top: 85px;
+    border-radius: 8px;
+    margin: 0 100px 0 100px;
+    font-size: 0;
+}
+
+nav a {
+    height: 100%;
+    line-height: 50px;
+    color:#fff;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+}
+
+nav .animacao {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+    z-index: 0;
+
+}
+
+/* começa com 60px, e aumenta 10px para cada letra */
+/* em ordem: home - portfolio - contato - redes - sobre */
+
+a:nth-child(1) {
+    width: 100px;
+}
+a:nth-child(2) {
+    width: 150px;
+}
+a:nth-child(3) {
+    width: 130px;
+}
+a:nth-child(4) {
+    width: 110px;
+}
+a:nth-child(5) {
+    width: 110px;
+}
+
+/* a luz sempre vai estar fixa em home; */
+/* transição/animação */
+
+nav .home-fixo, a:nth-child(1):hover~.animacao {
+    width: 100px;
+    left: 0;
+    background-color: yellow;
+}
+nav .port, a:nth-child(2):hover~.animacao {
+    width: 150px;
+    left: 100px;
+    background-color: green;
+}
+nav .contact, a:nth-child(3):hover~.animacao {
+    width: 130px;
+    left: 250px;
+    background-color:blue;
+}
+
+nav .reds, a:nth-child(4):hover~.animacao {
+    width: 110px;
+    left: 380px;
+    background-color:red;
+}
+nav .about, a:nth-child(5):hover~.animacao {
+    width: 110px;
+    left: 490px;
+    background-color: gray;
+}
+/* consertar bug do about/home */
