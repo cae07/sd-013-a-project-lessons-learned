@@ -45,7 +45,7 @@ a{
   color: #55C28D;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 1px;
   font-size: 16px;
   padding: 10px 0;
 }
@@ -63,12 +63,13 @@ a{
 
 .conteudo {
   background-color: #f5f5f5;
-}
+}00
 
 .listas {
-  margin-top: -85px;
+  margin-top: -60px;
   text-align: center;
   font-size: 18px;
+  height: 600px;
 }
 
 .listas h2 {
@@ -79,6 +80,7 @@ a{
 }
 
 .list-aprendidas {
+  margin-top: 70px;
   width: 150px;
   display: inline-block;
   border-right:  #252525 solid 3px;
@@ -90,21 +92,47 @@ a{
   text-align: left;
 }
 
-/*artigos*/
+/*aprendendo a aprender*/
 
 .artigos {
-  background-color: #55C28D;
-  height: 200px;
+  margin-top: -80px;
+  background-color:#252525;
+  height: 100%;
+  color: #fff;
+}
+
+.artigos h2 {
+  color: #55C28D;
+  text-align: center;
+  font-size: 40px;
+  border-top: #55C28D 3px solid;
+  border-bottom: #55C28D 3px solid;
 }
 
 .artigo-1 {
-  height: 100px;
   display: inline-block;
-  border: solid 5px black;
+  margin-left: 25px;
+}
+
+.artigo-1 p {
+  font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 360px;
 }
 
 .artigo-2 {
-  background-color: brown;
   display: inline-block;
-  border: 5px solid black;
+  margin-left: 175px;
+}
+
+.artigo-2 p {
+  font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 360px;
 }
