@@ -17,6 +17,10 @@ h2 {
     color: rgba(10,126,81,.8);
 }
 
+h3 {
+    color: rgba(10,126,81,.8);
+}
+
 /* Cabeçalho */
 #cabecalho {
     top: 0;
@@ -36,17 +40,17 @@ h2 {
 /* Primeira sessão */
 .primary-content {
     height: 420px;
+    margin-left: 50px;
+    width: 800px;
 }
 
 .primary-content img {
     width: 15em;
-    margin-left: 50px;
     margin-top: 30px;
     border: 2px solid #2fc18c;
 }
 
 .primary-content a {
-    margin-left: 50px;
     color: rgba(10,126,81,.8);
     font-size: 16px;
 }
@@ -58,10 +62,11 @@ h2 {
 /* Segunda sessão */
 .second-content {
     height: 290px;
+    width: 800px;
+    margin-left: 50px;
 }
 
 .second-list {
-    margin-left: 50px;
     margin-top: 20px;
     width: 400px;
     height: 270px;
@@ -74,14 +79,34 @@ h2 {
 
 /* Terceira Sessão */
 .about-learn {
-    height: 400px;
+    height: 250px;
     margin-left: 50px;
-    width: 700px;
+    width: 598px;
     text-align: justify;
+    float: left;
 }
 
 .about-learn h2 {
     margin-bottom: 8px;
+}
+
+/* Quarta sessão*/
+.abstract-lern {
+    width: 350px;
+    height: 200px;
+    float: right;
+    margin-right: 200px;
+}
+
+.abstract-lern a {
+    text-decoration: none;
+    color: rgba(10,126,81,.8);
+}
+
+.abstract-lern a:hover {
+    text-decoration: none;
+    color: rgba(6, 90, 58, 0.8);
+    text-decoration: underline;
 }
 
 /* Rodapé */
