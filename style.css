@@ -35,11 +35,12 @@ nav li a {
   border-radius: 5px;
   padding: auto;
 }
-#licoes_a_aprender, #licoes_aprendidas {
+
+#licoes_a_aprender , #licoes_aprendidas {
   display: inline-block;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   margin-left: 10%;
   display: inline-block;
   max-width: 30%;
