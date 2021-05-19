@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 a:visited {
-  color: rgb(228, 239, 231);;
+  color: rgb(228, 239, 231);
 }
 
 a:hover {
