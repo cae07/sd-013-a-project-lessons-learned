@@ -35,14 +35,15 @@ nav li a {
   border-radius: 5px;
   padding: auto;
 }
-
-.lado-esquerdo {
-  float: left;
-  max-width: 300px;
+#licoes_a_aprender, #licoes_aprendidas {
+  display: inline-block;
 }
 
-.lado-direito {
-  border: 1px solid black;
+.lado-esquerdo, .lado-direito {
+  margin-left: 10%;
+  display: inline-block;
+  max-width: 30%;
+  vertical-align: top;
 }
 
 #teste {
