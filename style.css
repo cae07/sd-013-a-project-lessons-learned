@@ -83,8 +83,11 @@ main {
   border-radius: 0.2em;
 }
 
-/* referência consultada para adição de titulo nas listas */
-/* https://stackoverflow.com/questions/1141639/how-to-semantically-provide-a-caption-title-or-label-for-a-list-in-html */
+/*
+referência consultada para adição de titulo nas listas
+stackoverflow.com/questions/1141639/how-to-semantically-provide-a-caption-title-or-label-for-a-list-in-html
+*/
+
 ol:before , ul:before {
   content: attr(aria-label);
   font-size: 120%;
