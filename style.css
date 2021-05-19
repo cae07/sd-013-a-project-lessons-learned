@@ -10,7 +10,7 @@ body {
 }
 
 #minha_foto {
-  height: 300px;
+  height: 290px;
   margin-top: 35px;
   box-shadow: 15px 15px 15px black;
   border-radius: 5px;
@@ -33,7 +33,7 @@ a {
 
 article p {
   text-align: justify;
-  margin-top: 30px;
+  margin-top: 29px;
   margin-left: 50px;
   width: 330px;
   height: 290px;
@@ -90,8 +90,14 @@ tr td {
 
 thead tr th {
   color: rgb(6, 6, 56);
-  font-weight: bold;
+  font-weight: 100px;
   font-size: 25px;
+}
+
+div + nav a {
+    font-size: 20px;
+    margin-bottom: -40px;
+    margin-top: 15px;
 }
 
 td a {
@@ -116,12 +122,6 @@ td a:hover {
   animation-name: cor;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-}
-
-div + nav a {
-  font-size: 20px;
-  margin-bottom: -40px;
-  margin-top: 15px;
 }
 
 #escola {
