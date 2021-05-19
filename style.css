@@ -33,6 +33,7 @@ body {
   box-shadow: 3px 5px 10px black;
   z-index: 2;
 }
+
 #navegacao ul li:hover {
   color: rgb(155, 192, 99);
 }
@@ -71,7 +72,6 @@ body {
   margin-right: 30px;
   line-height: 20px;
   background-color: antiquewhite;
- 
 }
 
 table {
@@ -89,27 +89,31 @@ td {
 
 h2{
   margin-left: 100px;
-  background-color: antiquewhite;
   max-width: 30%;
 }
 
 .lado-esquerdo{
   text-justify: auto;
   float: left;
-  max-width: 45%;
+  max-width: 50%;
   clear: both;
   font-size: 23px;
   background-color: antiquewhite;
 }
 
-
 .lado-direito{ 
+  position: relative;
+  bottom: 40px;
   font-size: 23px;
   float: right;
-  max-width: 55%;
-  margin-top: 10px;
-  margin-bottom: 80px;
+  max-width: 50%;
   background-color: antiquewhite;
+}
+
+#h33{
+  position: relative;
+  text-align: center;
+  bottom: 40px; 
 }
 
 .box-contact {
