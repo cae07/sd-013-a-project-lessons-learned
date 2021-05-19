@@ -9,7 +9,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 120px auto 0 auto;
+  margin: 120px auto 0;
   background-color: rgb(180, 180, 180);
   padding: 10px;
 }
