@@ -86,7 +86,7 @@ body {
   margin-left: 400px;
   position: absolute;
   top: 745px;
- }
+}
 
 .sub-titulo {
   margin-bottom: 10px;
@@ -119,4 +119,12 @@ nav {
 .contato-container {
   text-align: center;
   display: block;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
 }
