@@ -13,6 +13,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+h2 {
+    color: rgba(10,126,81,.8);
+}
+
 /* Cabeçalho */
 #cabecalho {
     top: 0;
@@ -31,7 +35,7 @@ body {
 
 /* Primeira sessão */
 .primary-content {
-    height: 400px;
+    height: 420px;
 }
 
 .primary-content img {
@@ -41,20 +45,51 @@ body {
     border: 2px solid #2fc18c;
 }
 
+.primary-content a {
+    margin-left: 50px;
+    color: rgba(10,126,81,.8);
+    font-size: 16px;
+}
+
+.primary-content a:hover {
+    font-size: 18px;
+}
+
 /* Segunda sessão */
 .second-content {
-    height: 300px;
+    height: 290px;
 }
 
 .second-list {
     margin-left: 50px;
     margin-top: 20px;
     width: 400px;
+    height: 270px;
     float: left;
 }
 
 .second-list h2 {
-    color: rgba(10,126,81,.8);
     padding-bottom: 8px;
+}
+
+/* Terceira Sessão */
+.about-learn {
+    height: 400px;
+    margin-left: 50px;
+    width: 700px;
+    text-align: justify;
+}
+
+.about-learn h2 {
+    margin-bottom: 8px;
+}
+
+/* Rodapé */
+footer {
+    clear: both;
+    padding: 10px;
+    color: white;
+    background-color: rgba(10,126,81,.8); 
+    border-top: 7px solid #2fc18c;
 }
 
