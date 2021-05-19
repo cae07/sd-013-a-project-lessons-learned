@@ -10,6 +10,8 @@ body {
 table , td {
   border: 1px solid black;
   margin-top: 100px;
+  background-color: rgb(243, 221, 178);
+  padding: 3px;
 }
 
 #minha_foto {
@@ -26,24 +28,32 @@ table , td {
   display: inline-block;
   margin: 10px;
   padding: 15px;
+  border: 1px solid black;
 }
 
 .listas h2 {
   text-align: center;
   margin: 5px;
   padding: 5px;
+  border: 1px solid black;
 }
 
 #licoes_aprendidas {
   text-align: left;
   display: inline-block;
   margin: auto;
+  color: green;
+  line-height: 20px; 
+  font-family: serif; 
 }
 
 #licoes_a_aprender {
   text-align: left;
   display: inline-block;
   margin: auto;
+  color: red;
+  line-height: 20px;
+  font-family: serif;
 }
 
 #experiencia-trybe {
@@ -51,7 +61,9 @@ table , td {
   margin: 10px;
   width: 1000px;
   font-family: monospace;
+  font-size: 14px;
   clear: left;
+  line-height: 20px;
 }
 
 aside {
