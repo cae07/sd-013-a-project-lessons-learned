@@ -40,7 +40,7 @@ article p {
     display: inline-block;
 }
 
-aside  p{
+aside  {
     position: absolute;
     width: 250px;
     margin-left: 650px;
