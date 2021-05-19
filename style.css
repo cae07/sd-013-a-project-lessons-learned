@@ -24,10 +24,10 @@ ol li, ul li {
 }
 
 .lado-esquerdo {
-  float: left;
-  margin-top: 35px;
-  width: 310px;
-}
+    float: left;
+    margin-top: 35px;
+    width: 310px;
+  }
 
 a {
   text-align: center;
