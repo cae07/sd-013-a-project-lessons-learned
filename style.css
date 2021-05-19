@@ -87,12 +87,12 @@ td {
   padding: 10px;
 }
 
-h2{
+h2 {
   margin-left: 100px;
   max-width: 30%;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   text-justify: auto;
   float: left;
   max-width: 50%;
@@ -101,7 +101,7 @@ h2{
   background-color: antiquewhite;
 }
 
-.lado-direito{ 
+.lado-direito { 
   position: relative;
   bottom: 40px;
   font-size: 23px;
@@ -110,7 +110,7 @@ h2{
   background-color: antiquewhite;
 }
 
-#h33{
+#h33 {
   position: relative;
   text-align: center;
   bottom: 40px; 
@@ -134,7 +134,7 @@ h2{
   background-color: antiquewhite;
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;
