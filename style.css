@@ -100,8 +100,8 @@ h2 {
   background-color: antiquewhite;
 }
 
-.lado-direito { 
-  position: relative; 
+.lado-direito {
+  position: relative;
   bottom: 40px;
   font-size: 23px;
   float: right;
@@ -143,3 +143,4 @@ footer {
   border-radius: 0 0 15px 15px;
   padding: 1px;
 }
+
