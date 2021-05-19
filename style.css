@@ -1,8 +1,14 @@
 body{
     background-color:rgb(253, 251, 251) ;
-    top
+    margin: 80px;
+    padding: 10px;
+    border: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #3e3f41;
+    line-height: 25px;
 }
 #cabecalho{
     position: fixed;
     top: 0;
+    font-size: 25px;
 }
