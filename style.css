@@ -93,7 +93,7 @@ h2{
   max-width: 30%;
 }
 
-.text-article {
+.lado-esquerdo{
   text-justify: auto;
   float: left;
   max-width: 45%;
@@ -103,7 +103,7 @@ h2{
 }
 
 
-.text-aside{ 
+.lado-direito{ 
   font-size: 23px;
   float: right;
   max-width: 55%;
