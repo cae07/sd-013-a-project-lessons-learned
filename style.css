@@ -144,3 +144,6 @@ footer {
   background-color: rgba(10,126,81,.8); 
   border-top: 7px solid #2fc18c;
 }
+footer p {
+    margin-left: 50px;
+}
