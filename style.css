@@ -26,7 +26,7 @@
 
 #titulo {
   color: rgb(187, 187, 187);
-  font-family: "Franklin Gothic Medium", sans-serif;
+  font-family: Franklin Gothic Medium, sans-serif;
   text-align: center;
   margin-top: 1.2em;
 }
@@ -34,11 +34,11 @@
 .nav {
   float: right;
   margin-top: 5em;
-  margin-right: 8em;  
+  margin-right: 8em;
 }
 
 .nav li {
-  font-family: "Courier New", sans-serif;
+  font-family: Courier New, sans-serif;
   font-size: 18px;
   display: inline-block;
   margin-right: 3em;
@@ -71,18 +71,18 @@
 
 .textcontainer span {
   font-weight: bold;
-  font-family: "Lucida Sans",sans-serif;
+  font-family: Lucida Sans, sans-serif;
 }
 
 .textcontainer p {
-  font-family: "Franklin Gothic Medium",sans-serif;
+  font-family: Franklin Gothic Medium, sans-serif;
   font-size: 18px;
 }
 
 .licoes {
   clear: both;
   padding-top: 6em;
-  padding-bottom: 4em;  
+  padding-bottom: 4em;
 }
 
 .box_licoes_aprendidas {
@@ -103,7 +103,7 @@
   display: block;
 }
 #licoes_aprendidas li {
-  font-family: "Lucida Sans",sans-serif;
+  font-family: Lucida Sans, sans-serif;
   line-height: 26px;
   font-size: 17px;
 }
@@ -114,7 +114,7 @@
 }
 
 #licoes_a_aprender li {
-  font-family: "Lucida Sans",sans-serif;
+  font-family: Lucida Sans, sans-serif;
   font-size: 17px;
   line-height: 26px;
 }
@@ -176,7 +176,7 @@
 .boxcontent p {
   font-size: 18px;
   letter-spacing: 1px;
-  font-family: "Gill Sans",sans-serif;
+  font-family: Gill Sans, sans-serif;
   color: white;
 }
 
