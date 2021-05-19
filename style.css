@@ -1,39 +1,84 @@
-* {margin: 0;padding: 0;}
+unvisited link */
+a:link {
+color: #e56b6f;;
+}
+  
+a:visited {
+color: #e56b6f;;
+}
+  
+a:hover {
+ color: #355070;;
+}
+  
+a:active {
+color: #e56b6f;;
+}
+a {
+ text-decoration:none;
+}
 
 body {
 	background: rgb(253, 251, 251);
 }
 
-#tamanho-e-cor {
-	width: 10px ,1366px ,20px ,20px;
-	background-color: aquamarine;
+div {
+	background-color: rgb(137, 66, 204);
+	position: absolute;
+	padding-right: 1366px;
+	width : 1366px;
+	margin-bottom: 0;
+	z-index: 3;
+}
+
+nav ul {
+	background-color: rgb(54, 37, 94);
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+nav li {
+	color: rgb(236, 175, 118);
+	list-style: none;
+	display: inline;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	margin-right: 55px;
+	line-height: 1px;
+	padding: 10px;
 }
 
 #cabecalho {
-
 	top: 0px;
 	position: fixed;
 }
 
-nav li {
-	padding-left: 200px;
-	padding-top: 15px;
-	list-style: none;
-	display: flex;
-	float: left;
+#titulo {
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 15px;
 }
 
-#titulo {
-	
-	position: relative;
-	float: left;
-	max-width: 100%;
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+	font-size: medium;
 }
 
 #minha_foto {
 	display: inline;  
-	margin-top: 150px;
+	margin-top: 250px;
 	width: 200px;
+	margin-bottom: 0px;
+}
+
+.bgimage {
+	background-image: url("ceurosa.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-size: 1366px; /* Resize the background image to cover the entire container */
+	margin-bottom: 100px;
 }
 
 #licoes_aprendidas {
@@ -46,5 +91,25 @@ nav li {
 
 #rodape {
 	color: black;
+	display: block;
+	position: relative;
+	margin: 50px;
 }
 
+.lado-esquerdo {
+	position: relative;
+	float: left;
+	width: 50%;
+	z-index: 2;
+}
+
+.lado-direito {
+	position: relative;
+	float: right;
+	width: 50%;
+}
+
+#first {
+	position: absolute;
+	top: 500px;
+}
