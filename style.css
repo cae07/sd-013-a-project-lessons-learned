@@ -8,10 +8,6 @@ body {
   left: 3%;
 }
 
-.artigo {
-  max-width: 40%;
-}
-
 #minha_foto {
   float: left;
   width: 300px;
@@ -21,16 +17,16 @@ body {
 }
 
 .artigo {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
   color: rgb(103, 43, 158);
   line-height: 25px;
-  position: absolute;
+  position: relative;
   left: 10%;
   max-width: 70%;
   top: 580px;
-  height: 200px;
-  font-weight: bold;
+  height: 200%;
+  font-weight: 100%;
 }
 
 #rodape {
@@ -45,3 +41,6 @@ body {
   font-size: 40px;
   line-height: 170%;
 }
+
+
+
