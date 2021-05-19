@@ -24,7 +24,7 @@ ol li , ul li {
   float: left;
   margin-top: 35px;
   width: 310px;
-  }
+}
 
 a {
   text-align: center;
@@ -97,14 +97,14 @@ thead tr th {
 }
 
 td a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 div + nav a {
-    font-size: 20px;
-    margin-bottom: -40px;
-    margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: -40px;
+  margin-top: 15px;
 }
 
 td a:hover {
@@ -117,7 +117,7 @@ td a:hover {
   50% { color: black; }
   75% { color: blue; }
   100% { color: rgb(6, 6, 56); }
-   }
+}
 
 #titulo {
   color: rgb(6, 6, 56);
