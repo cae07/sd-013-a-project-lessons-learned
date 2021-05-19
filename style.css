@@ -1,0 +1,27 @@
+:root {
+  --default-color: #ddd;
+}
+
+body {
+  color: rgb(56, 55, 55);
+  margin: 0;
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: var(--default-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px solid #999;
+}
+
+main {
+  margin-top: 100px;
+}
+
+img {
+  width: 200px;
+  border-radius: 100%;
+
+}
