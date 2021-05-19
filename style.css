@@ -4,26 +4,31 @@
 }
 
 body{
-  background-color: rgb(253, 251, 251);
-	font-family: 'Montserrat', sans-serif;
+  background-color:rgb(253, 251, 251);
+	font-family: "Montserrat", sans-serif;
 }
-#cabecalho{
-width: 100%;	
-background-color: rgb(12, 185, 238);
-position: fixed;
-top:0;
+
+#cabecalho{	
+	width: 100%;	
+	position: fixed;
+	background-color:rgb(12, 185, 238);
+	top:0;
 }
+
 #titulo{
 	text-align: center;
 	padding-top: 30px;
 }
+
 nav li{
 	display: inline-block;
 }
+
 nav ul{
 	text-align: center;
 	margin-top: 10px;	
 }
+
 nav li a{
 	text-decoration: none;
 	padding:15px;
@@ -32,40 +37,49 @@ nav li a{
 }
 
 nav a:hover{
-	color:#fff;
+	color:white;
 }
+
 #minha_foto{
 	width: 200px;
 	padding-top: 140px;	
 	margin-left: 580px;
 }
+
 h2{
 	text-align: center;
 	padding:10px;
 	font-weight: 500;
 	color:rgb(121, 43, 43)
 }
-#licoes_aprendidas,#licoes_a_aprender {
-	margin-left:550px;
+
+#licoes_aprendidas,#licoes_a_aprender{
+	margin-left:100px;
+	line-height: 25px;;
 }
+
 .lado-direito, .lado-esquerdo{
 	margin: 30px;
 }
+
 .lado-esquerdo{
 	float:left;
 	width:40%;
 	margin-left:30px;	
 }
+
 .lado-direito{
 	float:right;
-	width:50%;	
-	margin-right: 30px;
+	width:40%;	
+	margin-right: 50px;
+	margin-top: 100px;
 }
 
 #github{
 	clear:both;
 	margin-bottom: 20px;
 }
+
 #github a{
 	text-decoration: none;
 	margin-left: 650px;
@@ -73,13 +87,15 @@ h2{
 }
 
 aside p{
-	margin-bottom: 20px;
+	margin-bottom:20px;
 }
+
 table{
 	margin:auto;
 	border:2px solid black;
 	padding:10px;
 }
+
 td{
 	text-align: center;
 	margin-top: 5px;
@@ -88,9 +104,9 @@ td{
 }
 
 #rodape{
-	background-color: black;
-	color:#fff;
-	text-align: center;
-	margin-top: 20px;
-	padding: 5px;
+ background-color: black;
+ color:white;
+ text-align: center;
+ margin-top: 20px;
+ padding: 5px;
 }
