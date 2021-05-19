@@ -23,8 +23,10 @@ img{
     margin-left: 37%;
     margin-right: 37%;  
 }
-span{
-    color: green;
+p{
+    color: black;
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
 }
 .table{
@@ -87,14 +89,13 @@ span{
 }
 .side-bar{
     background-color: brown;
-    color: white;
-    
+    margin: 10px;
+    color: white;    
     padding: 40px;
     width: 300px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 40%;
-    margin-right: 40%;
+   
 }
 .box{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
