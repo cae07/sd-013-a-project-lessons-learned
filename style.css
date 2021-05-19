@@ -41,13 +41,13 @@ body {
   border: 5px solid rgb(60, 127, 190);
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 20%;
   margin-left: 20px;
 }
 
-#lado-direito {
+.lado-direito {
   display: inline-block;
   width: 50%;
 }
