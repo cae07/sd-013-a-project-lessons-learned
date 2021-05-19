@@ -27,18 +27,17 @@ body {
   text-align: center;
 }
 
-#a1, #a2, #a3, #a4 {
+#a1 , #a2 , #a3 , #a4 {
   padding: 0.4%;
   border: 2px solid red;
   margin-left: 0.5%;
   margin-right: 0.5%;
   text-align: center;
-}
-/* Header end */
+} /* Header end */
 
 #minha_foto {
-  margin-top: 10%;
   border-radius: 100%;
+  margin-top: 10%;
   width: 200px;
 }
 
