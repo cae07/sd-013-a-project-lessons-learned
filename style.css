@@ -59,6 +59,7 @@ aside p {
   line-height: 22px;
   font-family: fantasy;
   font-size: 23px;
+  
 }
 
 #licoes_aprendidas {
@@ -106,16 +107,15 @@ td a {
 
 td + td + td + td a:hover {
   color: whitesmoke;
-  cursor: pointer;
   color: blue;
 }
 
 @keyframes cor {
-  0% { color: rgb(6, 6, 56); }
-  25% { color:yellow; }
-  50% { color:black; }
-  75% { color:blue; }
-  100% { color:rgb(6, 6, 56); }
+  0% { color:  rgb(6, 6, 56); }
+  25% { color: yellow; }
+  50% { color: black; }
+  75% { color: blue; }
+  100% { color: rgb(6, 6, 56); }
 }
 
 #titulo {
