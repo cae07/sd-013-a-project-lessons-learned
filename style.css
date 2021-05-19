@@ -3,7 +3,7 @@ body {
   font-size: 15px;
 }
 
-#cabecalho ,#cabecalho #titulo {
+#cabecalho , #titulo {
   position: fixed;
   top: 0;
   margin-top: 0;
@@ -107,9 +107,7 @@ td + td + td + td a:hover {
 }
 
 @keyframes cor {
-  0% {
-  color: rgb(6, 6, 56);
-  }
+  0% {color: rgb(6, 6, 56);}
   25%{color: yellow;}
   50%{color: black;}
   75%{color: blue;}
