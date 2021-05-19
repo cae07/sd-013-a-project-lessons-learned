@@ -1,12 +1,31 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  border: 2px solid green;  
 }
 
-.artigo-aprendizado {
-  max-width: 45%;
+.artigo-secao {
+  width: 80%;
+}
+
+.link-trybe {
+  text-align: center;
+}
+
+li:active {
+  color:gray
+}
+
+#minha_foto {
+  border: 2px solid green;
+}
+
+#titulo {
+  text-align: center;
+  position: fixed;
 }
