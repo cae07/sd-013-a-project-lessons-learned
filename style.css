@@ -96,3 +96,18 @@ aside , article {
 ul , ol {
   padding: 0;
 }
+
+.lado-esquerdo , .lado-direito {
+  margin-top: 10%;
+  width: 45%;
+  margin-right: 20px;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+}
