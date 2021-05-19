@@ -1,7 +1,8 @@
+
 :root {
   --bg: rgb(253, 251, 251);
-  --default-color: #ddd;
-  --line: #999;
+  --default-color: #dddddd;
+  --line: #999999;
   --text: rgb(56, 55, 55); 
 }
 
@@ -143,16 +144,11 @@ caption {
 }
 
 @media screen and (max-width: 800px) {
-  body,
-  table,
-  #cabecalho,
-  .greeting,
-  .lado-esquerdo,
-  .lado-direito,
-  .trybe {
+  body, table, #cabecalho, .greeting, .lado-esquerdo, .lado-direito, .trybe { 
     width: 100%;
     float: none;
   }
+
   .greeting {
     margin-top: 250px;
   }
