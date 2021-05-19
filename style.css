@@ -33,95 +33,95 @@ a {
 }
 
 article p {
-    text-align: justify;
-    margin-top: 30px;
-    margin-left: 50px;
-    width: 330px;
-    height: 290px;
-    word-wrap: break-word;
-    box-shadow: 15px 15px 15px black;
-    display: inline-block;
-    line-height: 22px;
-    font-family: fantasy;
-    font-size: 23px;
+  text-align: justify;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 330px;
+  height: 290px;
+  word-wrap: break-word;
+  box-shadow: 15px 15px 15px black;
+  display: inline-block;
+  line-height: 22px;
+  font-family: fantasy;
+  font-size: 23px;
 }
 
 aside p {
-    text-align: justify;
-    position: absolute;
-    width: 330px;
-    margin-left: 720px;
-    margin-top: -313px;
-    word-wrap: break-word;
-    box-shadow: 15px 15px 15px black;
-    height: 290px;
-    line-height: 22px;
-    font-family: fantasy;
-    font-size: 23px;
+  text-align: justify;
+  position: absolute;
+  width: 330px;
+  margin-left: 720px;
+  margin-top: -313px;
+  word-wrap: break-word;
+  box-shadow: 15px 15px 15px black;
+  height: 290px;
+  line-height: 22px;
+  font-family: fantasy;
+  font-size: 23px;
 }
 
 #licoes_aprendidas {
-    float: left;
+  float: left;
 }
 
 #licoes_a_aprender {
-    display: block;
-    float: right;
+  display: block;
+  float: right;
 }
 
 p {
-    color: rgb(6, 6, 56);
+  color: rgb(6, 6, 56);
 }
 
 .table {
-    float: right;
-    margin-right: 250px;
-    border: 5px  solid rgb(6, 6, 56);
-    margin-top: 20px;
-    width: 700px;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+  float: right;
+  margin-right: 250px;
+  border: 5px  solid rgb(6, 6, 56);
+  margin-top: 20px;
+  width: 700px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
 }
 
 tr td {
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-family: fantasy;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: fantasy;
 }
 
 thead tr th {
-    font-weight: bold;
-    font-size: 25px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 td a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 tr td + td + td + td:hover,tr td + td + td + td a:hover{
-    background-color: blue;
-    color: white;
-    cursor: pointer;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
 }
 
 @keyframes cor {
-    0% { color: rgb(6, 6, 56); }
-    25% { color: blanchedalmond; }
-    50% { color: black; }
-    75% { color: blue; }
-    100% { color: rgb(6, 6, 56); }
+  0% { color: rgb(6, 6, 56); }
+  25% { color: blanchedalmond; }
+  50% { color: black; }
+  75% { color: blue; }
+  100% { color: rgb(6, 6, 56); }
 }
 
 #titulo {
-    color: rgb(6, 6, 56);
-    animation-name: cor;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+  color: rgb(6, 6, 56);
+  animation-name: cor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 nav a {
-    font-size: 20px;
-    margin-bottom: -20px;
+  font-size: 20px;
+  margin-bottom: -20px;
 }
