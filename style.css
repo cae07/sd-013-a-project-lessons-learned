@@ -3,7 +3,9 @@ body{
     text-align: center;
 
 
-}#cabecalho{
+}
+
+#cabecalho{
     position: fixed;
     top: 0;
 }
@@ -47,4 +49,3 @@ p{
     text-align: justify;
     display: inline;
 }
-
