@@ -10,14 +10,24 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Lessons Learned</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <header>
-      <img id="minha-foto" src="foto.jpg" alt="Foto de Diego Vilela em preto e branco.">
-    </header>
+    <div class="greeting">
+      <p>
+        <img id="minha-foto" src="foto.jpg" alt="Foto de Diego Vilela em preto e branco.">
+        Hi, I'm Diego. Welcome to my site!
+      </p>
+    </div>
 
-    <article>
+    <article class="lado-esquerdo">
       <h2>Lessons</h2>
     
       <section>
@@ -52,18 +62,82 @@
         </ul>
       </section>
     </article>
-      <aside>
-        <h2>Trybe</h2>
+
+    <article class="lado-direito">
+      <h2>Learning Process</h2>
+
+      <section>
+        <h3>Beginnig</h3>
+        <p>Comecei a me interessar por tecnologia há muito tempo, antes da banda larga e dos <i>smart phones</i>. Estudava programação usando apostilas que eu baixava e seguia as instruções com atenção. Quando algo dava errado, não havia tanto conteúdo disponível quanto hoje e o aprendizado às vezes ficava comprometido. A tecnologia e a forma de trabalho mudaram bastante. Precisamos aprender e trabalhar de forma colaborativa e a <strong>Trybe</strong> tem me ajudado bastante com isso.</p>
+      </section>
+
+      <section>
+        <h3>A Case</h3>
+        <p>Fomos divididos em grupos menores com o objetivo de explicar o funcionamento básico da Internet. Foi interessante ver que cada membro do grupo contribuiu para o resultado final, que ficou melhor do que se cada um tivesse trabalhado separadamente.</p>
+        <aside class="note">
+          <h4>Note</h4>
+          <p>Caso tenha interesse, <a href="https://pt.wikipedia.org/wiki/Internet">este artigo</a> da <i>Wikipédia</i> descreve com detalhes o funcionamento da internet.</p>
+        </aside>
+      </section>
+    </article>
+
+    <article class="row">
+      <h2>Popular Programing Languages 2021</h2>
+
+      <div class="languages">
+        <table>
+          <thead>
+            <caption>Back-end web development</caption>
+            <tr>
+              <th>#</th>
+              <td>Language</td>
+            </tr>
+          </thead>
+            <tbody>
+            <tr>
+              <th>1</th>
+              <td>JavaScript</td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>Scala</td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>Python</td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>Go</td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td>Ruby</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <small>Sorce:
+            <a href="https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn">
+              https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn
+            </a>
+          </small>
+        </p>
+      </div>
+
+      <aside class="trybe">
+        <h3>Trybe</h3>
         <p>
           Para saber mais sobre Desenvolvimento Web, visite a "escola
           que te ensina a programar, a aprender e a trabalhar" clicando 
           <a href="https://www.betrybe.com/" target="_blank">aqui</a>.
         </p>
       </aside>
+    </article>
   </main>
 
   <footer id="rodape">
-    Diego Vilela, 2021
+    <small>© Diego Vilela, 2021</small>
   </footer>
 </body>
 </html>

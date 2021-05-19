@@ -1,27 +1,176 @@
 :root {
+  --bg: rgb(253, 251, 251);
   --default-color: #ddd;
+  --line: #999;
+  --text: rgb(56, 55, 55); 
 }
 
 body {
-  color: rgb(56, 55, 55);
-  margin: 0;
-  background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: var(--text);
+  background-color: var(--bg);
+  width: 60%;
+  margin: auto;
 }
 
 #cabecalho {
-  background-color: var(--default-color);
+  display: inline-block;
+  width: 60%;
+  margin: auto;
   position: fixed;
+  padding-top: 8px;
   top: 0;
-  width: 100%;
-  border-bottom: 5px solid #999;
+  background-color: var(--default-color);
+  border-bottom: 5px solid var(--line);
+}
+
+#rodape {
+  margin: 40px 0 20px;
+  text-align: center;
 }
 
 main {
+  line-height: 1.5;
   margin-top: 100px;
 }
 
-img {
-  width: 200px;
-  border-radius: 100%;
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
 
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text);
+  background-color: var(--bg);
+  border-radius: 10%;
+}
+
+nav a:hover {
+  color: var(--bg);
+  background-color: var(--line);
+}
+
+h1 {
+  float: left;
+  margin-left: 20px;
+}
+
+img {
+  width: 100px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 30px 1px #aaa;
+  vertical-align: middle;
+}
+
+.greeting {
+  width: 50%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 5px solid var(--line);
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+tr:nth-last-of-type(1) {
+  border-bottom: 2px solid var(--line);
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--default-color);
+}
+
+caption {
+  font-weight: bold;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 49%;
+}
+
+.lado-direito {
+  float: right;
+  width: 49%;
+}
+
+.languages {
+  float: left;
+  width: 60%;
+}
+
+.trybe {
+  width: 30%;
+  float: right;
+  padding-left: 40px;
+  margin-top: 40px;
+  border-left: 5px solid var(--line);
+  display: inline-block
+}
+
+.note {
+  padding-left: 40px;
+  margin-top: 40px;
+  border-left: 5px solid var(--line);
+}
+
+/* Ajusta o `article` abaixo dos elementos com `float`. */
+.row {
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  body,
+  table,
+  #cabecalho,
+  .greeting,
+  .lado-esquerdo,
+  .lado-direito,
+  .trybe {
+      width: 100%;
+      float: none;
+  }
+  .greeting {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav a, nav li{
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px;
+  }
+
+  .greeting {
+    margin-top: 350px;
+  }
+
+  body {
+    padding: 10px;
+  }
 }
