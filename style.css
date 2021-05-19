@@ -5,15 +5,45 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-.cabecalho{
-    margin-top: 0;
+.header{
+    border: cyan;
+    background-color: blue;
+    top: 0%;
+    position: fixed;
+    padding: 15px 454px 15px;
+    text-align: center ;
 }
 .picture{
     width: 300px;
+    margin-top: 1%;
 }
 .footer{
-    width: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:cyan;
+    width: 100%;
+    font-size: 24px;
+    height: 30px;
+    margin: auto;
+    bottom: 0 ;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0%;
 }
+.navigation{
+    background-color: cyan;
+    margin-top: 67px;
+    box-sizing: border-box;  
+}
+ul{
+    display: block;
+    list-style-type: disc ;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 
     
     
