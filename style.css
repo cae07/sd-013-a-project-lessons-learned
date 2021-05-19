@@ -70,13 +70,17 @@ h2 {
 }
 
 .lado-esquerdo {
-  float: left;
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  margin: 0 110px;
+  text-align: center;
 }
 
 .lado-direito {
-  float: right;
-}
-
-#secao-artigos {
-  display: inline;
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  margin: 0 110px;
+  text-align: center;
 }
