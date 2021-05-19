@@ -1,112 +1,111 @@
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  background-color:rgb(253, 251, 251);
-	font-family: "Montserrat", sans-serif;
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
 }
 
-#cabecalho{	
-	width: 100%;	
-	position: fixed;
-	background-color:rgb(12, 185, 238);
-	top:0;
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(12, 185, 238);
+  top: 0;
 }
 
-#titulo{
-	text-align: center;
-	padding-top: 30px;
+#titulo {
+  text-align: center;
+  padding-top: 30px;
 }
 
-nav li{
-	display: inline-block;
+nav li {
+  display: inline-block;
 }
 
-nav ul{
-	text-align: center;
-	margin-top: 10px;	
+nav ul {
+  text-align: center;
+  margin-top: 10px;
 }
 
-nav li a{
-	text-decoration: none;
-	padding:15px;
-	color:rgb(7, 7, 7);
-	font-size:20px;
+nav li a {
+  text-decoration: none;
+  padding: 15px;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
 }
 
-nav a:hover{
-	color:white;
+nav a:hover {
+  color: white;
 }
 
-#minha_foto{
-	width: 200px;
-	padding-top: 140px;	
-	margin-left: 580px;
+#minha_foto {
+  width: 200px;
+  padding-top: 140px;
+  margin-left: 580px;
 }
 
-h2{
-	text-align: center;
-	padding:10px;
-	font-weight: 500;
-	color:rgb(121, 43, 43)
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+  color: rgb(121, 43, 43);
 }
 
-#licoes_aprendidas,#licoes_a_aprender{
-	margin-left:100px;
-	line-height: 25px;;
+#licoes_aprendidas , #licoes_a_aprender {
+  margin-left: 100px;
+  line-height: 25px;
 }
 
-.lado-direito, .lado-esquerdo{
-	margin: 30px;
+.lado-direito , .lado-esquerdo {
+  margin: 30px;
 }
 
-.lado-esquerdo{
-	float:left;
-	width:40%;
-	margin-left:30px;	
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+  margin-left: 30px;
 }
 
-.lado-direito{
-	float:right;
-	width:40%;	
-	margin-right: 50px;
-	margin-top: 100px;
+.lado-direito {
+  float: right;
+  width: 40%;
+  margin-right: 50px;
+  margin-top: 100px;
 }
 
-#github{
-	clear:both;
-	margin-bottom: 20px;
+#github {
+  clear: both;
+  margin-bottom: 20px;
 }
 
-#github a{
-	text-decoration: none;
-	margin-left: 650px;
-	
+#github a {
+  text-decoration: none;
+  margin-left: 650px;
 }
 
-aside p{
-	margin-bottom:20px;
+aside p {
+  margin-bottom: 20px;
 }
 
-table{
-	margin:auto;
-	border:2px solid black;
-	padding:10px;
+table {
+  margin: auto;
+  border: 2px solid black;
+  padding: 10px;
 }
 
-td{
-	text-align: center;
-	margin-top: 5px;
-	padding:5px 20px;
-	border: 1px solid rgba(167, 163, 163, 0.308);
+td {
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px 20px;
+  border: 1px solid rgba(167, 163, 163, 0.308);
 }
 
-#rodape{
- background-color: black;
- color:white;
- text-align: center;
- margin-top: 20px;
- padding: 5px;
+#rodape {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
 }
