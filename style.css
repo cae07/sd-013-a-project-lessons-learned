@@ -8,6 +8,7 @@
 body {
   background: rgb(253, 251, 251);
   font-family: fantasy;
+  line-height: 20px;
 }
 
 nav {
