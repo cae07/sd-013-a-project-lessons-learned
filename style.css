@@ -3,9 +3,9 @@ body {
   font-size: 15px;
 }
 
-#cabecalho ,#cabecalho #titulo{
+#cabecalho ,#cabecalho #titulo {
   position: fixed;
-  top:0;  
+  top:0;
   margin-top: 0;
 }
 
@@ -14,7 +14,7 @@ img {
 }
 
 ol li, ul li {
-  font-family:fantasy ;
+  font-family:fantasy;
 }
 
 #minha_foto {
@@ -100,18 +100,18 @@ td a {
   text-decoration: none;
 }
 
-tr td + td + td + td:hover,tr td + td + td + td a:hover{
+tr td + td + td + td:hover,tr td + td + td + td a:hover {
   background-color: blue;
   color: white;
   cursor: pointer;
 }
 
 @keyframes cor {
-  0% { color: rgb(6, 6, 56); }
-  25% { color: blanchedalmond; }
-  50% { color: black; }
-  75% { color: blue; }
-  100% { color: rgb(6, 6, 56); }
+  0% { color: rgb(6, 6, 56);}
+  25% { color: blanchedalmond;}
+  50% { color: black;}
+  75% { color: blue;}
+  100% { color: rgb(6, 6, 56);}
 }
 
 #titulo {
