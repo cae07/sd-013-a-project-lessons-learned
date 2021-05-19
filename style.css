@@ -82,6 +82,7 @@ p {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  box-shadow: 10px 10px 10xp black;
 }
 
 tr td {
@@ -102,13 +103,10 @@ td a {
   color: black;
 }
 
-
-
 td + td + td + td a:hover {
   color: whitesmoke;
   cursor: pointer;
   color: blue;
-  
 }
 
 @keyframes cor {
