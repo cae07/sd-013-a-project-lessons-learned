@@ -76,13 +76,15 @@ p {
 
 .table {
     float: right;
-    margin-right: 400px;
+    margin-right: 250px;
     border: 1px  solid black;
     margin-top: 40px;
+    width: 700px;
     
 }
 
 tr td {
-    padding-left: 50px;
+    padding: 10px;
     border: 1px solid black;
+    text-align: center;
 }
