@@ -118,9 +118,9 @@ td a:hover {
   animation-iteration-count: infinite;
 }
 
-nav a {
+div + nav a {
   font-size: 20px;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
   margin-top: 15px;
 }
 
