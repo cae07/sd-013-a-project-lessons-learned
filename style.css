@@ -5,16 +5,39 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+#link_home {
+    position: fixed;
+    color: white;
+    font-size: 18px;
 }
 
 #minha_foto {
     max-width: 200px;
+    margin-top: 162px;
 }
 
 #tabela_licoes_aprendidas {
-    border: 5px solid black;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#tabela_licoes_aprendidas li {
+    margin-right: 20px;
 }
 
 #tabela_licoes_a_aprender {
-    border: 5px solid black;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#tabela_licoes_a_aprender li {
+    margin-right: 30px;
 }
