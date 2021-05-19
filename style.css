@@ -5,143 +5,142 @@
 
 /* Formatação Geral */
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 h2 {
-    color: rgba(10,126,81,.8);
+  color: rgba(10,126,81,.8);
 }
 
 h3 {
-    color: rgba(10,126,81,.8);
+  color: rgba(10,126,81,.8);
 }
 
 a {
-    color: rgba(10,126,81,.8); 
+  color: rgba(10,126,81,.8); 
 }
 
 /* Cabeçalho */
 #cabecalho {
-    top: 0;
-    height: 60px;
-    display: block;
-    background-color: rgba(10,126,81,.8); 
-    border-bottom: 7px solid #2fc18c;
+  top: 0;
+  height: 60px;
+  display: block;
+  background-color: rgba(10,126,81,.8); 
+  border-bottom: 7px solid #2fc18c;
 }
 
 #cabecalho h1 {
-    margin-left: 50px;
-    padding-top: 12px;
-    font-size: 28px;
-    color: white;
+  margin-left: 50px;
+  padding-top: 12px;
+  font-size: 28px;
+  color: white;
 }
 
 /* Navegação */
 .nav-bar {
-    margin-left: 50px;
-    height: 40px;
+  margin-left: 50px;
+  height: 40px;
 }
 
 .nav-bar-list {
-    list-style: none;
-    margin-top: 20px;
+  list-style: none;
+  margin-top: 20px;
 }
 
 .nav-bar-list a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-bar-list a:hover{
-    color: white;
-    background-color: rgba(10,126,81,.8); 
+  color: white;
+  background-color: rgba(10,126,81,.8); 
 }
 
 .nav-bar-list li {
-    display: inline;
-    padding: 15px;
+  display: inline;
+  padding: 15px;
 }
 
 /* Primeira sessão */
 .primary-content {
-    height: 420px;
-    margin-left: 50px;
-    width: 800px;
+  height: 420px;
+  margin-left: 50px;
+  width: 800px;
 }
 
 .primary-content img {
-    width: 15em;
-    margin-top: 30px;
-    border: 2px solid #2fc18c;
+  width: 15em;
+  margin-top: 30px;
+  border: 2px solid #2fc18c;
 }
 
 .primary-content a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .primary-content a:hover {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* Segunda sessão */
 .second-content {
-    height: 290px;
-    width: 800px;
-    margin-left: 50px;
+  height: 290px;
+  width: 800px;
+  margin-left: 50px;
 }
 
 .second-list {
-    margin-top: 20px;
-    width: 400px;
-    height: 270px;
-    float: left;
+  margin-top: 20px;
+  width: 400px;
+  height: 270px;
+  float: left;
 }
 
 .second-list h2 {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 /* Terceira Sessão */
 .about-learn {
-    height: 250px;
-    margin-left: 50px;
-    width: 598px;
-    text-align: justify;
-    float: left;
+  height: 250px;
+  margin-left: 50px;
+  width: 598px;
+  text-align: justify;
+  float: left;
 }
 
 .about-learn h2 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* Quarta sessão*/
 .abstract-lern {
-    width: 350px;
-    height: 200px;
-    float: right;
-    margin-right: 200px;
+  width: 350px;
+  height: 200px;
+  float: right;
+  margin-right: 200px;
 }
 
 .abstract-lern a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .abstract-lern a:hover {
-    text-decoration: none;
-    color: rgba(6, 90, 58, 0.8);
-    text-decoration: underline;
+  text-decoration: none;
+  color: rgba(6, 90, 58, 0.8);
+  text-decoration: underline;
 }
 
 /* Rodapé */
 footer {
-    clear: both;
-    padding: 10px;
-    color: white;
-    background-color: rgba(10,126,81,.8); 
-    border-top: 7px solid #2fc18c;
+  clear: both;
+  padding: 10px;
+  color: white;
+  background-color: rgba(10,126,81,.8); 
+  border-top: 7px solid #2fc18c;
 }
-
