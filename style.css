@@ -7,7 +7,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #6e1b09;
+  background-color: rgb(110, 27, 9);
   width: 100%;
   color: rgb(253, 251, 251);
 }
@@ -42,7 +42,7 @@ body {
 #licoes_aprendidas {
   margin: 20px;
   padding: 30px;
-  background-color: #6e1b09;
+  background-color: rgb(110, 27, 9);
   list-style: none;
   color: rgb(253, 251, 251);
 }
@@ -69,7 +69,7 @@ body {
 #licoes_a_aprender {
   margin: 20px;
   padding: 30px;
-  background-color: #6e1b09;
+  background-color: rgb(110, 27, 9);
   list-style: none;
   color: rgb(253, 251, 251);
 }
@@ -84,11 +84,11 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background-color: #6e1b09;
+  background-color: rgb(110, 27, 9);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   text-align: center;
-  color: rgb(253, 251, 251);    
+  color: rgb(253, 251, 251);
 }
 
 .tabela {
