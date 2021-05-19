@@ -2,23 +2,23 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header{
+header {
   position: fixed;
   top: 0;
-  background-color: #ede9e990;
+  background-color: rgb(233, 233, 233);
   border: 2px solid black;
-  width: 100vh;
+  width: 99%;
 }
 
 h1 {
   text-align: center;
-  color: #11a36a;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(17, 163, 106);
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 .container {
   text-align: center;
-  padding: 200px 10px 20px 10px;
+  padding: 200px 10px 20px;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 
 table {
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }
 
 th {
@@ -39,7 +39,7 @@ th {
   margin: 30px 0;
   display: block;
   text-decoration: none;
-  color: #11a36a;
+  color: rgb(17, 163, 106);
 }
 
 #Trybe:hover {
@@ -54,4 +54,8 @@ article {
 aside {
   float: right;
   width: 30vh;
+}
+
+.relato {
+  display: inline-block;
 }
