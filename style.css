@@ -1,35 +1,35 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-size: 15px;
+  background-color: rgb(253, 251, 251);
+  font-size: 15px;
 }
 
 #cabecalho ,#cabecalho #titulo{
-    position: fixed;
-    top:0;  
-    margin-top: 0;
+  position: fixed;
+  top:0;  
+  margin-top: 0;
 }
 
 img {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 ol li, ul li {
-    font-family:fantasy ;
+  font-family:fantasy ;
 }
 
 #minha_foto {
-    height: 300px;
+  height: 300px;
 }
 
 .lado-esquerdo {
-    float: left;
-    margin-top: 35px;
-    width: 310px;
+  float: left;
+  margin-top: 35px;
+  width: 310px;
 }
 
 a {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 }
 
 article p {
