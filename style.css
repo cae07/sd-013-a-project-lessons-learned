@@ -5,7 +5,7 @@ body {
 
 #cabecalho ,#cabecalho #titulo {
   position: fixed;
-  top:0;
+  top: 0;
   margin-top: 0;
 }
 
@@ -15,7 +15,7 @@ img {
 }
 
 ol li, ul li {
-  font-family:fantasy;
+  font-family: fantasy;
 }
 
 #minha_foto {
