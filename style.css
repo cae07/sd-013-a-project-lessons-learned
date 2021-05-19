@@ -52,7 +52,6 @@ nav ul li {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-
 }
 
 #cabecalho {
@@ -68,11 +67,18 @@ nav ul li {
   border: 1px solid black;
   width: 240px;
   margin-left: 0;
+  border-radius: 0 0 15px 15px;
 }
 
 #perfil-conteudo {
   margin-top: 105px;
   margin-left: 0;
-  width: 242px;
+  width: 239px;
+  height: 155px;
   text-align: center;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 15px 15px 0 0;
+
 }
