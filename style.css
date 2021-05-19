@@ -6,3 +6,7 @@ body {
   position: fixed;
   top: 0;
 }
+
+.artigo {
+  max-width: 40%;
+}
