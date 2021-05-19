@@ -3,7 +3,6 @@
   font-family: montserrat, sans sans-serif;
   font-size: 14px;
 }
-
 #cabecalho{
   background-color: gray;
   background-size: cover;
@@ -12,20 +11,16 @@
   top: 0;
   padding: 10px 450px;
 }
-
-
 #minha_foto{
   width: 200px;
   margin-top: 260px;
 }
-
 .licoes_aprendidas{
   background-color: gray;
   color: white;
   line-height: 25px;
   height: 300px;
   width: 33%;
-
 }
 .licoes_a_aprender{
   background-color: gray;
@@ -46,4 +41,8 @@
   color: white;
   line-height: 25px;
 }
+#rodape{
+  text-align: center;
+}
+
 
