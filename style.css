@@ -2,9 +2,44 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+/* Header start */
+#cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  padding: 0.4%;
+  border: 2px solid red;
+}
+
+#titulo {
+  position: relative;
+  padding: 0.4%;
+  border: 2px solid red;
+  margin: auto;
+  text-align: center;
+}
+
+#navegacao {
+  position: relative;
+  padding: 0.4%;
+  border: 2px solid red;
+  margin: auto;
+  text-align: center;
+}
+
+#a1, #a2, #a3, #a4 {
+  padding: 0.4%;
+  border: 2px solid red;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  text-align: center;
+}
+/* Header end */
+
+#minha_foto {
+  margin-top: 10%;
+  border-radius: 100%;
+  width: 200px;
 }
 
 table , th , td {
