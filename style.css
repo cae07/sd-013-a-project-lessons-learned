@@ -1,25 +1,40 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Ubuntu, sans-serif;
 }
 
-h1, h2, h3{
-  font-family: 'Sarabun', sans-serif;
+h1 , h2 , h3 {
+  font-family: Sarabun, sans-serif;
+}
+
+.git-logo img {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+
+.linkedin-logo img {
+  width: 50px;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin-left: 20px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgba(46,193,139,255);
+  background-color: rgba(46, 193, 139, 255);
   width: 100%;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
   font-size: 24px;
   display: inline-block;
   margin-left: 35%;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 #cabecalho img {
@@ -30,6 +45,7 @@ h1, h2, h3{
 #minha_foto {
   width: 200px;
   border-radius: 0.2em;
+  display: inline-block;
 }
 
 main {
@@ -39,7 +55,7 @@ main {
 }
 
 .lado-esquerdo {
-  border: 3px solid rgba(46,193,139,255);
+  border: 3px solid rgba(46, 193, 139, 255);
   border-radius: 0.3em;
   display: inline-block;
   width: 40%;
@@ -49,37 +65,33 @@ main {
   padding: 8px;
 }
 
-.lado-esquerdo a{
+.lado-esquerdo a {
   text-decoration: none;
-  background-color: rgba(46,193,139,255);
+  background-color: rgba(46, 193, 139, 255);
   border-radius: 0.2em;
   color: white;
 }
 
-.lado-esquerdo a:hover{
-  background-color: rgba(46,193,139,255);
-  color: rgba(46,193,139,255);
+.lado-esquerdo a:hover {
+  color: rgba(46, 193, 139, 255);
   background-color: white;
 }
 
-.lado-esquerdo a:active{
+.lado-esquerdo a:active {
   color: rgb(56, 236, 170);
   background-color: rgb(35, 126, 92);
   border-radius: 0.2em;
 }
 
-ol:before, ul::before {
-  content:attr(aria-label);
-  font-size:120%;
-  font-weight:bold;
-  margin-left:-15px;
+/* Colocar referência */
+ol:before , ul:before {
+  content: attr(aria-label);
+  font-size: 120%;
+  font-weight: 600;
+  margin-left: -15px;
 }
 
-ul, ol {
-  display: inline-block
-}
-
-#minha_foto {
+ul , ol {
   display: inline-block;
 }
 
@@ -96,16 +108,16 @@ ul, ol {
   text-align: center;
 }
 
-.lado-direito p{
+.lado-direito p {
   text-align: justify;
 }
 
 .lado-direito table {
   font-family: monospace;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   color: rgb(206, 201, 192);
-  background-image: url(/imagens/git_bg.png);
+  background-image: url('/imagens/git_bg.png');
   background-color: rgb(32, 28, 28);
   background-size: 50px;
   background-repeat: no-repeat;
@@ -114,6 +126,16 @@ ul, ol {
   border-radius: 0.3em;
   border: 0.01em solid rgba(0, 0, 0, 0.192);
   margin-left: 4%;
+}
+
+.lessons-status {
+  margin-bottom: 30px;
+}
+
+.lessons-status p {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-left: 20px;
 }
 
 #rodape {
@@ -129,32 +151,18 @@ ul, ol {
   margin-right: 40px;
 }
 
-.git-logo img{
-  width: 50px;
-  display: inline-block;
-  position: relative;
-  top: 10px;
-}
-
-.linkedin-logo img{
-  width: 50px;
-  display: inline-block;
-  position: relative;
-  top: 0px;
-  margin-left: 20px;
-}
-
-.git-logo, .linkedin-logo {
+.git-logo , .linkedin-logo {
   transition: 0.2s;
   opacity: 0.6;
 }
-.git-logo:hover, .linkedin-logo:hover{
-  opacity: 1.0;
+
+.git-logo:hover , .linkedin-logo:hover {
+  opacity: initial;
 }
 
 #cabecalho a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   color: white;
   display: inline-block;
   margin-bottom: 4px;
@@ -163,7 +171,7 @@ ul, ol {
 }
 
 #cabecalho a:hover {
-  color: rgba(46,193,139,255);
+  color: rgba(46, 193, 139, 255);
   background-color: white;
   border-radius: 0.2em;
 }
@@ -172,13 +180,4 @@ ul, ol {
   color: rgb(56, 236, 170);
   background-color: rgb(35, 126, 92);
   border-radius: 0.2em;
-}
-
-.lessons-status {
-  margin-bottom: 30px;
-}
-.lessons-status p{
-  font-size: 20px;
-  margin-bottom: 0;
-  margin-left: 20px;
 }
