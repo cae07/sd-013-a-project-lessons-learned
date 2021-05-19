@@ -1,16 +1,36 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 20px;
 }
 
 #cabecalho {
+  text-align: center;
   position: fixed;
+  margin-left: 35%;
+  margin-right: 35%;
   top: 0;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  margin-left: 35%;
+  margin-right: 35%;
+  top: 60px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 img {
   padding-top: 20px;
   margin-top: 80px;
   margin-bottom: 20px;
+  border-radius: 25%;
+  width: 100px
 }
 
 #licoes_aprendidas {
@@ -20,3 +40,12 @@ img {
 #licoes_a_aprender {
   display: inline-block;
 }
+
+h1 h2 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
