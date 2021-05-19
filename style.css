@@ -1,16 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
-/*-HEADER--------------------*/
+/* -HEADER---------------- */
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
   padding: 0.4%;
   color: white;
-  background-color: #1A1E35;
+  background-color: rgb(26, 30, 53);
   font-size: 12px;
 }
 
@@ -34,17 +34,17 @@ body {
   margin-right: 0.5%;
   text-align: center;
   color: white;
-  background-color: #1A1E35;
+  background-color: rgb(26, 30, 53);
 }
 
-/*-PHOTO-------------------*/
+/* -PHOTO----------------- */
 #minha_foto {
   border-radius: 100%;
   margin-top: 5%;
   width: 200px;
 }
 
-/*-PROFILE-CONTENT---------*/
+/* -PROFILE-CONTENT------- */
 .container-perfil {
   width: 100%;
   margin-top: 75px;
@@ -70,23 +70,23 @@ body {
   float: right;
   text-align: center;
   color: #b1b5c9;
-  background-color: #1A1E35;
+  background-color: rgb(26, 30, 53);
 }
 
-/*-TABLE-------------------*/
+/* -TABLE----------------- */
 table , th , td {
-  border: 1px solid #1A1E35;
+  border: 1px solid rgb(26, 30, 53);
   border-collapse: collapse;
   width: 30%;
   text-align: center;
 }
 
 #tabela tr:nth-child( odd ) {
-  background-color: #1A1E35;
+  background-color: rgb(26, 30, 53);
   color: white;
 }
 
-/*-MAIN-CONTENT------------*/
+/* -MAIN-CONTENT---------- */
 .container-principal {
   width: 100%;
   margin-bottom: 1px;
@@ -110,7 +110,7 @@ table , th , td {
   float: right;
 }
 
-.lista-1{
+.lista-1 {
   float: left;
   padding: 1.5%;
   margin-left: 11%;
@@ -122,7 +122,7 @@ table , th , td {
   margin-right: 11%;
 }
 
-/*-FOOTER------------------*/
+/* -FOOTER---------------- */
 #rodape {
   position: fixed;
   bottom: 0;
