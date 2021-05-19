@@ -1,8 +1,91 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: inherit;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  padding: 20px 0;
+  color: #55C28D;
+  background-color: #252525;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titulo {
+  width: 350px;
+  display: inline;
+}
+
+.menu-home {
+  float: right;
+  display: inline;
+  margin-top: -23px;
+}
+
+.menu-home li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.menu-home ul li a {
+  color: #55C28D;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.foto {
+  background-color: #252525;
+  border-radius: 10px;
+}
+
+#minha_foto{
+  border-radius: 50%;
+  display: block;
+  margin: 100px auto;
+}
+
+.conteudo {
+  background-color: #f5f5f5;
+}
+
+.listas {
+  margin-top: -85px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.listas h2 {
+  font-size: 40px;
+  border: #252525 solid 3px;
+  border-radius: 10px;
+  
+}
+
+.list-aprendidas {
+  width: 150px;
+  display: inline-block;
+  border-right:  #252525 solid 3px;
+  text-align: left;
+}
+.list-skills {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
 }
