@@ -95,6 +95,7 @@
   margin-bottom: 1em;
 }
 .box_licoes_a_aprender h2 {
+  
   margin-bottom: 1em;
   margin-left: 20em;
 }
@@ -103,6 +104,7 @@
   display: block;
 }
 #licoes_aprendidas li {
+
   font-family: Lucida Sans, sans-serif;
   line-height: 26px;
   font-size: 17px;
