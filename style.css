@@ -1,15 +1,16 @@
 body{
   background-color: rgb(253,251,251);
 }
-
 #cabecalho{
-  top: 0;
+  top:0;
   border: 1px solid red;
-  padding-left:  500px;
+  background-color: rgb(0, 139, 139);
 }
-
+#titulo{
+  color: rgb(253,251,251);
+  margin-left: 500px;
+}
 #minha_foto{
-
   width: 200px;
-
+  margin-top: 100px;
 }
