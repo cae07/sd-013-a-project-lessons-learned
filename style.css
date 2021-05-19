@@ -2,22 +2,17 @@ body{
     background-color: rgb(253, 251, 251);
 }
 #cabecalho{
-    top: 0%;
+    background-color: rgb(55, 173, 0);
+    text-align: center;
     position: fixed;
-        
-}
-#minha_foto{ 
-    position: fixed;
-    top: auto;
-    left: 0px;
-    right: 0px;
-    height: 50px;
-}
-.barra {
-    background-color: black;
-    position: fixed;
-    top: 0;
     left: 0;
     right: 0;
-    height: 65px;
+    height: 70px;
+    margin-top: 0px;
+    top: 0px;
 }
+#minha_foto{ 
+    width: 120px;
+    margin-top: 80px;
+}
+
