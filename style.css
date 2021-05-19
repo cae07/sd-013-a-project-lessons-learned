@@ -101,3 +101,30 @@ thead tr th {
     
 }
 
+td a {
+    text-decoration: none;
+}
+tr td a:hover {
+    cursor: pointer;
+    
+}
+tr td + td + td + td:hover,tr td + td + td + td a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+@keyframes cor {
+    0%{color:rgb(6, 6, 56);}
+    25%{color: blanchedalmond;}
+    50%{color: black;}
+    75%{color: blue;}
+    100%{color: rgb(6, 6, 56);}
+}
+
+#titulo {
+    color: rgb(6, 6, 56);
+    animation-name: cor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
