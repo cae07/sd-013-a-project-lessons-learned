@@ -1,5 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 #cabecalho {
