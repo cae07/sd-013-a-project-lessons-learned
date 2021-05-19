@@ -9,6 +9,21 @@ body {
   background: rgb(253, 251, 251);
 }
 
+nav {
+  position: fixed;
+  text-align: center;
+  top: 60px;
+}
+
+nav ul li {
+  list-style: none;
+  font-weight: 800;
+}
+
+.text-branco {
+  color: white;
+}
+
 .hidder {
   display: none;
 }
@@ -18,10 +33,17 @@ body {
   height: 30px;
 }
 
+#titulo {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 45px;
+}
+
 #minha_foto {
-  margin-top: 155px;
   width: 150px;
   height: 150px;
+  border-radius: 100%;
+
 }
 
 #cabecalho {
@@ -29,5 +51,19 @@ body {
   top: 0;
   background-color: green;
   width: 1336px;
-  height: 150px;
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+}
+
+#tabela {
+  border: 1px solid black;
+  width: 240px;
+  margin-left: 0;
+}
+
+#perfil-conteudo {
+  margin-top: 105px;
+  margin-left: 0;
+  width: 242px;
+  text-align: center;
 }
