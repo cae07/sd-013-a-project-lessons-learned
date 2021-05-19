@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   top: 0;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   position: fixed;
   margin: 5px;
@@ -45,6 +45,7 @@ nav a {
 .lado-direito {
   right: 1;
 }
+
 .box {
   width: 40%;
   font-family: sans-serif;
@@ -55,6 +56,6 @@ nav a {
 
 #rodape {
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   background-color: rgb(0, 95, 184);
 }
