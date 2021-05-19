@@ -1,11 +1,11 @@
 @font-face {
   font-family: Poppins-Regular;
-  src: url(assets/Poppins-Regular.ttf);
+  src: url("assets/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url(assets/OpenSans-Regular.ttf);
+  src: url("assets/OpenSans-Regular.ttf");
 }
 
 * {
@@ -17,54 +17,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h1, h2, li {
-  font-family: Poppins-Regular;
+h1 , h2 , li {
+  font-family: Poppins-Regular, sans-serif;
 }
 
 p {
-  font-family: OpenSans-Regular;
-}
-
-
-
-#cabecalho {
-  background-color: rgb(27, 27, 30);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  padding: 15px;
-  border-bottom: 5px solid rgb(55, 63, 81);
-  justify-content: space-between;
-  align-items: center;
-  user-select: none;
-}
-
-#cabecalho nav {
-  margin-right: 50px;
-}
-
-#cabecalho li {
-  color: rgb(88, 164, 176);
-  display: inline-block;
-  text-transform: uppercase;
-  margin-right: 50px;
-  padding: 0 4px 0 4px;
-}
-
-#cabecalho li:hover {
-  background-color: rgb(51, 51, 58);
-  cursor: pointer;
-}
-
-#cabecalho li:active {
-  background-color: rgb(60, 60, 70);
-  cursor: pointer;
-}
-
-#titulo {
-  color: rgb(219, 219, 219);
-  display: inline-block;
+  font-family: OpenSans-Regular, sans-serif;
 }
 
 main {
@@ -92,12 +50,12 @@ main p {
 }
 
 main a {
-  color: #316d76;
-  font-weight: bold;
+  color: rgb(49, 109, 118);
+  font-weight: 700;
 }
 
 main a:visited {
-  color: #673B72;
+  color: rgb(103, 59, 114);
 }
 
 main li {
@@ -110,9 +68,49 @@ section {
   align-items: center;
 }
 
+#cabecalho {
+  background-color: rgb(27, 27, 30);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  border-bottom: 5px solid rgb(55, 63, 81);
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+#cabecalho nav {
+  margin-right: 50px;
+}
+
+#cabecalho li {
+  color: rgb(88, 164, 176);
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 50px;
+  padding: 0 4px;
+}
+
+#cabecalho li:hover {
+  background-color: rgb(51, 51, 58);
+  cursor: pointer;
+}
+
+#cabecalho li:active {
+  background-color: rgb(60, 60, 70);
+  cursor: pointer;
+}
+
+#titulo {
+  color: rgb(219, 219, 219);
+  display: inline-block;
+}
+
 #minha_foto {
   width: 180px;
-  height:180px;
+  height: 180px;
   border-radius: 50%;
 }
 
