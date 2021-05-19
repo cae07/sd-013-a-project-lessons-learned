@@ -20,14 +20,17 @@ body {
   margin-left: 32.5%;
   margin-top: 8%;
   background-color: yellowgreen;
-  padding: 2px;}
+  padding: 2px;
+  padding: auto;}
 
 .ocultar {
-  display: none;}
+  display: none;
+  padding: auto;}
 
 #rodape {
   text-align: center;
-  background-color: thistle;}
+  background-color: thistle;
+  padding: auto;}
 
 .sbs1 {
   display: inline-block;
@@ -35,7 +38,8 @@ body {
   margin-top: 10%;
   margin-left: 409.5px ;
   padding: 30px;
-  width: 30%;}
+  width: 30%;
+  padding: auto;}
 
 #licoes_aprendidas {
   float: right;}
@@ -59,10 +63,14 @@ h3 {
 .center {
   display: inline-block;
   background-color: red;
-  height: 100px;
+  border: salmon;
+  padding: 5px;
+  height: 120px;
   width: 400px;}
 
 .boxmodel {
   background-color: rosybrown;
   margin-left: 39.8%;
-  margin-bottom: 5px;}
+  margin-bottom: 5px;
+  border: royalblue;
+  padding: 5px;}
