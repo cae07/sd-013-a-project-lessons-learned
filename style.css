@@ -1,7 +1,41 @@
 body{
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho{
   position: fixed;
   top: 0;
+}
+
+#rodape{
+  background-color:grey;
+  padding: 20px 10px 20px;
+}
+
+.contato{
+  margin-left: 43%;
+  display: block;
+  color: white;
+}
+
+.contat{
+  margin-left: 33px;
+}
+
+.doug{
+  display: block;
+  color: white;
+  margin-left: 45%;
+  margin-top: 15px;
+}
+
+#topo{
+  display: block;
+  position:absolute;
+  top:154%;
+  border-bottom:black solid;
+}
+
+.texto{
+  width: 430px;
 }
