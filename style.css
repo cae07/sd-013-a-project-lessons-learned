@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0px;
+}
+
+.cabecalho {
+    background-color: #202020;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 5px solid green;
+}
+
+.titulo {
+    
+    color: grey;
+    position: absolute;
+    left: 200px;   
+    top: 20px; 
+}
+
+.titulo h1 {
+    margin: 0px;
+   font-size: 50px;
+}
