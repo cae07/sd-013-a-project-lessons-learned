@@ -24,6 +24,7 @@ ol li , ul li {
   float: left;
   margin-top: 35px;
   width: 310px;
+  text-align: center;
 }
 
 a {
