@@ -20,64 +20,74 @@
   </header>
 
   <main>
-    <img id="minha_foto" src="images/photo.png" alt="Foto de Cristiano Vitorino">
-    <h2 id="home">Cristiano Vitorino</h2>
-    <a href="https://github.com/cristianovitorino" target="_blank" alt="GitHub de Cristiano Vitorino">GitHub</a>
-    <article id="school">
-      <h2>Sobre meu aprendizado na Trybe</h2>
-      <table id="tabela">
-        <tr>
-          <th>Dia</td>
-          <th>Conteúdo</td>
-          <th>Data</td>
-        </tr>
-        <tr>
-          <td>3.5</td>
-          <td>Projeto</td>
-          <td>18.MAIO.2021</td>
-        </tr>
-      </table>
-      <p>
-        Ao me deparar com a oportunidade indicada por um amigo desenvolvedor, conheci a Trybe e entrei de cabeça! E está valendo cada minuto até agora! Profissionais experientes, instrutores incríveis, conteúdo excelente, exercícios e projetos exigentes e puxados, como deve ser! Está sendo uma grande expêriência! Aguardo o próximo desafio!
-      </p>
-    </article>
-    <section>
-      <aside>
-        <h2>Desafiador</h2>
-        <p>
-          Tudo que eu buscava em uma escola de programação encontrei na Trybe, principalmente conteúdo desafiador e atualizado com o mercado.
-        </p>
-      </aside>
+    <section id="home" class="container-perfil">
+      <div class="perfil">
+        <img id="minha_foto" src="images/photo.png" alt="Foto de Cristiano Vitorino">
+        <h2>Cristiano Vitorino</h2>
+        <a id="github" href="https://github.com/cristianovitorino" target="_blank" alt="GitHub de Cristiano Vitorino">GitHub</a>
+      </div>
+      <div class="pilula">
+        <aside>
+          <h2>Desafiador</h2>
+          <p>
+            Tudo que eu buscava em uma escola de programação encontrei na Trybe, principalmente conteúdo desafiador e atualizado com o mercado.
+          </p>
+        </aside>
+      </div>
     </section>
-    <section>
-      <h2>Lições</h2>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Empatia</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Inspect</li>
-        <li>Semantic HTML</li>
-      </ol>
-    </section>
-    <section>
-      <h2>Lições a aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
+    <section class="container-principal">
+      <div>
+        <article class="lado-esquerdo">
+          <h2 id="school">Sobre meu aprendizado na Trybe</h2>
+          <table id="tabela">
+            <tr>
+              <th>Dia</td>
+              <th>Conteúdo</td>
+              <th>Data</td>
+            </tr>
+            <tr>
+              <td>3.5</td>
+              <td>Projeto</td>
+              <td>18.MAIO.2021</td>
+            </tr>
+          </table>
+          <p>
+            Ao me deparar com a oportunidade indicada por um amigo desenvolvedor, conheci a Trybe e entrei de cabeça! E está valendo cada minuto até agora! Profissionais experientes, instrutores incríveis, conteúdo excelente, exercícios e projetos exigentes e puxados, como deve ser! Está sendo uma grande expêriência! Aguardo o próximo desafio!
+          </p>
+        </article>
+      </div>
+      <div class="lado-direito">
+        <div class="lista-1">
+          <h2>Lições</h2>
+          <ol id="licoes_aprendidas">
+            <li>Unix</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Empatia</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Slack</li>
+            <li>Zoom</li>
+            <li>Inspect</li>
+            <li>Semantic HTML</li>
+          </ol>
+        </div>
+        <div class="lista-2">
+          <h2>Lições a aprender</h2>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript</li>
+            <li>DOM</li>
+            <li>Forms</li>
+            <li>CSS Responsive</li>
+            <li>ES6</li>
+            <li>HOF</li>
+            <li>Unit Tests</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 </body>

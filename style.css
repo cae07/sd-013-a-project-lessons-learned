@@ -1,20 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* Header start */
+/*-HEADER--------------------*/
 #cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
   padding: 0.4%;
-  border: 2px solid red;
+  color: white;
+  background-color: #1A1E35;
+  font-size: 12px;
 }
 
 #titulo {
   position: relative;
   padding: 0.4%;
-  border: 2px solid red;
   margin: auto;
   text-align: center;
 }
@@ -22,33 +24,109 @@ body {
 #navegacao {
   position: relative;
   padding: 0.4%;
-  border: 2px solid red;
   margin: auto;
   text-align: center;
 }
 
 #a1 , #a2 , #a3 , #a4 {
   padding: 0.4%;
-  border: 2px solid red;
   margin-left: 0.5%;
   margin-right: 0.5%;
   text-align: center;
-} /* Header end */
+  color: white;
+  background-color: #1A1E35;
+}
 
+/*-PHOTO-------------------*/
 #minha_foto {
   border-radius: 100%;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 200px;
 }
 
+/*-PROFILE-CONTENT---------*/
+.container-perfil {
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 1px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.perfil {
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.pilula {
+  width: 200px;
+  padding: 2%;
+  margin: 1%;
+  float: right;
+  text-align: center;
+  color: #b1b5c9;
+  background-color: #1A1E35;
+}
+
+/*-TABLE-------------------*/
 table , th , td {
-  border: 1px solid black;
+  border: 1px solid #1A1E35;
   border-collapse: collapse;
   width: 30%;
   text-align: center;
 }
 
 #tabela tr:nth-child( odd ) {
-  background-color: black;
+  background-color: #1A1E35;
   color: white;
+}
+
+/*-MAIN-CONTENT------------*/
+.container-principal {
+  width: 100%;
+  margin-bottom: 1px;
+  display: inline-block;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.lado-esquerdo {
+  width: 623px;
+  padding: 1%;
+  border: 2px solid black;
+  margin-left: 1%;
+  float: left;
+  line-height: 1.5;
+}
+
+.lado-direito {
+  display: inline;
+  width: 623px;
+  float: right;
+}
+
+.lista-1{
+  float: left;
+  padding: 1.5%;
+  margin-left: 11%;
+}
+
+.lista-2 {
+  float: right;
+  padding: 1.5%;
+  margin-right: 11%;
+}
+
+/*-FOOTER------------------*/
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2px;
+  font-size: 12px;
 }
