@@ -3,7 +3,7 @@ body {
   background-color: rgb(253, 251, 251);
   display: flow-root;
   font-family: Arial, Helvetica, sans-serif;
-  
+  word-spacing: 2px;
 }
 
 #cabecalho {
@@ -15,6 +15,7 @@ body {
   background-color: rgb(113, 238, 63);
   text-align: center;
   padding: 1px;
+  z-index: 1;
 }
 
 #navegacao ul li {
@@ -25,6 +26,11 @@ body {
   text-align: center;
   list-style: none;
   background-color: antiquewhite;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px black;
+  z-index: 2;
 }
 
 .test {
@@ -35,7 +41,7 @@ body {
 
 #minha_foto {
   display: block;
-  margin-top: 150px;
+  margin-top: 170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,6 +61,7 @@ h2{
   background-color: antiquewhite;
 }
 
+
 .text-aside{ 
   font-size: 23px;
   float: right;
@@ -62,13 +69,6 @@ h2{
   margin-top: 10px;
   margin-bottom: 80px;
   background-color: antiquewhite;
-}
-
-h4 {
-  text-align: center;
-  background-color: antiquewhite;
-  max-width: 50%;
-  margin-left: 850px;
 }
 
 .box-contact {
