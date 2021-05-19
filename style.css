@@ -10,6 +10,7 @@ background-color: rgb(253, 251, 251)
 
 #cabecalho {
 background-color: rgb(53, 53, 53); 
+position: fixed;
 text-align: center; 
 padding: 5px;
 border: 5px;
@@ -25,11 +26,44 @@ margin-top: 0;
 
 #minha_foto {
 width: 150px;
-margin-top:0px;
+margin-top:150px;
 text-align: center;
 border-radius: 150px;
 }
 
 section {
     text-align: center;
+}
+article {
+    margin-right: 750px;
+    margin-left: 40px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgb(189, 184, 184);
+}
+#titulo-artigo {
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(29, 46, 46);
+    margin-bottom: 15px;
+}
+
+aside {
+    margin-right: 750px;
+    margin-left: 40px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#licoes_aprendidas {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
 }
