@@ -1,5 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 15px;
 }
 
 #cabecalho ,#cabecalho #titulo{
@@ -13,6 +14,9 @@ img {
     margin-top: 35px;
 }
 
+ol li, ul li {
+    font-family:fantasy ;
+}
 
 #minha_foto {
     height: 300px;
@@ -38,9 +42,10 @@ article p {
     word-wrap: break-word;
     box-shadow: 10px 10px 10px black;
     display: inline-block;
+    
 }
 
-aside  {
+aside p {
     position: absolute;
     width: 250px;
     margin-left: 650px;
@@ -48,6 +53,8 @@ aside  {
     word-wrap: break-word;
     box-shadow: 10px 10px 10px black;
     height: 220px;
+    
+    
     
 }
 
@@ -61,3 +68,8 @@ aside  {
 
 }
 
+p {
+    line-height: 15px;
+    font-weight: bold;
+    
+}
