@@ -12,7 +12,7 @@ body {
   text-align: center;
   width: 100%;
   padding: 15px;
-  margin: 50px 0 0 0;
+  margin: 50px 0 0;
   background-color: darkred;
 }
 
@@ -39,7 +39,7 @@ body {
   font-size: 30px;
   margin: 0 0 0 50px;
   line-height: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Calibri, sans-serif;
 }
 
 .subtitulo {
@@ -71,7 +71,6 @@ body {
   line-height: 24px;
 }
 
-
 #licoes_aprendidas {
   margin: 20px;
 }
@@ -82,12 +81,16 @@ body {
 }
 
 .content-centralizer p {
-  text-align:justify;
+  text-align: justify;
+}
+
+.table{
+  border: 2px solid green;
 }
 
 #rodape {
   bottom: 0;
-  margin: 90px 0 0 0;
+  margin: 90px 0 0;
   height: 90px;
   background-color: green;
 }
