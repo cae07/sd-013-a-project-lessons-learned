@@ -6,3 +6,15 @@ header {
   position: fixed;
   top: 0;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 30%;
+  text-align: center;
+}
+
+#tabela tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
