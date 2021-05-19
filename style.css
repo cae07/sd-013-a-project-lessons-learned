@@ -57,6 +57,7 @@ table , td {
 }
 
 .lado-esquerdo {
+  float: left;
   padding: 5px;
   margin: 10px;
   width: 1000px;
