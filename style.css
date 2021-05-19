@@ -1,14 +1,13 @@
 body {
-    margin: 0;
     background-color: rgb(253, 251, 251);
 }
 
 a {
     text-decoration: none;
     color: #fff;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(9, 122, 214);
     border-radius: 5px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 #cabecalho {
@@ -26,6 +25,12 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main {
+    border: 4px solid black;
+    background-color: rgb(185, 116, 5);
+    margin-top: 150px;
+}
+
 #nav {
     margin: 25px;
 }
@@ -38,60 +43,90 @@ a {
 }
 
 .foto {
-    margin-top: 40px;
-    margin-left: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
     float: left;
 }
 
 #minha_foto {
+    width: 400px;
+}
+
+.licoes {
+    display:inline-block;
+    margin-top: -10em;
+    margin-left: 40px;
+}
+
+.licoes_aprendidas {
+    margin-left: 30px;
+    border: 4px solid black;
+    background-color: rgb(0, 138, 251);
     width: 300px;
 }
 
-.aprendizados {
+
+.licoes_a_aprender {
+    margin-left: 30px;
     border: 4px solid black;
-    background-color: rgb(100, 54, 86);
-    width: 17%;
-    margin-right: 20px;
-    float: right;
+    background-color: red;
+    width: 300px;
 }
 
-#licoes_aprendidas {
-    
+.artigos {
+    margin-top: 20px;
 }
 
-#licoes_a_aprender {
-
-}
-
-.artigo {
-    border: 4px solid black;
-    background-color: rgb(177, 116, 116);
-    padding: 20px;
-    margin-left: 28%;
-    margin-right: 20%;
-    margin-top: 120px;
-}
-
-.conteudo1 {
-    padding: 40px 0px;
+.aprender {
+    display: inline-block;
     border: 4px solid black;
     background-color: blue;
-    width: 99%;
-    height: 250px;
+    width: 30%;
+    margin-left: 50px;
     text-align: center;
+    margin-top: 0;
 }
 
-.conteudo2 {
-    padding: 30px 0px;
+#artigo1 {
+    color: #fff;
+    padding: 50px 30px;
+    font-size: 30px;
+}
+
+.aprendizado {
+    display: inline-block;
     border: 4px solid black;
     background-color: blueviolet;
-    width: 99%;
-    height: 162px;
-    margin-top: 20px;
+    width: 20%;
     text-align: center;
+    margin-left: 20px;
+}
+
+#artigo2 {
+    color: #fff;
+    padding: 0px 30px 40px 30px;
+    font-size: 30px;
+}
+
+table {
+    display: inline-block;
+    padding: 50px;
+    margin-left: 150px;
+    margin-bottom: 80px;   
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: rgb(58, 173, 173);
+}
+
+th {
+    text-align: left;
 }
 
 #rodape {
-    background-color: aqua;
+    background-color: rgb(34, 124, 94);
     text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
 }
