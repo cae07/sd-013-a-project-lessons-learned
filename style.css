@@ -80,7 +80,7 @@ a {
 
 .lado_esquerdo {
     font-family: sans-serif;
-    display: inline-block;
+    display: inline-flex;
     border: 4px solid black;
     background-color: blue;
     width: 30%;
@@ -96,7 +96,7 @@ a {
 }
 
 .lado_direito {
-    display: inline-block;
+    display: inline-flex;
     border: 4px solid black;
     background-color: blueviolet;
     width: 20%;
