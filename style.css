@@ -107,7 +107,7 @@ div + nav a {
 
 td a:hover {
   color: blue;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 @keyframes cor {
