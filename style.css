@@ -71,10 +71,6 @@ aside p {
   float: right;
 }
 
-p {
-  color: rgb(6, 6, 56);
-}
-
 .table {
   float: right;
   margin-right: 250px;
@@ -110,14 +106,14 @@ td + td + td + td a:hover {
 }
 
 @keyframes cor {
-0% {
-    color: rgb(6, 6, 56);
+  0% {
+  color: rgb(6, 6, 56);
   }
   25%{color: yellow;}
   50%{color: black;}
   75%{color: blue;}
   100%{color: rgb(6, 6, 56);}
-}
+  }
 
 #titulo {
   color: rgb(6, 6, 56);
