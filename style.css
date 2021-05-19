@@ -1,9 +1,11 @@
 * {
   margin: 0;
 }
+
 .maincontainer {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   width: 100%;
   height: 7em;
@@ -14,36 +16,43 @@
   border-bottom: 4px solid rgb(21, 53, 197);
   box-shadow: 2px 16px 4px 8px rgba(0, 14, 77, 0.281);
 }
+
 .boxtitle {
   height: 6em;
   width: 28em;
   margin-top: 0.4em;
   margin-left: 10em;
 }
+
 #titulo {
   color: rgb(187, 187, 187);
-  font-family: 'Franklin Gothic Medium';
+  font-family: "Franklin Gothic Medium", sans-serif;
   text-align: center;
   margin-top: 1.2em;
 }
+
 .nav {
   float: right;
   margin-top: 5em;
   margin-right: 8em;  
 }
+
 .nav li {
-  font-family: 'Courier New';
+  font-family: "Courier New", sans-serif;
   font-size: 18px;
   display: inline-block;
   margin-right: 3em;
 }
+
 .nav a {
   color: silver;
   text-decoration: none;
 }
+
 .nav a:hover {
   color: white;
 }
+
 #minha_foto {
   float: left;
   width: 240px;
@@ -51,6 +60,7 @@
   margin-top: 11em;
   margin-left: 8em;
 }
+
 .textcontainer {
   margin-top: 14em;
   margin-left: 2.4em;
@@ -58,24 +68,29 @@
   font-size: 18px;
   line-height: 26px;
 }
+
 .textcontainer span {
   font-weight: bold;
-  font-family: 'Lucida Sans';
+  font-family: "Lucida Sans",sans-serif;
 }
+
 .textcontainer p {
-  font-family: 'Franklin Gothic Medium';
+  font-family: "Franklin Gothic Medium",sans-serif;
   font-size: 18px;
 }
+
 .licoes {
   clear: both;
   padding-top: 6em;
   padding-bottom: 4em;  
 }
+
 .box_licoes_aprendidas {
   display: inline-block;
   float: left;
   margin-left: 8em;
 }
+
 .box_licoes_aprendidas h2 {
   margin-bottom: 1em;
 }
@@ -83,23 +98,27 @@
   margin-bottom: 1em;
   margin-left: 20em;
 }
+
 #licoes_aprendidas {
   display: block;
 }
 #licoes_aprendidas li {
-  font-family: 'Lucida Sans';
+  font-family: "Lucida Sans",sans-serif;
   line-height: 26px;
   font-size: 17px;
 }
+
 #licoes_a_aprender {
   display: block;
   margin-left: 30em;
 }
+
 #licoes_a_aprender li {
-  font-family: 'Lucida Sans';
+  font-family: "Lucida Sans",sans-serif;
   font-size: 17px;
   line-height: 26px;
 }
+
 .aside {
   position: absolute;
   top: 79%;
@@ -110,13 +129,16 @@
   border: 2px solid rgb(85, 85, 85);
   z-index: 0;
 }
+
 .contentarticlebox {
   text-align: justify;
   padding: 2em;
 }
+
 .contentarticlebox p {
   font-size: 18px;
 }
+
 .articlebox {
   max-width: 50%;
   margin: auto;
@@ -125,12 +147,14 @@
   border: 2px solid rgb(85, 85, 85);
   border-radius: 10px;
 }
+
 .section1 {
   text-align: center;
   padding: 4em;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+
 .section1 p {
   text-align: justify;
   font-size: 18px;
@@ -140,6 +164,7 @@
   background-color: black;
   height: 5.4em;
 }
+
 .boxcontent {
   display: block;
   height: 3em;
@@ -147,12 +172,14 @@
   margin-left: 8em;
   padding-top: 2em;
 }
+
 .boxcontent p {
   font-size: 18px;
   letter-spacing: 1px;
-  font-family: 'Gill Sans';
+  font-family: "Gill Sans",sans-serif;
   color: white;
 }
+
 .boxcontent span {
   font-style: italic;
   font-size: 18px;
