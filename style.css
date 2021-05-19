@@ -112,7 +112,7 @@ td + td + td + td a:hover {
   50%{color: black;}
   75%{color: blue;}
   100%{color: rgb(6, 6, 56);}
-  }
+   }
 
 #titulo {
   color: rgb(6, 6, 56);
@@ -127,7 +127,7 @@ nav a {
   margin-top: 15px;
 }
 
-th + th + th + th {
+#escola {
   animation-name: cor;
   animation-duration: 3s;
   animation-iteration-count: infinite;
