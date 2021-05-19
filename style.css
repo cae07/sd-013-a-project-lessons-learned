@@ -3,12 +3,16 @@ body {
 }
 
 header {
+  margin: 5px;
+  border: 5px;
+  border-color: rgba(8, 8, 8, 0.986);;
+  padding: 30px;
   background-color: rgba(8, 8, 8, 0.582);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 120px;
 }
 
 header h1 {
@@ -17,6 +21,9 @@ header h1 {
 }
 
 nav {
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -26,6 +33,41 @@ nav a {
   color: aliceblue;
 }
 
+.apresentacao {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.licoes-aprendidas {
+  text-align: center;
+}
+
+.licoes-aprendidas ol {
+  text-align: left;
+}
+
+.licoes_a_aprender {
+  text-align: center;
+}
+
 table {
   text-align: center;
+}
+
+footer {
+  margin: 5px;
+  border: 5px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.61);
+  text-align: center;
+  height: 50px;
+}
+
+footer a {
+  color: green;
+  text-decoration: none;
+}
+
+footer p {
+  color: antiquewhite;
 }
