@@ -38,6 +38,13 @@ nav a {
   display: flex;
 }
 
+.lado-esquerdo {
+left: 1;
+}
+
+.lado-direito {
+right: 1;  
+}
 .box {
   width: 40%;
   font-family: sans-serif;
