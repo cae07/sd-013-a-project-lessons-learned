@@ -56,7 +56,7 @@ table , td {
   font-family: serif;
 }
 
-#experiencia-trybe {
+.lado-esquerdo {
   padding: 5px;
   margin: 10px;
   width: 1000px;
@@ -66,7 +66,7 @@ table , td {
   line-height: 20px;
 }
 
-aside {
+.lado-direito {
   display: inline-block;
   float: right;
   width: 300px;
