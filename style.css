@@ -9,7 +9,6 @@ body {
     margin-top: 0;
 }
 
-
 img {
     margin-top: 35px;
 }
@@ -83,7 +82,6 @@ p {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    
 }
 
 tr td {
@@ -91,14 +89,11 @@ tr td {
     border: 1px solid black;
     border-radius: 5px;
     font-family: fantasy;
-    
 }
 
 thead tr th {
-    
     font-weight: bold;
     font-size: 25px;
-    
 }
 
 td a {
@@ -111,13 +106,22 @@ tr td + td + td + td:hover,tr td + td + td + td a:hover{
     cursor: pointer;
 }
 
-
 @keyframes cor {
-    0%{color:rgb(6, 6, 56);}
-    25%{color: blanchedalmond;}
-    50%{color: black;}
-    75%{color: blue;}
-    100%{color: rgb(6, 6, 56);}
+    0% {
+        color:rgb(6, 6, 56);
+    }
+    25% {
+        color: blanchedalmond;
+    }
+    50% {
+        color: black;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: rgb(6, 6, 56);
+    }
 }
 
 #titulo {
