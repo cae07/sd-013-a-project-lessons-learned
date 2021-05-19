@@ -11,23 +11,32 @@
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas na Trybe</h1>
         <nav id="navigation">
-            <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li> <a href="www.betrybe.com" target="_blank"> Site oficial Trybe</a></li>
-            </ul>
-
+            <table>
+                <tr>
+                  <td><strong>HOME</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>SOBRE</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>CONTATO</strong></td>
+                </tr>
+                <tr>
+                    <td><strong><a href="www.betrybe.com" target="_blank"> SITE OFICIAL TRYBE</a></strong></td>
+                </tr>
+            </table>
         </nav>
     </header>    
-    <br><br><br>
+    
     <section class="foto">
          <img id="minha_foto" src="MinhaFoto.jpg" alt="Guilherme Couto">
          <br>
          <a href="MinhaFoto.jpg" target="_blank">Guilherme Couto</a>
          <br>
     </section>
+    <hr>
     <section class="conteudo">
+        <div class="lado-esquerdo">
           <ol id="licoes_aprendidas">
           <h2>Conteudos já aprendido</h2>
             <li>Unix</li>
@@ -41,9 +50,10 @@
             <li>Funcionamento da internet</li>
             <li>Inteligencia emocional</li>
           </ol>
-           
-           <ul id="licoes_a_aprender">
-           <h2>Conteudos a aprender</h2>
+        </div>  
+           <div class="lado-direito">
+             <ul id="licoes_a_aprender">
+             <h2>Conteudos a aprender</h2>
                <li>JavaScript</li>
                <li>Dom</li>
                <li>Forms</li>
@@ -54,7 +64,8 @@
                <li>React</li>
                <li>Node</li>
                <li>SQL</li>               
-           </ul>
+             </ul>
+          </div>
     </section>
     <article id="artigo">
         <h3>Meu aprendizado</h3>
