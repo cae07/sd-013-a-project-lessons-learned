@@ -41,13 +41,13 @@ body {
   border: 5px solid rgb(60, 127, 190);
 }
 
-#passagem {
+#lado-esquerdo {
   display: inline-block;
   width: 20%;
   margin-left: 20px;
 }
 
-#passagem2 {
+#lado-direito {
   display: inline-block;
   width: 50%;
 }
@@ -55,15 +55,19 @@ body {
 h2 {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
   margin-left: -15px;
+  color: #00000d;
 }
 
 h3 {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-variant: small-caps;
+  line-height: 20px;
   margin-top: 15px;
   margin-right: 20px;
+  color: #00000d;
 }
 
 #licoes {
