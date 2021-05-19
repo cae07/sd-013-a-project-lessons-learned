@@ -107,19 +107,11 @@ tr td + td + td + td:hover,tr td + td + td + td a:hover{
 }
 
 @keyframes cor {
-    0% { color:rgb(6, 6, 56); }
-    25% {
-        color: blanchedalmond;
-    }
-    50% {
-        color: black;
-    }
-    75% {
-        color: blue;
-    }
-    100% {
-        color: rgb(6, 6, 56);
-    }
+    0% { color: rgb(6, 6, 56); }
+    25% { color: blanchedalmond; }
+    50% { color: black; }
+    75% { color: blue; }
+    100% { color: rgb(6, 6, 56); }
 }
 
 #titulo {
