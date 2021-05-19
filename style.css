@@ -112,4 +112,14 @@ nav .about, a:nth-child(5):hover~.animacao {
     left: 490px;
     background-color: gray;
 }
+
+nav .home-fixo, a:nth-child(1):hover~.animacao {
+    width: 100px;
+    left: 0;
+    background-color: yellow;
+}
+
+/* para esse tipo de animação, é recomendado que vc repita 
+o *primeiro* processo da aba: nav .[...]:hover~... para a 
+animação resetar!
 /* consertar bug do about/home */
