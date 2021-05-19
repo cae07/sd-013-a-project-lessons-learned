@@ -1,100 +1,91 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Farro', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Farro, sans-serif;
 }
 
-header#cabecalho {
-    position: fixed;
-    background-color: aqua;
-    margin-top: 0px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 20%;
-    border: 1px solid black;
+#cabecalho {
+  position: fixed;
+  background-color: aqua;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 20%;
+  border: 1px solid black;
 }
 
-header#cabecalho h1 {
-    margin-bottom: 4%;
-    margin: 2%;
+#cabecalho h1 {
+  margin: 2%;
 }
 
 #nav-bar {
-    text-align: right;
-    margin-right: 4%;
-    margin-top: 13px;
+  text-align: right;
+  margin-right: 4%;
+  margin-top: 13px;
 }
 
-nav#nav-bar a {
-    color: black;
-    background-color: #fff;
-    border-radius: 20px;
-    padding: 5px 10px;
-    text-decoration: none;
-    display: inline-block;
-    text-decoration: none;
-    border: 0.5px solid black;
+#nav-bar a {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid black;
 }
 
 #bar {
-    margin-bottom: 14%;
-    width: 100%;
-}
-
-main {}
-
-#content {
-    /* width: 50%; */
+  margin-bottom: 14%;
+  width: 100%;
 }
 
 #minha_foto {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid black;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
 }
 
 p {
-    text-align: justify;
-    font-size: 16px;
-    color: black;
-    line-height: 22px;
+  text-align: justify;
+  font-size: 16px;
+  color: black;
+  line-height: 22px;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 45%;
-    margin-left: 2%;
+  float: left;
+  width: 45%;
+  margin-left: 2%;
 }
 
 .lado-direito {
-    float: right;
-    width: 45%;
-    margin-right: 2%;
+  float: right;
+  width: 45%;
+  margin-right: 2%;
 }
 
 #learned {
-    margin-top: 180px;
-    margin-bottom: 90px;
+  margin-top: 180px;
+  margin-bottom: 90px;
 }
 
-ol, ul {
-    margin: 0 auto;
-    width: 30%;
-    text-align: left;
-    line-height: 25px;
+ol , ul {
+  margin: 0 auto;
+  width: 30%;
+  text-align: left;
+  line-height: 25px;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 footer {
-    margin-bottom: 1%;
-    margin-top: 8%;
+  margin-bottom: 1%;
+  margin-top: 8%;
 }
 
 footer p {
-    text-align: center;
+  text-align: center;
 }
