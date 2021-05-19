@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+footer {
+  background-color: blueviolet;
+  width: 100%;
+}
+
 #cabecalho {
   background-color: blueviolet;
   position: fixed;
