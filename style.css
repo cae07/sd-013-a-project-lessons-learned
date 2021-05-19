@@ -101,7 +101,7 @@ h2 {
 }
 
 .lado-direito { 
-  position: relative;
+  position: relative; 
   bottom: 40px;
   font-size: 23px;
   float: right;
