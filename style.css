@@ -1,17 +1,47 @@
 body {
+    font-family: "Raboto";
+    font-size: medium;
+    line-height: 20px;
     background-color: rgb(253, 251, 251);
+    top: 0;
+    margin: 0;
 }
 
 header {
-    top: 0;
     margin: 0;
 }
 
 #titulo {
     text-align: center;
     background-color: green;
+    margin: auto;
+    padding: 10px;
 }
 
 #minha_foto {
     max-width: 250px;
+    margin-top: 50px;
+    border: black;
+    border-radius: 100px;
+}
+
+#rodape {
+    background-color: indigo;
+    bottom: 0;
+    text-align: center;
+}
+
+#licoes_a_aprender {
+    background-color: blue;
+    
+}
+
+#licoes_aprendidas {
+    background-color: red;
+    color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+    top: 0;
+    position: fixed;
 }
