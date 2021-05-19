@@ -7,10 +7,12 @@
 
 body {
   background: rgb(253, 251, 251);
+  font-family: fantasy;
 }
 
 nav {
   position: fixed;
+  margin-left: 20px;
   text-align: center;
   top: 60px;
 }
@@ -64,21 +66,32 @@ nav ul li {
 }
 
 #tabela {
+  float: left;
   border: 1px solid black;
   width: 240px;
   margin-left: 0;
   border-radius: 0 0 15px 15px;
 }
 
-#perfil-conteudo {
-  margin-top: 105px;
-  margin-left: 0;
-  width: 239px;
-  height: 155px;
-  text-align: center;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-radius: 15px 15px 0 0;
+aside , article {
+  clear: both;
+}
 
+.sessao-lista {
+  margin-top: 105px;
+  margin-right: 139px;
+  margin-left: 50px;
+  float: left;
+}
+
+.sessao-lista li:hover {
+  background: green;
+}
+
+#licoes_aprendidas li , #licoes_a_aprender li {
+  list-style: none;
+}
+
+ul , ol {
+  padding: 0;
 }

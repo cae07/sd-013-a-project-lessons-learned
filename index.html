@@ -26,30 +26,28 @@
     </nav>
 
     <main>
-        <section>
+        <section class="sessao-lista">
+            <header>
+                <h2 class="hidder">Foto de Perfil</h2>
+            </header>
+            <table id="tabela">
+                <tr>
+                    <th colspan="2"><img id="minha_foto" src="/img/foto-perfil.jpeg" alt="Foto de Perfil"></th>
+                </tr>
+                <tr>
+                    <td>Nome:</td>
+                    <td>Rogerio P. Da Silva</td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="sessao-lista">
             <header>
                 <h2 class="hidder">Conteudo Principal</h2>
             </header>
-            <section id="perfil-conteudo">
-                <header>
-                    <h2 class="hidder">Foto de Perfil</h2>
-                </header>
-                <img id="minha_foto" src="/img/foto-perfil.jpeg" alt="Foto de Perfil">
-                <table id="tabela">
-                    <tr>
-                        <th colspan="2">Informações</th>
-                    </tr>
-                    <tr>
-                        <td>Nome</td>
-                        <td>Rogerio P. Da Silva</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-
-                </table>
-            </section>
-            <section>
                 <header>
                     <h2>Licões Aprendidas</h2>
                 </header>
@@ -65,28 +63,27 @@
                     <li>Slack</li>
                     <li>Zoom</li>
                 </ol>
-            </section>
-            <section>
-                <header class="hidder">
-                    <h2>
-                        Licões a prender
-                    </h2>
-                </header>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>CSS3 - Grid</li>
-                    <li>CSS3 - Flexbox</li>
-                    <li>ReactJs</li>
-                    <li>NodeJs</li>
-                    <li>API</li>
-                    <li>APIRest</li>
-                    <li>Banco de dados</li>
-                    <li>Python</li>
-                    <li>Sites Responsivos</li>
-                </ul>
-            </section>
         </section>
-        <article>
+        <section class="sessao-lista ">
+            <header>
+                <h2>
+                    Licões a prender
+                </h2>
+            </header>
+            <ul id="licoes_a_aprender">
+                <li>JavaScript</li>
+                <li>CSS3 - Grid</li>
+                <li>CSS3 - Flexbox</li>
+                <li>ReactJs</li>
+                <li>NodeJs</li>
+                <li>API</li>
+                <li>APIRest</li>
+                <li>Banco de dados</li>
+                <li>Python</li>
+                <li>Sites Responsivos</li>
+            </ul>
+        </section>
+        <article class="lado-esquerdo">
             <header>
                 <h2>Meu aprendizado</h2>
             </header>
@@ -96,19 +93,19 @@
                 aprendedos varios comandos como <span>git add .</span> <span>git status</span>, <span>git commit -m
                 "Messagem"</span> e varios outros comandos.<br>
             </p>
-        </article>
-        <section>
-            <aside>
-                <header>
-                    <h2>Um acontecimento</h2>
-                </header>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui tempora deserunt! Est fuga
-                    ratione eum consequuntur.
-                </p>
-            </aside>
-        </section>
+        </article>    
     </main>
+
+    <aside class="lado-direito">
+        <header>
+            <h2>Um acontecimento</h2>
+        </header>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati qui tempora deserunt! Est fuga
+            ratione eum consequuntur.
+        </p>
+    </aside>
+
     <footer id="rodape">
         <h3 class="hidder">
             Links das redes sociais
