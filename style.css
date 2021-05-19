@@ -12,13 +12,17 @@ body {
     top: 0;    
     border: 2px solid black;
     width: 100%;
-    text-align: center;
+    text-align: center;    
+}
+
+#titulo {
+  font-family:'Courier New', Courier, monospace;
 }
 
 .sectionimagem {
   border: 2px solid black;
   width: 80%;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #divimagem img{  
@@ -27,7 +31,7 @@ body {
 #minha_foto {
   width: 300px;
   margin: 50px;
-  margin-left: 500px;
+  margin-left: 30%;
 }
 
 article {
@@ -35,38 +39,47 @@ article {
   width: 80%;
 }
 
-.sectionlist {
-  border: 2px solid black; 
-}
-
 #licoes_aprendidas {
-  position: flex;
-  flex-direction: row;
+  float: left;
   width: 30%;
   border: 2px solid black;
+  margin-left: 5%;
+  padding-left: 25px;
 }
 
-#p_ol {
+#h3_ol {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 15%;
+  display: inline-block;
+  width:50%;
 }
 
 #licoes_aprendidas li {  
 }
 
-#licoes_a_aprender {
-  position: flex;
-  flex-direction: row;
+#licoes_a_aprender {  
   width: 30%;
   border: 2px solid black;
-  margin-left: 65%;
+  margin-left: 58%;
+  padding-left: 25px;
 }
 
-#p_ul {
+#h3_ul {
   text-align: right;
-  margin-right: 90px;
+  margin-right: 15%;
+  display: inline-block;
+  margin-left: 25%;
 }
 
 #licoes_a_aprender li {
   list-style-type: disc;  
+}
+
+
+
+
+
+#rodape {
+  background-color: cornflowerblue;
+  text-align: center;
 }
