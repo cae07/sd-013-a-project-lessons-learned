@@ -18,14 +18,6 @@ body {
   display: inline-block;
 }
 
-.lado-esquerdo {
-  float: left;
-}
-
-.lado-direito {
-  float: right;
-}
-
 .fonte-media {
   font-size: 24px;
 }
@@ -49,6 +41,10 @@ body {
   box-shadow: 0 2px 10px rgba(163, 161, 161, 0.699);
 }
 
+.nav-container {
+  float: right;
+}
+
 .nav-img {
   width: 25px;
   height: auto;
@@ -57,6 +53,7 @@ body {
 
 .nav {
   margin-top: 3px;
+  float: right;
 }
 
 .nav-link {
@@ -85,6 +82,7 @@ body {
 .tabela {
   margin-top: 65px;
   width: 60%;
+  float: right;
 }
 
 .tabela-borda {
@@ -94,11 +92,6 @@ body {
 .tabela-titulo {
   width: 30%;
   text-align: left;
-}
-
-.lista-titulo {
-  padding-left: 22px;
-  margin-bottom: 10px;
 }
 
 .tabela-link {
@@ -119,13 +112,19 @@ tbody tr td {
   border-bottom: 1px solid rgb(111, 94, 92);
 }
 
-.lista-container {
-  margin-right: 35px;
+.lista-aprendizados {
+  margin-bottom: 50px;
+  width: 65%;
+  height: 280px;
 }
 
-.aprendizados {
-  margin-bottom: 50px;
-  height: 280px;
+.lista-container {
+  margin-right: 100px;
+}
+
+.lista-titulo {
+  padding-left: 22px;
+  margin-bottom: 10px;
 }
 
 #licoes_aprendidas li {
@@ -136,8 +135,19 @@ tbody tr td {
   line-height: 1.5;
 }
 
-.artigo {
-  width: 320px;
+.depoimento {
+  margin-bottom: 50px;
+  height: 305px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
 }
 
 .artigo-titulo {
@@ -148,16 +158,12 @@ tbody tr td {
   line-height: 1.5;
 }
 
-.aside {
-  position: absolute;
-  z-index: 1;
-  top: 195px;
-  left: 55px;
-  width: 140px;
+.aside-titulo {
+  margin-bottom: 10px;
 }
 
 .aside-texto {
-  font-style: italic;
+  line-height: 1.5;
 }
 
 #rodape {
