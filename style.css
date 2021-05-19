@@ -1,41 +1,97 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+header #cabecalho{
+  width: 100%;
+  background-color:#0095A3;
+  display: flex;
+  justify-content: 
+}
+
+#cabecalho {
   position: fixed;
   top: 0;
 }
 
-#rodape{
+#titulo {
+  margin-left: 10%;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 12px;
+  font-size: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  
+  padding: 10px 15px;
+}
+
+.menu li a:hover {
+  background-color: rgba(100, 100, 100, 08);
+}
+
+#minha_foto{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 25px;
+  display:flex;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#rodape {
   background-color:grey;
   padding: 20px 10px 20px;
 }
 
-.contato{
+.contato {
   margin-left: 43%;
   display: block;
   color: white;
 }
 
-.contat{
+.contat {
   margin-left: 33px;
 }
 
-.doug{
+.doug {
   display: block;
   color: white;
   margin-left: 45%;
   margin-top: 15px;
 }
 
-#topo{
+#topo {
   display: block;
   position:absolute;
-  top:154%;
+  top:190%;
   border-bottom:black solid;
 }
 
-.texto{
+#texto {
   width: 430px;
+  line-height: 24px;
+}
+
+.aprendizado {
+  width: 430px;
+  line-height: 24px;
+}
+
+.list_licoes {
+  line-height: 24px;
+  margin-top: 10%;
+}
+
+article {
+  display: inline-block;
 }
