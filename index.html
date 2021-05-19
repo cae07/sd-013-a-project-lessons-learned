@@ -1,54 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Primeiro Projeto Trybe</title>
+  </head>
 
-<body>
-    <nav id="cabecalho">
+  <body>
+    <header>
+      <nav id="cabecalho">
+        <img id="minha_foto" src="images/logo-trybe.jpg" alt="Minha Foto" />
         <h1 id="titulo">Primeiro Projeto Trybe</h1>
-    </nav>
-    <img id="minha_foto" src="images/foto.jpg" alt="Minha Foto" />
-    <h2>Lições aprendidas na Trybe</h2>
-    <ol id="licoes_aprendidas">
-        <li>Fundamentos do Desenvolvimento Web
-        </li>
-        <li>Desenvolvimento Front-end
-        </li>
-        <li>Desenvolvimento Back-end
-        </li>
-        <li>Ciência da Computação
-        </li>
-        <li>Inteligência Emocional
-        </li>
-        <li>Comunicação
-        </li>
-        <li>Colaboração
-        </li>
-        <li>Pensamento Crítico
-        </li>
-        <li>Criatividade
-        </li>
-        <li>Liderança
-        </li>
-    </ol>
+      </nav>
+    </header>
 
-    <ul id="licoes_a_aprender">
-        <li>Rotina no Ambiente de Trabalho</li>
-        <li>Oratória</li>
-        <li>Descontração</li>
-        <li>Persuasão</li>
-        <li>Big Data</li>
-        <li>Machine Learning</li>
-        <li>Arduino</li>
-        <li>Softwares Embarcados</li>
-        <li>Aplicativos Mobile</li>
-        <li>Linux</li>
-    </ul>
-</body>
+    <div id="principal" class="lado-equerdo">
+      <section>
+        <article>
+          <h2>Sobre o aprendizado na Trybe</h2>
+          <p>
+            A Metodologia Ativa de ensino na Trybe de fato é o diferencial desta
+            escola. Ao mesmo tempo que você tem conteúdos síncronos de qualidade
+            com outros alunos e uma plataforma recheada de conteúdo e
+            exercícios, o aluno também é incentivado a "aprender a aprender"
+            para que no decorrer da sua carreira como desenvolvedor, tenha a
+            desenvoltura e produtividade esperada pelo mercado.
+          </p>
+        </article>
+      </section>
+       
+		<section id="bloco-licoes">
+			<div class="licoes">
+          <h2>Lições aprendidas na Trybe</h2>
+          <ol id="licoes_aprendidas">
+            <li>Fundamentos do Desenvolvimento Web</li>
+            <li>Desenvolvimento Front-end</li>
+            <li>Desenvolvimento Back-end</li>
+            <li>Ciência da Computação</li>
+            <li>Inteligência Emocional</li>
+            <li>Comunicação</li>
+            <li>Colaboração</li>
+            <li>Pensamento Crítico</li>
+            <li>Criatividade</li>
+            <li>Liderança</li>
+          </ol>
+        </div>
 
+        <div class="licoes">
+          <h2>Lições a aprender na Trybe</h2>
+          <ul id="licoes_a_aprender">
+            <li>Rotina no Ambiente de Trabalho</li>
+            <li>Oratória</li>
+            <li>Descontração</li>
+            <li>Persuasão</li>
+            <li>Big Data</li>
+            <li>Machine Learning</li>
+            <li>Arduino</li>
+            <li>Softwares Embarcados</li>
+            <li>Aplicativos Mobile</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+ 		</section>
+</div>
+<div>
+
+<aside class="lado-direito">
+<h2>Minha experiência</h2>
+           <p> Até o momento em que desenvolvo esta página (18/05/2021), sinto que
+            a cultura da Trybe é o que tem feito a diferença no meu aprendizado,
+            com profissionais que focam no aprendizado do aluno.
+          </p>
+<img src="images/slack.png" alt="imagem Slack"></aside></div>
+
+    <footer id="rodape">
+      <h2>
+        By
+        <a href="https://ricardo-sousa-dev.github.io/" target="_blank"
+          >Ricardo Sousa</a
+        >
+      </h2>
+				<table>
+					<tr>
+						<th>Trybe</th>
+						<th>2021</th>
+					</tr>
+				</table>
+    </footer>
+  </body>
 </html>

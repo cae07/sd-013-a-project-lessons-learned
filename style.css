@@ -1,12 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  background-color: cornflowerblue;
+	display: flex;
+}
+
 body {
+	display:flex;
   background-color: rgb(253, 251, 251);
+	margin-top: 140px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	flex-wrap: wrap;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+	display: flex;
+	width: 100%;
+	padding: 10px 0;
+	background-color: #026B52;
+	min-height: 100px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+#cabecalho h1 {
+	align-self: center;
+	display: inline;
 }
 
 #minha_foto {
-  width: 200px;
+  width: 80px;
+	border-radius: 50%;
+}
+
+#principal {
+	width: 1000px;
+	border-right: 1px solid #026B52;
+	align-self: center;
+	margin-bottom: 30px;
+}
+
+aside {
+	width: 300px;
+	align-self:center;
+	padding-top: 20px;
+}
+
+aside img , aside h2 {
+	width: 100px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+aside p {
+	margin: 20px;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
+article h2 {
+	display: inline;
+}
+
+#bloco-licoes {
+	margin: 30px 0px 30px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.licoes {
+	width: 35%;
+	display: block;
+	flex-wrap:wrap;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	text-align: justify;
+	height: auto;
+	
+}
+
+section {
+	margin: 20px;
+
+}
+
+ul, ol{
+	margin: 0 30px;
+}
+
+footer {
+	background-color: #026B52;
+	width: 100%;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+	font-size: 6px;
+	display: flex;
+	justify-content: space-between;
+	position:relative;
+align-self:flex-start;
+}
+
+footer h2 {
+	font-size: 10px;
+	display:block;
+	margin: 20px;
+}
+
+a{
+	font-size: 10px;
+	text-decoration: none;
+	color:white;
+}
+
+table {
+	margin: 20px;
 }
