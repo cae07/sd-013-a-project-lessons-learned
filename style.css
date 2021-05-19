@@ -1,16 +1,43 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;  
+  color:rgb(108, 121, 165)
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  border: 2px solid green;  
+  border: 2px solid green; 
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  border: 2px solid gray;
+  margin-top: 1%;
+  padding-left: 1%;
+  max-width: 40%; 
+}
+
+#licoes_aprendidas {
+  border: 2px solid gray; 
+  margin-top: 1%;
+  padding-left: 1%;
+  max-width: 40%; 
+}
+
+.lado-esquerdo {
+  margin-left: 10px;
+}
+
+.lado-direito {
+  margin-left: 10px;
 }
 
 .artigo-secao {
   width: 80%;
+  border-left: 50%;
 }
 
 .link-trybe {
