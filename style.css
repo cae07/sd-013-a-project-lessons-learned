@@ -5,7 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  color: #000000;
+  color: black;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -35,11 +35,7 @@ body {
 }
 
 .cor-primaria {
-  color: #6f5e5c;
-}
-
-.cor-secundaria {
-  color: #a28497;
+  color: rgb(111, 94, 92);
 }
 
 #cabecalho {
@@ -47,10 +43,10 @@ body {
   z-index: 2;
   width: 100%;
   top: 0;
-  background-color: #a28497;
-  color: #fff;
+  background-color: rgb(162, 132, 151);
+  color: white;
   padding: 20px 30px;
-  box-shadow: 0px 2px 10px rgba(163, 161, 161, 0.699);
+  box-shadow: 0 2px 10px rgba(163, 161, 161, 0.699);
 }
 
 .nav-img {
@@ -65,7 +61,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 .nav-link:hover {
@@ -79,7 +75,7 @@ body {
 #minha_foto {
   width: 240px;
   height: auto;
-  border: 4px solid #6f5e5c;
+  border: 4px solid rgb(111, 94, 92);
 }
 
 .indicacoes {
@@ -92,7 +88,7 @@ body {
 }
 
 .tabela-borda {
-  border-bottom: 1px solid #6f5e5c;
+  border-bottom: 1px solid rgb(111, 94, 92);
 }
 
 .tabela-titulo {
@@ -107,7 +103,7 @@ body {
 
 .tabela-link {
   text-decoration: none;
-  color: #000000;
+  color: black;
 }
 
 .tabela-link:hover {
@@ -120,7 +116,7 @@ thead tr th {
 
 tbody tr td {
   line-height: 1.5;
-  border-bottom: 1px solid #6f5e5c;
+  border-bottom: 1px solid rgb(111, 94, 92);
 }
 
 .lista-container {
@@ -129,6 +125,7 @@ tbody tr td {
 
 .aprendizados {
   margin-bottom: 50px;
+  height: 280px;
 }
 
 #licoes_aprendidas li {
@@ -164,8 +161,8 @@ tbody tr td {
 }
 
 #rodape {
-  color: #fff;
-  background-color: #4a5240;
+  color: white;
+  background-color: rgb(74, 82, 64);
   padding: 20px;
   text-align: center;
 }
