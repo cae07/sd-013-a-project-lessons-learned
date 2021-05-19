@@ -1,25 +1,50 @@
+* {margin: 0;padding: 0;}
+
 body {
-  background: rgb(253, 251, 251);
-  color: black;
+	background: rgb(253, 251, 251);
+}
+
+#tamanho-e-cor {
+	width: 10px ,1366px ,20px ,20px;
+	background-color: aquamarine;
 }
 
 #cabecalho {
-  top: px;
+
+	top: 0px;
+	position: fixed;
+}
+
+nav li {
+	padding-left: 200px;
+	padding-top: 15px;
+	list-style: none;
+	display: flex;
+	float: left;
+}
+
+#titulo {
+	
+	position: relative;
+	float: left;
+	max-width: 100%;
 }
 
 #minha_foto {
-  width: 200px;
+	display: inline;  
+	margin-top: 150px;
+	width: 200px;
 }
 
 #licoes_aprendidas {
-
+	color: black;
 }
 
 #licoes_a_aprender {
-
+	color: black;
 }
 
 #rodape {
-
+	color: black;
 }
 
