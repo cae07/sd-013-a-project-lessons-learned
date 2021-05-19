@@ -22,8 +22,6 @@ body {
 #minha_foto {
   width: 400px;
   margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
@@ -77,6 +75,14 @@ body {
 
 .padding-artigos {
   display: inline-block;
+}
+
+.lado-esquerdo {
+
+}
+
+.lado-direito {
+ 
 }
 
 .sub-titulo {
