@@ -1,5 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Newsreader;
   background-color: rgb(253, 251, 251);
 }
 
@@ -9,7 +9,7 @@ body {
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
-  text-decoration-color:red ; 
+  text-decoration-color:red;
 }
 
 img {
