@@ -6,3 +6,7 @@ body {
   position: fixed;
   top: 0;
 }
+
+.artigo-aprendizado {
+  max-width: 45%;
+}
