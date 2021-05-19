@@ -12,6 +12,22 @@ img {
   max-width: 100%;
 }
 
+#licoes_aprendidas li , #licoes_a_aprender li {
+  font-size: 1.05rem;
+  line-height: 1.25rem;
+  padding: 5px 12px;
+}
+
+#licoes_aprendidas li:nth-of-type(odd) , #licoes_a_aprender li:nth-of-type(odd) {
+  background: linen;
+  color: coral;
+}
+
+#licoes_aprendidas li:nth-of-type(even) , #licoes_a_aprender li:nth-of-type(even) {
+  background: lightgoldenrodyellow;
+  color: goldenrod;
+}
+
 table {
   margin: 0 auto;
   border-spacing: 5px;
@@ -61,7 +77,23 @@ tr:nth-child( 3 ) td:before {
   height: 150px;
 }
 
+.lados-wrapper > * {
+  vertical-align: top;
+  width: 40%;
+  margin: 0 5%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+}
+
+.lado-direito {
+ float: right;
+}
+
 .aside-ad {
+  clear: both;
   text-align: center;
 }
 
