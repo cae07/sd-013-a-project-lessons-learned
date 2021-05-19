@@ -112,7 +112,7 @@ h2 {
 #h33 {
   position: relative;
   text-align: center;
-  bottom: 40px; 
+  bottom: 40px;
 }
 
 .box-contact {
@@ -128,7 +128,7 @@ h2 {
 .box-trybe {
   border: 2px solid;
   max-width: 50%;
-  padding: 30px; 
+  padding: 30px;
   margin-left: auto;
   background-color: antiquewhite;
 }
