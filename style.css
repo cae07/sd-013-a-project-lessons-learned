@@ -89,3 +89,22 @@ a{
   display: inline-block;
   text-align: left;
 }
+
+/*artigos*/
+
+.artigos {
+  background-color: #55C28D;
+  height: 200px;
+}
+
+.artigo-1 {
+  height: 100px;
+  display: inline-block;
+  border: solid 5px black;
+}
+
+.artigo-2 {
+  background-color: brown;
+  display: inline-block;
+  border: 5px solid black;
+}
