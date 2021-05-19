@@ -1,127 +1,149 @@
-*{
-    margin: 0%;
-    padding: 0;
-}
-body{
-    background-color: rgb(253, 251, 251);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
-    color: black;
-}
-h1{
-    color: white;
-}
-h2{
-    color:brown;
-    padding: 1%;   
-    text-align: center; 
-}
-img{
-    width: 300px;
-    border-radius: 10%;
-    margin-top: 190px;  
-    margin-left: 37%;
-    margin-right: 37%;  
-}
-p{
-    color: black;
-    font-size: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-}
-.table{
-    padding: 10px;
-    padding: 5%;
-    margin-right: 38%;
-    margin-left: 38%;
-    table-layout: auto;
-}
-#cabecalho{
-    position: fixed;
-    top: 0%;
-    background-color: brown;
-    z-index: 1;
-    width: 100%;
-    text-align: center;
-}
-#titulo{
-    padding: 15px;
-} 
-#navigation li{
-    background-color: burlywood;
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 5px;
-    padding: 10px;
-    width: 50%; 
-}
-#central p a{
-    color: blue;
-    text-decoration: none;
-    border-radius: 50%;
-    padding: 5px;
-    margin-right: 45%;
-    margin-left: 45%;
-}
-#list{
-    padding: 3%;
-}
-#list1{
-    display: inline-block;
-    width: 45%;
-    margin-right: 20px;
-    padding: 15px;
-    text-align: justify;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#list2{
-    display: inline-block;
-    width: 45%;
-    margin-right: 20px;
-    padding: 15px;
-    text-align: justify;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.section{
-    display: inline-block;
-    width: 40%;
-    margin-right: 2px;
-    padding: 5px;
-    vertical-align: top;
-}
-#artigo{
-    display: inline-block;
-    padding: 5%;
-    font-style: italic; 
-    width: 100%;
-}
-.side-bar{
-    background-color: brown;
-    margin: 10px;
-    color: white;    
-    padding: 40px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-   
-}
-.box{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0%;
-    box-sizing: border-box;
-    display: inline-block; 
-}
-#rodape{
-    text-decoration: none;
-    text-align: center;   
-}
-#rodape a{
-    color: rgb(160, 55, 55);
-    font-size: 15px;
-    padding: 10px;
+* {
+	margin: 0%;
+	padding: 0;
 }
 
+body {
+	background-color: rgb(253, 251, 251);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 15px;
+	color: black;
+}
 
+h1 {
+	color: white;
+}
+
+h2 {
+	color: brown;
+	padding: 1%;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	border-radius: 10%;
+	margin-top: 190px;
+	margin-left: 37%;
+	margin-right: 37%;
+}
+
+p {
+	color: black;
+	font-size: 100%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-style: normal;
+}
+
+.table {
+	padding: 10px;
+	padding: 5%;
+	margin-right: 38%;
+	margin-left: 38%;
+	table-layout: auto;
+}
+
+#cabecalho {
+	position: fixed;
+	top: 0%;
+	background-color: brown;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+}
+
+#titulo {
+	padding: 15px;
+}
+
+#navigation li {
+	background-color: burlywood;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 5px;
+	padding: 10px;
+	width: 50%;
+}
+
+#central p a {
+	color: blue;
+	text-decoration: none;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+
+#list {
+	padding: 3%;
+}
+
+#list1 {
+	display: inline-block;
+	width: 45%;
+	margin-right: 20px;
+	padding: 15px;
+	text-align: justify;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#list2 {
+	display: inline-block;
+	width: 45%;
+	margin-right: 20px;
+	padding: 15px;
+	text-align: justify;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section {
+	display: inline-block;
+	width: 40%;
+	margin-right: 2px;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#artigo {
+	display: inline-block;
+	padding: 5%;
+	font-style: italic;
+	width: 100%;
+}
+
+.side-bar {
+	background-color: brown;
+	margin: 10px;
+	color: white;
+	padding: 40px;
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin: 0%;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#rodape {
+	text-decoration: none;
+	text-align: center;
+    border: solid;
+    padding: 1%;
+}
+
+#rodape a {
+	color: rgb(160, 55, 55);
+	font-size: 15px;
+	padding: 10px;
+}
+
+li:hover{
+    background-color: darkorange;
+}
 
 
 
