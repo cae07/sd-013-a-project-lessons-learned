@@ -19,10 +19,47 @@ header {
 }
 
 #titulo {
-  margin: 0;
-  text-align: center;
+  margin-left: 20px;
   font-family: monospace;
   color: white;
+  width: 17.2vw;
+  display: inline-block;
+  background-color: rgb(8, 77, 110);
+  padding: px;
+}
+
+#titulo a {
+  text-decoration: none;
+  color: white;
+}
+
+#titulo:hover {
+  transform: scale(1.3);
+}
+
+#nav {
+  display: inline-block;
+  list-style: none;
+  margin-left: 17.5%;
+}
+
+#nav ul li {
+  display: inline;
+  background-color: black;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+
+#nav ul li:hover {
+  background-color: rgb(51, 51, 51);
+  transition: background, 0.3s;
 }
 
 #section1 {
@@ -59,7 +96,7 @@ header {
   display: inline-block;
 }
 
-li:first-of-type {
+#licoes_aprendidas ul li:first-of-type {
   margin-top: 10px;
 }
 
