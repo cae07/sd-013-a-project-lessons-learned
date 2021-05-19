@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: rgb(253, 251, 251);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: sans-serif;
 }
 
 img {
@@ -20,7 +20,7 @@ table {
 th {
   border: 2px solid goldenrod;
   color: goldenrod;
-  text-shadow: 1px 1px 1px #333;
+  text-shadow: 1px 1px 1px gray;
 }
 
 td {
@@ -28,10 +28,8 @@ td {
   border: 1px solid black;
 }
 
-tr:nth-child(1) > td::before,
-tr:nth-child(2) > td::before,
-tr:nth-child(3) > td::before {
-  content: "";
+tr:nth-child( 1 ) td:before , tr:nth-child( 2 ) td:before , tr:nth-child( 3 ) td:before {
+  content: '';
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -40,15 +38,15 @@ tr:nth-child(3) > td::before {
   vertical-align: middle;
 }
 
-tr:nth-child(1) > td::before {
+tr:nth-child( 1 ) td:before {
   background: gold;
 }
 
-tr:nth-child(2) > td::before {
+tr:nth-child( 2 ) td:before {
   background: silver;
 }
 
-tr:nth-child(3) > td::before {
+tr:nth-child( 3 ) td:before {
   background: darkgoldenrod;
 }
 
