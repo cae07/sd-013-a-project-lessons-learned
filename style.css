@@ -18,12 +18,12 @@ img {
   padding: 5px 12px;
 }
 
-#licoes_aprendidas li:nth-of-type(odd) , #licoes_a_aprender li:nth-of-type(odd) {
+#licoes_aprendidas li:nth-of-type( odd ) , #licoes_a_aprender li:nth-of-type( odd ) {
   background: linen;
   color: coral;
 }
 
-#licoes_aprendidas li:nth-of-type(even) , #licoes_a_aprender li:nth-of-type(even) {
+#licoes_aprendidas li:nth-of-type( even ) , #licoes_a_aprender li:nth-of-type( even ) {
   background: lightgoldenrodyellow;
   color: goldenrod;
 }
@@ -89,7 +89,7 @@ tr:nth-child( 3 ) td:before {
 }
 
 .lado-direito {
- float: right;
+  float: right;
 }
 
 .aside-ad {
