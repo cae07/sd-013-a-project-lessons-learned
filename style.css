@@ -7,7 +7,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #6E1B09;
+  background-color: #6e1b09;
   width: 100%;
   color: rgb(253, 251, 251);
 }
@@ -20,7 +20,7 @@ body {
 .navbar {
   display: inline;
   float: right;
-  padding:30px 50px;
+  padding: 30px 50px;
 }
 
 .link-hero {
@@ -42,9 +42,9 @@ body {
 #licoes_aprendidas {
   margin: 20px;
   padding: 30px;
-  background-color: #6E1B09;
+  background-color: #6e1b09;
   list-style: none;
-  color:rgb(253, 251, 251);
+  color: rgb(253, 251, 251);
 }
 
 .lessons {
@@ -69,13 +69,13 @@ body {
 #licoes_a_aprender {
   margin: 20px;
   padding: 30px;
-  background-color: #6E1B09;
+  background-color: #6e1b09;
   list-style: none;
   color: rgb(253, 251, 251);
 }
 
 .content-text p {
-    line-height: 15px;
+  line-height: 15px;
 }
 
 #rodape {
@@ -84,7 +84,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 100%;
-  background-color: #6E1B09;
+  background-color: #6e1b09;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   text-align: center;
