@@ -28,6 +28,7 @@ h1 , h2 , h3 {
   top: 0;
   background-color: rgba(46, 193, 139, 255);
   width: 100%;
+  z-index: 2;
 }
 
 #cabecalho h1 {
