@@ -7,13 +7,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,200&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!--Primeira parte da página-->
+    <!--Primeira parte da página-->
   <header id="cabecalho">
     <h1 id="titulo">Manou.exe</h1>
+    <!--Referencia da barra fixa: https://pt.stackoverflow.com/questions/52661/barra-fixa-no-topo-->
+  <nav>
+    <ul>
+      <li>
+        <a class="guia" href="#licoes_aprendidas">About me</a>
+      </li>
+      <li>
+        <a class="guia" href="#rodape">Trybe</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Preciso formatar essa lista de cima ^-->
   </header>
   <img id="minha_foto" src="AirBrush_20210416170750.jpg" alt="Foto de Manou.exe, ou Emanoel">
-  <!--Primeira lista-->
-  <nav>
+    <!--Primeira lista-->
+  <section>
     <ol id="licoes_aprendidas">O que aprendemos:
       <li>Unix</li>
       <li>Bash</li>
@@ -39,12 +51,15 @@
       <li>Desconstrução</li>
       <li>Essencialismo</li>
     </ul>
-  </nav>
+  </section>
+    <!--Conteúdos-->
   <section>
     <article id="artigo">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in dolor non mauris placerat bibendum. Donec luctus auctor metus vel dictum. Integer dui diam, placerat ac lobortis non, posuere ac risus. Aliquam vulputate tristique justo, id egestas lacus semper eu. Vivamus cursus eleifend massa, non dapibus urna venenatis vel. Fusce tincidunt diam et dictum bibendum. Donec lacinia in metus eu pharetra. Donec venenatis ipsum quam, id hendrerit justo consequat in. Phasellus vel libero nisl. Suspendisse egestas sollicitudin diam at dictum.
     <article>
   </section>
+  <!--Tabelas-->
+  <section>
     <table id="tabela">
       <caption>Top 5 Animes:</caption>
         <tr>
@@ -55,7 +70,7 @@
           <th>My Hero Academia</th>
         </tr>
     </table>
-    <table id="tabela">
+    <table id="tabela2">
       <caption>Top 5 personagens:</caption>
       <tr>
         <th>Hamlet</th>
@@ -65,6 +80,8 @@
         <th>Aizen</th>
       </tr>
     </table>
+  </section>
+  <!--Final da página-->
   <section>
     <aside>
       <p id="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a hendrerit lorem. Ut quis pretium nunc. Orci varius natoque penatibus.</p>
