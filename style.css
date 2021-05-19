@@ -26,7 +26,7 @@ body {
 
 #titulo {
   color: rgb(187, 187, 187);
-  font-family: Franklin Gothic Medium, Arial;
+  font-family: Franklin Gothic Medium, 'Arial';
   text-align: center;
   margin-top: 1.2em;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .textcontainer p {
-  font-family: Franklin Gothic Medium, Arial;
+  font-family: Franklin Gothic Medium, 'Arial';
   font-size: 18px;
 }
 
@@ -93,6 +93,7 @@ body {
 .box_licoes_aprendidas h2 {
   margin-bottom: 1em;
 }
+
 .box_licoes_a_aprender h2 {
   margin-bottom: 1em;
   margin-left: 20em;
@@ -101,6 +102,7 @@ body {
 #licoes_aprendidas {
   display: block;
 }
+
 #licoes_aprendidas li {
   font-family: Lucida Sans, sans-serif;
   line-height: 26px;
@@ -120,7 +122,7 @@ body {
 
 .aside {
   position: absolute;
-  top: 79%;
+  top: 26%;
   right: 8%;
   max-width: 15%;
   margin: auto;
@@ -139,19 +141,17 @@ body {
 }
 
 .articlebox {
-  max-width: 50%;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 4em;
+  position: absolute;
+  top: 84%;
+  right: 8%;
+  max-width: 30%;
   border: 2px solid rgb(85, 85, 85);
   border-radius: 10px;
 }
 
 .section1 {
   text-align: center;
-  padding: 4em;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  padding: 2em;
 }
 
 .section1 p {
@@ -160,6 +160,7 @@ body {
 }
 
 #rodape {
+  clear: both;
   background-color: black;
   height: 5.4em;
 }
