@@ -5,8 +5,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    margin-left: 500px;
+    margin-left: 470px;
+    border-radius: 100px 100px;
     background-color: #9c27b0;
+    background-size: auto;
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -14,5 +16,29 @@ body {
 
 h1 {
     color: #fff;
-    
+}
+
+#minha_foto {
+    width: 300px;
+    position: absolute;
+    left: 510px;
+    top: 150px;
+}
+
+.bloco1 {
+    display: inline-block;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    background-color: #d05ce3;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    background-color: #d05ce3;
 }
