@@ -1,7 +1,82 @@
 body {
-  background-color:rgb(253, 251, 251) ;
+  background-color: rgb(253, 251, 251);
+font-family: monospace;
+font-size: 15px;
+line-height: 15px;
+color: rgb(41, 15, 15);
 }
-#cabecalho {
-  top: 0px ;
+#cabecalho{
+  top: 0;
   position: fixed;
+  text-align: center;
+}
+
+ul, ol {
+  background-color:grey;
+  display: inline-block;
+  margin:4px;
+  border-radius: 4%;
+}
+#tabela{
+  color: white;
+  border: solid black;
+  padding: 2% 40%;
+  background-color: black;
+}
+th{
+  background-color: grey;
+  border-style: groove;
+  color: white;
+  font-size: 17px;
+  margin: 3px;
+  
+}
+td{
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+
+#minha_foto{
+  width: 150px;
+  border: solid black;
+  border-radius: 15%;
+}
+header{
+  border: solid black;
+  width: 99%;
+  background-color: gray;
+  color: white;
+  font-family: sans-serif;
+}
+#div1{
+  color: white;
+  border: solid black;
+  text-align: center;
+  background-color: black;
+}
+
+#section{
+  color: white;
+  border: solid black;
+  text-align: center;
+  background-color: black;
+  padding: 5px 15px 30px;
+}
+#aside{
+  color: white;
+  border: solid black;
+  text-align: center;
+  background-color: black;
+  margin: 5px;
+  padding: 30px;
+}
+
+#foto{
+  margin-top: 80px;
+  background-color: black;
+}
+#table{
+  text-align: center;
 }
