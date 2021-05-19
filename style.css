@@ -22,6 +22,9 @@ body {
 #minha_foto {
   width: 400px;
   margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .titulo-lista {
@@ -29,7 +32,7 @@ body {
 }
 
 #titulo-aprendidas {
-display: inline-block;
+  display: inline-block;
 }
 
 #titulo-a-aprender {
@@ -54,24 +57,26 @@ display: inline-block;
   line-height: 25px;
 }
 
-#sobre-aprendizado {
-width: 300px;
-margin-top: 20px;
-padding: 20px;
-background-color: rgb(159, 252, 159);
-border-radius: 10%;
-}
-
-#passagem-aprendizado {
+#article-aprendizado {
   width: 300px;
   margin-top: 20px;
   padding: 20px;
   background-color: rgb(159, 252, 159);
   border-radius: 10%;
+  font-family: Montserrat, sans-serif;
+}
+
+#aside-aprendizado {
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(159, 252, 159);
+  border-radius: 10%;
+  font-family: Montserrat, sans-serif;
 }
 
 .padding-artigos {
-  display: ;
+  display: inline-block;
 }
 
 .sub-titulo {
@@ -100,12 +105,6 @@ border-radius: 10%;
 nav {
   text-align: center;
   font-size: 1.3em;
-}
-
-p {
-  font-family: Montserrat, sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .contato-container {
