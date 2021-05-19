@@ -25,6 +25,7 @@ body {
   margin: 10px;
   text-align: center;
   list-style: none;
+  text-transform: uppercase;
   background-color: antiquewhite;
   border-top-width: 10px;
   border-right-width: 10px;
@@ -38,7 +39,7 @@ body {
 
 .test {
   position: absolute;
-  left: 670px;
+  left: 550px;
   top:80px;
 }
 
@@ -47,6 +48,42 @@ body {
   margin-top: 170px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50px;
+  border: 10px solid green;
+}
+
+#licoes_aprendidas {
+  list-style: none;
+  border: 2px solid;
+  max-width: 20%;
+  padding: 20px;
+  margin-left: 30px;
+  line-height: 20px;
+  background-color: antiquewhite;
+}
+
+#licoes_a_aprender {
+  list-style: none;
+  border: 2px solid;
+  max-width: 20%;
+  margin-left: auto;
+  padding: 20px;
+  margin-right: 30px;
+  line-height: 20px;
+  background-color: antiquewhite;
+ 
+}
+
+table {
+  border: 2px solid;
+  position: relative;
+  bottom: 400px;
+  left: 670px;
+}
+
+td {
+  border: 2px solid;
+  padding: 10px;
 }
 
 h2{
