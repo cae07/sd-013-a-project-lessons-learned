@@ -11,6 +11,7 @@ body {
 
 img {
   margin-top: 35px;
+  box-shadow: 15px 15px 15px black;
 }
 
 ol li, ul li {
@@ -82,7 +83,7 @@ p {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  box-shadow: 10px 10px 10xp black;
+  box-shadow: 15px 15px 15px black;
 }
 
 tr td {
@@ -126,7 +127,8 @@ td + td + td + td a:hover {
 
 nav a {
   font-size: 20px;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
+  margin-top: 15px;
 }
 
 th + th + th + th {
