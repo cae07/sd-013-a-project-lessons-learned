@@ -117,14 +117,7 @@ caption {
   width: 49%;
 }
 
-.languages {
-  float: left;
-  width: 60%;
-}
-
 .trybe {
-  width: 30%;
-  float: right;
   padding-left: 40px;
   margin-top: 40px;
   border-left: 5px solid var(--line);
@@ -144,7 +137,7 @@ caption {
 }
 
 @media screen and (max-width: 800px) {
-  body, table, #cabecalho, .greeting, .lado-esquerdo, .lado-direito, .trybe { 
+  body, table, #cabecalho, .greeting, .lado-esquerdo, .lado-direito {
     width: 100%;
     float: none;
   }
