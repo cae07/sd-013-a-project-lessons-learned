@@ -37,10 +37,10 @@ main {
 
 .lado-esquerdo {
   display: inline-block;
-width: 50%;
+  width: 50%;
 }
 
 .lado-direito {
   display: inline-block;
-width: 25%;
+  width: 25%;
 }
