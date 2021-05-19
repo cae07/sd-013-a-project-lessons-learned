@@ -37,25 +37,28 @@ article p {
     text-align: justify;
     margin-top: 30px;
     margin-left: 50px;
-    width: 250px;
-    height: 220px;
+    width: 330px;
+    height: 290px;
     word-wrap: break-word;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 15px 15px 15px black;
     display: inline-block;
-    
+    line-height: 22px;
+    font-family: fantasy;
+    font-size: 23px;
 }
 
 aside p {
+    text-align: justify;
     position: absolute;
-    width: 250px;
-    margin-left: 650px;
-    margin-top: -237px;
+    width: 330px;
+    margin-left: 720px;
+    margin-top: -312px;
     word-wrap: break-word;
-    box-shadow: 10px 10px 10px black;
-    height: 220px;
-    
-    
-    
+    box-shadow: 15px 15px 15px black;
+    height: 290px;
+    line-height: 22px;
+    font-family: fantasy;
+    font-size: 23px;
 }
 
 #licoes_aprendidas {
@@ -65,11 +68,8 @@ aside p {
 #licoes_a_aprender {
     display: block;
     float: right;
-
 }
 
 p {
-    line-height: 15px;
-    font-weight: bold;
-    
+    color: rgb(6, 6, 56);
 }
