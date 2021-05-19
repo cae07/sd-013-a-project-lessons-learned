@@ -54,6 +54,26 @@ display: inline-block;
   line-height: 25px;
 }
 
+#sobre-aprendizado {
+width: 300px;
+margin-top: 20px;
+padding: 20px;
+background-color: rgb(159, 252, 159);
+border-radius: 10%;
+}
+
+#passagem-aprendizado {
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(159, 252, 159);
+  border-radius: 10%;
+}
+
+.padding-artigos {
+  display: ;
+}
+
 .sub-titulo {
   margin-bottom: 10px;
   text-align: center;
@@ -77,10 +97,6 @@ display: inline-block;
   margin-bottom: 10px;
 }
 
-div {
-  text-align: center;
-}
-
 nav {
   text-align: center;
   font-size: 1.3em;
@@ -90,4 +106,9 @@ p {
   font-family: Montserrat, sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.contato-container {
+  text-align: center;
+  display: block;
 }
