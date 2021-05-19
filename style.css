@@ -104,13 +104,11 @@ thead tr th {
 td a {
     text-decoration: none;
 }
-tr td a:hover {
-    cursor: pointer;
-    
-}
+
 tr td + td + td + td:hover,tr td + td + td + td a:hover{
     background-color: blue;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -127,4 +125,9 @@ tr td + td + td + td:hover,tr td + td + td + td a:hover{
     animation-name: cor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+
+nav a {
+    font-size: 20px;
+    margin-bottom: -20px;
 }
