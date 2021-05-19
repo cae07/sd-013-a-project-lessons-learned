@@ -1,40 +1,53 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    top: 0;
-    font-weight: bold;
-    text-align: center;
-    position: fixed;
-    margin: 5px;
-    padding: 5px, 10px, 15px;
-    border: 2px;
+  top: 0;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  margin: 5px;
+  padding: 5px, 10px, 15px;
+  border: 2px;
 }
 
-.navegacao{
-    background-color: rgb(0, 95, 184);
-    display: inline-block;
-    margin-top: 60px;
-    padding: 20px;
-    padding-left: 10px;
-    width: 100%;
+.navegacao {
+  background-color: rgb(0, 95, 184);
+  display: inline-block;
+  margin-top: 60px;
+  padding: 20px;
+  padding-left: 10px;
+  width: 100%;
 }
 
 nav a { 
-    color: #fff;
-    margin-right: 20px;
-    text-decoration: none;
-    font-family: sans-serif;
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 24px;
 }
 
-#minha_foto{
-    width: 400px;
-    margin-top: 60px;
-}	
+#minha_foto {
+  width: 400px;
+  margin-top: 60px;
+}
 
-#rodape{
-    color: #fff;
-    font-weight: bold;
-    background-color: rgb(0, 95, 184);;
+.main-content {
+  display: flex;
+}
+
+.box {
+  width: 40%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: blue;
+  line-height: 20px;
+}
+
+#rodape {
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(0, 95, 184);
 }
