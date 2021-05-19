@@ -4,45 +4,73 @@
 }
 body{
     background-color: rgb(253, 251, 251);
-}
-.header{
-    border: cyan;
-    background-color: blue;
-    top: 0%;
-    position: fixed;
-    padding: 15px 454px 15px;
-    text-align: center ;
-}
-.picture{
-    width: 300px;
-    margin-top: 1%;
-}
-.footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:cyan;
+}
+h1{
+    color: white;
+}
+h2{
+    color:brown;
+    padding: 1%;   
+    text-align: center; 
+}
+img{
+    width: 300px;
+    border-radius: 10%;
+    margin-top: 190px;  
+    margin-left: 37%;
+    margin-right: 37%;  
+}
+#cabecalho{
+    position: fixed;
+    top: 0%;
+    background-color: brown;
+    z-index: 1;
     width: 100%;
-    font-size: 24px;
-    height: 30px;
-    margin: auto;
-    bottom: 0 ;
-    margin-top: 0px;
     text-align: center;
-    padding: 0%;
 }
-.navigation{
-    background-color: cyan;
-    margin-top: 67px;
-    box-sizing: border-box;  
+#titulo{
+    padding: 15px;
+} 
+#navigation li{
+    background-color: burlywood;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 50%; 
 }
-ul{
-    display: block;
-    list-style-type: disc ;
-    margin-block-start: 1em;
-    margin-inline-end: 1em;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+#central p a{
+    color: blue;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 45%;
+    margin-left: 45%;
 }
+#list{
+    padding: 5%;
+}
+#list1 {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    padding: 15px;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#artigo{
+    display: inline-block;
+    position: relative;
+    padding: 5%;
+}
+main{
+    background-color: rgb(221, 202, 177);
+}
+
+
 
 
     

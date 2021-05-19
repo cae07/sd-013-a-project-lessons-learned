@@ -8,65 +8,86 @@
       <title>Document</title>
    </head>
    <body>
-      <header class="header">
-         <h1>Lições Aprendidas - Trybe!</h1>
+      <header id=cabecalho>
+         <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
+         <nav>
+            <ul id="navigation">
+               <li><a href="#Home">Home</a></li>
+               <li><a href="#Login">Login</a></li>
+               <li><a href="#Contato">Contato</a></li>
+            </ul>
+         </nav>
       </header>
-      <nav class="navigation">
-         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="">Contato</a></li>
-         </ul>
-      </nav>
-      <img src="minha_foto.jpg" alt="minha_foto" class="picture"><br>
-      <a href="https://github.com/ElaineMoreira" target="_blank">Elaine Moreira</a>
-      <h2>licoes_aprendidas:</h2>
-      <ol>
-         <li>Unix</li>
-         <li>Slack</li>
-         <li>Git</li>
-         <li>Github</li>
-         <li>Html</li>
-         <li>Html semântico</li>
-         <li>css</li>
-         <li>sobre soft skills</li>
-         <li>forms</li>
-         <li>zoom</li>
-      </ol>
-      <h2>licoes_a_aprender:</h2>
-      <ul>
-         <li>javascript</li>
-         <li>react</li>
-         <li>bootstrap</li>
-         <li>SQL</li>
-         <li>Node</li>
-         <li>Unit Tests</li>
-         <li>ES6</li>
-         <li>DOM</li>
-         <li>inspect</li>
-         <li>python</li>
-      </ul>
+
       <main>
-         <article>
-            <h3>
-               Olhando para trás, esses 15 dias de Trybe percebi que aprendi 
+
+      <div id="central">
+         <img src="minha_foto.jpg" alt="minha_foto">
+         <p>
+            <a href="https://github.com/ElaineMoreira" target="_blank">Elaine Moreira</a>
+         </p>
+      </div>
+
+     <div id="list">
+        <div id="list1">
+           <ol>
+            <h2>licoes_aprendidas:</h2>
+            <li>Unix</li>
+            <li>Slack</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Html</li>
+            <li>Html semântico</li>
+            <li>css</li>
+            <li>sobre soft skills</li>
+            <li>forms</li>
+            <li>zoom</li>
+         </ol>
+      </div>
+
+      <div id="list1">
+         <ul id="licoes_a_aprender">
+            <h2>licoes_a_aprender:</h2>
+            <li>javascript</li>
+            <li>react</li>
+            <li>bootstrap</li>
+            <li>SQL</li>
+            <li>Node</li>
+            <li>Unit Tests</li>
+            <li>ES6</li>
+            <li>DOM</li>
+            <li>inspect</li>
+            <li>python</li>
+         </ul>
+      </div>
+    </div>
+
+       
+ 
+         <article id="artigo">
+            <h2>Meus primeiros 15 dias</h2>
+               <p>
+                  Olhando para trás, esses 15 dias de Trybe percebi que aprendi 
                mais do que eu imaginava, o dia a dia de um desenvolvedor é um 
                aprendizado constante, todo dia aprende algo novo. Você entra 
                para aprender  e para contribuir, pois até ter o conhecimento dos
                códigos ou até mesmo da metodologia  da própria linguagem de 
                programação que é usada ali, demora um pouco, mas nada que a prática 
                leve a perfeição.
-            </h3>
+            
+               </p>
          </article>
+
          <aside>
             <section>
-               <h3>Alcancei, autoconhecimento, estudo, aquisições, instruções para muitos 
+               <h4>Alcancei, autoconhecimento, estudo, aquisições, instruções para muitos 
                   exercícios, experiência, contribuição com o colega, muita prática, preparação
                   para soft skills.
-               </h3>
+               </h4>
             </section>
          </aside>
       </main>
+
       <footer class="footer">
             Rodape
       </footer>  
