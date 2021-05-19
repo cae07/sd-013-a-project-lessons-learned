@@ -9,9 +9,10 @@ body {
   margin-top: 0;
 }
 
-img {
+#minha_foto {
   margin-top: 35px;
   box-shadow: 15px 15px 15px black;
+  border-radius: 5px;
 }
 
 ol li, ul li {
