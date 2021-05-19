@@ -15,13 +15,58 @@ body {
     text-align: center;
 }
 
-section {
+.sectionimagem {
   border: 2px solid black;
   width: 80%;
   margin-top: 30px;
 }
 
+#divimagem img{  
+}
+
 #minha_foto {
   width: 300px;
   margin: 50px;
+  margin-left: 500px;
+}
+
+article {
+  border: 2px solid black;
+  width: 80%;
+}
+
+.sectionlist {
+  border: 2px solid black; 
+}
+
+#licoes_aprendidas {
+  position: flex;
+  flex-direction: row;
+  width: 30%;
+  border: 2px solid black;
+}
+
+#p_ol {
+  text-align: left;
+  margin-left: 50px;
+}
+
+#licoes_aprendidas li {  
+}
+
+#licoes_a_aprender {
+  position: flex;
+  flex-direction: row;
+  width: 30%;
+  border: 2px solid black;
+  margin-left: 65%;
+}
+
+#p_ul {
+  text-align: right;
+  margin-right: 90px;
+}
+
+#licoes_a_aprender li {
+  list-style-type: disc;  
 }
