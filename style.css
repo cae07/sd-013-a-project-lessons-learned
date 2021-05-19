@@ -13,6 +13,9 @@ body {
     width: 1366px;
     text-align: center;
     padding: 10px;
+    font-size: medium;
+    color: black;
+    line-height: 0;
 }
 
 #minha_foto {
@@ -26,4 +29,24 @@ body {
     left: 500px;
     position: absolute;
     display: inline-flex;
+}
+
+.lado-esquerdo {
+    max-width: 45%;
+    display: inline-block;
+    float: left;
+}
+
+.lado-direito {
+    max-width: 45%;
+    display: inline-block;
+    float: right;
+}
+
+#rodape {
+    font-size: 14px;
+    margin-left: 7px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    top: 100px;
 }
