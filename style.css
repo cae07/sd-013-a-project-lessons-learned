@@ -111,15 +111,24 @@ td a:hover {
 
 @keyframes cor {
 0% {
-    color: rgb(6, 6, 56); }
+    color: rgb(6, 6, 56);
+}
+
 25% {
-    color: yellow; }
+    color: yellow;
+}
+
 50% {
-    color: black; }
+    color: black;
+}
+
 75% {
-    color: blue; }
+    color: blue;
+}
+
 100% {
-    color: rgb(6, 6, 56); }
+    color: rgb(6, 6, 56);
+}
 }
 
 #titulo {
