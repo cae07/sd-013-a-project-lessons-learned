@@ -9,7 +9,7 @@ body {
 
 .container {
   width: 80%;
-  margin: 120px auto;
+  margin: 120px auto 0 auto;
   background-color: rgb(180, 180, 180);
   padding: 10px;
 }
@@ -176,3 +176,14 @@ table th {
   padding: 6px;
   background-color: white;
 }
+
+/* End Table */
+
+/* rodape */
+#rodape {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+}
+
+/* End rodape */
