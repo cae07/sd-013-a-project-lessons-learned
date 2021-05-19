@@ -13,10 +13,11 @@ header {
 
 nav {
   background-color: rgb(3, 161, 127);
-  text-decoration-color: white;
-  font-size: 14px;
+  color: rgb(61, 60, 60);
+  font-size: 20px;
   text-align: center;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  padding: 20px;
 }
 
 .todo-textos {
@@ -26,16 +27,21 @@ nav {
 h1 {
   padding: 20px;
   background-color: rgb(3, 161, 127);
+  color: rgb(61, 60, 60);
+}
+
+.corpo-do-site {
+  display: block;
 }
 
 .lado-esquerdo {
-  display: inline-block;
-  width: 450px;
+  float: left;
+  width: 475px;
 }
 
 .lado-direito {
-  display: inline-block;
-  width: 450px;
+  float: right;
+  width: 475px;
 }
 
 section {
@@ -54,7 +60,7 @@ ul {
   list-style: square;
 }
 
-table, th, td {
+table , th , td {
   text-align: center;
   border: 1px solid black;
   padding: 2px;
@@ -64,24 +70,20 @@ table, th, td {
 
 footer {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
   padding: 20px;
   background-color: rgb(3, 161, 127);
 }
 
-h1 {
-  color:rgb(61, 60, 60)
-}
-
-p, li, th, td, a, h3, nav {
+p , li , th , td , a , h3 {
   color: rgb(61, 60, 60);
   font-size: 14px;
 }
 
 p {
   padding: 10px;
-  margin: 0px;
+  margin: 0;
   line-height: 15px;
 }
 
