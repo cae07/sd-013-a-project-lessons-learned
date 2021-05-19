@@ -3,64 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Trybe Aprendizados</title>
   </head>
   <body>
     <header id="cabecalho">
-      <h1 id="titulo">Trybe - Lições Aprendidas</h1>
-      <nav>
-        <a href="https://github.com/tchiarello" target="_blank">Meu Github</a>
-      </nav>
+      <h1 id="titulo" class="inline-block fonte-media">
+        Trybe - Lições Aprendidas
+      </h1>
+      <section class="inline-block lado-direito nav-container">
+        <img class="nav-img" src="github.png" alt="logo do github" />
+        <nav class="inline-block lado-direito nav">
+          <a
+            class="nav-link fonte-pequena"
+            href="https://github.com/tchiarello"
+            target="_blank"
+            >Github</a
+          >
+        </nav>
+      </section>
     </header>
 
-    <main>
-      <img
-        id="minha_foto"
-        src="tatiane-chiarello.jpg"
-        alt="foto de perfil de tatiane chiarello"
-      />
+    <main id="main" class="wrap">
+      <section class="indicacoes">
+        <img
+          id="minha_foto"
+          src="tatiane-chiarello.jpg"
+          alt="foto de perfil de tatiane chiarello"
+        />
 
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>HTML</li>
-        <li>HTML Semântico</li>
-        <li>CSS</li>
-        <li>Inspect</li>
-        <li>Soft Skills</li>
-        <li>Inteligência Emocional</li>
-        <li>Comunicação</li>
-      </ol>
+        <table class="inline-block lado-direito tabela">
+          <thead>
+            <tr>
+              <th class="tabela-titulo cor-primaria tabela-borda">
+                Sites que indico
+              </th>
+              <th colspan="1" class="cor-primaria tabela-borda">Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a
+                  class="tabela-link"
+                  href="https://flexboxfroggy.com/"
+                  target="_blank"
+                  >Flexbox Froggy</a
+                >
+              </td>
+              <td>
+                Utilizando apenas flexbox, o desafio é guiar os sapos em cima
+                das vitórias régias.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="tabela-link"
+                  href="https://cssgridgarden.com/"
+                  target="_blank"
+                  >Grid Garden</a
+                >
+              </td>
+              <td>
+                Utilizando apenas display grid, o desafio é mover a água até as
+                cenouras.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="tabela-link"
+                  href="https://codepip.com/"
+                  target="_blank"
+                  >Codepip</a
+                >
+              </td>
+              <td>Onde pode encontrar outros tipos de jogos.</td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  class="tabela-link"
+                  href="https://css-tricks.com/"
+                  target="_blank"
+                  >CSS Tricks</a
+                >
+              </td>
+              <td>Site com várias dicas de CSS.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-      <ul id="licoes_a_aprender">
-        <li>Javascript</li>
-        <li>Lógica de Programação</li>
-        <li>DOM</li>
-        <li>CSS Responsivo</li>
-        <li>Forms</li>
-        <li>Flexbox</li>
-        <li>ECMAScript6</li>
-        <li>Testes Unitários</li>
-        <li>React</li>
-        <li>Promisses</li>
-      </ul>
+      <section class="aprendizados">
+        <div class="inline-block">
+          <div class="inline-block lista-container">
+            <h2 class="lista-titulo cor-primaria">Lições aprendidas</h2>
+            <ol id="licoes_aprendidas">
+              <li>Unix</li>
+              <li>Git</li>
+              <li>Github</li>
+              <li>HTML</li>
+              <li>HTML Semântico</li>
+              <li>CSS</li>
+              <li>Inspect</li>
+              <li>Soft Skills</li>
+              <li>Inteligência Emocional</li>
+              <li>Comunicação</li>
+            </ol>
+          </div>
 
-      <article>
-        <p>
-          Vejo que estou evoluindo muito com o curso da Trybe. Já conhecia a
-          estrutura HTML e o estilo CSS, mas sempre estou obtendo novos
-          conhecimentos sobre eles. Neste momento estou muito feliz em poder
-          também praticar minhas Soft Skills. Nunca imaginei que em um curso
-          iria desenvolvê-las. Estou ansiosa para aprender mais sobre Javascript
-          e entender como funciona a linguagem Backend.
-        </p>
-      </article>
+          <div class="inline-block">
+            <h2 class="lista-titulo cor-primaria">Lições a aprender</h2>
+            <ul id="licoes_a_aprender">
+              <li>Javascript</li>
+              <li>Lógica de Programação</li>
+              <li>DOM</li>
+              <li>CSS Responsivo</li>
+              <li>Forms</li>
+              <li>Flexbox</li>
+              <li>ECMAScript6</li>
+              <li>Testes Unitários</li>
+              <li>React</li>
+              <li>Promisses</li>
+            </ul>
+          </div>
+        </div>
 
-      <section>
+        <article class="inline-block lado-direito artigo">
+          <h2 class="cor-primaria artigo-titulo">Meu aprendizado</h2>
+          <p class="artigo-texto">
+            Vejo que estou evoluindo muito com o curso da Trybe. Já conhecia a
+            estrutura HTML e o estilo CSS, mas sempre estou obtendo novos
+            conhecimentos sobre eles. Neste momento estou muito feliz em poder
+            também praticar minhas Soft Skills. Nunca imaginei que em um curso
+            iria desenvolvê-las. Estou ansiosa para aprender mais sobre
+            Javascript e entender como funciona a linguagem Backend.
+          </p>
+        </article>
+      </section>
+
+      <section class="aside">
         <aside>
-          <p>
+          <p class="aside-texto">
             Neste momento estou muito feliz em poder também praticar minhas Soft
             Skills. Nunca imaginei que em um curso iria desenvolvê-las.
           </p>

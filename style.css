@@ -1,9 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  color: #000000;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.wrap {
+  width: 65%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.fonte-media {
+  font-size: 24px;
+}
+
+.fonte-pequena {
+  font-size: 18px;
+}
+
+.cor-primaria {
+  color: #6f5e5c;
+}
+
+.cor-secundaria {
+  color: #a28497;
 }
 
 #cabecalho {
   position: fixed;
+  z-index: 2;
   width: 100%;
   top: 0;
+  background-color: #a28497;
+  color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px 2px 10px rgba(163, 161, 161, 0.699);
+}
+
+.nav-img {
+  width: 25px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.nav {
+  margin-top: 3px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#main {
+  padding-top: 130px;
+}
+
+#minha_foto {
+  width: 240px;
+  height: auto;
+  border: 4px solid #6f5e5c;
+}
+
+.indicacoes {
+  margin-bottom: 50px;
+}
+
+.tabela {
+  margin-top: 65px;
+  width: 60%;
+}
+
+.tabela-borda {
+  border-bottom: 1px solid #6f5e5c;
+}
+
+.tabela-titulo {
+  width: 30%;
+  text-align: left;
+}
+
+.lista-titulo {
+  padding-left: 22px;
+  margin-bottom: 10px;
+}
+
+.tabela-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.tabela-link:hover {
+  text-decoration: underline;
+}
+
+thead tr th {
+  line-height: 1.5;
+}
+
+tbody tr td {
+  line-height: 1.5;
+  border-bottom: 1px solid #6f5e5c;
+}
+
+.lista-container {
+  margin-right: 35px;
+}
+
+.aprendizados {
+  margin-bottom: 50px;
+}
+
+#licoes_aprendidas li {
+  line-height: 1.5;
+}
+
+#licoes_a_aprender li {
+  line-height: 1.5;
+}
+
+.artigo {
+  width: 320px;
+}
+
+.artigo-titulo {
+  margin-bottom: 10px;
+}
+
+.artigo-texto {
+  line-height: 1.5;
+}
+
+.aside {
+  position: absolute;
+  z-index: 1;
+  top: 195px;
+  left: 55px;
+  width: 140px;
+}
+
+.aside-texto {
+  font-style: italic;
+}
+
+#rodape {
+  color: #fff;
+  background-color: #4a5240;
+  padding: 20px;
+  text-align: center;
 }
