@@ -5,8 +5,8 @@
       #cabecalho {
         background-color: rgb(55, 175, 55);
         padding-right: 95%;
+        top: 0px;
         position: fixed;
-        margin-top: 0;
         font-size: 30px;
         color: rgb(12, 22, 12);
         font-weight: 600;
