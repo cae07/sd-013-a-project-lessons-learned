@@ -22,7 +22,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h1 , h2 , li {
+h1 , h2 , li, th, td {
   font-family: Poppins-Regular, sans-serif;
 }
 
@@ -69,6 +69,11 @@ main a:visited {
 main li {
   font-style: italic;
   margin-left: 60px;
+  line-height: 28px;
+}
+
+main ul {
+  margin-bottom: 15px;
 }
 
 section {
@@ -83,6 +88,32 @@ span {
   font-size: 20px;
   font-style: italic;
   text-shadow: 3px 2px rgba(9, 53, 59, 0.226);
+}
+
+table {
+  margin: auto;
+  margin-top: 70px;
+  text-align: center;
+  border-collapse: collapse;
+  border: rgb(94, 123, 126) solid 2px;
+}
+
+th, td {
+  padding: 10px 30px;
+}
+
+th {
+  color: rgb(219, 219, 219);
+  background-color: #284F54;
+  font-style:oblique;
+}
+
+tr {
+  background-color: rgb(192, 202, 203);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(177, 186, 187);
 }
 
 .container {
@@ -153,17 +184,17 @@ span {
 #artigo {
   width: 300px;
   text-align: justify;
-  margin-top: 150px;
+  margin-top: 215px;
 }
 
 #trecho {
-  width: 200px;
+  width: 265px;
   padding: 10px;
   border: rgb(125, 164, 181) 6px solid;
   border-radius: 1px 10px;
-  position: relative;
-  left: 630px;
-  bottom: 650px;
+  position: absolute;
+  left: 795px;
+  top: 890px;
 }
 
 #rodape {
