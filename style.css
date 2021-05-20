@@ -27,7 +27,7 @@ ol li , ul li {
   text-align: justify;
 }
 
-article {
+article p {
   text-align: justify;
   margin-top: 29px;
   margin-left: 50px;
@@ -46,7 +46,7 @@ aside p {
   position: absolute;
   width: 330px;
   margin-left: 720px;
-  margin-top: -290px;
+  margin-top: -310px;
   word-wrap: break-word;
   box-shadow: 15px 15px 15px black;
   height: 290px;
