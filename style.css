@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 
 h2 {
   color: rgba(10,126,81,.8); 
+  font-size: 22px;
 }
 
 h3 {
@@ -36,12 +38,13 @@ a {
   left: 0;
   width: 1366px;
   height: 60px;
-  background-color: rgba(10,126,81,.8); 
+  background-color: rgba(10,126,81,.8);
   border-bottom: 7px solid greenyellow;
 }
 
 .cabecalho h1 {
   margin-left: 50px;
+  margin-top: 12px;
   font-size: 28px;
   color: white;
 }
@@ -49,7 +52,7 @@ a {
 /* Navegação */
 
 .nav-bar {
-  margin-left: 10px;
+  margin-left: 50px;
   height: 40px;
   margin-top: 80px;
 }
@@ -116,7 +119,7 @@ a {
 
 /* Terceira Sessão */
 
-.about-learn {
+.lado-esquerdo {
   height: 210px;
   margin-left: 50px;
   width: 550px;
@@ -124,21 +127,21 @@ a {
   float: left;
 }
 
-.about-learn h2 {
+.lado-esquerdo h2 {
   margin-bottom: 8px;
   margin-top: 30px;
 }
 
 /* Quarta sessão */
 
-.abstract-lern {
+.lado-direito {
   width: 350px;
   height: 250px;
   float: right;
   margin-right: 18%;
 }
 
-.abstract-lern h3 {
+.lado-direito h2 {
   margin-bottom: 8px;
   margin-top: 30px;
 }
