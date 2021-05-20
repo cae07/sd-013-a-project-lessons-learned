@@ -82,15 +82,16 @@ a{
 
 .list-aprendidas {
   margin-top: 70px;
-  width: 150px;
+  padding: 0 20px;
+  margin-left: 20px;
   display: inline-block;
-  border-right:  #252525 solid 3px;
   text-align: left;
 }
 .list-skills {
-  width: 200px;
+  padding: 0 20px;
   display: inline-block;
   text-align: left;
+  border-left:  #252525 solid 3px;
 }
 
 /*aprendendo a aprender*/
@@ -127,6 +128,11 @@ a{
 .artigo-2 {
   display: inline-block;
   margin-left: 175px;
+}
+
+.artigo-2 section aside{
+  display: inline-block;
+  background-color: #F35C5B;
 }
 
 .artigo-2 p {
