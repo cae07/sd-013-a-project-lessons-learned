@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -7,8 +7,8 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-p, li, table, a {
-  color: #285E67;
+p,li,table,a {
+  color: #285e67;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 15px;
 }
@@ -17,18 +17,18 @@ p, li, table, a {
   position: fixed;
   z-index: 1;
   top: 0;
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   width: 100%;
   padding-left: 52%;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #EB4783;
+  color: #eb4783;
 }
 
 .lista-navegacao {
   font-size: 12px;
   display: inline-block;
-  color: #EB4783;
+  color: #eb4783;
   text-decoration: none;
   padding-right: 20px;
   padding-left: 20px;
@@ -47,13 +47,13 @@ p, li, table, a {
 }
 
 #nome-contato {
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   position: absolute;
   width: 72%;
   height: 90%;
   top: 5%;
   left: 1%;
-  color: #EB4783;
+  color: #eb4783;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ p, li, table, a {
   font-family: 'Amatic SC', cursive;
   font-size: 150%;
   font-weight: 700;
-  color: #EB4783;
+  color: #eb4783;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ p, li, table, a {
   height: 90%;
   width: 28%;
   right: 1%;
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
 }
 
 #foto img {
@@ -106,7 +106,7 @@ p, li, table, a {
   width: 30%;
   height: 100%;
   text-align: center;
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   position: absolute;
   left: 1%;
 }
@@ -117,7 +117,7 @@ p, li, table, a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 150%;
   font-weight: 700;
 }
@@ -127,7 +127,7 @@ p, li, table, a {
   width: 80%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   line-height: 30px;
 
 }
@@ -137,7 +137,7 @@ p, li, table, a {
   text-align: center;
   left: 50%;
   transform: translate(-50%);
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   position: absolute;
   height: 100%;
   
@@ -158,7 +158,7 @@ p, li, table, a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 150%;
   font-weight: 700;
 }
@@ -168,7 +168,7 @@ p, li, table, a {
   height: 100%;
   text-align: center;
   right: 1%;
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   position: absolute;
 }
 
@@ -199,7 +199,7 @@ p, li, table, a {
 #section3 div {
   position: absolute;
   height: 100%;
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
 }
 
 #div-licoes-aprendidas {
@@ -207,13 +207,13 @@ p, li, table, a {
   width: 20%;
 }
 
-#div-licoes-aprendidas h4{
+#div-licoes-aprendidas h4 {
   position: absolute;
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 150%;
   font-weight: 700;
 }
@@ -240,14 +240,14 @@ p, li, table, a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 180%;
   font-weight: 700;
   text-align: center;
 }
 
-table, tr, td, th {
-  border: 1px solid #285E67;
+table,tr,td,th {
+  border: 1px solid #285e67;
   border-collapse: collapse;
 }
 
@@ -257,7 +257,7 @@ td, th {
 }
 
 th {
-  color: #EAE4E9;
+  color: #eae4e9;
 }
 
 table {
@@ -270,8 +270,8 @@ table {
 .linha-topo {
   padding: 0;
   margin: 0;
-  border: 2px solid #285E67;
-  background-color: #285E67;
+  border: 2px solid #285e67;
+  background-color: #285e67;
 }
 
 .assincrono {
@@ -289,7 +289,7 @@ table {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 150%;
   font-weight: 700;
   text-align: center;
@@ -306,7 +306,7 @@ table {
 }
 
 #section4 {
-  background-color: #EAE4E9;
+  background-color: #eae4e9;
   width: 100%;
   height: 200px;
   margin-top: 2%;
@@ -319,7 +319,7 @@ table {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #EB4783;
+  color: #eb4783;
   font-size: 150%;
   font-weight: 700;
   text-align: center;  
