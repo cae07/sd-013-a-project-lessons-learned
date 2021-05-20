@@ -142,6 +142,35 @@ a {
   text-decoration: underline;
 }
 
+/* Tabela */
+.table-learned {
+  clear: both;
+  margin: 0 0 12px 50px;
+}
+
+.table-learned table {
+  border-collapse: collapse;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+.table-learned h2 {
+  margin-bottom: 8px;
+}
+
+.table-line {
+  background-color: #d7d8d8;
+}
+
+.table-learned td {
+  width: 800px;
+  padding: 8px;
+}
+
+.table-learned .table-data {
+  width: 120px;
+}
+
 /* Rodapé */
 footer {
   clear: both;
