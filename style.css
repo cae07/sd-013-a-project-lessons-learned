@@ -68,7 +68,7 @@ article , aside {
   right: 0;
 }
 
-ul li #contato:active {
+ul li .contato:active {
   font-style: italic;
   color: red;
 }
