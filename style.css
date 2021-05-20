@@ -13,7 +13,7 @@ body {
 #minha_foto {
   float: left;
   width: 300px;
-  position:static;
+  position: static;
   margin-top: 10%;
   left: 10%;
   margin-bottom: 30px;
@@ -69,7 +69,7 @@ body {
 
 #licoes_aprendidas {
   font-size: 17px;
-}  
+}
 
 #licoes_a_aprender {
   font-size: 17px;
