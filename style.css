@@ -26,15 +26,16 @@ a {
 }
 
 /* Cabeçalho */
-#cabecalho {
+.cabecalho {
+  position: fixed;
   top: 0;
+  width: 1366px;
   height: 60px;
-  display: block;
   background-color: rgba(10,126,81,.8); 
   border-bottom: 7px solid #2fc18c;
 }
 
-#cabecalho h1 {
+.cabecalho h1 {
   margin-left: 50px;
   padding-top: 12px;
   font-size: 28px;
@@ -45,6 +46,7 @@ a {
 .nav-bar {
   margin-left: 50px;
   height: 40px;
+  margin-top: 80px;
 }
 
 .nav-bar-list {
@@ -128,6 +130,10 @@ a {
 
 .abstract-lern a {
   text-decoration: none;
+}
+
+.abstract-lern h3 {
+  margin-bottom: 8px;
 }
 
 .abstract-lern a:hover {
