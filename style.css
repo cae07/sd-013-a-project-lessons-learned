@@ -16,7 +16,7 @@ body {
   margin-top: 0%;
 }
 
-#cabecalho h1#titulo {
+#titulo {
   text-align: center;
 }
 
@@ -44,11 +44,11 @@ body {
   background-color: cyan;
 }
 
-ul#licoes_a_aprender li {
-  font-size: 15px;    
+#licoes_a_aprender li {
+  font-size: 15px;
 }
 
-ol#licoes_aprendidas li {
+#licoes_aprendidas li {
   font-size: 15px;
 }
 
