@@ -1,0 +1,22 @@
+body
+{
+  background-color: rgb(253, 251,251);
+}
+
+#cabecalho
+{
+  position: fixed;
+  top: 0;
+  background-color: blue;
+  
+}
+
+#titulo
+{
+  text-align: center;
+}
+
+#minha_foto
+{   
+  height: 2px;
+}
