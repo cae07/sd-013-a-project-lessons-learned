@@ -5,10 +5,10 @@
 
 /* Formatação Geral */
 
-{
+
+* {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
@@ -17,15 +17,15 @@ body {
 }
 
 h2 {
-  color: rgba(10,126,81,.8);
+  color: rgba(10,126,81,.8); 
 }
 
 h3 {
-  color: rgba(10,126,81,.8);
+  color: rgba(10,126,81,.8); 
 }
 
 a {
-  color: rgba(10,126,81,.8); 
+  color: rgba(10,126,81,.8);  
 }
 
 /* Cabeçalho */
@@ -129,7 +129,7 @@ a {
   margin-top: 30px;
 }
 
-/* Quarta sessão*/
+/* Quarta sessão */
 
 .abstract-lern {
   width: 350px;
@@ -151,8 +151,6 @@ a {
   padding-top: 30px;
   height: 280px;
 }
-
-
 
 .table-learned table {
   border-collapse: collapse;
@@ -185,7 +183,5 @@ footer {
   color: white;
   background-color: rgba(10,126,81,.8); 
   border-top: 7px solid greenyellow;
-  text-align: center;
+  text-align: center
 }
-
-
