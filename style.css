@@ -115,5 +115,7 @@ td , th {
 tr:nth-child( even ) {
   background-color: #f00d0d;
 }
+
 /* Referência de tabela */
+
 /* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
