@@ -5,6 +5,7 @@
       #cabecalho {
         background-color: rgb(55, 175, 55);
         padding-right: 95%;
+        border: 2px;
         top: 0px;
         position: fixed;
         font-size: 30px;
@@ -17,36 +18,44 @@
       padding: 10% 0.5% 0.5% 0.5%;
       }
 
-      .licoes {
-        padding-right: auto;
-        margin: auto;
-        display: inline-block;
-      }
-
       #licoes_aprendidas {
        padding: auto; 
-       text-align: left;    
+       text-align: leftc; 
+       line-height: 1.5;   
       }
       
       #licoes_a_aprender {
        padding: auto; 
        text-align: left; 
+       line-height: 1.5;
       }
-      
-     .artigo {
-       padding: auto;
+
+     #rodape {
        margin: 5%;
+       text-align: center;
+      }
+
+     .posiciona {
+      padding: auto;
+      margin: 1%;
+      
+     }
+
+     .lado_esquerdo {
+       float: left;
+       margin: 1%;
+       text-align: center;
+
      } 
 
-     .depoimento {
-       padding: auto;
-       margin: 5%;
+     .lado_direito {
+       float: right;
+       margin: 1%;
+       text-align: center;
+
      }
-    
-     #rodape {
-       padding: auto;
-       margin: 5%;
-     }
+
+     
 
      
         
