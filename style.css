@@ -1,42 +1,40 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-style:oblique;
+  background-color: rgb(253, 251, 251);
+  font-style: oblique;
 }
 
 .aside {
-    width: 15%;
-    background-color:cyan;
-    height: 300px;
-    float: right;
-    }
-
+  width: 15%;
+  background-color: cyan;
+  height: 300px;
+  float: right;
+}
 
 .cabecalho {
-    text-align: center;
-    border-radius: 30px;
-    margin-top: 0%;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 0%;
 }
 
 .navegacao li {
-    display: inline-block;
-    width: 400px;
+  display: inline-block;
+  width: 400px;
 }
 
 
 #minha_foto {
-    width: 250px;
-    border-radius: 30px;
+  width: 250px;
+  border-radius: 30px;
 }
 
 .main {
-    width: 80%;
-    height: 400px;
-    overflow-y: auto;
-    
+  width: 80%;
+  height: 400px;
+  overflow-y: auto;
 }
 
 .footer {
-    display: inline-block;
-    bottom: 0%;
-    margin-bottom: 0%;
+  display: inline-block;
+  bottom: 0%;
+  margin-bottom: 0%;
 }
