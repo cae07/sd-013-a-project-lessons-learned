@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: MontSerrat, sans-serif;;
-  background-color: rgb(253, 251, 251);}
+  font-family: MontSerrat, sans-serif;
+  background-color: #FFFFFF;}
 
 #cabecalho {
-  color: rgb(255, 255, 255);
+  color: #FFFFFF;
   border-style: solid;
   border-bottom: 2px;
   text-align: center;  
@@ -25,20 +25,7 @@ li {
 .container-li {
   padding-bottom: 10px;}
 
-/*p {
-  font-size: 10px;}*/
-  
-/*.lado-esquerdo, .lado-direito {
-  max-width: 50%;
-  border-style: solid;}
-
 .lado-direito {
-  display: block;}
-
-.lado-esquerdo {
-  float: right;}*/
-
-.lado-direito{
   margin-left: 20px;
   display: inline-block;
   border: solid;
@@ -53,19 +40,17 @@ li {
 
 .container-info {
   width: 100%;
-  margin : 80px 0 80px 0;
-}
+  margin : 80px 0 80px 0;}
 
-footer{
+footer {
   text-align: center;
-  background-color: rgb(95, 88, 99);
+  background-color: #5f5863;
   height: 30px;
-  color: white;}
+  color: #FFFFFF;}
 
 a:link, :visited {
   text-decoration: none;
-  color: white}
+  color: #FFFFFF;}
 
-a:hover{
-  color: #a067fc;
-}
+a:hover {
+  color: #a067fc;}
