@@ -10,28 +10,38 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  border: 2px solid green; 
   text-align: center;
 }
 
 #licoes_a_aprender {
-  border: 2px solid gray;
+  margin-top: 1%;
+  padding-left: 1%;
+  max-width: 80%; 
+  float: right;
+  margin-right: 12%;
+}
+
+#titulo-a-aprender {
   margin-top: -26.5%;
   padding-left: 2%;
   max-width: 40%; 
   float: right;
-  margin-right: 5%;
 }
 
-#titulo-ordenado {
-  margin-top: 60%;
-}
-
-#licoes_aprendidas {
-  border: 2px solid gray; 
+#titulo-aprendidas {
   margin-top: 8%;
   padding-left: 2%;
   max-width: 40%; 
+}
+
+#licoes_aprendidas {
+  margin-top: 1%;
+  padding-left: 4%;
+  max-width: 70%; 
+}
+
+#primeiros-passos {
+  margin-top: 80%;
 }
 
 .lado-esquerdo {
@@ -53,10 +63,6 @@ body {
 
 li:active {
   color:gray
-}
-
-#minha_foto {
-  border: 2px solid green;
 }
 
 #titulo {
