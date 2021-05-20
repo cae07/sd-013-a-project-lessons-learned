@@ -17,16 +17,20 @@ body {
 #licoes_a_aprender {
   border: 2px solid gray;
   margin-top: -26.5%;
-  padding-left: 1%;
+  padding-left: 2%;
   max-width: 40%; 
   float: right;
   margin-right: 5%;
 }
 
+#titulo-ordenado {
+  margin-top: 60%;
+}
+
 #licoes_aprendidas {
   border: 2px solid gray; 
   margin-top: 8%;
-  padding-left: 1%;
+  padding-left: 2%;
   max-width: 40%; 
 }
 
@@ -69,4 +73,8 @@ li:active {
 
 .tabela {
   border-width: 2px solid rgb(0, 113, 128);
+ }
+
+ #rodape {
+   font-size: 18px;
  }
