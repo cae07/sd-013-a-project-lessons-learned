@@ -1,7 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
-    font-family:monospace;
+    font-family: monospace;
 }
 
 #cabecalho {
@@ -15,8 +15,7 @@ body {
 
 #titulo {
     display: inline-block;
-    margin-left:10px;
-    
+    margin-left: 10px;
 }
 
 #minha_foto {
@@ -27,30 +26,30 @@ body {
 }
 
 ol li {
-    text-align:left
+    text-align: left
 }
 
-#lists {
+#licoes_aprendidas {
     text-decoration: underline;
-    display:inline-block;
+    display: inline-block;
     background-color: springgreen;
     width: 450px;
     font-family: serif;
     border-radius: 20px;
 }
 
-#list-{
+#licoes_a_aprender{
     background-color: pink;
     display: inline-block;
-    width:200px;
+    width: 200px;
     top: 0;
     width: 450px;
-    font-family:serif;
+    font-family: serif;
     border-radius: 20px;
 }
 
 #article {
-margin-left: 30px;
+    margin-left: 30px;
 }
 
 #aside {
@@ -62,7 +61,7 @@ margin-left: 30px;
     margin: 20px;
     background-color: rgb(170, 155, 155);
     width: 80px;
-    line-height:1cm,
+    line-height: 1cm,
 }
 
 #lista {
@@ -76,8 +75,12 @@ margin-left: 30px;
     width: 100%;
     padding: auto;
     margin-bottom: px;
-    line-height:20px;
-    font-style:italic;
+    line-height: 20px;
+    font-style: italic;
     text-align: justify;
-    padding:5em;
+    padding: 5em;
+}
+
+#list {
+    display: inline-block;
 }
