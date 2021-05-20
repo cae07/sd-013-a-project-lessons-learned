@@ -110,9 +110,9 @@ a {
 
 /* Terceira Sessão */
 .about-learn {
-  height: 250px;
+  height: 300px;
   margin-left: 50px;
-  width: 598px;
+  width: 550px;
   text-align: justify;
   float: left;
 }
@@ -125,9 +125,9 @@ a {
 /* Quarta sessão*/
 .abstract-lern {
   width: 350px;
-  height: 200px;
+  height: 250px;
   float: right;
-  margin-right: 200px;
+  margin-right: 18%;
 }
 
 .abstract-lern a {
