@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: MontSerrat, sans-serif;
-  background-color: rgb(233, 233, 233); }
+  background-color: white; }
 
 #cabecalho {
   color: rgb(233, 233, 233);
@@ -14,7 +14,7 @@ body {
   background-color: rgb(198, 142, 250); }
 
 li {
-  line-height: 1.2; }
+  line-height: 1.6; }
 
 .image-body {
   margin-top: 150px;
@@ -42,10 +42,11 @@ li {
   margin : 80px 0; }
 
 footer {
+  font-size: 17px;
   text-align: center;
   background-color: rgb(95, 88, 99);
   height: 30px;
-  color: rgb(233, 233, 233); }
+  color: rgb(230, 222, 222); }
 
 a:link , :visited {
   text-decoration: none;
