@@ -10,7 +10,7 @@ body {
 
 #cabecalho {
   width: 100%;
-  background-color: #92eca9;
+  background-color: rgb(146, 236, 169);
   padding: 20px 0;
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@ header h1 {
   color: black;
   text-align: center;
   font-size: 40px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   text-shadow: 1px 1px white;
 }
 
@@ -36,13 +36,20 @@ header h1 {
   margin: 0 10px;
 }
 
+a:hover {
+  color: rgb(146, 236, 169);
+  background-color: rgb(34, 36, 34);
+  padding: 10px;
+  border-radius: 5%;
+}
+
 .menu li a {
   color: black;
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .menu li a:hover {
@@ -54,21 +61,21 @@ header h1 {
 
 .estrutura {
   display: block;
-  background-color: rgba(228, 224, 224, 0.925);
+  background-color: rgb(228, 224, 224, 0.925);
   margin: auto;
   width: 80%;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px 0px black;
+  box-shadow: 0 0 5px 0 black;
   margin-top: 150px;
 }
 
 .container-img {
   text-align: right;
-  padding: 80px 100px
+  padding: 80px 100px;
 }
 
 .titulo h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 40px;
   width: 80%;
   position: absolute;
@@ -84,7 +91,7 @@ table {
 
 th {
   font-size: 25px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 #licoes_aprendidas li {
@@ -92,9 +99,8 @@ th {
   margin-left: 150px;
   letter-spacing: 1px;
   line-height: 38px;
-  font-weight: bold;
   margin-bottom: 3px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   font-weight: 400;
 }
 
@@ -102,10 +108,9 @@ th {
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 38px;
-  font-weight: bold;
   margin-right: 50px;
   margin-bottom: 3px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   font-weight: 400;
 }
 
@@ -113,23 +118,23 @@ th {
   font-size: 25px;
   margin-bottom: 35px;
   margin-left: 70px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 .list-title2 {
   font-size: 25px;
   margin-bottom: 35px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-family: -apple-system, sans-serif;
 }
 
 .titulo2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 40px;
   text-align: center;
   padding: 10px 50px 100px;
-  color: #92eca9;
+  color: rgb(146, 236, 169);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: black;
 }
 
 .list-container {
@@ -139,50 +144,40 @@ th {
 
 .list-container1 {
   float: left;
-
 }
 
 .list-container2 {
   float: right;
 }
 
-p.paragrafo  {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.paragrafo {
+  font-family: -apple-system, sans-serif;
   font-size: 17px;
   text-align: justify;
   width: 90%;
   letter-spacing: 1px;
   line-height: 35px;
-  padding: 0px 100px;
+  padding: 0 100px;
 }
 
 .linktrybe {
   text-decoration: none;
-  color: #000;
+  color: black;
   margin-left: 10px;
-}
-
-a:hover {
-  color: #92eca9;
-  background-color: rgb(34, 36, 34);
-  padding: 10px 10px;
-  border-radius: 5%; 
 }
 
 .containeraprendizado {
   display: flex;
-  padding: 0px 0px 50px;
-  
+  padding: 0 0 50px;
 }
 
 aside {
-  border: 2px solid #1cdd4c;
+  border: 2px solid rgb(28, 221, 76);
   padding: 25px;
   border-radius: 10px;
   width: 300px;
   height: 300px;
   margin-right: 100px;
-  
 }
 
 .lado-esquerdo {
@@ -194,7 +189,7 @@ aside {
 }
 
 #textolateral {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 15px;
   text-align: center;
   margin-top: 25px;
