@@ -38,7 +38,6 @@ body {
 #licoes_aprendidas {
   margin-top: 1%;
   padding-left: 4%;
-  max-width:190%
 }
 
 .lado-esquerdo {
@@ -76,8 +75,8 @@ li:active {
 
 .tabela {
   border-width: 2px solid rgb(0, 113, 128);
- }
+}
 
  #rodape {
   font-size: 18px;
- }
+}
