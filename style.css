@@ -7,8 +7,8 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-p,li,table,a {
-  color: #285e67;
+p , li , table , a {
+  color: rgb(40, 94, 103);
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 15px;
 }
@@ -17,18 +17,18 @@ p,li,table,a {
   position: fixed;
   z-index: 1;
   top: 0;
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   width: 100%;
   padding-left: 52%;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
 }
 
 .lista-navegacao {
   font-size: 12px;
   display: inline-block;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   text-decoration: none;
   padding-right: 20px;
   padding-left: 20px;
@@ -47,13 +47,13 @@ p,li,table,a {
 }
 
 #nome-contato {
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   position: absolute;
   width: 72%;
   height: 90%;
   top: 5%;
   left: 1%;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ p,li,table,a {
   font-family: 'Amatic SC', cursive;
   font-size: 150%;
   font-weight: 700;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ p,li,table,a {
   height: 90%;
   width: 28%;
   right: 1%;
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
 }
 
 #foto img {
@@ -106,7 +106,7 @@ p,li,table,a {
   width: 30%;
   height: 100%;
   text-align: center;
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   position: absolute;
   left: 1%;
 }
@@ -117,7 +117,7 @@ p,li,table,a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 150%;
   font-weight: 700;
 }
@@ -137,10 +137,9 @@ p,li,table,a {
   text-align: center;
   left: 50%;
   transform: translate(-50%);
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   position: absolute;
   height: 100%;
-  
 }
 
 .lado-esquerdo p {
@@ -158,7 +157,7 @@ p,li,table,a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 150%;
   font-weight: 700;
 }
@@ -168,7 +167,7 @@ p,li,table,a {
   height: 100%;
   text-align: center;
   right: 1%;
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   position: absolute;
 }
 
@@ -199,7 +198,7 @@ p,li,table,a {
 #section3 div {
   position: absolute;
   height: 100%;
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
 }
 
 #div-licoes-aprendidas {
@@ -213,7 +212,7 @@ p,li,table,a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 150%;
   font-weight: 700;
 }
@@ -240,14 +239,14 @@ p,li,table,a {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 180%;
   font-weight: 700;
   text-align: center;
 }
 
-table,tr,td,th {
-  border: 1px solid #285e67;
+table , tr , td , th {
+  border: 1px solid rgb(40, 94, 103);
   border-collapse: collapse;
 }
 
@@ -257,7 +256,7 @@ td, th {
 }
 
 th {
-  color: #eae4e9;
+  color: rgb(234, 228, 233);
 }
 
 table {
@@ -270,12 +269,12 @@ table {
 .linha-topo {
   padding: 0;
   margin: 0;
-  border: 2px solid #285e67;
-  background-color: #285e67;
+  border: 2px solid rgb(40, 94, 103);
+  background-color: rgb(40, 94, 103);
 }
 
 .assincrono {
-  background-color: #F5A3C1;
+  background-color: rgb(245, 163, 193);
 }
 
 #div-licoes-a-aprender {
@@ -289,7 +288,7 @@ table {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 150%;
   font-weight: 700;
   text-align: center;
@@ -306,7 +305,7 @@ table {
 }
 
 #section4 {
-  background-color: #eae4e9;
+  background-color: rgb(234, 228, 233);
   width: 100%;
   height: 200px;
   margin-top: 2%;
@@ -319,7 +318,7 @@ table {
   left: 50%;
   transform: translateX(-50%);
   font-family: 'Amatic SC', cursive;
-  color: #eb4783;
+  color: rgb(235, 71, 131);
   font-size: 150%;
   font-weight: 700;
   text-align: center;  
