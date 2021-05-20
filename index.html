@@ -7,47 +7,65 @@
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!----------------Cabeçalho---------------------->
+
   <header id="cabecalho">
     <nav id="navegacao">
       <h1 id="titulo">
-        <a class="lista-navegacao">Quem Sou Eu</a>
+        <a class="lista-navegacao" href="#section2">Quem Sou Eu</a>
+        <span >|</span>
+        <a class="lista-navegacao" href="#section3">Lições Aprendidas</a>
         <span>|</span>
-        <a class="lista-navegacao">Lições Aprendidas</a>
+        <a class="lista-navegacao" href="#section3">Lições a Aprender</a>
         <span>|</span>
-        <a class="lista-navegacao">Lições a Aprender</a>
-        <span>|</span>
-        <a class="lista-navegacao">Links Externos</a>  
+        <a class="lista-navegacao" href="#section4">Curiosidades</a>  
       </h1>
     </nav>
   </header>
-  <!------------------------------------------------->
+  
   <main id="principal">
+    
     <!--Primeira parte com foto, nome e contato-->
     <section id="section1">
-      <div id="foto">
-        <img id="minha_foto" src="minha_foto.jpeg" alt="Foto minha sorrindo, em frente ao Castelo da Cinderela, no Magic Kingdom">
-      </div>
+      
       <div id="nome-contato">
-        <h2>Carol Boaventura</h2>
+        <h2>Carol Boaventura</h2> 
+        <h3>Estudante da Trybe</h4>
+      </div>
+      
+      <div id="foto"> 
+        <img id="minha_foto" src="minha_foto.jpeg" alt="Foto em frente ao castelo da Cinderela">
+        <!--Para o projeto, tem que ser img aqui, pois é requisito obrigatório-->
       </div>
     </section>
     <!--------------------------------------------->
-    <!--Artigos sobre mim-->
-    <article class="lado-esquerdo">
-      <p>O aprendizado na Trybe tem sido maravilhoso! A estrutura é ótima, os colegas têm sido muito colaborativos e toda a equipe é 10! São muitas horas diárias de estudo (às vezes também no final de semana!), mas que vão valer a pena para que meu objetivo de me tornar uma pessoa desenvolvedora seja alcançado! Apesar das dificuldades iniciais para entender Git & GitHub, o aprendizado tem sido muito satisfatório agora!</p>
-    </article>
-    <aside class="lado-direito">
-      <p>Amei aprender sobre HTML e CSS. Construir sites é um trabalho que desenvolve habilidades de criatividade. Ah, e é ótimo poder trabalhar ouvindo música!</p>
-    </aside>
+
+    <section id="section2">
+      
+      <section class="quem-sou-eu">
+        <h4 id="quem-sou-eu-title">Quem Sou Eu</h4>
+        <p>Meu nome é Caroline, tenho 31 anos, e moro em BH. Sou formada em Engenharia Ambiental, mas sempre fui apaixonada por tecnologia, por isso decidi me matricular no curso da Trybe!</p>
+      </section>
+      
+      <article class="lado-esquerdo" id="aprendizado">
+        <h4>Meu Aprendizado</h4>
+        <p>O aprendizado na Trybe tem sido maravilhoso! A estrutura é ótima, os colegas têm sido muito colaborativos e toda a equipe é 10! São muitas horas diárias de estudo (às vezes também no final de semana!), mas que vão valer a pena para que meu objetivo de me tornar uma pessoa desenvolvedora seja alcançado! Apesar das dificuldades iniciais para entender Git & GitHub, o aprendizado tem sido muito satisfatório até agora!</p>
+      </article>
+      
+      <aside class="lado-direito" id="aprendizado2">
+        <p>Amei aprender sobre HTML e CSS. Construir sites é um trabalho que desenvolve habilidades de criatividade. Ah, e é ótimo poder trabalhar ouvindo música!</p>
+        <img id="icon-music" src="Icon.png" alt="Ícone de um fone de ouvido">
+      </aside>
     
-    <!------------------------------------------------->
-    <!-- Lições Aprendidas e a Serem Aprendidas-->
-    <section>
-      <div class=lado-esquerdo>
+    </section>
+
+    <section id="section3">
+      
+      <div id="div-licoes-aprendidas">
+        <h4>O que já aprendi</h4>
         <ol id="licoes_aprendidas">
           <li>Unix & Bash</li>
           <li>Git</li>
@@ -62,7 +80,54 @@
         </ol>
       </div>
 
-      <div class="lado-direito">
+      <div id="div-table">
+        
+        <h4>O dia a dia de estudos da Trybe</h4>
+
+        <table>
+          <tr class="linha-topo">
+            <th></th>
+            <th>Segundou</th>
+            <th>Terçou</th>
+            <th>Quartou</th>
+            <th>Quintou</th>
+            <th>Sextooou</th>
+          </tr>
+
+          <tr>
+            <td>14h00</td>
+            <td colspan="5">Esquenta! Começo do dia, momento síncrono pelo Zoom!</td>
+          </tr>
+
+          <tr class="assincrono">
+            <td>14h30</td>
+            <td colspan="5">Hora de estudar o conteúdo do dia de forma assíncrona!</td>
+          </tr>
+
+          <tr>
+            <td>16h30</td>
+            <td colspan="5">Aula ao vivo com o professor Jack! Momento síncrono pelo Zoom!</td>            
+          </tr>
+
+          <tr class="assincrono">
+            <td>18h00</td>
+            <td colspan="5">Hora de fazer os exercícios do dia de forma assíncrona!</td>
+          </tr>
+
+          <tr>
+            <td>18h40</td>
+            <td colspan="5">Ficou com dúvida? Bora pros plantões!</td>
+          </tr>
+
+          <tr>
+            <td>19h30</td>
+            <td colspan="5">Fechamento do dia!</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="div-licoes-a-aprender">
+        <h4> O que ainda vou aprender</h4>
         <ul id="licoes_a_aprender">
           <li>JavaScript</li>
           <li>React</li>
@@ -76,23 +141,26 @@
           <li>Autogestão</li>
         </ul>
       </div>
-      
     </section>
-    <section>
-      <table id="tabela">
-        <tr class="linhas">
-          <td class="cabecalho-tabela">PodCast</td>
-          <td class="cabecalho-tabela">Link</td>
-        </tr>
-        <tr class="linhas">
-          <td>Braincast</td>
-          <td><a href="https://open.spotify.com/episode/2jTkVOablwjysQPwIyDM8M?si=TixnxKO-S7CXE5R-MLuGyQ" target="_blank">Link</a></td>
-        </tr>
-      </table>
-    </section>
-  </main>
-  <footer id="rodape">
 
+    <section id="section4">
+      <h4>Curiosidades sobre mim</h4>
+      
+      <div>
+      <p>Um podcast que gosto muito: <a href="https://open.spotify.com/episode/2jTkVOablwjysQPwIyDM8M?si=TixnxKO-S7CXE5R-MLuGyQ" target="_blank">Podcast Braincast</a></p>
+      <p>A playlist que mais escuto ultimamente: <a href="https://open.spotify.com/playlist/37i9dQZF1DXc8qj4xWj0he" target="_blank">This Is Maria Bethânia</a></p>
+      <p>Meu jogo favorito: <a href="https://www.youtube.com/watch?v=kE7li_u1nmg&t=3s" target="_blank">The Last Of Us</a> </p>
+      <p>Comfort Serie: <a href="https://www.youtube.com/watch?v=q1pcpgREQ5c" target="_blank">Grey's Anatomy</a> </p>
+
+
+
+      </div>
+    </section>
+  
+  </main>
+
+  <footer id="rodape">
+    <p>Caroline Boaventura. Maio/2021</p>
   </footer>
 </body>
 </html>

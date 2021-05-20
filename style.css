@@ -1,86 +1,345 @@
-* {
-  font-family: sans-serif;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: rgb(253, 251, 251);
 }
 
+p, li, table, a {
+  color: #285E67;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+}
+
 #cabecalho {
   position: fixed;
+  z-index: 1;
   top: 0;
+  background-color: #EAE4E9;
   width: 100%;
-  margin-left: 150px;
-  margin-right: 50px;
-}
-
-#principal {
-  border: 1px solid black;
-  margin: 100px 50px;
-}
-
-#minha_foto {
-  width: 200px;
-  border-radius: 100%;
-}
-
-#navegacao {
-  border: 1px solid black;
-  float: left;
-}
-
-#lista-navegacao {
-  display: inline-block;
-}
-
-h1 {
-  font-size: 15px;
-  font-weight: 400;
+  padding-left: 52%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #EB4783;
 }
 
 .lista-navegacao {
+  font-size: 12px;
+  display: inline-block;
+  color: #EB4783;
+  text-decoration: none;
   padding-right: 20px;
   padding-left: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
-#foto {
-  text-align: center;
+#principal {
+  margin: 65px 50px 0px 50px;
+}
+
+#section1 {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 400px;
+  position: relative;
 }
 
 #nome-contato {
+  background-color: #EAE4E9;
+  position: absolute;
+  width: 72%;
+  height: 90%;
+  top: 5%;
+  left: 1%;
+  color: #EB4783;
   text-align: center;
 }
 
-#tabela {
-  border: 1px solid black;
-  text-align: center;
-}
-
-.linhas {
-  border: 1px solid black;
-}
-
-.cabecalho-tabela {
+#nome-contato h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  font-size: 250%;
   font-weight: 700;
 }
 
-h2 {
-  color: blueviolet;
-  line-height: 10px;
+#nome-contato h3 {
+  position: absolute;
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+  font-weight: 700;
+  color: #EB4783;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#foto {
+  position: absolute;
+  top: 5%;
+  height: 90%;
+  width: 28%;
+  right: 1%;
+  background-color: #EAE4E9;
+}
+
+#foto img {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section2 {
+  width: 100%;
+  height: 400px;
+  margin-top: 1%;
+  position: relative;
+}
+
+.quem-sou-eu {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  background-color: #EAE4E9;
+  position: absolute;
+  left: 1%;
+}
+
+.quem-sou-eu h4 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.quem-sou-eu p {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 30px;
+
 }
 
 .lado-esquerdo {
-  display: inline-block;
   width: 30%;
-  position: relative;
-  margin: 0 110px;
   text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #EAE4E9;
+  position: absolute;
+  height: 100%;
+  
+}
+
+.lado-esquerdo p {
+  position: absolute;
+  width: 80%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 25px;
+}
+
+.lado-esquerdo h4 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 150%;
+  font-weight: 700;
 }
 
 .lado-direito {
-  display: inline-block;
   width: 30%;
-  position: absolute;
-  margin: 0 110px;
+  height: 100%;
   text-align: center;
+  right: 1%;
+  background-color: #EAE4E9;
+  position: absolute;
+}
+
+.lado-direito p {
+  position: absolute;
+  width: 80%;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 30px;
+}
+
+.lado-direito img {
+  position: absolute;
+  width: 60px;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#section3 {
+  width: 100%;
+  height: 500px;
+  margin-top: 2%;
+  position: relative;
+}
+
+#section3 div {
+  position: absolute;
+  height: 100%;
+  background-color: #EAE4E9;
+}
+
+#div-licoes-aprendidas {
+  left: 1%;
+  width: 20%;
+}
+
+#div-licoes-aprendidas h4{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+#div-licoes-aprendidas ol {
+  position: absolute;
+  width: 70%;
+  line-height: 30px;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#div-table {
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#div-table h4 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 180%;
+  font-weight: 700;
+  text-align: center;
+}
+
+table, tr, td, th {
+  border: 1px solid #285E67;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 3%;
+  text-align: center;
+}
+
+th {
+  color: #EAE4E9;
+}
+
+table {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.linha-topo {
+  padding: 0;
+  margin: 0;
+  border: 2px solid #285E67;
+  background-color: #285E67;
+}
+
+.assincrono {
+  background-color: #F5A3C1;
+}
+
+#div-licoes-a-aprender {
+  right: 1%;
+  width: 20%;
+}
+
+#div-licoes-a-aprender h4 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: center;
+}
+
+#div-licoes-a-aprender ul {
+  position: absolute;
+  width: 70%;
+  line-height: 30px;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#section4 {
+  background-color: #EAE4E9;
+  width: 100%;
+  height: 200px;
+  margin-top: 2%;
+  position: relative;
+}
+
+#section4 h4 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Amatic SC', cursive;
+  color: #EB4783;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: center;  
+}
+
+#section4 div {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#section4 p {
+  line-height: 30px;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 1%;
 }
