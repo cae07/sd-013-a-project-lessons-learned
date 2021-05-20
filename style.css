@@ -1,9 +1,18 @@
 body {
   font-family: sans-serif;
-  background-color:rgb(290, 251, 251);
-}
+  margin: 0;
+  padding: 0;
+  background-color: rgb(253,251,251); 
+  }
 
-main { 
-  background-color: rgb(290, 251, 251);
-
-}
+  #cabecalho {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: 50%-60%;
+    padding: 60px 30px 100px 30px;
+  }
