@@ -82,3 +82,20 @@ nav {
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
 }
+#rodape {
+    margin-top: 500px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#instagram {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 35px;
+}
+#linkedin {
+    margin-top: 10px;
+    margin-bottom: -12px;
+    width: 74px;
+}
