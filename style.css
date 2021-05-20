@@ -13,10 +13,10 @@ a{
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: rgba(13, 17, 20, 0.9);
   width: 100%;
   padding: 20px 0;
-  color: #55C28D;
-  background-color: #252525;
+  color: #3199C6;
 }
 
 .container {
@@ -30,6 +30,10 @@ a{
   display: inline;
 }
 
+#titulo:hover{
+  color: white;
+}
+
 .menu-home {
   float: right;
   display: inline;
@@ -38,12 +42,12 @@ a{
 
 .menu-home li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 30px;
   margin-top: 20px;
 }
 
 .menu-home ul li a {
-  color: #55C28D;
+  color: #3199C6;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -51,12 +55,22 @@ a{
   padding: 10px 0;
 }
 
+.menu-home ul li a:hover{
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #131720;
+
+}
+
 .foto {
-  background-color: #252525;
+  background-color: #131720;
   border-radius: 10px;
 }
 
 #minha_foto{
+  width: 155px;
+  height: 155px;
   border-radius: 50%;
   display: block;
   margin: 100px auto;
@@ -71,12 +85,14 @@ a{
   text-align: center;
   font-size: 18px;
   height: 600px;
+  color: #131720;
 }
 
 .listas h2 {
   font-size: 40px;
   border: #252525 solid 3px;
   border-radius: 10px;
+  padding: 10px 0;
 }
 
 .list-aprendidas {
@@ -98,7 +114,7 @@ a{
 
 .artigos {
   margin-top: -120px;
-  background-color:#252525;
+  background-color: #131720;
   height: 100%;
   color: #fff;
   text-align: center;
@@ -106,11 +122,11 @@ a{
 }
 
 .artigos h2 {
-  color: #55C28D;
-  text-align: center;
+  color: #3199C6;
   font-size: 40px;
-  border-top: #55C28D 3px solid;
-  border-bottom: #55C28D 3px solid;
+  border: #A4A5AD solid 3px;
+  border-radius: 10px;
+  padding: 10px 0;
 }
 
 .container-flex{
@@ -121,6 +137,7 @@ a{
 }
 
 .artigo-1 p {
+  color: #A4A5AD;
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
@@ -130,6 +147,7 @@ a{
 }
 
 .artigo-2 aside p {
+  color: #A4A5AD;
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
@@ -143,15 +161,16 @@ a{
 .footer {
   text-align: center;
   background-color: #f5f5f5;
+  color: #131720;
 }
 
 .footer h2 {
   width: 100%;
-  color: #252525;
+  color: #131720;
   text-align: center;
   font-size: 40px;
-  border-top: #252525 3px solid;
-  border-bottom:#252525 3px solid;
+  border-top: #131720 3px solid;
+  border-bottom:#131720 3px solid;
 }
 
 .footer footer {
@@ -165,4 +184,21 @@ a{
   margin-right: auto;
   margin-bottom: 15px;
   padding: 10px;
+  width: 150px;
+  font-size: 18px;
+}
+
+.footer table:hover {
+  background-color: #131720;
+  color: #A4A5AD;
+}
+
+.footer table a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer span {
+  color: #55C28D ;
+  font-weight: bold;
 }
