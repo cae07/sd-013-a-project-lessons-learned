@@ -27,7 +27,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Rubik', sans-serif;
+  font-family: Rubik, sans-serif;
 }
 
 #cabecalho {
@@ -45,9 +45,21 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.164);
 }
 
+.skills ul , .skills ol {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+  margin: 0 2rem;
+}
+
 #cabecalho ul {
   list-style: none;
   display: flex;
+}
+
+#rodape a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--white-purple);
 }
 
 #cabecalho ul li a {
@@ -113,10 +125,9 @@ body {
   flex-wrap: wrap;
 }
 
-.skills ul , .skills ol {
-  color: var(--dark-gray);
-  font-size: 0.9rem;
-  margin: 0 2rem;
+.learningArticle h3 {
+  color: var(--purple);
+  font-weight: 800;
 }
 
 .skills section {
@@ -135,10 +146,15 @@ body {
   float: right;
 }
 
+.learningArticle p , .learningArticle h4 {
+  text-align: justify;
+  margin: 1rem 0;
+}
+
 .learning > section h4 {
   color: var(--purple);
   text-align: center;
-  margin: 5rem 0 1rem 0;
+  margin: 5rem 0 1rem;
 }
 
 .learning > section aside {
@@ -158,20 +174,10 @@ body {
   justify-content: center;
 }
 
-.learningArticle h3 {
-  color: var(--purple);
-  font-weight: 800;
-}
-
 .learningArticle section {
   color: var(--dark-gray);
   width: 350px;
   margin: 0 1rem;
-}
-
-.learningArticle p , .learningArticle h4 {
-  text-align: justify;
-  margin: 1rem 0;
 }
 
 .articleContent {
@@ -199,10 +205,4 @@ body {
 
 #rodape div {
   width: 70vw;
-}
-
-#rodape a {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--white-purple);
 }
