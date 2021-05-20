@@ -43,11 +43,9 @@ article p {
 
 aside p {
   text-align: justify;
-
   width: 330px;
   margin-left: 720px;
   margin-top: -310px;
-
   box-shadow: 15px 15px 15px black;
   height: 290px;
   line-height: 22px;
