@@ -1,86 +1,92 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0;
-    font-family: monospace;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: monospace;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: slateblue;
-    width: 100%;
-    color: snow;
-    box-shadow: springgreen;
+  position: fixed;
+  top: 0;
+  background-color: slateblue;
+  width: 100%;
+  color: snow;
+  box-shadow: springgreen;
+  font-family: sans-serif;
 }
 
 #titulo {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  font: italic;
 }
 
 #minha_foto {
-    margin: 20px;
-    margin-top: 80px;
-    width: 150px;
-    border-radius: 100%;
+  margin: 20px;
+  margin-top: 80px;
+  width: 150px;
+  border-radius: 100%;
 }
 
 ol li {
-    text-align: left
+  text-align: left;
 }
 
 #licoes_aprendidas {
-    text-decoration: underline;
-    display: inline-block;
-    background-color: springgreen;
-    width: 450px;
-    font-family: serif;
-    border-radius: 20px;
+  text-decoration: underline;
+  display: inline-block;
+  background-color: springgreen;
+  width: 450px;
+  font-family: serif;
+  border-radius: 20px;
 }
 
-#licoes_a_aprender{
-    background-color: pink;
-    display: inline-block;
-    width: 200px;
-    top: 0;
-    width: 450px;
-    font-family: serif;
-    border-radius: 20px;
+#licoes_a_aprender {
+  text-decoration: underline;
+}
+
+#licoes_a_aprende {
+  background-color: pink;
+  display: inline-block;
+  top: 0;
+  width: 450px;
+  font-family: serif;
+  border-radius: 20px;
 }
 
 #article {
-    margin-left: 30px;
+  margin-left: 30px;
+  padding: 20px;
+  border: 20px;
 }
 
 #aside {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #link {
-    text-align: end;
-    margin: 20px;
-    background-color: rgb(170, 155, 155);
-    width: 80px;
-    line-height: 1cm,
+  text-align: end;
+  margin: 20px;
+  background-color: rgb(170, 155, 155);
+  width: 80px;
+  line-height: 1cm;
 }
 
 #lista {
-    margin: 20px;
+  margin: 20px;
 }
 
 #aprend {
-    text-align: left;
-    background-color: rgb(92, 71, 224);
-    color: snow;
-    width: 100%;
-    padding: auto;
-    margin-bottom: px;
-    line-height: 20px;
-    font-style: italic;
-    text-align: justify;
-    padding: 5em;
+  background-color: rgb(92, 71, 224);
+  color: snow;
+  width: 100%;
+  padding: auto;
+  margin-bottom: px;
+  line-height: 20px;
+  font-style: italic;
+  text-align: justify;
+  padding: 5em;
 }
 
 #list {
-    display: inline-block;
+  display: inline-block;
 }
