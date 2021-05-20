@@ -1,55 +1,55 @@
      body {
-          font-family: sans-serif;
-          background-color: rgb(253, 251, 251);
+      font-family: sans-serif;
+      background-color: rgb(253, 251, 251);
       }
       #cabecalho {
-        background-color: rgb(18, 112, 18);
+        background-color: rgb(55, 175, 55);
+        padding-right: 95%;
         position: fixed;
         margin-top: 0;
-        font-size: 40px;
-        border-color: rgb(42, 202, 202);
+        font-size: 30px;
         color: rgb(12, 22, 12);
         font-weight: 600;
       }
+     
+      #minha_foto {
+      background-size: cover;
+      padding: 10% 0.5% 0.5% 0.5%;
+      }
 
       .licoes {
-        padding: auto;
+        padding-right: auto;
+        margin: auto;
         display: inline-block;
       }
 
       #licoes_aprendidas {
+       padding: auto; 
        text-align: left;    
       }
       
       #licoes_a_aprender {
+       padding: auto; 
        text-align: left; 
       }
       
-      .fonte-size {
+     .artigo {
+       padding: auto;
+       margin: 5%;
+     } 
 
-      }
-      
-      .fonte-color {
-       
-      }
+     .depoimento {
+       padding: auto;
+       margin: 5%;
+     }
+    
+     #rodape {
+       padding: auto;
+       margin: 5%;
+     }
 
-      .lado-esquerdo {
-
-      }
-
-      .lado-direito {
-
-      }
-      
-      
+     
         
-      }
-
-      #titulo {
+        
       
-      }
-
-      #minha_foto {
-
-      }
 
