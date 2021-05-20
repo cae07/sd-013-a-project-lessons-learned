@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -33,7 +34,7 @@ a {
   width: 1366px;
   height: 60px;
   background-color: rgba(10,126,81,.8); 
-  border-bottom: 7px solid #2fc18c;
+  border-bottom: 7px solid greenyellow;
 }
 
 .cabecalho h1 {
@@ -79,7 +80,7 @@ a {
 .primary-content img {
   width: 15em;
   margin-top: 30px;
-  border: 2px solid #2fc18c;
+  border: 2px solid green;
 }
 
 .primary-content a {
@@ -165,7 +166,7 @@ a {
 }
 
 .table-line {
-  background-color: #d7d8d8;
+  background-color: rgb(215, 216, 216);
 }
 
 .table-learned td {
@@ -183,7 +184,7 @@ footer {
   padding: 10px;
   color: white;
   background-color: rgba(10,126,81,.8); 
-  border-top: 7px solid #2fc18c;
+  border-top: 7px solid greenyellow;
 }
 
 footer p {
