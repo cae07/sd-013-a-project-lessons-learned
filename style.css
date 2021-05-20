@@ -1,12 +1,11 @@
-* {
+*{
     margin: 1;
     border: 1;
-    padding: 1;
-}
+    padding: 1; }
 
 body{
-    background-color: rgb(253, 251, 251);
-}
+    background-color: rgb(253, 251, 251); }
+
 #cabecalho{
     background-color: rgb(39, 6, 8);
     text-align: center;
@@ -17,26 +16,22 @@ body{
     margin-top: 0px;
     top: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: blanchedalmond;
-}
-#minha_foto{ 
+    color: blanchedalmond; }
+
+#minha_foto{  
     width: 120px;
     margin-top: 80px;
     border-radius: 150px;
-    margin-left: 600px;
-}
+    margin-left: 600px; }
+
 #licoes-futuras{
-    font-size: 23.5px;
-}
+    font-size: 23.5px; }
+
 #site{
-    margin-left: 643px;
+    margin-left: 643px; }
     
-}
 #titulo-artigo, #conteudo-artigo{
-    text-align: left;
-    margin-bottom: ;
+    text-align: left; }
     
-}
 #artigodireita{
-    text-align: right;
-}
+    text-align: right; }
