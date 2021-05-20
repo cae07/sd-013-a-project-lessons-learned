@@ -1,5 +1,6 @@
 body{
   background-color: rgb(253,251,251);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #cabecalho{
   position: fixed;
@@ -46,9 +47,11 @@ margin-left: 40%;
 
 background-color: cornflowerblue;
 border-radius: 5px;
-height: 20px;
+height: 25px;
 width: 110px;
 padding-left: 5px;
+padding-top: 8px;
+margin-top: 50px;
 
 }
 
@@ -84,7 +87,7 @@ float:left;
 
 }
 
-#licoes_a_aprender"{
+#licoes_a_aprender{
 
  
   margin-bottom: 80px;
