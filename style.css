@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
 
   --purple: rgb(84, 58, 163);
 
@@ -23,7 +23,7 @@
   --gray-text: rgb(186, 186, 186);
 
   --gray-background: rgb(241, 241, 241);
-}
+} */
 
 body {
   background-color: rgb(253, 251, 251);
@@ -31,8 +31,8 @@ body {
 }
 
 #cabecalho {
-  background-color: var(--purple);
-  color: var(--white);
+  background-color: rgb(84, 58, 163);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,7 +45,7 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.164);
 }
 
-.skills ul , .skills ol {
+/* .skills ul , .skills ol {
   color: var(--dark-gray);
   font-size: 0.9rem;
   margin: 0 2rem;
@@ -138,14 +138,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.learning article {
-  float: left;
-}
-
-.learning section {
-  float: right;
-}
-
 .learningArticle p , .learningArticle h4 {
   text-align: justify;
   margin: 1rem 0;
@@ -168,10 +160,6 @@ body {
 
 .learningArticle {
   margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .learningArticle section {
@@ -205,4 +193,23 @@ body {
 
 #rodape div {
   width: 70vw;
+} */
+
+.learningArticle section {
+  display: inline-block;
+  width: 300px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 300px;
+}
+
+.lado-direito {
+  float: right;
+  width: 300px;
+}
+
+#rodape {
+  clear: both;
 }
