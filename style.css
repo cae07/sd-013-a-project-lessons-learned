@@ -16,6 +16,7 @@ body{
     height: 70px;
     margin-top: 0px;
     top: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #minha_foto{ 
     width: 120px;
@@ -23,4 +24,6 @@ body{
     border-radius: 150px;
     text-align: 
 }
-
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
