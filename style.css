@@ -54,11 +54,11 @@ a {
   margin-top: 20px;
 }
 
-.nav-bar-list a{
+.nav-bar-list a {
   text-decoration: none;
 }
 
-.nav-bar-list a:hover{
+.nav-bar-list a:hover {
   color: white;
   background-color: rgba(10,126,81,.8); 
 }
@@ -179,6 +179,7 @@ footer {
   background-color: rgba(10,126,81,.8); 
   border-top: 7px solid #2fc18c;
 }
+
 footer p {
-    margin-left: 50px;
+  margin-left: 50px;
 }
