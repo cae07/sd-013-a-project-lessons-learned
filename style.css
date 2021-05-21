@@ -1,8 +1,37 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: rgb(74, 158, 214);
+  text-align: center;
+}
+
+#titulo {
+  color: rgb(218, 202, 149);
+}
+
+img {
+  margin-top: 100px;
+}
+
+a {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a:hover {
+  background-color: rgb(218, 202, 149);
+}
+
+article, aside {
+  border: 3px solid rgb(74, 158, 214);
+}
+
+.prophets {
+  font-size: 30px;
+  color: rgb(74, 158, 214);
 }
