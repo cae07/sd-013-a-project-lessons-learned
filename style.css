@@ -20,8 +20,7 @@ body {
   margin-left: 32.5%;
   margin-top: 8%;
   background-color: yellowgreen;
-  padding: 2px;
-  padding: auto;}
+  padding: 2px;}
 
 .ocultar {
   display: none;
@@ -36,10 +35,9 @@ body {
   display: inline-block;
   background-color: thistle;
   margin-top: 10%;
-  margin-left: 409.5px ;
+  margin-left: 409.5px;
   padding: 30px;
-  width: 30%;
-  padding: auto;}
+  width: 30%;}
 
 #licoes_aprendidas {
   float: right;}
@@ -52,10 +50,9 @@ body {
 
 .lado-direito {
   float: right;}
-  
+
 h2 {
   text-align: center;}
-  
 
 h3 {
   text-align: center;}
