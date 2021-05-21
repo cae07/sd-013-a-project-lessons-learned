@@ -74,6 +74,7 @@ header #cabecalho {
 #topo {
   display: block;
   position: absolute;
+  top: 140%;
 }
 
 #texto {
@@ -98,31 +99,10 @@ header #cabecalho {
   width: 400px;
 }
 
-#tabela{
-  display: inline-block;
-  float: right;
-  border: 10px;
-  margin-right: 57%;
-  border-style: solid; width: 300px;
-  border-color: #ECEDED;
-}
-
-.lado-esquerdo{
+.lado-esquerdo, .lado-direito {
   display: inline-block;
   margin-left: 15%;
   width: 400px;
   margin-top: 10%;
-  background-color: #ECEDED; width: 430px; padding: 10px 10px;
-  margin-top: 10%
 }
-
-.lado-direito{
-  display: inline-block;
-  margin-left: 15%;
-  border-style: solid; width: 300px;
-  border-color: #ECEDED;
   
-}
-.lado-direito h2, .aprendizado{
-  margin-left: 25px;
-}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html#inicio -->
+<html lang="pt"><link type="text/css" id="dark-mode" rel="stylesheet" href="http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Primeiro Projeto_files/style.css">
+  <title>Primeiro Projeto</title>
+</head>
+<body>
+ <header>
+  <div id="cabecalho">
+    <img id="minha_foto" src="./Primeiro Projeto_files/foto.jpg" alt="MinhaFotoMenu" width="50px">
+   <h1 id="titulo">
+    Em busca da evolução 
+   </h1>
+   
+   <nav class="menu">
+    <ul>
+      <li><a href="http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html#inicio">Inicio</a></li>
+      <li><a href="http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html#texto">Sobre</a></li>
+      <li><a href="http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html#rodape">Contato</a></li>
+    </ul>
+   </nav>
+  </div>
+</header>
+  <section id="inicio">
+   <section class="list_licoes">
+    <ol id="licoes_aprendidas">
+      <h2>O que eu aprendi:</h2>
+       <li>Unix</li>
+       <li>Shell</li>
+       <li>Bash</li>
+       <li>Git</li>
+       <li>GitHub</li>
+       <li>Internet</li>
+       <li>Html</li>
+       <li>Css</li>
+       <li>Html Semântico</li>
+       <li>Box Model</li>
+    </ol>
+    <ul id="licoes_a_aprender">
+      <h2>O que quero aprender:</h2>
+       <li>JavaScrip</li>
+       <li>Functions</li>
+       <li>React</li>
+       <li>Python</li>
+       <li>API</li>
+       <li>Soft Skills</li>
+       <li>Ciência da Computação</li>
+       <li>Docker</li>
+       <li>AWS</li>
+       <li>NodeJS</li>
+    </ul>
+   </section>
+  </section>
+  <section class="lado-esquerdo">
+    <h2>O que aprendi até o momento na Trybe?</h2>
+     <article id="texto"> 
+     Meu primeiro contato com a programação foi iniciando o processo seletivo para virar aluno da Trybe. Encarei esse desafio em 
+     busca de novas oportunidades e consequentemente em busca de uma carreia de sucesso. <p>Logo nas primeiras semanas aprendemos sobre <strong>Unix&amp;Bash,
+     Git&amp;GitHub, HTML&amp;CSS</strong>. Com o Git aprendemos a armazenar nossos projetos e exercicios no GitHub, com HTML aprendemos como criar
+     toda estrutura de uma página web e utilizando o CSS para estilizar a página. </p>
+     </article>
+  </section>
+  <section class="lado-direito">
+     <h2>Sobre meu aprendizado</h2>
+     <aside class="aprendizado">
+     O que mais gostei de aprender até o momento foi sobre <strong>Git&amp;GitHub, HTML&amp;CSS</strong>. No começo tive um pouco de dificuldade para entender o conteúdo
+     mas consegui solucionar todas as dúvidas nos plantões e com nossos amigos da Tribo. 
+     </aside>
+  </section>
+  <footer id="rodape">
+   <li class="contato"><h2 class="contat">Contato:</h2>
+    <a href="https://www.instagram.com/doouglasdrozda/" target="_blank">
+    <img src="./Primeiro Projeto_files/insta.png" alt="instagram" width="50px"></a>
+    <a href="https://www.linkedin.com/in/douglasdrozda/" target="_blank">
+    <img src="./Primeiro Projeto_files/linkedin.png" alt="linkedin" width="50px"></a>
+    <a href="https://github.com/DouglasDrozda" target="_blank">
+    <img src="./Primeiro Projeto_files/github.png" alt="git" width="50px"></a>
+   </li>
+   <li id="topo">
+     <a href="http://127.0.0.1:5500/sd-013-a-project-lessons-learned/index.html#inicio">
+    <img id="top" src="./Primeiro Projeto_files/61.png" alt="topo" width="150px"></a>
+    </li><li class="doug">Douglas Drozda</li>
+   
+  </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
