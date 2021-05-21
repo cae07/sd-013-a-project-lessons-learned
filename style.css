@@ -27,27 +27,17 @@ a:hover {
   background-color: rgb(218, 202, 149);
 }
 
-article , aside {
-  border: 3px solid rgb(74, 158, 214);
-}
-
 .prophets {
   font-size: 30px;
   color: rgb(74, 158, 214);
 }
 
-.spacing {
+.lista-esquerda , .lista-direita {
+  display: inline-block;
+}
+
+.a-feats {
   line-height: 30px;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-}
-
-.lado-direito {
-  display: inline-block;
-}
-
-.articles {
-  margin: 10px;
+  margin: 20px;
+  border: 3px solid rgb(74, 158, 214);
 }
