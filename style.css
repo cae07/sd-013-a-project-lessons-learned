@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
-  color: #070707ee;
+  color: black;
   line-height: 30px;
   font-family: Arial, sans-serif;
 }
@@ -48,7 +48,6 @@ nav a:hover {
 
 .apresentacao img {
   border-radius: 100%;
-  
 }
 
 .modulo1 {
@@ -80,7 +79,6 @@ nav a:hover {
   margin: 10px;
   display: inline-block;
   width: 40%;
-  display: 2;
 }
 
 .licoes_a_aprender {
@@ -104,7 +102,6 @@ td {
 }
 footer {
   margin: 5px;
-  border: 5px;
   padding: 20px;
   background: linear-gradient(to right, red, purple);
   text-align: center;
