@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+    top: 0;
+    display: inline-block;
+    background-color: aliceblue;
+    margin-bottom: 0;
+    margin: 50px 750px;
+    position: fixed;
+}
+#titulo{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+.botao{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+#minha_foto{
+  width: 300px;
+}
