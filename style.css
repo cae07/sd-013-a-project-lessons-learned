@@ -22,3 +22,20 @@ body {
 #principal {
   margin-top: 100px;
 }
+
+.tabela {
+  border-collapse:collapse;
+}
+
+.tabela td, .tabela th {
+  padding: 10px;
+  border: 1px solid rgb(184, 182, 182);
+}
+
+.tabela tr:nth-child(even) {
+  background-color: lightcyan;
+}
+
+.centro {
+  text-align: center;
+}
