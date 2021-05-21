@@ -6,18 +6,6 @@ Padding: 0;
 body {
 background-color: rgb(253, 251, 251)
 }
-.topnav {
-    background-color: darkslategray;
-    overflow: hidden;
-    margin-top: 30px;
-}
-.topnav a {
-    float: left;
-    color: #fcfcfc;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 19px;
-}
 #cabecalho {
 position: fixed;
 background-color: darkslategray;
@@ -32,6 +20,19 @@ left: 0;
 right: 0;
 height: 30px;
 margin-top: 0;
+}
+.topnav {
+    background-color: darkslategray;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+.topnav a {
+    float: left;
+    color: #fcfcfc;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
 }
 #minha_foto {
 width: 250px;
