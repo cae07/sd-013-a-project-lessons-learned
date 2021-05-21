@@ -37,11 +37,13 @@ h1 {
 .lado-esquerdo {
   float: left;
   width: 475px;
+  height: 420px;
 }
 
 .lado-direito {
   float: right;
   width: 475px;
+  height: 420px;
 }
 
 section {
