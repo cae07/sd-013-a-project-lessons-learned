@@ -5,7 +5,7 @@ body {
   font-family: sans-serif;
 }
 
-a{
+a {
   text-decoration: inherit;
   color: inherit;
 }
@@ -16,7 +16,7 @@ a{
   background-color: rgba(13, 17, 20, 0.9);
   width: 100%;
   padding: 20px 0;
-  color: #3199C6;
+  color: rgba(49, 153, 198);
 }
 
 .container {
@@ -30,7 +30,7 @@ a{
   display: inline;
 }
 
-#titulo:hover{
+#titulo:hover {
   color: white;
 }
 
@@ -47,28 +47,28 @@ a{
 }
 
 .menu-home ul li a {
-  color: #3199C6;
-  font-weight: bold;
+  color: rgba(49, 153, 198);
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
   padding: 10px 0;
 }
 
-.menu-home ul li a:hover{
+.menu-home ul li a:hover {
   background-color: white;
   border-radius: 5px;
   padding: 2px 5px;
-  color: #131720;
+  color: rgba(19, 23, 32);
 
 }
 
 .foto {
-  background-color: #131720;
+  background-color: rgba(19, 23, 32);
   border-radius: 10px;
 }
 
-#minha_foto{
+#minha_foto {
   width: 155px;
   height: 155px;
   border-radius: 50%;
@@ -77,7 +77,7 @@ a{
 }
 
 .conteudo {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 
 .listas {
@@ -85,12 +85,12 @@ a{
   text-align: center;
   font-size: 18px;
   height: 600px;
-  color: #131720;
+  color: rgba(19, 23, 32);
 }
 
 .listas h2 {
   font-size: 40px;
-  border: #252525 solid 3px;
+  border: rgba(13, 17, 20) solid 3px;
   border-radius: 10px;
   padding: 10px 0;
 }
@@ -107,37 +107,34 @@ a{
   padding: 0 20px;
   display: inline-block;
   text-align: left;
-  border-left:  #252525 solid 3px;
+  border-left: rgba(13, 17, 20) solid 3px;
 }
 
-/*aprendendo a aprender*/
-
+/* aprendendo a aprender */
 .artigos {
   margin-top: -120px;
-  background-color: #131720;
+  background-color: rgba(19, 23, 32);
   height: 100%;
-  color: #fff;
+  color: white;
   text-align: center;
-  
 }
 
 .artigos h2 {
-  color: #3199C6;
+  color: rgba(49, 153, 198);
   font-size: 40px;
-  border: #A4A5AD solid 3px;
+  border: rgba(164, 165, 173) solid 3px;
   border-radius: 10px;
   padding: 10px 0;
 }
 
-.container-flex{
+.container-flex {
   display: flex;
-  padding: auto;
   justify-content: space-between;
   padding: 0 50px;
 }
 
 .artigo-1 p {
-  color: #A4A5AD;
+  color: rgba(164, 165, 173);
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
@@ -147,7 +144,7 @@ a{
 }
 
 .artigo-2 aside p {
-  color: #A4A5AD;
+  color: rgba(164, 165, 173);
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
@@ -156,25 +153,24 @@ a{
   max-width: 360px;
 }
 
-/*Footer*/
-
+/* Footer */
 .footer {
   text-align: center;
-  background-color: #f5f5f5;
-  color: #131720;
+  background-color: whitesmoke;
+  color: rgba(19, 23, 32);
 }
 
 .footer h2 {
   width: 100%;
-  color: #131720;
+  color: rgba(19, 23, 32);
   text-align: center;
   font-size: 40px;
-  border-top: #131720 3px solid;
-  border-bottom:#131720 3px solid;
+  border-top: rgba(19, 23, 32) 3px solid;
+  border-bottom: rgba(19, 23, 32) 3px solid;
 }
 
 .footer footer {
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
 
 .footer table {
@@ -189,16 +185,16 @@ a{
 }
 
 .footer table:hover {
-  background-color: #131720;
-  color: #A4A5AD;
+  background-color: rgba(19, 23, 32);
+  color: rgba(164, 165, 173);
 }
 
-.footer table a:hover {
-  color: #fff;
-  font-weight: bold;
+.footer table td > a:hover {
+  color: white;
+  font-weight: 900;
 }
 
 .footer span {
-  color: #55C28D ;
-  font-weight: bold;
+  color: rgba(85, 194, 141);
+  font-weight: 900;
 }
