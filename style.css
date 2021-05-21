@@ -9,8 +9,9 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h2 {
+h2 p {
   font-family: Montserrat , sans-serif;
+  font-size: 25px;
 }
 
 #cabecalho {
@@ -31,6 +32,7 @@ h2 {
 
 #titulo {
   font-family: fantasy, sans-serif;
+  font-size: 40px;
   width: 50%;
   margin: auto;
   padding: 10px;
