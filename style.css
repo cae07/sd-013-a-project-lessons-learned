@@ -1,13 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
-  color: #323f3a;
+  color: black;
   line-height: auto;
 }
 
 #cabecalho {
-  position:fixed;
+  position: fixed;
   top: 0;
   background-color: dodgerblue;
   margin: auto;
@@ -20,7 +20,7 @@ body {
 #github {
   text-decoration: none;
   color: white;
-  background-color: #323f3a;
+  background-color: black;
   padding: 7px 20px;
 }
 
@@ -32,14 +32,40 @@ body {
   width: 200px;
 }
 
-.lado-esquerdo {
-  display: inline;
+.lado-direito {
+  width: 500px;
+  margin-right: 50px;
+  text-align: justify;
+  display: inline-block;
 }
 
-.lado-direito {
-  display: inline;
+.lado-esquerdo {
+  width: 300px;
+  margin-right: 50px;
+  text-align: justify;
+  display: inline-block;
 }
+
+#rodape {
+  margin-top: 100px;
+  text-align: center;
+}
+
 #link1 {
   text-decoration: none;
-  color: #323f3a;
+  color: black;
+}
+
+#tabela {
+  margin-bottom: 20px;
+  width: 1330px;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+.tabela1 {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  margin-left: 124px;
 }
