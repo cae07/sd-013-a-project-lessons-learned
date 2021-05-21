@@ -10,19 +10,22 @@ body {
 }
 
 #cabecalho {
-    background-color: seagreen;
+    background-color: rgb(81, 145, 108);
     text-align: center;
-    top: 10;
+    top: 0;
+    padding-top: 1%;
+    position: fixed;
+    width: 100%;
+    padding-right: 10%;
 }
 
-
 .foto {
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
 }
 
 .nav {
-    text-align: left;
+    float: left;    
 }
 
 a {
@@ -46,7 +49,7 @@ body {
   }
   
   .tabela  {
-      background-color: seagreen;
+      background-color: rgb(79, 151, 110);
       padding-left: 22%;
   }
 .tabela h2 {
@@ -76,4 +79,8 @@ body {
     padding-left: 10%;
     
 }
-
+.lado-direito h2 {
+text-align: right;
+padding-right: 9%;
+padding-top: 1%;
+}
