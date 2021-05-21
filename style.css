@@ -1,0 +1,79 @@
+* {
+    margin: 28;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+
+}
+
+#cabecalho {
+    background-color: seagreen;
+    text-align: center;
+    top: 10;
+}
+
+
+.foto {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.nav {
+    text-align: left;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 25px;
+    color: black;
+    margin-top: 10px;
+  }
+  footer {
+    clear: both;
+    max-width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .tabela  {
+      background-color: seagreen;
+      padding-left: 22%;
+  }
+.tabela h2 {
+    padding-left: 22%;
+}
+
+  .lado-esquerdo article {
+      display: inline;
+      width: 40%;
+    float: left;
+    padding-left: 8%;
+  }
+  .lado-direito section {
+      width: 40%;
+    float: right;
+    padding-right: 10%;
+  }
+#licoes_a_aprender {
+    background-color: navajowhite;
+    text-align: right;
+    padding-left: 70%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+#licoes_aprendidas {
+    float: left;
+    padding-left: 10%;
+    
+}
+
