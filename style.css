@@ -1,3 +1,19 @@
 body{
     background-color: rgb(253, 251 , 251);
 }
+
+#cabecaljo {
+
+}
+
+#titulo{
+    
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+}
+
+#licoes_aprendidas{
+    display:inline-block 
+}
