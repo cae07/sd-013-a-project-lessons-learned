@@ -2,12 +2,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#aside1 {
+#aside {
   position: fixed;
   left: 55vw;
   top: 115px;
-  width: 440px;
-  height: 100px;
+  width: 500px;
+  height: 150px;
   background-color: #bfdbf7;
   display: flex;
   flex-direction: row;
@@ -15,23 +15,9 @@ body {
   text-align: justify;
   padding: 10px;
   font-size: 16pt;
-  border-radius: 20px;
-}
-
-#aside2 {
-  position: fixed;
-  left: 55vw;
-  top: 250px;
-  width: 440px;
-  height: 420px;
-  background-color: #bfdbf7;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: justify;
-  padding: 10px;
-  font-size: 16pt;
-  border-radius: 20px;
+  border-radius: 10px;
+  font-family: monospace;
+  line-height: 1.5;
 }
 
 #cabecalho {
@@ -43,6 +29,7 @@ body {
   text-align: center;
   color: rgb(253, 251, 251);
   padding: 10px;
+  border-radius: 10px;
 }
 
 #minha_foto {
@@ -76,6 +63,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .card2 {
@@ -90,4 +78,5 @@ body {
   text-align: justify;
   padding: 10px;
   font-size: 14pt;
+  border-radius: 10px;
 }
