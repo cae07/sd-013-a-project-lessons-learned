@@ -8,6 +8,7 @@ header {
   top: 0;
   background-color: rgb(74, 158, 214);
   text-align: center;
+  width: 100%;
 }
 
 #titulo {
@@ -21,6 +22,12 @@ img {
 a {
   padding-left: 40px;
   padding-right: 40px;
+  font-weight: bold;
+  color: blanchedalmond;
+}
+
+footer a {
+  background-color: rgb(74, 158, 214);
 }
 
 a:hover {
@@ -34,11 +41,33 @@ a:hover {
 
 .lista-esquerda , .lista-direita {
   display: inline-block;
-  margin-right: 80px;
+  margin-right: 120px;
 }
 
-.a-feats {
+.art-feats {
   line-height: 30px;
   margin: 10px;
   border: 3px solid rgb(74, 158, 214);
+  text-align: justify;
+  padding: 10px;
+  height: 320px;
+}
+
+.asi-feats {
+  line-height: 30px;
+  margin: 10px;
+  border: 3px solid rgb(74, 158, 214);
+  text-align: justify;
+  padding: 10px;
+  height: 320px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 20%;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 20%;
 }
