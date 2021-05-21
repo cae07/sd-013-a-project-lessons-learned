@@ -1,13 +1,45 @@
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #323f3a;
+  line-height: auto;
 }
 
 #cabecalho {
   position:fixed;
   top: 0;
-  background-color: #1E90FF;
+  background-color: dodgerblue;
+  margin: auto;
+  padding: 5px 475px 20px;
+  border: solid black 1px;
+  text-align: center;
+  text-decoration: n;
+}
+
+#github {
+  text-decoration: none;
+  color: white;
+  background-color: #323f3a;
+  padding: 7px 20px;
+}
+
+#principal {
+  margin-top: 150px;
 }
 
 #minha_foto {
   width: 200px;
+}
+
+.lado-esquerdo {
+  display: inline;
+}
+
+.lado-direito {
+  display: inline;
+}
+#link1 {
+  text-decoration: none;
+  color: #323f3a;
 }
