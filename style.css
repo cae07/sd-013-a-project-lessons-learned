@@ -38,6 +38,10 @@ a:hover {
 
 .a-feats {
   line-height: 30px;
-  margin: 20px;
+  margin: 10px;
   border: 3px solid rgb(74, 158, 214);
+}
+
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
 }
