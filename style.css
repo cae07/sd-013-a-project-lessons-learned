@@ -40,14 +40,14 @@
             
      }
 
-     .lado_esquerdo {
+     .lado-esquerdo {
        width: 300px;
        display: inline-block;
        text-align: left;
             
      }
 
-     .lado_direito {
+     .lado-direito {
        width: 300px;
        display: inline-block;
        text-align: left;
