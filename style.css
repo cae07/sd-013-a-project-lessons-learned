@@ -36,22 +36,22 @@
       }
 
      .posiciona {
-      padding: auto;
-      margin: 1%;
-      
+      text-align: center; 
+            
      }
 
      .lado_esquerdo {
-       float: left;
-       margin: 1%;
-       text-align: center;
-
-     } 
+       width: 300px;
+       display: inline-block;
+       text-align: left;
+            
+     }
 
      .lado_direito {
-       float: right;
-       margin: 1%;
-       text-align: center;
+       width: 300px;
+       display: inline-block;
+       text-align: left;
+       vertical-align: top;
 
      }
 
