@@ -62,7 +62,7 @@ h2 {
 #barra-lateral {
   background-color: #65B891;
   float: right;
-  height: 767px;
+  height: 760px;
   width: 250px;
   padding: 10px;
   margin-top: 110px;
@@ -99,6 +99,17 @@ h2 {
 
 }
 
+#article-2 {
+  padding: 20px 30px 40px 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  background-color: #f5f5fc;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 #section-1 h2 {
   margin-bottom: 20px;
 }
@@ -112,6 +123,29 @@ h2 {
 }
 
 #section-2 h2 {
+  margin-bottom: 20px;
+}
+
+.lado-direito {
+  padding: 30px 20px 20px 20px;
+  max-width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+
+}
+
+.lado-direito h2 {
+  margin-bottom: 20px;
+}
+
+.lado-esquerdo {
+  padding: 30px 20px 20px 20px;
+  max-width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.lado-esquerdo h2 {
   margin-bottom: 20px;
 }
 
