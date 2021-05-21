@@ -27,7 +27,7 @@ a:hover {
   background-color: rgb(218, 202, 149);
 }
 
-article, aside {
+article , aside {
   border: 3px solid rgb(74, 158, 214);
 }
 
@@ -38,4 +38,16 @@ article, aside {
 
 .spacing {
   line-height: 30px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.articles {
+  margin: 10px;
 }
