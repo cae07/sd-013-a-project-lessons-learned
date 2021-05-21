@@ -13,10 +13,6 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-}
-
 #cabecalho {
   height: 90px;
   width: 100%;
@@ -61,4 +57,60 @@ h3 {
 #menu a:hover {
   background-color: #ffffff;
   color: #58A4B0;
+}
+
+#barra-lateral {
+  background-color: #65B891;
+  float: right;
+  height: 767px;
+  width: 250px;
+  padding: 10px;
+  margin-top: 110px;
+}
+
+.texto-barra {
+  font-family: fantasy, sans-serif;
+  color: #0D5C63;
+  padding-top: 180px;
+  position: fixed;
+  height: 400px;
+  overflow: auto;
+}
+
+#titulo-barra {
+  margin-bottom: 10px;
+}
+
+#article {
+  padding: 20px 30px 40px 30px;
+  margin-top: 120px;
+  margin-left: 10px;
+  width: 80%;
+  background-color: #f5f5fc;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#section-1 {
+  padding: 30px 20px 20px 20px;
+  max-width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+
+}
+
+#section-1 h2 {
+  margin-bottom: 20px;
+}
+
+#section-2 {
+  padding: 30px 20px 20px 20px;
+  max-width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+
+}
+
+#section-2 h2 {
+  margin-bottom: 20px;
 }
