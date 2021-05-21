@@ -1,7 +1,7 @@
 body{
     background-color:  rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho{ 
     position: fixed;
     top: 0;
 }
@@ -9,10 +9,9 @@ nav{
     background-color: aquamarine;
     margin: auto;
     padding: 10px;
-    border: 2px solid black;
-    
+    border: 2px solid black;   
 }
-p{ 
+p{  
     width: 400px;
     font-size: 18px;
     color: brown;
