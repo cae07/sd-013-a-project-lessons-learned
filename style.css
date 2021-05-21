@@ -1,0 +1,69 @@
+body{ 
+    background-color: rgb(253, 251, 251);
+    margin: 0%;
+
+}
+
+#cabecalho{ 
+    top: 0%;
+    background-color: #DEB887;
+    padding: 40px 30px;
+    text-align: center;
+    margin: auto;
+}
+
+h4{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    align-self: center;
+}
+#minha_foto{ 
+    border-radius: 50px;
+    display: block;
+	align-self: center;
+    margin-left: 5%;
+}
+
+
+
+.lado-esquerdo{
+    background-color: rgb(253, 251, 251);
+    padding: auto;
+    width: 600px;
+    border-style:dotted;
+}
+
+
+.lado-direito{
+    background-color: rgb(253, 251, 251);
+    padding: auto;
+    width: 600px;
+    border-style: dotted;
+ 
+}
+
+.link{
+    display: block;
+	background: #e4b16f;
+    margin-left: auto;
+    margin-right: auto;
+	color: white;
+	cursor: pointer;
+    text-align: center;
+}
+
+#navegacao{
+    cursor: pointer;
+    padding: auto;
+    font-size: 18px;
+    border: 15px;
+}
+
+#rodape{
+    background: #DEB887;
+	color: #FFFFFF;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 100;
+
+}
