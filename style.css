@@ -5,3 +5,19 @@ body{
     position: fixed;
     top: 0;
 }
+nav{
+    background-color: aquamarine;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+p{ 
+    width: 400px;
+    font-size: 18px;
+    color: brown;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    display: inline-block;    
+}
