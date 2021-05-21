@@ -1,21 +1,22 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 16px;
-  color: #000000ee;
+  color: #070707ee;
   line-height: 30px;
   font-family: Arial, sans-serif;
 }
 
 header {
-  margin: 5px;
-  border: 5px;
+  margin: 0;
+  border: 0;
   padding: 30px;
-  background-image: url(images/bg-trybe.jpeg);
+  background: linear-gradient(to right, red, purple);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 120px;
+  display: 1;
 }
 
 header h1 {
@@ -47,6 +48,17 @@ nav a:hover {
 
 .apresentacao img {
   border-radius: 100%;
+  
+}
+
+.modulo1 {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  height: 165px;
+  width: 155px;
+  background: linear-gradient(to right, red, purple);
+  padding: 4px;
 }
 
 .licoes-aprendidas {
@@ -56,7 +68,6 @@ nav a:hover {
 
 .lado-esquerdo {
   margin: 10px;
-  position: relative;
   display: inline-block;
   width: 40%;
 }
@@ -67,9 +78,9 @@ nav a:hover {
 
 .lado-direito {
   margin: 10px;
-  position: relative;
   display: inline-block;
   width: 40%;
+  display: 2;
 }
 
 .licoes_a_aprender {
@@ -95,13 +106,13 @@ footer {
   margin: 5px;
   border: 5px;
   padding: 20px;
-  background-color: rgb(2, 19, 2);
+  background: linear-gradient(to right, red, purple);
   text-align: center;
   height: 50px;
 }
 
 footer a {
-  color: green;
+  color: rgb(162, 243, 162);
   text-decoration: none;
 }
 
