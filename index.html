@@ -10,13 +10,13 @@
   <body>
 
     <header id="cabecalho">
-      <h1 id="titulo">Lições Aprendidas - Trybe</h1>
+      <h1 id="titulo">Lições Aprendidas - <img id="logo-trybe" src="img/trybe_logo.png" alt=""></h1>
       
       <nav id="menu">
         <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Contato</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
@@ -25,11 +25,12 @@
 
       <section class="foto">
         <img id="minha_foto" src="img/minha-foto.jpg" alt="foto de um homem de cabelos compridos">
+        <h2><span>T</span>homas <span>R</span>avache</h2>
       </section>
 
-      <section class="lista">
+      <section class="lista clear">
 
-        <section class="aprendidos">
+        <section class="aprendidos lado-esquerdo">
           <h2>Lições aprendidas</h2>
           <ol id="licoes_aprendidas">
             <li>Unix</li>
@@ -45,7 +46,7 @@
           </ol>
         </section>
 
-        <section class="aprender">
+        <section class="aprender lado-direito">
           <h2>Lições a aprender</h2>
           <ul id="licoes_a_aprender">
             <li>Lógica de Programação</li>
@@ -63,18 +64,25 @@
 
       </section>
 
-      <article>
-        <section class="meu-aprendizado">
-          <h2>Descritivo</h2>
-          <p>
-            Apenas com mais ou menos duas semanas na Trybe, estou aprendendo muito mais do que imaginava!
-          </p>
-          <p>Nós já aprendemos como gerenciar arquivos pelo terminal, gerenciar versionamento através do Git e do GitHub, como funciona a internet, como é feita a estruturação de uma página com HTML e estilizar páginas web com cores e posicionamentos utilizando o CSS!</p>
-          <p>Estou adorando a didática apresentada e espero aprender cada dia mais!</p>
-        </section>
-      </article>
+      <div class="flutuante clear">
+        <article class="artigo lado-esquerdo">
+          
+            <h2>Descritivo</h2>
+            <p>
+              Apenas com mais ou menos duas semanas na Trybe, estou aprendendo muito mais do que imaginava!
+            </p>
+            <p>Nós já aprendemos como gerenciar arquivos pelo terminal, gerenciar versionamento através do Git e do GitHub, como funciona a internet, como é feita a estruturação de uma página com HTML e estilizar páginas web com cores e posicionamentos utilizando o CSS!</p>
+            <p>Estou adorando a didática apresentada e espero aprender cada dia mais!</p>
+          
+        </article>
 
-      <section>
+        <aside class="lateral lado-direito">
+          <h2>Aprendizado do Bash</h2>
+          <p>Foi um aprendizado totalmente novo para mim! Não tinha ideia de como os processos poderiam se tornar muito mais rápidos, apenas utilizando comandos do Bash no Unix.</p>
+        </aside>
+      </div>
+
+      <section class="clear">
         <h2>Próximos conteúdos - Bloco 04</h2>
         <table class="tabela">
           <tr>
@@ -104,15 +112,11 @@
         </table>
       </section>
 
-      <aside>
-        <h2>Entendendo o Bash</h2>
-        <p>Foi um aprendizado totalmente novo para mim! Não tinha ideia de como os processos poderiam se tornar muito mais rápidos, apenas utilizando comandos do Bash no Unix.</p>
-      </aside>
-
     </main>
 
-    <footer id="rodape">
-      <h2>Redes sociais</h2>
+    <footer id="rodape" class="clear">
+      <p>Página criada por Thomas Ravache</p>
+      <h2 class="sem-margem">Redes sociais</h2>
       <ul>
         <li><a href="https://www.linkedin.com/in/thomas-ravache/" target="_blank" title="link para o LinkedIn de Thomas Ravache">LinkedIn (opens in new window)</a></li>
       </ul>
