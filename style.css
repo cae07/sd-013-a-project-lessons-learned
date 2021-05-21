@@ -114,3 +114,15 @@ h2 {
 #section-2 h2 {
   margin-bottom: 20px;
 }
+
+#rodape {
+  background-color: #0D5C63;
+  border-top: solid #65B891;
+  height: 70px;
+}
+
+#rodape h3 {
+  margin-top: 20px;
+  text-align: center;
+  color: #FFFFFA;
+}
