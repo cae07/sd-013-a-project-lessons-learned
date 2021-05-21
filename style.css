@@ -1,63 +1,72 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main {
-    margin-top: 100px;
-}
-
-#perfil {
-  text-align:center;
 }
 
 #cabecalho {
-  width: 100%;   
-  top: 0;
   position: fixed;
-}
-
-#titulo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-large;
-  font-weight: 700;
+  top: 0;
+  width: 100%;
+  text-align: center;
   color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: 2px black solid;
+  padding: 2px;
+}
+
+.navegador {
   text-align: center;
-  background-color: salmon;
-  padding: auto;
-  margin: 0;
-  border-radius: 20px;
-}
-
-#minha_foto {
-  width: 30%;
-}
-
-#perfil h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xx-small;
-  color: black;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.indice {
-  display:block;
-  list-style: none;
-  margin: auto;
-  text-align: center;
-  font-size: small;
+  margin-top: 100px;
 }
 
 .indice li {
-  display: inline-block;
+  list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  margin-left: 11px;
   color: white;
-  font-size: x-large;
-  border-radius: 20px;
+  background-color: blue;
+  border-radius: 10px;
+  border: 2px black solid;
+  padding: 2px;
+}
+
+#link a {
+  color: white;
+}
+
+#perfil {
+  display: block;
+  border: 2px black;
+  font-size: 1ch;
   font-weight: 700;
   text-align: center;
-  background-color: salmon;
+}
+
+#minha_foto {
+  width: 150px;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  border: 2px black solid;
+}
+
+#licoes_aprendidas_1 {
+  float: left;
+}
+
+#licoes_a_aprender_1 {
+  display: inline-block;
+  margin-left: -3px;
+}
+
+.lado-direito {
+  margin-left: 69px;
+  width: 315px;
+  float: right;
+  line-height: 20px;
+  border: 2px black solid;
   padding: 5px;
-  margin-top: 50px;
 }
