@@ -100,6 +100,7 @@ th {
 td {
   background-color: rgb(130, 205, 207);
 }
+
 footer {
   margin: 5px;
   padding: 20px;
@@ -108,7 +109,7 @@ footer {
   height: 50px;
 }
 
-footer a {
+a {
   color: rgb(162, 243, 162);
   text-decoration: none;
 }
