@@ -177,7 +177,6 @@ header h2 {
 .tabela table {
   margin-left: auto;
   margin-right: auto;
-
 } 
 
 .styled-table {
@@ -190,8 +189,8 @@ header h2 {
 }
 
 .styled-table th {
-  background-color: #db5854;
-  color: #fff;
+  background-color: rgb(235, 103, 103);
+  color: aliceblue;
   text-align: center;
   font-size: 12px;
 }
@@ -201,7 +200,7 @@ header h2 {
 }
 
 .styled-table tr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid aliceblue;
 }
 
 .styled-table tr:nth-of-type(even) {
@@ -209,7 +208,7 @@ header h2 {
 }
 
 .styled-table tr:last-of-type {
-  border-bottom: 5px solid #db5854;
+  border-bottom: 5px solid rgb(235, 103, 103);
 }
 
 .styled-table th,
