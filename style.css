@@ -1,20 +1,31 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 #cabecalho {position: fixed;
-  top:0px;}
+  top:0px;
+  left: 480px;}
+
 #minha_foto {
   position: absolute;
-  top: 650px}
+  top: 130px;
+  left: 900px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 25px black;}
 
 #licoes_aprendidas {
+  line-height: 25px;
   position: absolute;
-  top: 90px
+  top: 90px;
+  left: 200px
+
 }
 
 #licoes_a_aprender {
   position: absolute;
-  top: 340px;
+  top: 400px;
+  line-height: 25px;
+  left: 200px
 }
 
 #rodape {
@@ -23,6 +34,17 @@ body {
 }
 #artigo {
   position: absolute;
-  top: 50px;
-  left: 400px;
+  top: 730px;
+  left: 200px
+}
+
+#artigo2 {
+  position: absolute;
+  top: 730px;
+  left: 900px;
+}
+
+
+#rodape{
+  font-family: sans-serif;
 }
