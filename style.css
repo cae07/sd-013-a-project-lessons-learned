@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(48, 158, 192);
+  background-color: rgb(253, 251, 251);
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   line-height: 23px;
   
@@ -13,6 +13,7 @@ body h1 {
   position: fixed;
   top: 0;
   background-color: rgb(6, 82, 112);
+  z-index: 1;
 }
 #minha_foto {
   float:left; 
@@ -32,14 +33,15 @@ body h1 {
 }
 #licoes_a_aprender {
   display: inline-block;
+  float: left;
+  margin-left: 10px;
+  position: absolute;
+  top: 92px;
   border: 1px solid rgb(218, 214, 214);
   background-color: rgb(218, 214, 214);
-  border-radius: 5px;
   padding: 15px 23px;
-  position: absolute;  
-  margin-left: 10px;
-  top: 92px;
-  float: left;
+  border-radius: 5px;
+  z-index: 0;
 }
 .lado-direito {
   display: inline-block;
