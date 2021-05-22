@@ -5,8 +5,23 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  color: rgb(0,0,255);
+  background-color: rgb(220, 226, 226);
+  right: 0px;
+  left: 0px;
+
+}
+
+h1 {
+  text-align: center;
 }
 
 #minha_foto {
   width: 200px;
+  margin-top: 80px;
+
+}
+
+#rodape{
+  text-align: center;
 }
