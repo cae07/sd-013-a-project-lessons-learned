@@ -1,17 +1,41 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-top: 140px;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: orange;
+  border-style: solid;
+  padding: 10px;
+
+}
+
+caption {
+  margin-bottom: 1px;
+  font-style: oblique;
 }
 
 table , th , td {
   border: 2px solid black;
   border-collapse: collapse;
+  margin-bottom: 20px;
+  
 }
 
 td {
   text-align: center;
+}
+
+h1 {
+  margin: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+aside {
+  margin: 20px 0px;
 }
