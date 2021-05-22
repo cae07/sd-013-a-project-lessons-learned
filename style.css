@@ -2,12 +2,12 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-.top_half {
+.top_half{
     display: flex;
     
 }
 
-#cabecalho {
+#cabecalho{
     width: 100%;
 }
 
@@ -15,6 +15,7 @@ body {
 #cabecalho h1{
     font-family: Nunito Sans;
     position: fixed;
+    top: 0;
     transform: translateX(-50%);
     left: 50%;
     text-align: center;
@@ -25,11 +26,11 @@ body {
     padding-right: 15px;
 }
 
-h1, h2{
+h1 , h2{
     color: rgb(255, 255, 255);
 }
 
-.foto_relato {
+.foto_relato{
     display: flex;
     padding-top: 170px;
     padding-left: 515px;
@@ -39,25 +40,21 @@ h1, h2{
     text-align: center;
 }
 
-#relato {
-    font-family: Montserrat;
-    font-size: 20px
-}
 
-.foto_relato p {
+.foto_relato p{
     width: 300px;
 }
 
-#minha_foto {
+#minha_foto{
     background-color: green;
     width: 300px;
 }
 
-.bloco1 {
+.bloco1{
     display: inline-block;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas{
     font-family: Montserrat;
     position: absolute;
     top: 180px;
@@ -66,7 +63,7 @@ h1, h2{
     border-radius: 10px;
 }
 
-#licoes_a_aprender {
+#licoes_a_aprender{
     font-family: Montserrat;
     position: absolute;
     top: 180px;
@@ -75,16 +72,54 @@ h1, h2{
     border-radius: 10px;
 }
 
-li {
+li{
     padding-right: 30px;
     padding-bottom: 15px;
     text-align: center;
     list-style: none;
 }
 
-#rodape {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    float: bottom;
-    
+div{
+	display: flex;
+}
+
+.linha-texto{
+	display: flex;
+	flex-direction: row;
+
+}
+
+#declaracao{
+  font-size: 20px;
+  display: flex;
+  width: 300px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+#relato{
+	width: 370px;
+  font-family: Montserrat;
+  font-size: 20px;
+	padding-left: 100px;
+
+}
+
+
+#aprendizado{
+  font-size: 25px;
+  float: left;
+  width: 200px;
+  padding-left: 160px;
+  padding-top: 40px;
+}
+
+
+
+#rodape{
+	background-color: #9826ac;
+  font-family: Noto-serif;
+	font-size: 20pxpx;
+  display: flex;
+	padding-left: 19px;
 }
