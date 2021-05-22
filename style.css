@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 170px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
 }
 
 header {
@@ -48,10 +48,7 @@ caption {
 }
 
 table , th , td {
-  margin-top: 40px;
-  margin-right: auto;
-  margin-bottom: 40px;
-  margin-left: auto;
+  margin: 40px auto;
   border: 2px solid black;
   border-collapse: collapse;
 }
