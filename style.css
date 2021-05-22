@@ -195,6 +195,7 @@ header h2 {
 
 .styled-table td {
   text-align: center;
+  padding: 5px;
 }
 
 .styled-table tr {
@@ -208,10 +209,6 @@ header h2 {
 
 .styled-table tr:last-of-type {
   border-bottom: 5px solid rgb(235, 103, 103);
-}
-
-.styled-table td {
-  padding: 5px;
 }
 
 .checkmark {
