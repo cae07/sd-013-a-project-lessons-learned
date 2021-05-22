@@ -48,16 +48,16 @@ h1 {
   width: 200px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender, #minha_foto {
+#licoes_aprendidas,#licoes_a_aprender,#minha_foto {
   display: block;
   list-style: none;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas,#licoes_a_aprender {
   float: right;
 }
 
-#artigo { 
+#artigo {
   font-size: 12px;
   width: 400px;
 }
