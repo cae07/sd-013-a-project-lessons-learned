@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(238, 178, 178);
+}
+
+#cabecalho{
+  position: fixed;
+  top: 0;
+  border: 1px;
+  background-color: rgb(228, 228, 255);
+  width: 100%;
+}
+
+#titulo{
+  font-family:Arial, Helvetica, sans-serif;
+  width: 1366px;
+  text-align: center;
+  padding: 10px;
+  color: rgb(28, 28, 28);
+  color: black;
+  font-size:medium;
+  line-height: 0;
+}
+
+#minha_foto{
+  width: 200px;
+  margin-top: 120px;
+}
+#rodape{
+  margin-left: 45%;
+}
