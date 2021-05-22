@@ -9,19 +9,25 @@ body {
 header {
   margin: 0;
   border: 0;
-  padding: 30px;
-  background: linear-gradient(to right, red, purple);
+  padding: 5px;
+  background: url(images/bg.jpeg);
+  background-size: 1350px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 120px;
-  display: 1;
+  height: 250px;
+  text-align: center;
 }
 
 header h1 {
   text-align: center;
   color: aliceblue;
+  font-size: 16px;
+}
+
+#minha_foto {
+  border-radius: 100px;
 }
 
 nav {
@@ -34,30 +40,21 @@ nav {
 nav a {
   margin: 5px;
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(255, 241, 240);
 }
 
 nav a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .apresentacao {
-  margin-top: 200px;
+  margin-top: 350px;
   text-align: center;
 }
 
-.apresentacao img {
-  border-radius: 100%;
-}
-
-.modulo1 {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
-  height: 165px;
-  width: 155px;
-  background: linear-gradient(to right, red, purple);
-  padding: 4px;
+.apresentacao h2 {
+  text-align: center;
+  color: black;
 }
 
 .licoes-aprendidas {
