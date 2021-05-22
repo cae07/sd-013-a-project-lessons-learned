@@ -1,23 +1,30 @@
 body {
     background-color:rgb(253, 251, 251);
-}
 
-# cabecalho {
+ }
+
+ .cabecalho {
     background-color: rgb(127, 236, 255);
     position: fixed;
     top: 0;
    
-} 
-# titulo {
+ } 
+ .titulo {
     
-}
-# minha_foto {
+ }
+ .minha_foto { 
+     width: 150px;
+     height: 150px;
+     
     
-}
+ }
 
-# licoes_aprendidas {
+ .licoes_aprendidas {
 
-}
-# licoes_a_aprender {
+ }
+ .licoes_a_aprender {
 
-}
+ }
+ .rodape {
+
+ }
