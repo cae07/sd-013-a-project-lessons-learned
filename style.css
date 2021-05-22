@@ -15,7 +15,7 @@ header {
   margin: 0;
   border: 0;
   padding: 5px;
-  background: url(images/bg.jpg);
+  background: url('images/bg.jpg');
   background-size: 1350px;
   position: fixed;
   top: 0;
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .apresentacao p {
-  font-family: 'Assistant', sans-serif;
+  font-family: sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -91,7 +91,8 @@ header h2 {
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid rgb(235, 103, 103);;
+  border: 2px solid rgb(235, 103, 103);
+
   width: 50%;
   text-align: center;
   margin-bottom: 20px;
@@ -111,15 +112,14 @@ header h2 {
 
 .lado-esquerdo {
   margin-top: 10px;
-  margin: 5px;
   padding: 35px;
   display: inline-block;
   width: 30%;
   background-color: rgb(63, 58, 58);
   text-align: center;
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
-	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .lado-esquerdo h2, p {
@@ -142,8 +142,8 @@ header h2 {
   background-color: rgb(63, 58, 58);
   text-align: center;
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
-	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .lado-direito h2, p {
@@ -177,7 +177,7 @@ header h2 {
 .tabela table {
   margin-left: auto;
   margin-right: auto;
-} 
+}
 
 .styled-table {
   border-collapse: collapse;
@@ -204,7 +204,7 @@ header h2 {
 }
 
 .styled-table tr:nth-of-type(even) {
-  background-color:aliceblue;
+  background-color: aliceblue;
 }
 
 .styled-table tr:last-of-type {
@@ -223,6 +223,7 @@ header h2 {
   width: 3px;
   margin-left: 2%; 
   border-bottom: 7px solid rgb(235, 103, 103);
+
   border-right: 7px solid rgb(235, 103, 103);
 }
 
