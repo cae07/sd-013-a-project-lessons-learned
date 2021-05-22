@@ -1,50 +1,77 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  border: 2px solid red;
   width: 100%;
+  background-color: deepskyblue;
+  border: 3px solid blue;
 }
 
-#navegacao {
-  display: flex;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 50px;
-  border: 2px solid green;
-  width: 100%;
+#titulo {
+  text-align: center;
+  color: whitesmoke;
 }
 
-img {
-  width: 300px;
-  border: 3px solid red;
-  border-radius: 100%;
+#navegacao li {
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+main {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding-top: 60px;
+}
+
+.lado-direito {
+  border: 3px solid blue;
+  border-radius: 1%;
+  width: 30%;
+  padding-top: 100px;
+}
+
+#minha_foto {
+  width: 150px;
+  border: 3px solid blue;
+  border-radius: 30%;
 }
 
 .artigoPrincipal {
-  border: 2px solid red;
-  width: 50%;
+  border: 1px solid blue;
 }
 
-.artigoAprendido {
-  border: 2px solid red;
-  width: 20%;
+#tabela {
+  border: 1px solid green;
 }
 
-.artigoAprender {
-  border: 2px solid red;
-  width: 20%;
+#tabela td {
+  border: 1px solid green;
+}
+
+.lado-esquerdo {
+  border: 3px solid;
+  border-radius: 1%;
+  width: 30%;
+}
+
+.aprendido {
+  border: 1px solid blue;
+}
+
+.aprender {
+  border: 1px solid blue;
 }
 
 .aside {
-  border: 2px solid red;
-  width: 20%;
+  border: 1px solid blue;
 }
 
 #rodape {
-  border: 2px solid red;
-  width: 100%;
+  border: 1px solid blue;
 }
