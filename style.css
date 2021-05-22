@@ -21,7 +21,6 @@ table , th , td {
   border: 2px solid black;
   border-collapse: collapse;
   margin-bottom: 20px;
-  
 }
 
 td {
@@ -37,5 +36,5 @@ nav {
 }
 
 aside {
-  margin: 20px 0px;
+  margin: 20px 0;
 }
