@@ -85,6 +85,7 @@ header h2 {
 .licoes-aprendidas {
   left: auto;
   padding: 5px;
+  text-align: left;
 }
 
 .ol {
@@ -116,9 +117,6 @@ header h2 {
   width: 30%;
   background-color: rgb(63, 58, 58);
   text-align: center;
-  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .lado-esquerdo h2 {
@@ -127,10 +125,6 @@ header h2 {
 
 .lado-esquerdo p {
   color: aliceblue;
-}
-
-.licoes-aprendidas {
-  text-align: left;
 }
 
 .cards {
@@ -144,9 +138,6 @@ header h2 {
   width: 30%;
   background-color: rgb(63, 58, 58);
   text-align: center;
-  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
-	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
 .lado-direito h2 {
@@ -250,6 +241,6 @@ footer a:hover {
   color: rgb(42, 194, 18);
 }
 
-footer p {
+p {
   color: aliceblue;
 }
