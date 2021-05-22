@@ -177,6 +177,7 @@ header h2 {
 .tabela table {
   margin-left: auto;
   margin-right: auto;
+
 } 
 
 .styled-table {
@@ -190,7 +191,7 @@ header h2 {
 
 .styled-table th {
   background-color: #db5854;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   font-size: 12px;
 }
@@ -200,11 +201,11 @@ header h2 {
 }
 
 .styled-table tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .styled-table tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color:aliceblue;
 }
 
 .styled-table tr:last-of-type {
