@@ -76,7 +76,6 @@ table {
   position: absolute;
   margin-top: 150px;
   left: 10px;
-  
 }
 
 table td {
@@ -95,5 +94,4 @@ table th {
 
 .lado-esquerdo {
   float: left;
-
 }
