@@ -1,12 +1,23 @@
+
 body {
 	background-color: rgb(253, 251, 251);
 }
 
-.top_half{
+.top_half {
 	display: flex;
 }
 
-#cabecalho{
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+#cabecalho {
 	position: fixed;
 	top: 0;
 	display: flex;
@@ -16,19 +27,19 @@ body {
 }
 
 
-h1{
+h1 {
 	width: 100%;
 	font-family: Nunito Sans;
 	top: 0;
-	background-color: #9826ac;
+	background-color: rgb(152, 38, 172);
 	padding: 15px;
 }
 
-h1 , h2{
+h1 , h2 {
 	color: rgb(255, 255, 255);
 }
 
-.foto_relato{
+.foto_relato {
 	display: flex;
 	padding-top: 170px;
 	padding-left: 515px;
@@ -39,55 +50,55 @@ h1 , h2{
 }
 
 
-.foto_relato p{
+.foto_relato p {
 	width: 300px;
 }
 
-#minha_foto{
+#minha_foto {
 	background-color: green;
 	width: 300px;
 }
 
-.bloco1{
+.bloco1 {
 	display: inline-block;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
 	font-family: Montserrat;
 	position: absolute;
 	top: 180px;
 	left: 100px;
-	background-color: #d05ce3;
+	background-color:rgb(208, 92, 227) ;
 	border-radius: 10px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
 	font-family: Montserrat;
 	position: absolute;
 	top: 180px;
 	right: 100px;
-	background-color: #d05ce3;
+	background-color: rgb(208, 92, 227);
 	border-radius: 10px;
 }
 
-li{
+li {
 	padding-right: 30px;
 	padding-bottom: 15px;
 	text-align: center;
 	list-style: none;
 }
 
-div{
+div {
 	display: flex;
 }
 
-.linha-texto{
+.linha-texto {
 	display: flex;
 	flex-direction: row;
 
 }
 
-#declaracao{
+#declaracao {
 	font-size: 20px;
 	display: flex;
 	width: 300px;
@@ -95,7 +106,7 @@ div{
 	padding-top: 30px;
 }
 
-#relato{
+#relato {
 	width: 370px;
 	font-family: Montserrat;
 	font-size: 20px;
@@ -104,7 +115,7 @@ div{
 }
 
 
-#aprendizado{
+#aprendizado {
 	font-size: 25px;
 	float: left;
 	width: 200px;
@@ -112,19 +123,19 @@ div{
 	padding-top: 40px;
 }
 
-table{
+table {
 	font-size: 20px;
 	display: flex;
 	padding-left: 700px;
 	padding-bottom: 100px;
 }
 
-#rodape{
+#rodape {
 	display: flex;
 	color: honeydew;
 	line-height: 55px;
 	background-color: #9826ac;
 	font-family: Noto-serif;
-	font-size: 30px;
+	font-size: 20px;
 	padding-left: 19px;
 }
