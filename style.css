@@ -1,16 +1,23 @@
-body{
-    background-color: rgb(253, 251, 251);
-  }
-#cabecalho{
-    background-color: rgb(134, 160, 108);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-  }
+    body {
+        background-color: rgb(253, 251, 251);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #cabecalho {
+        background-color: rgb(134, 160, 108);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+    }
+    #titulo {
+        text-align: center;
+    }
 
-#minha_foto{
-    width: 200px;
-    margin-top: 75px;
-  }
+    #minha_foto {
+        width: 200px;
+        margin-top: 75px;
+    }
+    #rodape {
+        background-color: rgb(134, 160, 108);
+    }
