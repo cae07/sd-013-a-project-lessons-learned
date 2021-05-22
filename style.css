@@ -1,28 +1,28 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho{position: fixed;
-top:0px;}
-#minha_foto{
-    position: absolute;
-    top: 650px}
+#cabecalho {position: fixed;
+  top:0px;}
+#minha_foto {
+  position: absolute;
+  top: 650px}
 
-#licoes_aprendidas{
-    position: absolute;
-    top: 90px
-}
-
-#licoes_a_aprender{
-    position: absolute;
-    top: 340px;
+#licoes_aprendidas {
+  position: absolute;
+  top: 90px
 }
 
-#rodape{
-    position: fixed;
-    top:600px ;
+#licoes_a_aprender {
+  position: absolute;
+  top: 340px;
 }
-#artigo{
-    position: absolute;
-    top: 50px;
-    left: 400px;
+
+#rodape {
+  position: fixed;
+  top:600px;
+}
+#artigo {
+  position: absolute;
+  top: 50px;
+  left: 400px;
 }
