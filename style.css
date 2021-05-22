@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: Coustard-Regular;
-  src: url('assets/Coustard-Regular.ttf')
+  src: url('assets/Coustard-Regular.ttf');
 }
 
 * {
@@ -22,7 +22,7 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h1 , h2 , li, th, td {
+h1 , h2 , li , th , td {
   font-family: Poppins-Regular, sans-serif;
 }
 
@@ -95,24 +95,24 @@ table {
   margin-top: 70px;
   text-align: center;
   border-collapse: collapse;
-  border: rgb(94, 123, 126) solid 2px;
 }
 
-th, td {
+th , td {
   padding: 10px 30px;
+  border: rgb(94, 123, 126) solid 2px;
 }
 
 th {
   color: rgb(219, 219, 219);
-  background-color: #284F54;
-  font-style:oblique;
+  background-color: rgb(40, 79, 84);
+  font-style: italic;
 }
 
 tr {
   background-color: rgb(192, 202, 203);
 }
 
-tr:nth-child(odd) {
+tr:nth-child( odd ) {
   background-color: rgb(177, 186, 187);
 }
 
@@ -147,11 +147,15 @@ tr:nth-child(odd) {
 }
 
 #cabecalho li {
-  color: rgb(88, 164, 176);
   display: inline-block;
-  text-transform: uppercase;
   margin-right: 50px;
   padding: 0 4px;
+}
+
+#cabecalho a {
+  color: rgb(88, 164, 176);
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 #cabecalho li:hover {
@@ -184,7 +188,7 @@ tr:nth-child(odd) {
 #artigo {
   width: 300px;
   text-align: justify;
-  margin-top: 215px;
+  margin-top: 200px;
 }
 
 #trecho {
