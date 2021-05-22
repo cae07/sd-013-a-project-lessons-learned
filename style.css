@@ -109,9 +109,14 @@ footer {
   height: 50px;
 }
 
-a {
-  color: rgb(162, 243, 162);
+footer a {
+  margin: 5px;
   text-decoration: none;
+  color: rgb(42, 194, 18);
+}
+
+footer a:hover {
+  color: rgb(26, 63, 224);
 }
 
 footer p {
