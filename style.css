@@ -1,5 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 23px;
+}
+body h1{
+  font-size: 25px;
+  color:rgb(53, 53, 53)
 }
 #cabecalho {
   
@@ -18,27 +24,34 @@ body {
   display:inline-block;
   float: left; 
   margin-left: 10px;
-  margin-top: 100px;
+  margin-top: 120px;
   border: 1px solid black ;
 }
 #licoes_a_aprender{
   display: inline-block;
   border: 1px solid black;  
   margin-left: 10px;
-  margin-top: 100px;
+  margin-top: 120px;
   float: left;
 }
 .lado-direito{
   display: inline-block;
-  margin-top: 130px;
+  margin-top: 160px;
   margin-left: 10px;
   width: 200px;
   
   
 }
 #video{
+  color: white;  
   display: inline-block;
-  margin-top: 150px;
+  position: absolute;
+  margin-top: 175px;
+  left: 250px;
+  background-color: rgba(255, 0, 0, 0.774);
+  padding: 10px 10px;
+  border-radius: 5px;
+
 }
 table{
   display: inline-block;
