@@ -35,7 +35,7 @@ body h1 {
 }
 
 #licoes_a_aprender {
-  display: block;
+  display: inline-block;
   float: left;
   margin-left: 10px;
   position: absolute;
