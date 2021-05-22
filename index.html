@@ -6,76 +6,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Trybe - Lessons Learned</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loading.css">
 </head>
 <body>
   <header id="cabecalho">
     <nav>
+      <a href="https://www.linkedin.com/in/adrianomonteiroweb" class="amw">@AdrianoMonteiroWeb</a>
       <a href="#home">Home</a>
       <a href="#sobre">Sobre</a>
       <a href="#licoes_aprendidas">Habilidades</a>
       <a href="#rodape">Contato</a>
     </nav>
+    <img id="minha_foto" src="images/am.jpg" alt="Foto de Adriano Monteiro." width="90">
+    <h2>Adriano Monteiro</h2>
+    <div class="redes">
+      <a href="https://github.com/adrianomonteiroweb" target="_blank"><img src="images/github.png" width="30"></a>
+      <a href="https://www.linkedin.com/in/adrianomonteiroweb" target="_blank"><img src="images/linkedin.png" width="30"></a>
+      <a href="https://www.instagram.com/adrianomonteiroweb" target="_blank"><img src="images/instagram.png" width="30"></a>
+      <a href="https://www.facebook.com/adrianomonteiroweb" target="_blank"><img src="images/facebook.png" width="30"></a>
+  </div>
     <h1 id="titulo">Projeto: Minhas lições até aqui!</h1>
-      <img id="minha_foto" src="images/am.jpg" alt="Foto de Adriano Monteiro." width="100">
   </header>
   <section class="apresentacao" id="home">
-    <h2>@AdrianoMonteiroWeb</h2>
-    <p id="sobre">Pessoa estudante na Trybe. Apaixonado por programação, música e pessoas.</p>
+    <p id="sobre">"Pessoa estudante de desenvolvimento web na Trybe, full stack júnior. Apaixonado por programação, música e pessoas.<br /><br />Natural e residente em Fortaleza - Ce, mas pronto para codar mundo a fora."</p>
   </section>
   <section class="licoes-aprendidas">
-    <h2>O que aprendi até aqui:</h2>
-    <ol id="licoes_aprendidas">
-      <li>Unix & Bash;</li>
-      <li>Linux/Ubuntu;</li>
-      <li>Git;</li>
-      <li>GitHub;</li>
-      <li>HTML5;</li>
-      <li>CSS;</li>
-      <li>Inteligência Emocional;</li>
-      <li>Colaboração;</li>
-      <li>Comunicação;</li>
-      <li>Pensamento Crítico;</li>
-    </ol>
-    <article class="lado-esquerdo">
-      <h2>Experiência:</h2>
-      <p>Os dias até aqui na Trybe, como as próprias pessoas instrutoras e facilitadoras dizem, um verdadeiro ato de tentar beber água em hidrante. A metodologia ativa me trouxe atenção ao meu autoconhecimento de uma forma que jamais experimentei antes.
-        A evolução é constante enquanto fazemos acontecer cada atividade, onde toda aquela água do hidrante, ou melhor, todo o conhecimento é assimilado aos poucos. Seguimos codando!
-      </p>
-    </article>
-    <aside class="lado-direito">
-      <h2>O que mais me impactou:</h2>
-      <p>Uma experiência importante foi o fato de mesmo tendo um feedback com HTML, CSS... Na trybe o básico está 100% atualizado com o mercado e a evolução tecnológica. Foi como reler a introdução de um livro, entender melhor e ficar com fome de ler mais!</p>
-    </aside>
+    <div class="ol">
+      <h2>Aprendizado até aqui:</h2>
+      <div class="class-ol">
+        <ol id="licoes_aprendidas">
+          <li>Unix & Bash;</li>
+          <li>Linux/Ubuntu;</li>
+          <li>Git;</li>
+          <li>GitHub;</li>
+          <li>HTML5;</li>
+          <li>CSS;</li>
+          <li>Inteligência Emocional;</li>
+          <li>Colaboração;</li>
+          <li>Comunicação;</li>
+          <li>Pensamento Crítico;</li>
+        </ol>
+      </div>
+    </div>
+    <div class="cards">
+      <article class="lado-esquerdo">
+        <h2>Experiência</h2>
+        <p>Os dias até aqui na Trybe, como as próprias pessoas instrutoras e facilitadoras dizem, um verdadeiro ato de tentar beber água em hidrante. A metodologia ativa me trouxe atenção ao meu autoconhecimento de uma forma que jamais experimentei antes.
+          A evolução é constante enquanto fazemos acontecer cada atividade, onde toda aquela água do hidrante, ou melhor, todo o conhecimento é assimilado aos poucos. Seguimos codando!
+        </p>
+      </article>
+      <aside class="lado-direito">
+        <h2>Impacto</h2>
+        <p>Uma experiência importante foi o fato de mesmo tendo um background com HTML, CSS... Na trybe o básico está 100% atualizado com o mercado e a evolução tecnológica. Foi como reler a introdução de um livro, entender melhor e ficar com fome de ler mais!</p>
+      </aside>
+    </div>
   </section>
   <section class="licoes-a-aprender">
-    <ul id="licoes_a_aprender">
-      <li>Algoritmos e Estrutura de dados;</li>
-      <li>Javascript;</li>
-      <li>React;</li>
-      <li>ORM;</li>
-      <li>NoSQL;</li>
-      <li>SQL;</li>
-      <li>Exspress.js;</li>
-      <li>Node.js;</li>
-      <li>Python;</li>
-      <li>Ciências da Computação;</li>
-    </ul>
+    <div class="ul">
+      <h2>Conquistas pela frente:</h2>
+      <div class="class-ul">
+        <ul id="licoes_a_aprender">
+          <li>Algoritmos e Estrutura de dados;</li>
+          <li>Javascript;</li>
+          <li>React;</li>
+          <li>ORM;</li>
+          <li>NoSQL;</li>
+          <li>SQL;</li>
+          <li>Exspress.js;</li>
+          <li>Node.js;</li>
+          <li>Python;</li>
+          <li>Ciências da Computação;</li>
+        </ul>
+      </div>
+    </div>
   </section>
   <section class="tabela">
-    <table>
+    <table class="styled-table">
       <tr>
-        <th>Fundamentos do Desenvolvimento Web</th>
-        <th>Desenvolvimento Front-end</th>
-        <th>Desenvolvimento Back-end</th>
-        <th>Ciências da Computação</th>
+        <th>Fundamentos</th>
+        <th>Front-end</th>
+        <th>Back-end</th>
+        <th>Ciências<br />da<br />Computação</th>
         <th>Soft Skills</th>
       </tr>
       <tr>
-        <td>Completo</td>
-        <td>Carregando...</td>
-        <td>Carregando...</td>
-        <td>Carregando...</td>
-        <td>Carregando...</td>
+        <td><p class="checkmark"></p></td>
+        <td><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></td>
+        <td><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></td>
+        <td><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></td>
+        <td><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></td>
       </tr>
     </table>
   </section>

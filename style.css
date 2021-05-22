@@ -6,104 +6,235 @@ body {
   font-family: Arial, sans-serif;
 }
 
+body a {
+  text-decoration: none;
+  color: rgb(235, 103, 103);
+}
+
 header {
   margin: 0;
   border: 0;
   padding: 5px;
-  background: url(images/bg.jpeg);
+  background: url(images/bg.jpg);
   background-size: 1350px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 250px;
   text-align: center;
 }
 
 header h1 {
+  margin: 0;
   text-align: center;
-  color: aliceblue;
-  font-size: 16px;
+  color: rgba(240, 248, 255, 0.801);
+  font-size: 14px;
 }
 
 #minha_foto {
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 100px;
+  display: block;
 }
 
 nav {
-  margin: 5px;
-  border: 5px;
-  padding: 5px;
-  text-align: center;
+  margin: 1px;
+  border: 1px;
+  padding: 1px;
+  display: inline-block;
+  margin-left: auto;
 }
 
 nav a {
   margin: 5px;
   text-decoration: none;
   color: rgb(255, 241, 240);
+  font-size: 14px;
 }
 
 nav a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(235, 103, 103);
+}
+
+.amw {
+  font-size: 18px;
+  color: rgb(235, 103, 103);
 }
 
 .apresentacao {
-  margin-top: 350px;
+  margin-top: 270px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 50%;
 }
 
-.apresentacao h2 {
-  text-align: center;
+.apresentacao p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
   color: black;
 }
 
-.licoes-aprendidas {
-  margin-left: 10px;
+header h2 {
+  margin: 0;
   text-align: center;
+  color: rgb(235, 103, 103);
 }
+
+.licoes-aprendidas {
+  left: auto;
+  padding: 5px;
+}
+
+.ol {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(235, 103, 103);;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+
+.class-ol {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%
+ }
+
+ #licoes_aprendidas {
+   margin-left: auto;
+   text-align: left;
+   margin-bottom: 10px;
+ }
 
 .lado-esquerdo {
-  margin: 10px;
+  margin-top: 10px;
+  margin: 5px;
+  padding: 35px;
   display: inline-block;
-  width: 40%;
+  width: 30%;
+  background-color: rgb(63, 58, 58);
+  text-align: center;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.licoes-aprendidas ol {
+.lado-esquerdo h2, p {
+  color: aliceblue;
+}
+
+.licoes-aprendidas {
   text-align: left;
 }
 
+.cards {
+  text-align: center;
+}
+
 .lado-direito {
-  margin: 10px;
+  margin: 5px;
+  padding: 35px;
   display: inline-block;
-  width: 40%;
+  width: 30%;
+  background-color: rgb(63, 58, 58);
+  text-align: center;
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.lado-direito h2, p {
+  color: aliceblue;
 }
 
 .licoes_a_aprender {
   text-align: center;
 }
 
-.tabela {
+.ul {
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(235, 103, 103);
+  width: 50%;
+  text-align: center;
+ }
+
+ .ul li {
+   text-align: left;
+ }
+
+ .class-ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.tabela table {
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table th {
+  background-color: #db5854;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.styled-table td {
   text-align: center;
 }
 
-table {
-  text-align: center;
+.styled-table tr {
+  border-bottom: 1px solid #dddddd;
 }
 
-th {
-  background-color: cadetblue;
+.styled-table tr:nth-of-type(even) {
+  background-color: #f3f3f3;
 }
 
-td {
-  background-color: rgb(130, 205, 207);
+.styled-table tr:last-of-type {
+  border-bottom: 5px solid #db5854;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 5px 5px;
+}
+
+.checkmark {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 10px;
+  width: 3px;
+  margin-left: 2%; 
+  border-bottom: 7px solid rgb(235, 103, 103);
+  border-right: 7px solid rgb(235, 103, 103);
 }
 
 footer {
-  margin: 5px;
-  padding: 20px;
-  background: linear-gradient(to right, red, purple);
+  margin-top: 20px;
+  padding: 5px;
+  background: rgb(63, 58, 58);
   text-align: center;
   height: 50px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer a:hover {
@@ -113,5 +244,5 @@ footer a:hover {
 }
 
 footer p {
-  color: antiquewhite;
+  color:aliceblue;
 }
