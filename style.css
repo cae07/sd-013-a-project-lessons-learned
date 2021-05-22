@@ -92,7 +92,6 @@ header h2 {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid rgb(235, 103, 103);
-
   width: 50%;
   text-align: center;
   margin-bottom: 20px;
@@ -101,7 +100,7 @@ header h2 {
 .class-ol {
    margin-left: auto;
    margin-right: auto;
-   width: 50%
+   width: 50%;
  }
 
  #licoes_aprendidas {
@@ -122,7 +121,11 @@ header h2 {
 	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.lado-esquerdo h2, p {
+.lado-esquerdo h2 {
+  color: aliceblue;
+}
+
+.lado-esquerdo p {
   color: aliceblue;
 }
 
@@ -146,7 +149,11 @@ header h2 {
 	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.lado-direito h2, p {
+.lado-direito h2 {
+  color: aliceblue;
+}
+
+.lado-direito p {
   color: aliceblue;
 }
 
@@ -171,7 +178,7 @@ header h2 {
  .class-ul {
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
 
 .tabela table {
@@ -221,9 +228,8 @@ header h2 {
   transform: rotate(45deg);
   height: 10px;
   width: 3px;
-  margin-left: 2%; 
+  margin-left: 2%;
   border-bottom: 7px solid rgb(235, 103, 103);
-
   border-right: 7px solid rgb(235, 103, 103);
 }
 
@@ -245,5 +251,5 @@ footer a:hover {
 }
 
 footer p {
-  color:aliceblue;
+  color: aliceblue;
 }
