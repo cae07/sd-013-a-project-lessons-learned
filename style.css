@@ -5,15 +5,16 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color: rgb(0,0,255);
+  color: rgb(30,144,255);
   background-color: rgb(220, 226, 226);
-  right: 0px;
-  left: 0px;
-
+  right: 1px;
+  left: 1px;
+  
 }
 
 h1 {
   text-align: center;
+
 }
 
 #minha_foto {
