@@ -209,8 +209,12 @@ header h2 {
   border-bottom: 5px solid rgb(235, 103, 103);
 }
 
-.styled-table th, .styled-table td {
-    padding: 5px 5px;
+.styled-table th {
+  padding: 5px;
+}
+
+.styled-table td {
+  padding: 5px 5px;
 }
 
 .checkmark {
