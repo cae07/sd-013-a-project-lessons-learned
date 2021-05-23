@@ -14,11 +14,12 @@ h2 p {
   font-size: 25px;
 }
 
+
 #cabecalho {
   height: 90px;
   width: 100%;
   padding-top: 5px;
-  background-color: #0d5c63;
+  background-color: RGB(27, 92, 100);
   position: fixed;
 }
 
@@ -26,8 +27,8 @@ h2 p {
   padding: 5px 10px;
   margin-top: 5px;
   float: right;
-  margin-right: 5px;
   width: 250px;
+  z-index: 1;
 }
 
 #titulo {
@@ -42,7 +43,7 @@ h2 p {
 
 #menu {
   font-family: Roboto , sans-serif;
-  background-color: #65B891;
+  background-color: RGB(102, 184, 146);
   height: 40px;
   width: 100%;
   margin-top: 70px;
@@ -62,9 +63,9 @@ h2 p {
 }
 
 #barra-lateral {
-  background-color: #65b891;
+  background-color: RGB(245, 246, 253);
   float: right;
-  height: 760px;
+  height: 767px;
   width: 250px;
   padding: 10px;
   margin-top: 110px;
@@ -84,11 +85,11 @@ h2 p {
 }
 
 #article {
-  padding: 20px 30px 40px 30px;
+  padding: 20px 30px 40px ;
   margin-top: 120px;
   margin-left: 10px;
   width: 80%;
-  background-color: #f5f5fc;
+  background-color: RGB(245, 246, 253);
   display: inline-block;
   vertical-align: middle;
 }
@@ -102,12 +103,12 @@ h2 p {
 }
 
 #article-2 {
-  padding: 20px 30px 40px 30px;
+  padding: 20px 30px 40px ;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
   width: 80%;
-  background-color: #f5f5fc;
+  background-color: RGB(245, 246, 253);
   display: inline-block;
   vertical-align: middle;
 }
@@ -141,7 +142,7 @@ h2 p {
 }
 
 .lado-esquerdo {
-  padding: 30px 20px 20px 20px;
+  padding: 30px 20px;
   max-width: 30%;
   margin-left: 10%;
   display: inline-block;
@@ -152,13 +153,13 @@ h2 p {
 }
 
 #rodape {
-  background-color: #0D5C63;
-  border-top: solid #65B891;
+  background-color: RGB(27, 92, 100);
+  border-top: solid RGB(102, 184, 146);
   height: 70px;
 }
 
 #rodape h3 {
   margin-top: 20px;
   text-align: center;
-  color: #FFFFFA;
+  color: rgb(253, 251, 251);
 }
