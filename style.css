@@ -65,7 +65,7 @@ h2 p {
 #barra-lateral {
   background-color: rgb(245, 246, 253);
   float: right;
-  height: 767px;
+  height: 870px;
   width: 250px;
   padding: 10px;
   margin-top: 110px;
@@ -125,10 +125,6 @@ h2 p {
 
 }
 
-#section-2 h2 {
-  margin-bottom: 20px;
-}
-
 .lado-direito {
   padding: 30px 20px 20px 20px;
   max-width: 30%;
@@ -141,7 +137,30 @@ h2 p {
   margin-bottom: 20px;
 }
 
+#section-2 h2 {
+  margin-bottom: 20px;
+}
 
+.lado-esquerdo {
+  padding: 30px 20px;
+  max-width: 30%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.lado-esquerdo h2 {
+  margin-bottom: 20px;
+}
+
+#Tabela, th, td {
+  background-color: rgb(245, 246, 253);
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-collapse: collapse;
+
+}
 
 #rodape {
   background-color: rgb(27, 92, 100);
