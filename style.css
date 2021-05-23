@@ -1,7 +1,68 @@
-.titulo {
-  background-color: rgb(253, 251, 251);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.titulo {
+
+#cabecalho {
+  background-color: green;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 30px 1px;
+}
+
+.nav-links li {
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+  width: 100px;
+  padding: 20px 5px 5px;
+}
+
+
+.sobre_mim {
+  padding: 60px 5px 5px 5px;
+}
+
+
+#titul {
   color: black;
+  background-position: center;
+  background-size: cover;
+  max-width: 60%;
+  text-align: center;
+  margin-left: 230px;
+}
+
+.conteudo {
+  padding: 70px 30px;
+  text-align: left;
+  margin: auto;
+}
+
+.licoes {
+  margin-bottom: 200px;
+  font-size: large;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+#foto {
+  width: 200px;
+  padding: 30px 80px;
+  float: center;
+  height: 20%;
+}
+
+.topicos {
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.topicos li {
+  list-style-type: square;
+  margin-bottom: 25px;
 }
