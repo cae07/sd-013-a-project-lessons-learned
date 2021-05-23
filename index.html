@@ -6,40 +6,119 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
+            
             body{
                 background-color: rgb(253, 251, 251);
+                padding: 15px;
+                margin: 0;
+                border: 0;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1cm
+                
             }
             #cabecalho{
-                position: fixed;
-                top: 0; 
+                top: 0;     
+               
+                  
             }
+            #titulo {
+                text-align: center;
+                font-size: 30px;   
+
+            }
+           
+            div{
+                
+                border: black solid 2px;
+                background-color: rgb(20, 200, 176);
+                color: rgb(66, 65, 65);
+                height: 150px;
+                margin-bottom: 20px
+            }
+        
+           #topmenu {
+               margin-top: 105px;
+               margin-left: 2px;
+           }
+           
+           
+           #minha_foto {
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+               width:
+           }
+           .foto {
+            
+               height: 267px;
+               background-color: black;
+           }
+           #licoes_aprendidas{
+            display: inline-block;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px
+            
+            
+           }
+           #licoes_a_aprender {
+            display: inline-block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 350px; 
+            font-size: 16px;
+
+           }
+           .lado-esquerdo{
+               display: block;
+               font-size: 12px;
+               margin-right: 400px;
+               margin-top: 100px;
+               font-family: 'Times New Roman', Times, serif;
+               color:rgb(20, 200, 176)
+               
+
+           }
+           .lado-direito { 
+               display: block;
+               font-size: 12px;
+               margin-left: 400px;
+               margin-top:0px;
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               color: purple
+           }
+
+
         </style>
     </head>
     <body>
-        <header id="cabecalho">
-            <h1 id="titulo">titulo</h1>
-        </header>
-        <nav>
-            <il>pagina inicial</il>
-            <il>outra coisa</il>
-        </nav>
+        <div>
+            <header id="cabecalho">
+                <h1 id="titulo">Lições aprendidas - Trybe</h1>
+            </header>    
+            <nav>  
+                <ul id="topmenu">
+                </ul>
+            </nav>  
+        </div>
+        <section class="foto">
         <img src="minhafoto.jpg" alt="minha foto" id="minha_foto" width=200px>
         <section>
+       
             <ol id="licoes_aprendidas">
-                <p>licoes aprendidas</p>
-                <li>Unix</li> 
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Empatia</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Slack</li>
-                <li>Zoom</li>
-                <li>Inspec</li>
-                <li>Semantic HTML</li>
+                <table>
+                    <p>Licoes aprendidas</p>
+                    <li>Unix</li> 
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Empatia</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>Inspec</li>
+                    <li>Semantic HTML</li>
+                </table>
             </ol>
-        </section>
-        <section>
             <ul id="licoes_a_aprender">
                 <p>Licoes a aprender</p>
                 <li>JavaScript</li>
@@ -56,17 +135,21 @@
         </section>
 
         </ul>
-        <article>
-            artigo sobre meu aprendizado
-        </article>
+        <section>
+            <article class="lado-esquerdo">
+                artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado artigo sobre meu aprendizado<br><br>
+            </article>
 
-        <aside>
-            passagem sobre meu aprendizado
-        </aside>
+            <aside class="lado-direito">
+                pasagem sobre meu aprendizado passagem sobre meu aprendizado passagem sobre meu aprendizado passagem sobre meu aprendizado passagem sobre meu aprendizado passagem sobre meu aprendizado passagem sobre meu aprendizado<br><br>
+            </aside>
+        </section>
 
-        <a href="" targer="_blank">link</a>    
+
+
+        <a href="https://www.youtube.com/" target="_blank">link</a>   
         <footer id="rodape">
-            rodape
+            
         </footer>
         
     </body>
