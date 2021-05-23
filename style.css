@@ -26,8 +26,8 @@ img {
     border-radius: 50px;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+.listas{
+    top: 90px;
     display: inline-block;
     margin: 20px;
     padding: 50px;
@@ -42,28 +42,29 @@ img {
     margin-top: 10px;
 }
 
-#aprendizado {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.listas {
+    top: 90px;
+    left: 500px;
+    position: absolute;
+    display: inline-flex;
 }
-
 .lado-esquerdo {
+    max-width: 45%;
     display: inline-block;
-    width: 400px;
-    margin: 40px;
+    float: left;
 }
 
 .lado-direito {
+    max-width: 45%;
     display: inline-block;
-    width: 400px;
-    margin: 40px;
+    float: right;
 }
 
-p {
-    text-align: center;
+#rodape {
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    margin-left: 8px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    top: 100px;
 }
-
 
