@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+.fundo {
+  background-color: rgb(253, 251, 251);
+}
 
 #cabecalho {
   background-color: green;
@@ -10,6 +12,27 @@
   background-size: cover;
   background-position: center;
   padding: 30px 30px 1px;
+}
+
+
+
+#titulo {
+  color: black;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  max-width: 60%;
+  text-align: center;
+  margin-left: 230px;
+}
+
+
+#licoes_aprendidas {
+  text-align: center;
+  margin: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 50px 30px 10px;
 }
 
 .nav-links li {
@@ -26,14 +49,6 @@
 }
 
 
-#titul {
-  color: black;
-  background-position: center;
-  background-size: cover;
-  max-width: 60%;
-  text-align: center;
-  margin-left: 230px;
-}
 
 .conteudo {
   padding: 70px 30px;
@@ -55,14 +70,3 @@
   height: 20%;
 }
 
-.topicos {
-  text-align: center;
-  margin: 10px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.topicos li {
-  list-style-type: square;
-  margin-bottom: 25px;
-}
