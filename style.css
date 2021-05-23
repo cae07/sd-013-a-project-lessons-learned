@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-size: 11,5px;
+  font-size: 11 , 5px;
   margin-top: 10px;
   line-height: 30px;
   color: black;
@@ -67,10 +67,10 @@ a:hover {
   border: 1px solid black;
   text-align: center;
   margin: 10px;
-  background-color: rgb(253, 251, 0)
+  background-color: rgb(253, 251, 0);
 }
 
-.esquerda li:hover { 
+.esquerda li:hover {
   margin-bottom: 70%;
   border: 3px solid blue;
   font-weight: 800;
@@ -86,13 +86,13 @@ a:hover {
   text-align: center;
 }
 
-.container-licoes_01, .container-licoes_02 {
+.container-licoes_01 , .container-licoes_02 {
   height: 200px;
   width: 900px;
   margin: 0 auto;
 }
 
-.esquerda_licoes_01 h2, .esquerda_licoes_02 h2 {
+.esquerda_licoes_01 h2 , .esquerda_licoes_02 h2 {
   color: black;
   text-align: center;
 }
