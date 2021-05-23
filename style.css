@@ -1,11 +1,41 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  color: #5D2313;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 300px;
+}
+
+.container, .section-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.div-40 {
+  width: 40%;
+  float: left;
+}
+
+.div-60 {
+  width: 60%;
+  float: right;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.7;
 }
 
 #cabecalho {
@@ -13,27 +43,111 @@ body {
   top: 0;
   width: 100%;
   z-index: 100;
+  text-align: center;
+  background-color: rgb(253, 251, 251);
 }
 
-.container {
-  width: 85%;
+#cabecalho section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Amatic SC', cursive;
+}
+
+#cabecalho span {
+  display: inline-block;
+  width: 45px;
+  border-top: 3px solid #5d2313b2;
+  margin-top: 0;
+}
+
+.nav-principal ul {
+  background-color: rgb(255,197,201);
+}
+
+.nav-principal li {
+  display: inline-block;
+  margin-right: -5px;
+}
+
+.nav-principal li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-principal li a:hover {
+  background-color: #fff;
+  color: inherit;
+}
+
+#conteudo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#minha_foto {
+  width: 360px;
+  border-radius: 50%;
+  display: block;
   margin: 0 auto;
+  border: 5px solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+#conteudo h3, #conteudo ol, #conteudo ul {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+#conteudo ol {
+  margin-bottom: 25px;
+}
+
+#aprendizado {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: rgba(255, 197, 201, 0.397);
 }
 
 .lado-esquerdo {
   width: 60%;
   float: left;
   margin-left: 10%;
-  padding: 10px;
+  padding: 20px 40px 20px 20px;
 }
 
 .lado-direito {
   width: 20%;
   float: right;
   margin-right: 10%;
-  padding: 10px;
+  padding: 20px;
+  border: 5px solid #fff;
 }
 
 #aulas {
   clear: both;
+}
+
+footer {
+  background-color: rgb(255,197,201);
+  height: 170px;
+  text-align: center;
+  padding-top: 60px;
 }
