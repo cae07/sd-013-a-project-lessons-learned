@@ -156,11 +156,11 @@ h2 {
   border-collapse: collapse;
 }
 
-#aulas-agenda, #aulas-agenda th, #aulas-agenda td {
+#aulas-agenda , #aulas-agenda th , #aulas-agenda td {
   border: 1px solid #5d2313;
 }
 
-#aulas-agenda th, #aulas-agenda td {
+#aulas-agenda th , #aulas-agenda td {
   padding-right: 30px;
 }
 
