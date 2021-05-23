@@ -6,8 +6,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-size: 11 , 5px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 200px;
   line-height: 30px;
   color: black;
 }
@@ -25,8 +25,11 @@ main , footer {
   top: 0;
   display: inline-block;
   background-color: aliceblue;
-  margin: 30px 5px;
-  position: initial;
+  margin: 10px 10px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
 }
 
 a {
@@ -50,7 +53,7 @@ a:hover {
 }
 
 .lado-esquerda {
-  float: left;
+  float: none;
   margin-top: 50px;
   width: 75%;
   height: 900px;
@@ -79,11 +82,11 @@ a:hover {
 
 .lado-direita article {
   margin-bottom: 70px;
-  text-align: center;
+  text-align: left;
 }
 
 .lado-direita section {
-  text-align: center;
+  text-align: right;
 }
 
 .container-licoes_01 , .container-licoes_02 {
