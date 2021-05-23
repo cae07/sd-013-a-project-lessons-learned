@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 1px;
+  line-height: normal;
 }
 
 body
@@ -16,6 +17,13 @@ body
   top: 0;
   background-color: blue;
   position: fixed;
+  width: 100%;
+  margin: auto;
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  color: antiquewhite;
+  
   
 }
 
@@ -23,11 +31,14 @@ body
 {
   text-align: center;
   font-size: 30px;
+  
 }
 
 #minha_foto
 {   
-  height: 2px;
+  height: 30%;
+  width:30%;
+  
 }
 
 .lado-esquerdo{
@@ -52,4 +63,29 @@ body
 }
 #rodape{
   vertical-align: bottom;
+}
+
+#licoes_aprendidas{
+  border: 0;
+  margin: 10px;
+  padding: 25px;
+  background-color:aquamarine;
+  width: 45%;
+  display: inline-block;
+  top: 200px;
+  position: static;
+
+}
+
+#licoes_a_aprender{
+  border: 0;
+  margin: 10px;
+  padding: 25px;
+  background-color:red;
+  width: 45%;
+  display: inline-block;
+  top: 200px;
+}
+.foto{
+
 }
