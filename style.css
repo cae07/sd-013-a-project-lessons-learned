@@ -41,7 +41,7 @@ body {
 
 .lista li {
   display: inline;
-  color: rgb(246, 246, 253);;
+  color: rgb(246, 246, 253);
   right: 100px;
   font-family: sans-serif;
   float: right;
@@ -82,16 +82,16 @@ main {
 }
 
 .area_foto p {
-  color: rgb(246, 246, 253);;
+  color: rgb(246, 246, 253);
   text-align: center;
   display: block;
   margin: 5px 0;
 }
 
 .licoes_a_aprender {
-  background-color: rgb(246, 246, 253);;
+  background-color: rgb(246, 246, 253);
   font-family: sans-serif;
-  color: #2c3e50;
+  color: rgb(44, 62, 80);
 }
 
 .licoes-a-aprender {
@@ -104,9 +104,9 @@ main {
 }
 
 section {
-  background-color: rgb(246, 246, 253);;
+  background-color: rgb(246, 246, 253);
   font-family: sans-serif;
-  color: #2c3e50;
+  color: rgb(44, 62, 80);
   padding: 30px 50px;
   text-align: justify;
 }
@@ -125,7 +125,7 @@ section {
 
 footer {
   background-color: rgb(26, 188, 156);
-  color: rgb(246, 246, 253);;
+  color: rgb(246, 246, 253);
   text-align: center;
   padding: 5px;
 }
