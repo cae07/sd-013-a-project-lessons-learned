@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 #cabecalho {
@@ -9,7 +12,6 @@ body {
   width: 100%;
   text-align: center;
   z-index: 1;
-
 }
 
 #menu ul {
@@ -35,4 +37,18 @@ body {
 #minha_foto {
   width: 200px;
 
+}
+
+#rodape{
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.lado-direito {
+  
+}
+
+.lado-esquerdo {
+  
 }
