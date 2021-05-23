@@ -12,3 +12,8 @@ body {
   width: 100%;
   z-index: 100;
 }
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
