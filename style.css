@@ -2,23 +2,36 @@
   padding: 0;
   margin: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Poppins', sans-serif;;
 }
 
 .nav {
   text-align: center;
   width: 100%;
-  padding: 15px;
-  margin: 50px 0 0;
-  background-color: darkred;
+  padding: 10px;
+  margin: 54px 0 0;
+  background-color: #D33F49;
+  border: 1px solid transparent;
 }
 
 .nav a {
   text-decoration: none;
-  color: white;
+  color: #262730;
+  background-color: #77BA99;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+nav a:hover {
+  background-color: #55a980;
+  color: #262730;
+  transition: 0.3s;
 }
 
 .nav ul li {
@@ -29,20 +42,26 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: green;
+  background-color: #D7C0D0;
   min-width: 100%;
   padding: 15px 0;
+  border-bottom: 4px solid #262730;
 }
 
 
 #titulo {
+  color: #262730;
   font-size: 30px;
   margin: 0 0 0 50px;
   line-height: 20px;
-  font-family: Calibri, sans-serif;
 }
 
+  .main {
+    color: #262730;
+  }
+
 .subtitulo {
+  margin: 20px 0 10px 0;
   font-size: 20px;
 }
 
@@ -54,14 +73,16 @@ body {
   float: right;
   margin: 0 20px 0 0;
   max-width: 300px;
-  border: 2px solid black;
+  border: 2px solid #262730;
+  background-color: #EFF0D1;
 }
 
 .lado-esquerdo {
   float: left;
   margin: 0 0 0 20px;
   max-width: 300px;
-  border: 2px solid black;
+  border: 2px solid #262730;
+  background-color: #EFF0D1;
 }
 
 .content-centralizer {
@@ -73,9 +94,11 @@ body {
 
 #licoes_aprendidas {
   margin: 20px;
+  text-align: center;
 }
 
 #licoes_a_aprender {
+  margin: 20px;
   text-align: center;
   list-style: square;
 }
@@ -84,18 +107,19 @@ body {
   text-align: justify;
 }
 
-.table {
-  border: 2px solid green;
+.table{
+display: unset;
 }
 
 #rodape {
   bottom: 0;
   margin: 90px 0 0;
   height: 90px;
-  background-color: green;
+  background-color: #EFF0D1;
 }
+
 
 #rodape a {
   text-decoration: none;
-  color: aqua;
+  color: #D33F49;
 }
