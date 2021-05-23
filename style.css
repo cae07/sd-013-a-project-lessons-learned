@@ -2,37 +2,32 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     background-color: rgb(253, 251, 251);
     height: 100vh;
     width: 100%;
 }
-
 #cabecalho {
     position: fixed;
     top: 0px;
-    background-color: rgb(228, 228, 255);
+    background-color: rgb(127 255 212);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 img {
     display: inline-block;
     width: 200px;
     margin-top: 50px;
     border-radius: 50px;
 }
-
 .listas{
     top: 90px;
     display: inline-block;
     margin: 20px;
     padding: 50px;
 }
-
 #titulo {
     font-family: Arial, Helvetica, sans-serif;
     width: 1366;
@@ -41,30 +36,65 @@ img {
     font-size: medium;
     margin-top: 10px;
 }
-
-.listas {
-    top: 90px;
-    left: 500px;
-    position: absolute;
-    display: inline-flex;
+.licoes {
+    display: inline-block;
+    margin-top: -10em;
+    margin-left: 40px;
+}
+#licoes_aprendidas {
+    margin-left: 30px;
+    width: 300px;
+}
+#licoes_a_aprender {
+    margin-left: 30px;
+    width: 30px;
+}
+.artigos {
+    margin-top: 20px;
+    display: inline;
 }
 .lado-esquerdo {
-    max-width: 45%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: inline-block;
-    float: left;
+    background-color: aquamarine;
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
 }
-
+#artigo_1 {
+    padding: 10px 30px;
+    font-size: 30px;
+}
 .lado-direito {
-    max-width: 45%;
     display: inline-block;
-    float: right;
+    background-color: aquamarine;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+    line-height: 1.5;
 }
-
+#artigo_2 {
+    padding: 0px 30px 40px 30px;
+    font-size: 30px;
+}
+table {
+    display: inline-block;
+    padding: 40px;
+    margin-left: 160px;
+}
+table, th, td {
+    border: 0px solid black;
+    background-color: rgb(127 255 212);
+}
+th {
+    text-align: left;
+}
 #rodape {
-    font-size: 15px;
-    margin-left: 8px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    top: 100px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
 }
 
