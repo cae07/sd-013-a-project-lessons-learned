@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+}
+
 body
 {
   background-color: rgb(253, 251,251);
@@ -5,18 +12,44 @@ body
 
 #cabecalho
 {
-  position: fixed;
+  
   top: 0;
   background-color: blue;
+  position: fixed;
   
 }
 
 #titulo
 {
   text-align: center;
+  font-size: 30px;
 }
 
 #minha_foto
 {   
   height: 2px;
+}
+
+.lado-esquerdo{
+  width: 66%;
+  margin: auto;
+  display: inline-block;
+  border: 0;
+  margin: 10px;
+  padding: 20px;
+  background-color:black;
+  color: antiquewhite;
+}
+
+
+.lado-direito {
+  display: inline-block;
+  background-color: aqua;
+  width: 300px;
+  vertical-align: top;
+  margin: 10px;
+  padding: 20px;
+}
+#rodape{
+  vertical-align: bottom;
 }
