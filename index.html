@@ -10,23 +10,38 @@
 </head>
 
 <body>
+
   <header id="cabecalho">
-    <div class="header-container">
+
+    <div class="title-container">
       <h1 id="titulo">Lições Aprendidas - Trybe!</h1>
     </div>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+
   </header>
 
   <main>
-    <section>
+
+    <section class="perfil-container container-padrao">
 
       <img id="minha_foto" src="/images/foto.jpeg" alt="">
 
-      <a href="https://github.com/pedroalles" target="_blank">@pedroalles</a>
+      <a class="link-externo" href="https://github.com/pedroalles" target="_blank">@pedroalles</a>
 
     </section>
-    <section class="licoes">
-      <h2>Lições</h2>
-      <div class="lists-container">
+
+    <section class="licoes-container container-padrao">
+
+      <div class="aprendidas-container container-metade">
+
+        <h3>Lições aprendidas</h3>
         <ol id="licoes_aprendidas">
           <li>Lição 1</li>
           <li>Lição 2</li>
@@ -39,6 +54,12 @@
           <li>Lição 9</li>
           <li>Lição 10</li>
         </ol>
+
+      </div>
+
+      <div class="a-aprender-container container-metade">
+
+        <h3>Lições a aprender</h3>
         <ul id="licoes_a_aprender">
           <li>Lição 1</li>
           <li>Lição 2</li>
@@ -51,8 +72,35 @@
           <li>Lição 9</li>
           <li>Lição 10</li>
         </ul>
+
       </div>
+
     </section>
+
+    <section class="aprendizado-container container-padrao">
+
+      <div class="article-container container-metade">
+        <article class="lado-esquerdo">
+          <h3>Meu Aprendizado</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eius sed earum voluptatibus suscipit amet
+            modi sapiente facere eos numquam necessitatibus dolorum autem quod voluptatem recusandae, fugiat hic nam
+            incidunt!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus illum autem animi, nihil fugiat qui pariatur
+            modi, aliquid aperiam numquam ullam porro. Et, iure. Aliquid voluptatum tempore quo eaque debitis.</p>
+        </article>
+      </div>
+
+      <div class="aside-container container-metade">
+        <aside class="lado-direito">
+          <h3>Um pouco mais sobre mim</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsa reiciendis debitis dolor recusandae ut
+            ex
+            quibusdam nisi voluptates! Cupiditate ab praesentium qui? A minima sed soluta! Maxime, tempora facere.</p>
+        </aside>
+      </div>
+
+    </section>
+
   </main>
 
   <footer id="rodape">Rodape</footer>
