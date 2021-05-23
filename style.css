@@ -1,8 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(251, 253, 251);
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0;
+  right: 0; 
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  background-color: #2c3e50;
+  font-family: ''Open Sans Condensed', sans-serif';
+  padding: 20px 20px;
+  font-weight: 100;
+}
+
+#minha_foto {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+}
+
+#titulo {
+  display:inline;
+  text-align: left;
+  font-size: 30px;
+  color: #f6f6fdf5;
+  top: 20px;
+}
+
+.lista {
+  display: inline;
+}
+
+.lista li {
+  display: inline;
+  color: #f6f6fdf5;
+  right: 100px;
+  font-family: ''Open Sans Condensed', sans-serif';
+  float:right;
+  margin-right: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+nav {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #f6f6fdf5;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1abc9c;
+}
+h2 {
+  margin: 0;
+}
+
+main {
+  padding-top: 76px;
+  display: block;
+  font-family: ''Open Sans Condensed', sans-serif';
+}
+
+.area_foto {
+  display: block;
+  background-color: #1abc9c;
+  margin: 0;
+}
+
+.area_foto p {
+  color: #f6f6fdf5;
+  text-align: center;
+  display: block;
+  margin: 5px 0;
+}
+
+.licoes-aprendidas {
+  background-color: #f6f6fdf5;
+  font-family: ''Open Sans Condensed', sans-serif';
+  color: #2c3e50;
+}
+
+.licoes-a-aprender {
+  background-color: #1abc9c;
+  color:#f6f6fdf5;
+}
+
+#aprendizado h2 {
+  text-align: center;
+}
+
+section {
+  background-color: #f6f6fdf5;
+  font-family: ''Open Sans Condensed', sans-serif';
+  color: #2c3e50;
+  padding: 30px 50px;
+  text-align: justify;
+}
+
+.lado-direito {
+  width: 50%;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #1abc9c;
+  color:#f6f6fdf5;
+  text-align: center;
+  padding: 5px;
 }
