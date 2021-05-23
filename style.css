@@ -5,15 +5,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  color: rgb(30,144,255);
   background-color: rgb(220, 226, 226);
   right: 1px;
   left: 1px;
-  
+
 }
 
 h1 {
   text-align: center;
+  color: dodgerblue;
 
 }
 
@@ -25,4 +25,5 @@ h1 {
 
 #rodape{
   text-align: center;
+
 }
