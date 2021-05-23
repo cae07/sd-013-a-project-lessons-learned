@@ -5,8 +5,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  /* color: #5d2313; */
-  color: #4f000b;
+  color: #5d2313;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   padding-top: 300px;
@@ -60,8 +59,7 @@ h1 {
 #cabecalho span {
   display: inline-block;
   width: 45px;
-  /* border-top: 3px solid #5d2313; */
-  border-top: 3px solid #4f000b;
+  border-top: 3px solid #5d2313;
   margin-top: 0;
 }
 
@@ -143,7 +141,37 @@ h2 {
 
 #aulas {
   clear: both;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
 }
+
+#aulas h3 {
+  margin-bottom: 40px;
+}
+
+#aulas-agenda {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#aulas-agenda, #aulas-agenda th, #aulas-agenda td {
+  border: 1px solid #5d2313;
+}
+
+#aulas-agenda th, #aulas-agenda td {
+  padding-right: 30px;
+}
+
+#aulas-agenda td {
+  text-align: left;
+}
+
+#aulas-agenda tr:nth-child(odd) {
+  background-color: rgba(255, 197, 201, 0.397);
+}
+
 
 footer {
   background-color: rgb(255, 197, 201);
