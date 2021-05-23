@@ -1,6 +1,7 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cabecalho {
@@ -124,7 +125,7 @@ animação resetar!
 /* consertar bug do about/home */
 
 section {
-    width: 80%;
+    width: 75%;
     height: 800px;
     background-color: yellow;
     margin: 85px 20% 0 0;
@@ -149,17 +150,79 @@ section {
 
 }
 
-.aprend h3 {
+.aprend h3, .aprend2 h3 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.aprend p {
+.aprend p, .aprend2 p {
     margin: 0 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .artigo1 #minha_foto {
     height: 400px;
     margin-top: 30px;
+}
+
+.header1 .aprend2 {
+    position: absolute;
+    left: 350px;
+    top: 385px;
+    margin: 0 0 0 10px;
+    background-color: purple;
+    height: 180px;
+    width: 600px;
+}
+/* construção do aside */
+aside {
+    background-color: grey;
+    width: 338px;
+    height:565px;
+    left: 1013px;
+    bottom: 819px;
+    position:relative;
+}
+
+.dropdown h3 {
+    background-color: yellowgreen;
+    width:200px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 18px;
+    padding: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 240px;
+    left: 50px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    
+
+}
+
+.dropdown-list li {
+    color: black;
+    padding: 9px 16px;
+    list-style-type:none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-list:hover {
+    background-color: blue;
+}
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+.dropdown:hover h3 {
+    background-color: blueviolet;
 }
