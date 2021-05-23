@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
+  top: 600px;
 }
 #cabecalho {position: fixed;
   top:0px;
@@ -42,7 +43,7 @@ body {
   
 #minha_foto {
   position: absolute;
-  top: 250px;
+  top: 270px;
   left: 900px;
   border-radius: 50px;
   box-shadow: 0px 0px 50px black;
@@ -52,16 +53,16 @@ body {
   text-shadow: 1px 1px 10px black;
   line-height: 25px;
   position: absolute;
-  top: 120px;
-  left: 200px;
+  top: 140px;
+  left: 250px;
 }
 
 #licoes_a_aprender {
   text-shadow: 1px 1px 10px black;
   position: absolute;
-  top: 430px;
+  top: 450px;
   line-height: 25px;
-  left: 200px
+  left: 250px
 }
 
 #rodape {
@@ -69,27 +70,27 @@ body {
   border-radius: 30px;
   color: white;
   box-shadow: 1px 1px 5px black;
-  padding:5px;
-  line-break: 40px;
-  line-height: 15px;
-
+  padding:0px 100px;
+  line-height: 20px;
+  font-family: sans-serif;
   position: fixed;
-  top:600px;
-  left: 580px;
+  left: 550px;
   text-align: center;
+  bottom: 10px;
 }
 #artigo {
   position: absolute;
-  top: 760px;
-  left: 170px
+  text-align: center;
+  top: 780px;
+  left: 130px;
+  text-shadow: 1px 1px 10px;
 }
 
 #artigo2 {
   position: absolute;
-  top: 760px;
+  text-align: center;
+  top: 780px;
   left: 850px;
+  text-shadow: 1px 1px 10px;
 }
 
-#rodape {
-  font-family: sans-serif;
-}
