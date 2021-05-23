@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin-top: 150px;
 }
 
 #cabecalho {
@@ -12,5 +13,22 @@ body {
 
 #minha_foto {
   border-radius: 25%;
+  top: 300px;
 }
 
+.navegacao {
+  display: inline;
+  width: 100%;
+  position: absolute;
+  background-color: aqua;
+  top: 80px;
+}
+
+.navegacao li{
+  display: inline;
+  margin-right: 100px;
+}
+
+main {
+  top: 200px;
+}
