@@ -65,6 +65,7 @@ body {
   width: 45%;
   margin: 20px;
   float: left;
+  font-size: 12px;
 }
 
 .lado-direito {
@@ -75,10 +76,12 @@ body {
 
 section p {
   text-align: justify;
+  font-size: 12px;
 }
 
 #div2 {
   width: 100%;
+  font-size: 12px;
 }
 
 aside {
@@ -91,8 +94,9 @@ aside {
 
 aside p {
   display: inline-block;
-  width: 100px;
+  width: 130px;
   text-align: justify;
+  font-size: 12px;
 }
 
 #img-aside {
