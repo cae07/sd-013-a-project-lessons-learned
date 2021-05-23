@@ -2,28 +2,30 @@ body {
     background-color:rgb(253, 251, 251);
 
 }
+
 body { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
+       
 }
- .cabecalho {
+
+ #cabecalho {
     background-color: rgb(127, 236, 255);
     position: fixed;
     top: 0;
     margin: auto;
    
  } 
- .titulo {
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+ #titulo {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
  }
- .minha_foto { 
+
+ #minha_foto { 
      width: 150px;
      height: 150px;
-     
     
+   
  }
 
  .licoes_aprendidas {
@@ -40,5 +42,9 @@ body {
      font-style: italic;
      margin-left: 40;
      
+ }
+
+ .fonte {
+     font-family: cursive;
 
  }
