@@ -100,6 +100,7 @@ display: inline-block;
   margin-top: 20px;
   margin-bottom: 80px;
   margin-left: 10px;
+  list-style: none;
 
 
 }
@@ -109,7 +110,8 @@ display: inline-block;
   margin-top: 20px;
   margin-bottom: 80px;
   margin-left: 10px;
-
+  
+  list-style: none;
 
 }
 
