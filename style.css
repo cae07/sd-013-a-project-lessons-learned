@@ -6,8 +6,8 @@ body{
     display: inline-block;
     background-color: aliceblue;
     margin-bottom: 0;
-    margin: 50px 750px;
-    position: fixed;
+    margin: 30px 5px;
+    position: initial;
 }
 #titulo{
     text-align: center;
@@ -20,5 +20,5 @@ body{
     font-size: 30px;
 }
 #minha_foto{
-  width: 300px;
+  width: 150px;
 }
