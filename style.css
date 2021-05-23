@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -16,4 +18,22 @@ body {
 .container {
   width: 85%;
   margin: 0 auto;
+}
+
+.lado-esquerdo {
+  width: 60%;
+  float: left;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.lado-direito {
+  width: 20%;
+  float: right;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+#aulas {
+  clear: both;
 }
