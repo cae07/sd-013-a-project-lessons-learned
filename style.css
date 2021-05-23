@@ -1,19 +1,24 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   margin: 0%;
 }
 
-#cabecalho{
+#titulo {
+  font-size: 40px;
+  margin: 0;
+  top: 0;
+}
+
+#cabecalho { 
   top: 0;
   background-color: green;
 }
 
-#titulo{
-  font-size: 40px;
-  margin: 0;
-}
-
-#minha_foto{
+#minha_foto {
   width: 150px;
   padding: 20px;
+}
+
+header {
+  top: 0;
 }
