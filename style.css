@@ -2,7 +2,6 @@ body{
     background-color: rgb(253, 251, 251);
     display: flow-root;
     word-spacing: 1px;
-    font-family:'Times New Roman', Times, serif;
 }
 #cabecalho {
     position: fixed;
@@ -29,6 +28,7 @@ img {
     left: 300px;
     display: inline-block;
     position: relative;
+    font-family:'Times New Roman', Times, serif;
 }
 #licoes_aprendidas {
     margin-left: 30px;
