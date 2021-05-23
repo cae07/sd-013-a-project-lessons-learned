@@ -5,7 +5,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  color: #5d2313;
+  /* color: #5d2313; */
+  color: #4f000b;
   font-family: Raleway, sans-serif;
   font-size: 20px;
   padding-top: 300px;
@@ -59,7 +60,8 @@ h1 {
 #cabecalho span {
   display: inline-block;
   width: 45px;
-  border-top: 3px solid #5d2313;
+  /* border-top: 3px solid #5d2313; */
+  border-top: 3px solid #4f000b;
   margin-top: 0;
 }
 
