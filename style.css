@@ -19,7 +19,7 @@ h2 p {
   height: 90px;
   width: 100%;
   padding-top: 5px;
-  background-color: RGB(27, 92, 100);
+  background-color: rgb(27, 92, 100);
   position: fixed;
 }
 
@@ -43,7 +43,7 @@ h2 p {
 
 #menu {
   font-family: Roboto , sans-serif;
-  background-color: RGB(102, 184, 146);
+  background-color: rgb(102, 184, 146);
   height: 40px;
   width: 100%;
   margin-top: 70px;
@@ -51,19 +51,19 @@ h2 p {
 }
 
 #menu a {
-  color: #ffffff;
+  color: rgb(253, 251, 251);
   text-align: center;
   padding: 11px; 
   display: inline-block;
 }
 
 #menu a:hover {
-  background-color: #ffffff;
+  background-color: rgb(253, 251, 251);
   color: #58a4b0;
 }
 
 #barra-lateral {
-  background-color: RGB(245, 246, 253);
+  background-color: rgb(245, 246, 253);
   float: right;
   height: 767px;
   width: 250px;
@@ -73,7 +73,7 @@ h2 p {
 
 .texto-barra {
   font-family: fantasy, sans-serif;
-  color: #0d5c63;
+  color: RGB(27, 92, 100);
   padding-top: 180px;
   position: fixed;
   height: 400px;
@@ -89,7 +89,7 @@ h2 p {
   margin-top: 120px;
   margin-left: 10px;
   width: 80%;
-  background-color: RGB(245, 246, 253);
+  background-color: rgb(245, 246, 253);
   display: inline-block;
   vertical-align: middle;
 }
@@ -108,7 +108,7 @@ h2 p {
   margin-left: 10px;
   margin-bottom: 10px;
   width: 80%;
-  background-color: RGB(245, 246, 253);
+  background-color: rgb(245, 246, 253);
   display: inline-block;
   vertical-align: middle;
 }
@@ -141,20 +141,11 @@ h2 p {
   margin-bottom: 20px;
 }
 
-.lado-esquerdo {
-  padding: 30px 20px;
-  max-width: 30%;
-  margin-left: 10%;
-  display: inline-block;
-}
 
-.lado-esquerdo h2 {
-  margin-bottom: 20px;
-}
 
 #rodape {
-  background-color: RGB(27, 92, 100);
-  border-top: solid RGB(102, 184, 146);
+  background-color: rgb(27, 92, 100);
+  border-top: solid rgb(102, 184, 146);
   height: 70px;
 }
 
