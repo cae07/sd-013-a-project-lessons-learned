@@ -8,7 +8,7 @@ body {
   top: 115px;
   width: 500px;
   height: 150px;
-  background-color: #bfdbf7;
+  background-color: rgb(191, 219, 247);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -25,7 +25,7 @@ body {
   top: 0;
   width: 50vw;
   height: 10vh;
-  background-color: #022b3a;
+  background-color: rgb(2, 43, 58);
   text-align: center;
   color: rgb(253, 251, 251);
   padding: 10px;
@@ -44,7 +44,7 @@ body {
 #rodape {
   width: 50vw;
   height: 5vh;
-  background-color: #022b3a;
+  background-color: rgb(2, 43, 58);
   color: rgb(253, 251, 251);
   display: flex;
   flex-direction: row;
@@ -57,7 +57,7 @@ body {
   margin-top: 115px;
   width: 50vw;
   height: 30vh;
-  background-color: #1f7a8c;
+  background-color: rgb(31, 122, 140);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,7 +70,7 @@ body {
   margin-top: 10px;
   width: 50vw;
   height: 30vh;
-  background-color: #1f7a8c;
+  background-color: rgb(31, 122, 140);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -78,5 +78,48 @@ body {
   text-align: justify;
   padding: 10px;
   font-size: 14pt;
+  border-radius: 10px;
+}
+
+.lado-esquerdo {
+  margin: 10px;
+  width: 24vw;
+  height: 30vh;
+  background-color: rgb(31, 122, 140);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  font-size: 14pt;
+  border-radius: 10px;
+}
+
+.lado-direito {
+  margin: 10px;
+  width: 24vw;
+  height: 30vh;
+  background-color: rgb(31, 122, 140);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  font-size: 14pt;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 10px;
+  width: 50vw;
+  height: 40vh;
+  background: rgb(108, 122, 137);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   border-radius: 10px;
 }
