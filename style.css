@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+
+#cabecalho {
+  margin-top: 0;
+  background-color: green;
+  height: 100px;  
+}
+
+#titulo {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+#minha_foto {
+
+}
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+.licoes {
+  display: inline-block;
+}
