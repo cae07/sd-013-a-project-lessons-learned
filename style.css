@@ -42,8 +42,8 @@ img {
 }
 #passagem_aprendizado {
     display: inline-block;
-    width: 15%;
-    left: 1%;
+    width: 30%;
+    left: 2%;
 }
 .lado-esquerdo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -73,6 +73,7 @@ table, th, td {
 }
 #rodape {
     font-family: 'Helvetica', sans-serif;
+    color: black;
     background-color: rgb(127, 255, 212);
     text-align: center;
     padding: 10px 30px;
