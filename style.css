@@ -72,7 +72,7 @@ a:nth-child(1) {
     margin-left: 180px;
 }
 a:nth-child(2) {
-    width: 150px;
+    width: 120px;
 }
 a:nth-child(3) {
     width: 130px;
@@ -89,28 +89,28 @@ a:nth-child(5) {
 
 nav .home-fixo, a:nth-child(1):hover~.animacao {
     width: 100px;
-    left: 180;
+    left: 180px;
     background-color: #4361ee;
 }
 nav .port, a:nth-child(2):hover~.animacao {
-    width: 150px;
+    width: 120px;
     left: 280px;
     background-color: #F72585;
 }
 nav .contact, a:nth-child(3):hover~.animacao {
     width: 130px;
-    left: 430px;
+    left: 400px;
     background-color:#7209B7;
 }
 
 nav .reds, a:nth-child(4):hover~.animacao {
     width: 110px;
-    left: 560px;
+    left: 530px;
     background-color:#3A0CA3;
 }
 nav .about, a:nth-child(5):hover~.animacao {
     width: 110px;
-    left: 670px;
+    left: 640px;
     background-color: #4361EE;
 }
 
@@ -256,11 +256,11 @@ footer {
     font-size: 14px;
 }
 
-.sections li {
+.sections li,{
     list-style: none;
     padding-bottom: 7px;
 }
-.sections li a {
+.sections li a{
     text-decoration: none;
     color: #000948;
     margin: 0;
@@ -268,8 +268,12 @@ footer {
 .sections h3 {
     color: #010837;
 }
-.sections .redes {
+.sections #redes {
     margin-left: 43px;
+}
+.sections #contato {
+    flex-direction: row;
+    list-style: none;
 }
 
 .footer-bot {
@@ -280,4 +284,7 @@ footer {
     width:100%;
     text-align:start;
     color:#272774;
+}
+.sections #contato {
+    margin-left: 23px;
 }
