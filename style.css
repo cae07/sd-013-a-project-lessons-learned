@@ -26,7 +26,7 @@ body {
 
 #tabela_licoes_aprendidas {
   border: 1px solid black;
-  margin: auto;
+  margin: 1px;
 }
 
 #tabela_licoes_aprendidas li {
@@ -35,9 +35,14 @@ body {
 
 #tabela_licoes_a_aprender {
   border: 1px solid black;
-  margin: auto;
+  margin: 1px;
 }
 
 #tabela_licoes_a_aprender li {
   margin-right: 30px;
+}
+
+#lado_a_lado {
+  display: inline-flex;
+  margin: auto;
 }
