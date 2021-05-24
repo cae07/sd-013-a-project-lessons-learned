@@ -21,8 +21,9 @@ body {
 
 .sectionimagem {
   border: 2px solid black;
-  width: 80%;
+  width: 79%;
   margin-top: 40px;
+  float: left;
 }
 
 #divimagem img{  
@@ -36,7 +37,8 @@ body {
 
 article {
   border: 2px solid black;
-  width: 80%;
+  width: 79%;
+  float: left;
 }
 
 #licoes_aprendidas {
@@ -76,10 +78,53 @@ article {
 }
 
 
+.links_aside {
+  border: 2px solid black;
+  width: 20%;
+  margin-top: 40px;
+  float: right;
+  height: 400px;
+  text-align: center;  
+}
 
+.links_aside ul {
+  list-style: none;
+}
+
+.contatos_aside {
+  border: 2px solid black;
+  width: 20%;
+  margin-top: 5px;
+  float: right;
+  height: 400px;  
+  text-align: center;
+}
+
+.contatos_aside ul {
+  list-style: none;
+}
+
+.article_aprendizado {
+  text-align: center;
+  border: 2px solid black;
+  width: 79%;
+  float: left;
+}
+
+.article_aprendizado section {
+  width: 80%;
+  margin: auto;
+}
+
+.article_aprendizado p {
+  text-align: justify;
+}
 
 
 #rodape {
   background-color: cornflowerblue;
   text-align: center;
+  float: left;
+  width: 100%;
+  min-height: 20%;
 }
