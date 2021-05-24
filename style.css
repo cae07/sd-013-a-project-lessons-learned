@@ -212,8 +212,7 @@ aside {
 
 .dropdown-list li, .dropdown-list2 li {
     color: black;
-    padding: 20px 20px;
-    list-style-type:none;
+    padding: 20px 20px; 
     display: block;
     text-align: left;
 }
