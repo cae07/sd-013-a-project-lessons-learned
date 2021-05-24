@@ -12,6 +12,7 @@ body {
   top: 0;
   /** aprendi a centralizar quando a position esta fixed
   https://pt.stackoverflow.com/questions/464000/como-centralizar-um-menu-div-fixo */
+
 }
 
 nav {
@@ -59,5 +60,5 @@ footer {
 
 table {
   border-radius: 1%;
-  border-style:solid;
+  border-style: solid;
 }
