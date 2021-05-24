@@ -67,13 +67,28 @@ h1 {
   text-align: center;
   margin-left: 800px;
   font-size: 17px;
-}
+ }
 
 
 .nav-links {
   display:inline;
   width: 100px;
   color: white;
+}
+
+
+.aprendizado {
+  max-width: 40%;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  float: left;
+}
+
+.meu_aprendizado {
+  max-width: 40%;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  float: left;
 }
 
 #rodape {
