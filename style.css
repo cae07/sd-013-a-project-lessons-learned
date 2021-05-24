@@ -64,8 +64,8 @@ nav .animacao {
 
 }
 
-/* começa com 60px, e aumenta 10px para cada letra */
-/* em ordem: home - portfolio - contato - redes - sobre */
+/*começa com 60px, e aumenta 10px para cada letra*/
+/*em ordem: home - portfolio - contato - redes - sobre*/
 
 a:nth-child(1) {
 	width: 100px;
@@ -166,7 +166,7 @@ section {
 	margin-top: 30px;
 }
 
-.header1 .aprend2 {
+.aprend2 {
 	position: absolute;
 	left: 350px;
 	top: 385px;
