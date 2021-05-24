@@ -108,7 +108,7 @@ span {
   background-color: lightcyan;
 }
 
-.tabela tr .dados:hover {
+.tabela .dados:hover {
   background-color: black;
   color: white;
 }
