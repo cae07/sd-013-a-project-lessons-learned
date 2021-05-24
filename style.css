@@ -23,12 +23,14 @@ body {
 #minha_foto {
   max-width: 200px;
   margin-top: 162px;
+  margin-bottom: 30px;
 }
 
 .lado-direito , .lado-esquerdo {
   display: inline-flex;
-  width: 500px;
+  max-width: 500px;
   line-height: 20px;
+  margin-left: 150px;
 }
 
 #tabela_licoes_aprendidas {
