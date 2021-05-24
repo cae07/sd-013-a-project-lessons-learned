@@ -62,11 +62,12 @@ body {
 }
 
 .lado-direito {
-  width: 20%;
+  width: 18%;
   text-align: justify;
   right: 100%;
   display: inline-block;
-  margin-left: 120px;
+  float: right;
+  margin-right: 200px;
 }
 
 #texts {
