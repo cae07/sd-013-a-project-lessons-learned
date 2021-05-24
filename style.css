@@ -42,44 +42,34 @@ img {
 }
 .lado-esquerdo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-justify: auto;
-    float: left;
-    line-height: 20px;
-    text-align: center;
-    background-color:rgb(127, 255, 212);
-    position: static;
-    width: 200px;
+    display: inline-block;
+    width: 55%;
+    margin-left: 8%;
 }
 .lado-direito {
     float: right;
-    display: inline-block;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    line-height: 35px;
-    text-align: center;
-    padding-left: 30px;
-    width: 250px;
+    width: 25%;
+    margin-right: 8%;
+    float: right;
+    padding-left: 12px;
 }
 table {
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
-    padding: 25px;
-    margin-left: 68.8px;
+    padding: 4px;
+    margin-left: 5%;
 }
 table, th, td {
     border: 1px solid;
     background-color: rgb(127, 255, 212);
+    font-size: 15px;
+    width: 300px
 }
-
-th {
-    text-align: left;
-}
-
 #rodape {
-    color: black;
-    font-size: 20px;
-    padding: 1px;
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(127, 255, 212);
     text-align: center;
-    margin-top: 400px;
+    padding: 10px 30px;
+    margin-top: 15px;
 }
