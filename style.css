@@ -31,8 +31,23 @@ body {
   float: left;
 }
 
+#banner {
+  display: inline-block;
+}
+
 #minha_foto {
   margin-top: 40px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+
+
+#lado {
+display: inline-block;
+margin: auto;
+width: 30%;
+margin-bottom: 30px;
 }
 
 #listas {
@@ -41,20 +56,27 @@ body {
 
 #licoes_aprendidas {
   float: left;
+  display: inline-block;
   max-width: 30%;
   margin-left: 50px;
+  margin-top: 30px;
+  vertical-align: middle;
 }
 
 #licoes_a_aprender {
-  float: right;
   max-width: 30%;
+  display: inline-block;
+  margin-left: 60px;
+  vertical-align: middle;
+  margin-top: 30px;
 }
 
 #rodape {
+
 }
 
 #artigo {
   clear: both;
-  margin-top: 300px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-/n
