@@ -31,29 +31,27 @@ body {
   float: left;
 }
 
-#banner {
-  display: inline-block;
+.banner {
+margin-left: 100px;
 }
 
 #minha_foto {
   margin-top: 40px;
   margin-bottom: 30px;
-  display: inline-block;
 }
 
-#lado {
+.lado {
   display: inline-block;
-  margin: auto;
   width: 30%;
-  margin-bottom: 30px;
+  font-style: italic;
 }
 
-#listas {
-  padding: 100px;
+.lado-esquerdo {
+width: 50%;
+margin-bottom: 100px;
 }
 
 #licoes_aprendidas {
-  float: left;
   display: inline-block;
   max-width: 30%;
   margin-left: 50px;
@@ -69,13 +67,16 @@ body {
   margin-top: 30px;
 }
 
-#artigo {
-  clear: both;
+#lado-direito {
+  max-width: 30%;
   margin-top: 30px;
   margin-bottom: 50px;
+  display: inline-block;
+  clear: none;
 }
 
 #rodape {
-  color: #fff;
+  clear: both;
+  color: white;
   text-decoration: none;
 }
