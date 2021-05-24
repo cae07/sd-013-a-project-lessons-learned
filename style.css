@@ -41,13 +41,11 @@ body {
   display: inline-block;
 }
 
-
-
 #lado {
-display: inline-block;
-margin: auto;
-width: 30%;
-margin-bottom: 30px;
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 30px;
 }
 
 #listas {
@@ -71,12 +69,13 @@ margin-bottom: 30px;
   margin-top: 30px;
 }
 
-#rodape {
-
-}
-
 #artigo {
   clear: both;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+#rodape {
+  color: #fff;
+  text-decoration: none;
 }
