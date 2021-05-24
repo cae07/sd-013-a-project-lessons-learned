@@ -9,12 +9,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h2 p {
-  font-family: Montserrat , sans-serif;
-  font-size: 25px;
-}
-
-
 #cabecalho {
   height: 90px;
   width: 100%;
@@ -73,6 +67,7 @@ h2 p {
 
 .texto-barra {
   font-family: fantasy, sans-serif;
+  font-size: 16px;
   color: RGB(27, 92, 100);
   padding-top: 180px;
   position: fixed;
@@ -81,6 +76,8 @@ h2 p {
 }
 
 #titulo-barra {
+  font-family: fantasy, sans-serif;
+  font-size: 40px;
   margin-bottom: 10px;
 }
 
