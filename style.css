@@ -4,3 +4,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#cabecalho {
+    background-color: chartreuse;
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    background-color: transparent;
+    text-align: right;
+}
+
+img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
