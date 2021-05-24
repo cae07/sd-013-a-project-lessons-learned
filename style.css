@@ -17,8 +17,10 @@ body {
   display: inline-block;
   top: 0;
   padding: 30px;
+  margin: 1px;
   border-radius: 25px;
   line-height: 50%;
+  border: 30px;
   z-index: 2;
 }
 
@@ -63,14 +65,17 @@ body {
   z-index: -1;}
 
 #licoes_aprendidas {
+  font-size: 17px;
   text-shadow: 1px 1px 10px black;
   line-height: 25px;
   position: absolute;
   top: 140px;
   left: 250px;
+  z-index: -1;
 }
 
 #licoes_a_aprender {
+  font-size: 17px;
   text-shadow: 1px 1px 10px black;
   position: absolute;
   top: 450px;
