@@ -1,66 +1,66 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 900px;
+	background-color: rgb(253, 251, 251);
+	margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 900px;
 }
 
 #cabecalho {
-    background-color: #3d3838;
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    border-bottom: 5px solid black;
-    z-index: 2;
+	background-color: #3d3838;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 5px solid black;
+	z-index: 2;
 
-    
+	
 }
 
 #titulo {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    left: 180px;   
-    top: 10px;
-    font-family: 'Oswald', sans-serif;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	left: 180px;   
+	top: 10px;
+	font-family: 'Oswald', sans-serif;
 }
 
 #titulo {
-    margin: 0px;
-   font-size: 50px;
+	margin: 0px;
+	font-size: 50px;
 }
 
 /*NAV, foco em animação e estrutura da Navbar*/
 nav {
-    width: 100%;
-    height: 50px;
-    background-color: #3c1642;
-    position: relative;
-    top: 85px;
-    font-size: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #3c1642;
+	position: relative;
+	top: 85px;
+	font-size: 0;
 }
 
 nav a {
-    height: 100%;
-    line-height: 50px;
-    color:#fff;
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    z-index: 1;
-    text-decoration: none;
-    
+	height: 100%;
+	line-height: 50px;
+	color:#fff;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	text-decoration: none;
+	
 }
 
 nav .animacao {
-    position: absolute;
-    height: 100%;
-    top: 0px;
-    transition: all .5s ease 0s;
-    border-radius: 8px;
-    z-index: 0;
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+	z-index: 0;
 
 }
 
@@ -68,56 +68,56 @@ nav .animacao {
 /* em ordem: home - portfolio - contato - redes - sobre */
 
 a:nth-child(1) {
-    width: 100px;
-    margin-left: 180px;
+	width: 100px;
+	margin-left: 180px;
 }
 a:nth-child(2) {
-    width: 120px;
+	width: 120px;
 }
 a:nth-child(3) {
-    width: 130px;
+	width: 130px;
 }
 a:nth-child(4) {
-    width: 110px;
+	width: 110px;
 }
 a:nth-child(5) {
-    width: 110px;
+	width: 110px;
 }
 
 /* a luz sempre vai estar fixa em home; */
 /* transição/animação */
 
 nav .home-fixo, a:nth-child(1):hover~.animacao {
-    width: 100px;
-    left: 180px;
-    background-color: #4361ee;
+	width: 100px;
+	left: 180px;
+	background-color: #4361ee;
 }
 nav .port, a:nth-child(2):hover~.animacao {
-    width: 120px;
-    left: 280px;
-    background-color: #F72585;
+	width: 120px;
+	left: 280px;
+	background-color: #F72585;
 }
 nav .contact, a:nth-child(3):hover~.animacao {
-    width: 130px;
-    left: 400px;
-    background-color:#7209B7;
+	width: 130px;
+	left: 400px;
+	background-color:#7209B7;
 }
 
 nav .reds, a:nth-child(4):hover~.animacao {
-    width: 110px;
-    left: 530px;
-    background-color:#3A0CA3;
+	width: 110px;
+	left: 530px;
+	background-color:#3A0CA3;
 }
 nav .about, a:nth-child(5):hover~.animacao {
-    width: 110px;
-    left: 640px;
-    background-color: #4361EE;
+	width: 110px;
+	left: 640px;
+	background-color: #4361EE;
 }
 
 nav .home-fixo, a:nth-child(1):hover~.animacao {
-    width: 100px;
-    left: 180px;
-    background-color: #4361ee;
+	width: 100px;
+	left: 180px;
+	background-color: #4361ee;
 }
 
 /* para esse tipo de animação, é recomendado que vc repita 
@@ -126,164 +126,164 @@ animação resetar!
 /* consertar bug do about/home */
 
 section {
-    width: 75%;
-    margin: 85px 20% 0 0;
+	width: 75%;
+	margin: 85px 20% 0 0;
 
 }
 
 .header1{
-    height: 564px;
-    width: 100%;
-    background-color:#F9EED9;
+	height: 564px;
+	width: 100%;
+	background-color:#F9EED9;
 
 }
 
 .header1 .aprend {
-    position: absolute;
-    left: 350px;
-    top: 165px;
-    margin: 0 0 0 10px;
-    background-color: #ecdcc3;
-    height: 180px;
-    width: 600px;
+	position: absolute;
+	left: 350px;
+	top: 165px;
+	margin: 0 0 0 10px;
+	background-color: #ecdcc3;
+	height: 180px;
+	width: 600px;
 
 }
 
 .aprend h2 {
-    font-size: 23px;
+	font-size: 23px;
 }
 
 .aprend h2, .aprend2 h3 {
-    text-align: center;
+	text-align: center;
 }
 
 .aprend p, .aprend2 p {
-    margin: 0 20px;
+	margin: 0 20px;
 }
 
-#minha_foto {
-    height: 400px;
-    margin-top: 30px;
+.artigo1 #minha_foto {
+	height: 400px;
+	margin-top: 30px;
 }
 
 .header1 .aprend2 {
-    position: absolute;
-    left: 350px;
-    top: 385px;
-    margin: 0 0 0 10px;
-    background-color: #ecdcc3;
-    height: 180px;
-    width: 600px;
+	position: absolute;
+	left: 350px;
+	top: 385px;
+	margin: 0 0 0 10px;
+	background-color: #ecdcc3;
+	height: 180px;
+	width: 600px;
 }
 /* construção do aside */
 aside {
-    background-color: #e9cda0;
-    width: 338px;
-    height:565px;
-    left: 1013px;
-    bottom: 564px;
-    position:relative;
+	background-color: #e9cda0;
+	width: 338px;
+	height:565px;
+	left: 1013px;
+	bottom: 564px;
+	position:relative;
 }
 
 .dropdown h3, .dropdown2 h3 {
-    background-color: #5f2868;
-    width:200px;
-    text-align: center;
-    position: relative;
-    left: 50px;
-    top: 18px;
-    padding: 20px;
+	background-color: #5f2868;
+	width:200px;
+	text-align: center;
+	position: relative;
+	left: 50px;
+	top: 18px;
+	padding: 20px;
 }
 
 .dropdown, .dropdown2 {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-list, .dropdown-list2 {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 240px;
-    left: 50px;
-    box-shadow: 0px 8px 16px 0px;
-    z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 240px;
+	left: 50px;
+	box-shadow: 0px 8px 16px 0px;
+	z-index: 1;
 }
 
 .dropdown-list li, .dropdown-list2 li {
-    color: black;
-    padding: 20px 20px; 
-    display: block;
-    text-align: left;
+	color: black;
+	padding: 20px 20px;
+	display: block;
+	text-align: left;
 }
 
 .dropdown-list:hover, .dropdown-list2:hover {
-    background-color: #E6C69F;
+	background-color: #E6C69F;
 }
 .dropdown:hover .dropdown-list, .dropdown2:hover .dropdown-list2 {
-    display: block;
+	display: block;
 }
 .dropdown:hover h3, .dropdown2:hover h3 {
-    background-color: blueviolet;
+	background-color: blueviolet;
 }
 
 
 /*criação do footer*/
 
 footer {
-  width: 100%;
-  height: 225px;
-  position: relative;
-  background-color: #5D5F5C;
-  border-radius:3px;
-  bottom: 583px;
+width: 100%;
+height: 225px;
+position: relative;
+background-color: #5D5F5C;
+border-radius:3px;
+bottom: 583px;
 }
 
 
 .conteudo {
-    height: 120px;
-    display: flex;
-    padding: 40px 60px;
-    border-bottom: 1px solid black;
+	height: 120px;
+	display: flex;
+	padding: 40px 60px;
+	border-bottom: 1px solid black;
 }
 
 .sections {
-    width: 23%;
+	width: 23%;
 }
 
 .sections p {
-    font-size: 14px;
+	font-size: 14px;
 }
 
-.sections li,{
-    list-style: none;
-    padding-bottom: 7px;
+.sections li {
+	list-style: none;
+	padding-bottom: 7px;
 }
 .sections li a{
-    text-decoration: none;
-    color: #000948;
-    margin: 0;
+	text-decoration: none;
+	color: #000948;
+	margin: 0;
 }
 .sections h3 {
-    color: #010837;
+	color: #010837;
 }
 .sections #redes {
-    margin-left: 43px;
+	margin-left: 43px;
 }
 .sections #contato {
-    flex-direction: row;
-    list-style: none;
+	flex-direction: row;
+	list-style: none;
 }
 
 .footer-bot {
-    position: absolute;
-    bottom:0;
-    left:0;
-    height: 35px;
-    width:100%;
-    text-align:start;
-    color:#272774;
+	position: absolute;
+	bottom:0;
+	left:0;
+	height: 35px;
+	width:100%;
+	text-align:start;
+	color:#272774;
 }
 .sections #contato {
-    margin-left: 23px;
+	margin-left: 23px;
 }
