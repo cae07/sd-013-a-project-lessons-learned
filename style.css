@@ -24,6 +24,10 @@ body {
   margin-top: 162px;
 }
 
+#secao_1, #secao_2 {
+  display: inline-block;
+}
+
 #tabela_licoes_aprendidas {
   border: 1px solid black;
   margin: 1px;
@@ -40,9 +44,4 @@ body {
 
 #tabela_licoes_a_aprender li {
   margin-right: 30px;
-}
-
-#lado_a_lado {
-  display: inline-flex;
-  margin: auto;
 }
