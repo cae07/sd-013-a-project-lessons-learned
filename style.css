@@ -39,7 +39,7 @@ body {
 
 .navegacao li {
   display: inline;
-  margin-left: 225px;
+  margin-left: 230px;
 }
 
 .navegacao li:hover {
@@ -62,7 +62,6 @@ body {
 }
 
 #port {
-
   margin-top: 20px;
 }
 
