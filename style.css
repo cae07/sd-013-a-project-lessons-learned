@@ -32,7 +32,7 @@ body {
 }
 
 .banner {
-margin-left: 100px;
+  margin-left: 100px;
 }
 
 #minha_foto {
@@ -47,8 +47,8 @@ margin-left: 100px;
 }
 
 .lado-esquerdo {
-width: 50%;
-margin-bottom: 100px;
+  width: 50%;
+  margin-bottom: 100px;
 }
 
 #licoes_aprendidas {
