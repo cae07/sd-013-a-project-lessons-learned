@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
   top: 600px;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -33,16 +34,24 @@ body {
   top: 85px;
   left: 600px;
   color: white;
-  }
+}
 
 #item1 {
   color : white;
 }
+
 #item2 {
   color: white;
 }
+
 #item3 {
   color: white;
+}
+
+#final {
+  color: rgb(253, 251, 251);
+  position: absolute;
+  top: 1050px;
 }
 
 #minha_foto {
