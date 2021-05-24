@@ -61,10 +61,9 @@ body {
   text-decoration: none;
 }
 
-#port{
+#port {
 
-  margin-top:20px;
-
+  margin-top: 20px;
 }
 
 #portifolio:hover {
@@ -123,7 +122,8 @@ body {
 
 #tabela {
   color: rgb(88, 81, 81);
+  background-color: antiquewhite;
   margin-top: 50px;
-  margin-left: 75px;
+  margin-left: 150px;
   width: 500px;
 }
