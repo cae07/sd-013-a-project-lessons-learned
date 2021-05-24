@@ -27,7 +27,7 @@ body {
   border-radius: 10%;
   border: 10px solid;
   border-color: rgb(46, 193, 139);
-  display: inline-block
+  display: inline-block;
 
 }
 
@@ -58,7 +58,6 @@ body {
   left: 100%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 30px;
   margin-left: 200px;
 }
 
@@ -80,8 +79,8 @@ body {
   margin-top: 50px;
 }
 
-#caminhada{
-margin-left: 200px;
+#caminhada {
+  margin-left: 200px;
 }
 
 #rodape {
@@ -107,7 +106,7 @@ margin-left: 200px;
   display: inline-block;
   margin-right: 50px;
   margin-top: 5px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 a {
