@@ -42,6 +42,7 @@
 
 .artigo-secao {
   display: inline-block;
-  max-width: 50%;
+  max-width: 40%;
   border: 2x solid #000;
+  margin-right: 40px;
 }
