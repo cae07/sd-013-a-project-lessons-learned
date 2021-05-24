@@ -39,23 +39,26 @@ h1 {
   padding:  5px 600px;
 }
 
-.sobre_mim {
-  padding: 20px 500px 5px 350px;
+#licoes {
+  display: inline;
+  padding: 100px 30px 20px 350px;
   font-family: sans-serif;
   text-align: center;
 }
 
+#licoes_a_aprender {
+  padding: 1px 20px;
+  font-family: sans-serif;
+}
+
 
 .topicos {
-  text-align: right;
-  padding: 5px;
-  background-color: blue;
+  padding: 20px 20px 30px 50px;
 }
 
 
  ol {
    display: inline-block;
-   background-color: red;
    padding: 20px 5px;
    text-align: center;
    margin-left: 350px;
