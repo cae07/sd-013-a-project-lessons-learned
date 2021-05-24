@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: rgb(253, 251, 251);
+  background-color:  rgb(253, 251, 251);
   font-family: sans-serif;
   font-size: 15px;
 }
@@ -39,7 +39,7 @@ h1 {
   padding:  5px 600px;
 }
 
-p {
+.sobre_mim {
   padding: 20px 500px 5px 350px;
   font-family: sans-serif;
   text-align: center;
@@ -47,24 +47,35 @@ p {
 
 
 .topicos {
-  text-align: left;
-  padding: 5px 50px
+  text-align: right;
+  padding: 5px;
+  background-color: blue;
 }
 
 
-#licoes_aprendidas {
-}
+ ol {
+   display: inline-block;
+   background-color: red;
+   padding: 20px 5px;
+   text-align: center;
+   margin-left: 350px;
+   font-size: 17px;
+ }
 
-.licoes_a_aprender {
-}
-
-.nav-links li {
+ ul {
   display: inline-block;
-  margin-right: 10px;
+  text-align: center;
+  margin-left: 800px;
+  font-size: 17px;
+}
+
+
+.nav-links {
+  display:inline;
   width: 100px;
-  padding: 20px 5px 5px;
   color: white;
 }
+
 
 .conteudo {
   padding: 70px 30px;
