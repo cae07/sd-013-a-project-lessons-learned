@@ -4,7 +4,7 @@ body {
 
 header #cabecalho {
   width: 100%;
-  background-color: #0095A3;
+  background-color: hsl(185, 100%, 32%);
   display: flex;
 }
 
@@ -29,7 +29,6 @@ header #cabecalho {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  
   padding: 10px 15px;
 }
 
@@ -49,9 +48,8 @@ header #cabecalho {
 
 #rodape {
   background-color: grey;
-  padding: 20px 10px 20px;
+  padding: 20px 10px;
   margin-bottom: 0px;
-  padding: 10px 20px;
 }
 
 .contato {
@@ -92,37 +90,36 @@ header #cabecalho {
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
-  display: inline-block;  
+  display: inline-block;
   margin-left: 15%;
-  background-color: #ECECED;
+  background-color: hsl(240, 3%, 93%);
   width: 400px;
 }
 
-#tabela{
+#tabela {
   display: inline-block;
   float: right;
   border: 10px;
   margin-right: 57%;
   border-style: solid; width: 300px;
-  border-color: #ECEDED;
+  border-color: hsl(180, 3%, 93%);
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   margin-left: 15%;
   width: 400px;
   margin-top: 10%;
-  background-color: #ECEDED; width: 430px; padding: 10px 10px;
-  margin-top: 10%
+  background-color: hsl(180, 3%, 93%); width: 430px; padding: 10px 10px;
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   margin-left: 15%;
   border-style: solid; width: 300px;
-  border-color: #ECEDED;
+  border-color: hsl(180, 3%, 93%);
   
 }
-.lado-direito h2, .aprendizado{
+.lado-direito h2, .aprendizado {
   margin-left: 25px;
 }
