@@ -29,19 +29,16 @@ header {
 #foto  {
   width: 200px;
   padding: 10px 550px 10px;
-  background-color: brown;
 }
 
 #meu_linkedin {
   display: inline;
   padding:  5px 600px;
-  background-color: yellow;
 }
 
 p {
   padding: 20px 500px 5px 350px;
   font-family: sans-serif;
-  background-color: blue;
   text-align: center;
 }
 
@@ -54,16 +51,13 @@ p {
 
 
 #licoes_aprendidas {
-  background-color: aqua;
 }
 
 .licoes_a_aprender {
-  background-color: chartreuse;
 }
 
 
 .nav-links li {
-  color: green;
   display: inline-block;
   margin-right: 10px;
   width: 100px;
