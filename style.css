@@ -3,6 +3,7 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
 }
 
 #cabecalho {
@@ -14,11 +15,26 @@ body {
   z-index: 1;
 }
 
+#titulo {
+  color: rgb(253, 251, 251);
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+}
+
+#minha_foto {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+  width: 200px;
+}
+
 #menu ul {
-  padding:0px;
-  margin:0px;
+  padding: 0;
+  margin: 0;
   background-color: darksalmon;
-  list-style:none;
+  list-style: none;
 }
 
 #menu ul li { display: inline; }
@@ -28,27 +44,58 @@ body {
   display: inline-block;
 }
 
-#titulo {
-  color: rgb(253, 251, 251);
-  font-weight: 700;
-  font-family: Helvetica, sans-serif;
+.secaoTabela {
+  display: inline-block;
+  position: absolute;
+  left: 750px;
+  top: 650px;
 }
 
-#minha_foto {
-  width: 200px;
-
+#tabela {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-#rodape{
+#tabela td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.lado-direito {
+  width: 500px;
+  display: inline-block;
+  position: absolute;
+  left: 750px;
+}
+
+.lado-esquerdo {
+  width: 650px;
+  display: inline-block;
+  position: absolute;
+  right: 600px;
+  z-index: 1;
+}
+
+.tudo {
+  position: relative;
+  margin: 0.5px;
+  border: 0.5px;
+  padding: 0.5px;
+}
+
+#final {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#rodape {
+  background-color: darksalmon;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
 }
 
-.lado-direito {
-  
-}
-
-.lado-esquerdo {
-  
+#conteudo {
+  padding-bottom: 310px;
 }
