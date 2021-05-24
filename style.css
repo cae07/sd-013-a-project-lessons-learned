@@ -2,13 +2,14 @@ body{
     background-color: rgb(253,251,251); 
 }
 
-div.cabecalho {
+header#cabecalho {
     position: fixed;
-    top:0;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid #73AD21;
+    top: 0;
+
+  }
+
+h1#titulo{
+    font-family: sans-serif;
   }
 
       
