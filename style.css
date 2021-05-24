@@ -39,3 +39,9 @@
 .buttons {
     margin-bottom: 40px;
 }
+
+.artigo-secao {
+  display: inline-block;
+  max-width: 50%;
+  border: 2x solid #000;
+}
