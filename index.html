@@ -6,42 +6,61 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <p id="inicio">inicio</p>
   <header id="cabecalho">
     <h1 id="titulo">Jornada Inicial na Trybe</h1>
   </header>
-  <img id="minha_foto" src="Eu.png" alt="Minha Foto">
-  <section id="aprendizados">
-    <h2>Lições Aprendidas</h2>
-    <ol id="licoes_aprendidas">
-     <li>Unix</li>
-      <li>Bash</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>Internet</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>HTML Semântico</li>
-      <li>Empatia</li>
-      <li>Valores</li>
-    </ol>
-    <h2>Lições a Aprender</h2>
-    <ul id="licoes_a_aprender">
-      <li>JavaScript</li>
-      <li>Lógica de Programação</li>
-      <li>DOM</li>
-      <li>Web Storage</li>
-      <li>CSS Flexbox</li>
-      <li>React</li>
-      <li>Metodologias Ágeis</li>
-      <li>Redux</li>
-      <li>Context API</li>
-      <li>SQL</li>
-    </ul>
-</section>
-<footer id="rodape">
-  <h3 id="assinatura">Developed by: João Victor Paduam</h3>
-  <a target="_blank" href="https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=CjwKCAjw-qeFBhAsEiwA2G7Nl7PC0Vh6R05WnoowZx8k-gICC7JfIBu-nVud3nid-9gNW3-WCS8V6hoCWaUQAvD_BwE"><img id="logo_trybe" src="trybelogo.jpg" alt="Logo da Trybe"></a>
-</footer>
-  
+  <div id="parte_1">
+    <img id="minha_foto" src="Eu.png" alt="Minha Foto">
+    <section class="aprendidas">
+      <h2>Lições Aprendidas</h2>
+      <ol id="licoes_aprendidas">
+      <li>Unix</li>
+        <li>Bash</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Internet</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>HTML Semântico</li>
+        <li>Empatia</li>
+        <li>Valores</li>
+      </ol>
+    </section>
+    <section class="aprender">
+      <h2>Lições a Aprender</h2>
+      <ul id="licoes_a_aprender">
+        <li>JavaScript</li>
+        <li>Lógica de Programação</li>
+        <li>DOM</li>
+        <li>Web Storage</li>
+        <li>CSS Flexbox</li>
+        <li>React</li>
+        <li>Metodologias Ágeis</li>
+        <li>Redux</li>
+        <li>Context API</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+  </div>
+  <section id="texts">
+    <h2 id="caminhada">A Caminhada</h2>
+    <article  class="lado-esquerdo">A caminhada não é nada fácil, exige esforço, comprometimento e que você entregue tudo de si.<br> Quando você estiver cansado, exausto, pensará em desistir, porém siga em frente. Ver aquilo que você dedicou horas, finalmente pronto, é incrível.<br> Esta é a maior gratificação: <strong>Resultados!</strong> Ver que aprendeu, executou e obteve sucesso, é com certeza uma das melhores sensações do mundo, por isso,<strong> siga sempre em frente!</strong>
+    </article>
+    <aside class="lado-direito">Durante o início do curso, tive um problema e acabei perdendo o contéudo de Git e GitHub. Ao invés de prosseguir com o aprendizado travei, e isso me atrasou.<br> Por isso é bom se dedicar e seguir em frente, para que não hajam problemas futuros.
+    </aside>
+  </section>
+  <footer id="rodape">
+    <h3 id="assinatura">Developed by: João Victor Paduam</h3>
+    <a target="_blank" href="https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=CjwKCAjw-qeFBhAsEiwA2G7Nl7PC0Vh6R05WnoowZx8k-gICC7JfIBu-nVud3nid-9gNW3-WCS8V6hoCWaUQAvD_BwE"><img id="logo_trybe" src="trybelogo.jpg" alt="Logo da Trybe"></a>
+    <nav>
+      <ul id="navegante">
+        <li><a href="#inicio"> Início</li></a>
+        <li><a href="#parte_1"> Foto</li></a>
+        <li><a href="#parte_1"> Lições</li></a>
+        <li><a href="#texts"> Aprendizado</li></a>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>

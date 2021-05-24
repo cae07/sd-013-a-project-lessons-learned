@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0%;
   font-family: sans-serif;
+  padding: 0;
 }
 
 #titulo {
@@ -14,42 +15,109 @@ body {
 #cabecalho {
   top: 0;
   background-color: rgb(46, 193, 139);
-  position: fixed;  
+  position: fixed;
   width: 100%;
   padding: 10px;
 }
 
 #minha_foto {
-  width: 150px;
+  width: 250px;
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 200px;
   border-radius: 10%;
   border: 10px solid;
-  border-color: rgb(46, 193, 139) ;
-  
+  border-color: rgb(46, 193, 139);
+  display: inline-block
+
+}
+
+.aprendidas {
+  line-height: 30px;
+  display: inline-block;
+  margin: 50px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5%;
+  padding: 20px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.aprender {
+  line-height: 30px;
+  display: inline-block;
+  margin: 50px;
+  margin-left: 50px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 5%;
+  padding: 20px;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  text-align: justify;
+  left: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.lado-direito {
+  width: 20%;
+  text-align: justify;
+  right: 100%;
+  display: inline-block;
+  margin-left: 120px;
+}
+
+#texts {
+  line-height: 25px;
+  height: auto;
+  width: 100%;
+  background-color: azure;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+#caminhada{
+margin-left: 200px;
 }
 
 #rodape {
   bottom: 0;
-  position:relative;
+  position: static;
   width: 100%;
   height: 60px;
-  margin:0;
-  background-color:rgb(46, 193, 139)
+  background-color: rgb(46, 193, 139);
+}
+
+#assinatura {
+  float: right;
+  color: azure;
+  margin-right: 10px;
+}
+
+#navegante {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#navegante li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 #logo_trybe {
   width: 60px;
-  float:right;
-}
-
-#assinatura {
-  float:left ;
-  color: azure;
-  margin-left: 10px;
-}
-
-#aprendizados {
-  line-height: 25px;
-  margin: 20px;
+  float: left;
 }
