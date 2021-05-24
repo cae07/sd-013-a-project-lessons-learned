@@ -40,6 +40,11 @@ img {
     background-color:rgb(127, 255, 212);
     width: 200px;
 }
+#passagem_aprendizado {
+    display: inline-block;
+    width: 15%;
+    left: 1%;
+}
 .lado-esquerdo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: inline-block;
