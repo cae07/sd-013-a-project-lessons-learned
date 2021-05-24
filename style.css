@@ -2,28 +2,28 @@ body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 900px
+    height: 900px;
 }
 
 .cabecalho {
-    background-color: #202020;
+    background-color: #3d3838;
     width: 100%;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
-    border-bottom: 5px solid green;
+    border-bottom: 5px solid black;
     z-index: 2;
 
     
 }
 
 #titulo {
-    
-    color: grey;
+    color: #fff;
     position: absolute;
-    left: 200px;   
-    top: 17px; 
+    left: 180px;   
+    top: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #titulo h1 {
@@ -35,7 +35,7 @@ body {
 nav {
     width: 100%;
     height: 50px;
-    background-color: purple;;
+    background-color: #3c1642;
     position: relative;
     top: 85px;
     font-size: 0;
@@ -90,34 +90,34 @@ a:nth-child(5) {
 nav .home-fixo, a:nth-child(1):hover~.animacao {
     width: 100px;
     left: 180;
-    background-color: yellow;
+    background-color: #4361ee;
 }
 nav .port, a:nth-child(2):hover~.animacao {
     width: 150px;
     left: 280px;
-    background-color: green;
+    background-color: #F72585;
 }
 nav .contact, a:nth-child(3):hover~.animacao {
     width: 130px;
     left: 430px;
-    background-color:blue;
+    background-color:#7209B7;
 }
 
 nav .reds, a:nth-child(4):hover~.animacao {
     width: 110px;
     left: 560px;
-    background-color:red;
+    background-color:#3A0CA3;
 }
 nav .about, a:nth-child(5):hover~.animacao {
     width: 110px;
     left: 670px;
-    background-color: gray;
+    background-color: #4361EE;
 }
 
 nav .home-fixo, a:nth-child(1):hover~.animacao {
     width: 100px;
     left: 180px;
-    background-color: yellow;
+    background-color: #4361ee;
 }
 
 /* para esse tipo de animação, é recomendado que vc repita 
@@ -134,7 +134,7 @@ section {
 .header1{
     height: 564px;
     width: 100%;
-    background-color:pink;
+    background-color:#F9EED9;
 
 }
 
@@ -143,13 +143,17 @@ section {
     left: 350px;
     top: 165px;
     margin: 0 0 0 10px;
-    background-color: purple;
+    background-color: #ecdcc3;
     height: 180px;
     width: 600px;
 
 }
 
-.aprend h3, .aprend2 h3 {
+.aprend h2 {
+    font-size: 23px;
+}
+
+.aprend h2, .aprend2 h3 {
     text-align: center;
 }
 
@@ -167,13 +171,13 @@ section {
     left: 350px;
     top: 385px;
     margin: 0 0 0 10px;
-    background-color: purple;
+    background-color: #ecdcc3;
     height: 180px;
     width: 600px;
 }
 /* construção do aside */
 aside {
-    background-color: grey;
+    background-color: #e9cda0;
     width: 338px;
     height:565px;
     left: 1013px;
@@ -182,7 +186,7 @@ aside {
 }
 
 .dropdown h3, .dropdown2 h3 {
-    background-color: yellowgreen;
+    background-color: #5f2868;
     width:200px;
     text-align: center;
     position: relative;
@@ -215,7 +219,7 @@ aside {
 }
 
 .dropdown-list:hover, .dropdown-list2:hover {
-    background-color: blue;
+    background-color: #E6C69F;
 }
 .dropdown:hover .dropdown-list, .dropdown2:hover .dropdown-list2 {
     display: block;
@@ -231,7 +235,7 @@ footer {
   width: 100%;
   height: 225px;
   position: relative;
-  background-color: green;
+  background-color: #5D5F5C;
   border-radius:3px;
   bottom: 583px;
 }
@@ -275,5 +279,5 @@ footer {
     height: 35px;
     width:100%;
     text-align:start;
-    color:#84849D;
+    color:#272774;
 }
