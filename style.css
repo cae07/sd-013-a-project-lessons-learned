@@ -14,6 +14,7 @@ body {
 
 /** aprendi a centralizar quando a position esta fixed
   https://pt.stackoverflow.com/questions/464000/como-centralizar-um-menu-div-fixo */
+
 nav {
   text-align: center;
   position: fixed;
