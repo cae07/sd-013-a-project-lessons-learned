@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -25,13 +25,14 @@ body {
   margin-top: 162px;
 }
 
-#secao_1, #secao_2 {
+#secao_1 , #secao_2 {
   display: inline-block;
 }
 
 #tabela_licoes_aprendidas {
   border: 1px solid black;
   margin: 1px;
+  font-style: italic;
 }
 
 #tabela_licoes_aprendidas li {
@@ -41,6 +42,7 @@ body {
 #tabela_licoes_a_aprender {
   border: 1px solid black;
   margin: 1px;
+  font-style: italic;
 }
 
 #tabela_licoes_a_aprender li {
