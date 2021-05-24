@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(253, 251, 251);
 	margin: 0px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: verdana, geneva, tahoma, sans-serif;
 	height: 900px;
 }
 
@@ -23,7 +23,7 @@ body {
 	position: absolute;
 	left: 180px;   
 	top: 10px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'oswald', sans-serif;
 }
 
 #titulo {
@@ -31,7 +31,7 @@ body {
 	font-size: 50px;
 }
 
-/*NAV, foco em animação e estrutura da Navbar*/
+/*nav, foco em animação e estrutura da navbar*/
 nav {
 	width: 100%;
 	height: 50px;
@@ -92,26 +92,26 @@ nav .home-fixo, a:nth-child(1):hover~.animacao {
 	left: 180px;
 	background-color: #4361ee;
 }
-nav .port, a:nth-child(2):hover~.animacao {
+nav .port, a:nth-child(2) :hover~.animacao {
 	width: 120px;
 	left: 280px;
-	background-color: #F72585;
+	background-color: #f72585;
 }
 nav .contact, a:nth-child(3):hover~.animacao {
 	width: 130px;
 	left: 400px;
-	background-color:#7209B7;
+	background-color:#7209b7;
 }
 
 nav .reds, a:nth-child(4):hover~.animacao {
 	width: 110px;
 	left: 530px;
-	background-color:#3A0CA3;
+	background-color:#3a0ca3;
 }
 nav .about, a:nth-child(5):hover~.animacao {
 	width: 110px;
 	left: 640px;
-	background-color: #4361EE;
+	background-color: #4361ee;
 }
 
 nav .home-fixo, a:nth-child(1):hover~.animacao {
@@ -134,7 +134,7 @@ section {
 .header1{
 	height: 564px;
 	width: 100%;
-	background-color:#F9EED9;
+	background-color:#f9eed9;
 
 }
 
@@ -213,12 +213,11 @@ aside {
 .dropdown-list li, .dropdown-list2 li {
 	color: black;
 	padding: 20px 20px;
-	display: block;
 	text-align: left;
 }
 
 .dropdown-list:hover, .dropdown-list2:hover {
-	background-color: #E6C69F;
+	background-color: #e6c69f;
 }
 .dropdown:hover .dropdown-list, .dropdown2:hover .dropdown-list2 {
 	display: block;
@@ -234,7 +233,7 @@ footer {
 width: 100%;
 height: 225px;
 position: relative;
-background-color: #5D5F5C;
+background-color: #5d5f5c;
 border-radius:3px;
 bottom: 583px;
 }
