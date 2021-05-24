@@ -15,7 +15,7 @@ header #cabecalho {
 
 #titulo {
   margin-left: 10%;
-  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .menu ul li {
@@ -29,7 +29,7 @@ header #cabecalho {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  padding: 10px 15px 10px 15px;
+  padding: 10px;
 }
 
 .menu li a:hover {
@@ -48,7 +48,7 @@ header #cabecalho {
 
 #rodape {
   background-color: grey;
-  padding: 20px 10px 20px 10px;
+  padding: 20px;
 }
 
 .contato {
@@ -88,7 +88,7 @@ header #cabecalho {
   margin-top: 10%;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas,#licoes_a_aprender {
   display: inline-block;
   margin-left: 15%;
   background-color: hsl(240, 3%, 93%);
@@ -100,7 +100,7 @@ header #cabecalho {
   float: right;
   border: 10px;
   margin-right: 57%;
-  border-style: solid; 
+  border-style: solid;
   width: 300px;
   border-color: hsl(180, 3%, 93%);
 }
@@ -117,12 +117,11 @@ header #cabecalho {
 .lado-direito {
   display: inline-block;
   margin-left: 15%;
-  border-style: solid; 
+  border-style: solid;
   width: 300px;
   border-color: hsl(180, 3%, 93%);
-  
 }
 
-.lado-direito h2, .aprendizado {
+.lado-direito h2,.aprendizado {
   margin-left: 25px;
 }
