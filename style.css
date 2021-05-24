@@ -2,22 +2,22 @@
   margin: 0;
   padding: 0;
 }
-.fundo {
+body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  font-size: 15px;
 }
-
-#cabecalho {
-  background-color: green;
+header {
+  position: relative;
   top: 0;
+  background-color: green;
+  padding: 30px 30px 1px;
   background-size: cover;
   background-position: center;
-  padding: 30px 30px 1px;
 }
 
-
-
 #titulo {
-  color: black;
+  color: white;
   background-position: center;
   background-size: cover;
   top: 0;
@@ -26,47 +26,53 @@
   margin-left: 230px;
 }
 
-
-#licoes_aprendidas {
-  text-align: center;
-  margin: 50px;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 10px 50px 30px 10px;
+#foto  {
+  width: 200px;
+  padding: 10px 550px 10px;
+  background-color: brown;
 }
 
+#meu_linkedin {
+  display: inline;
+  padding:  5px 600px;
+  background-color: yellow;
+}
+
+p {
+  padding: 20px 500px 5px 350px;
+  font-family: sans-serif;
+  background-color: blue;
+  text-align: center;
+}
+
+
+.topicos {
+  background-color ;
+  text-align: left;
+  padding: 5px 50px
+}
+
+
+#licoes_aprendidas {
+  background-color: aqua;
+}
+
+.licoes_a_aprender {
+  background-color: chartreuse;
+}
+
+
 .nav-links li {
-  color: white;
+  color: green;
   display: inline-block;
   margin-right: 10px;
   width: 100px;
   padding: 20px 5px 5px;
 }
 
-
-.sobre_mim {
-  padding: 60px 5px 5px 5px;
-}
-
-
-
 .conteudo {
   padding: 70px 30px;
   text-align: left;
   margin: auto;
-}
-
-.licoes {
-  margin-bottom: 200px;
-  font-size: large;
-  margin-bottom: 30px;
-  width: 500px;
-}
-
-#foto {
-  width: 200px;
-  padding: 30px 80px;
-  float: center;
-  height: 20%;
 }
 
