@@ -11,12 +11,13 @@ header {
   position: relative;
   top: 0;
   background-color: green;
-  padding: 30px 30px 1px;
+  padding: 15px 15px 1px;
   background-size: cover;
   background-position: center;
 }
 
-#titulo {
+
+h1 {
   color: white;
   background-position: center;
   background-size: cover;
@@ -25,6 +26,8 @@ header {
   text-align: center;
   margin-left: 230px;
 }
+
+
 
 #foto  {
   width: 200px;
@@ -44,7 +47,6 @@ p {
 
 
 .topicos {
-  background-color ;
   text-align: left;
   padding: 5px 50px
 }
@@ -56,12 +58,12 @@ p {
 .licoes_a_aprender {
 }
 
-
 .nav-links li {
   display: inline-block;
   margin-right: 10px;
   width: 100px;
   padding: 20px 5px 5px;
+  color: white;
 }
 
 .conteudo {
