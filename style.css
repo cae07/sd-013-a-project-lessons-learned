@@ -108,6 +108,11 @@ span {
   background-color: lightcyan;
 }
 
+table.tabela tr.dados:hover {
+  background-color: black;
+  color: white;
+}
+
 .centro {
   text-align: center;
 }
