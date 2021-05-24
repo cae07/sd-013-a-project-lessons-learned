@@ -83,6 +83,14 @@ body {
   left: 250px;
 }
 
+#tabela {
+  position: absolute;
+  background-color: rgb(33, 219, 101);
+  box-shadow: 1px 1px 10px;
+  top: 590px;
+  left: 935px;
+}
+
 #rodape {
   background-color: black;
   border-radius: 30px;
@@ -112,4 +120,3 @@ body {
   left: 850px;
   text-shadow: 1px 1px 10px;
 }
-
