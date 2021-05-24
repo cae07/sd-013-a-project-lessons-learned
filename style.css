@@ -6,10 +6,10 @@ Padding: 0;
 body {
 background-color: rgb(253, 251, 251)
 }
-#cabecalho {
+#cabecalho-2 {
 position: fixed;
 background-color: darkslategray;
-text-align: center; 
+text-align: center;
 padding: 5px;
 border: 5px;
 color: rgb(224, 218, 218);
@@ -17,23 +17,22 @@ font-size: 30px;
 width: 100%;
 top: 0;
 left: 0;
-right: 0;
-height: 30px;
+right: 0px;
+height: 45px;
 margin-top: 0;
 }
-.topnav {
+#cabecalho {
     background-color: darkslategray;
     overflow: hidden;
     margin-top: 0px;
     margin-left: -5px;
-}
-.topnav a {
     float: left;
-    color: #fcfcfc;
-    padding: 14px 16px;
-    text-decoration: none;
+    color: aliceblue;
+    padding: 14px ;
+    text-decoration:none;
     font-size: 19px;
 }
+
 #minha_foto {
 width: 250px;
 margin-top:150px;
