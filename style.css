@@ -25,14 +25,10 @@ body {
   margin-top: 162px;
 }
 
-.lado-direito {
+.lado-direito , .lado-esquerdo{
   display: inline-flex;
   width: 500px;
-}
-
-.lado-esquerdo {
-  display: inline-flex;
-  width: 500px;
+  line-height: 20px;
 }
 
 #tabela_licoes_aprendidas {
