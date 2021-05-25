@@ -4,13 +4,23 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 <Body>
-  
-    <p>
-    color: #1C1C1C
-    <font-size:15px> 
-    </p>
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
 
-    body{ text-align:center;
+    html, body {height:100%;}
+
+.geral {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
+
+    body {text-align:center;
       border-radius: 32px;
       margin-top:0%;
       top:0%;
@@ -22,6 +32,13 @@ body {
     .navegacao li {
       display: inline-block;
       width: 380px;
+    }
+    #cabecalho {
+      top: 0;
+      background-color: rgb(42, 136, 101);
+      position: relative;
+      width: 100%;
+      padding: 10px;
     }
     
 </Body>
@@ -59,8 +76,17 @@ header {
   }
   
   #rodape {
+    bottom: 0mm;
     background-color: rgb(136, 68, 45);
     font-size: 13px;
+    position: relative;
     line-height: 22px;
     text-align: center;
+    width: 900px;
+    height: 70px;
   }
+  .footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
