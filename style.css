@@ -64,6 +64,7 @@ article {
   border: 2px solid black;
   margin-left: 58%;
   padding-left: 25px;
+  margin-bottom: 10px;
 }
 
 #h3_ul {
@@ -100,8 +101,9 @@ article {
   text-align: center;
 }
 
-.passagem_aprendizado ul {
-  list-style: none;
+.passagem_aprendizado p {
+  text-align: justify;
+  margin: 5px;
 }
 
 .article_aprendizado {
@@ -118,8 +120,13 @@ article {
 
 .article_aprendizado p {
   text-align: justify;
+  margin: 10px;
 }
 
+.article_aprendizado h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 #rodape {
   background-color: cornflowerblue;
