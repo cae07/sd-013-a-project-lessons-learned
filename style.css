@@ -5,10 +5,6 @@ body {
   }
 <Body>
 
-h2 {
-background-color: rgb(166, 255, 0);
-
-}
 
 font-family: 'Libre Baskerville', serif;
     <p>
@@ -18,3 +14,7 @@ font-family: 'Libre Baskerville', serif;
 
 </Body>
 
+header {
+
+  background-color: rgb(166, 255, 0);
+}
