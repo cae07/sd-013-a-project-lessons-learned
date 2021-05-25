@@ -25,7 +25,7 @@ main , footer {
   top: 0;
   display: inline-block;
   background-color: aliceblue;
-  margin: 10px 10px;
+  margin: 10px;
   position: fixed;
   width: 100%;
   text-align: center;
