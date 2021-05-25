@@ -1,6 +1,5 @@
-body{
-    background-color: rgb(253, 251, 251);
-}
+body {
+background-color: rgb(253, 251, 251); }
 #cabecalho {
     top: 0;
     background-color: green;
@@ -9,44 +8,30 @@ body{
     height: 80px;
     text-align-last: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: oblique;
-}
+    font-style: oblique; }
 .link_externo  a {
     color: seagreen;
-    text-decoration: none; 
-    
-}
+    text-decoration: none; }
 #titulo {
-    color: rgb(255, 255, 255);
-}
+    color: rgb(255, 255, 255); }
 .foto {
     background-color: #c7c7c7 ;
-    text-align:center ;
-    
-}
+    text-align:center ; }
 #minha_foto {
     border-radius: 30px;
-    margin-top: 85px;
-
-}
+    margin-top: 85px; }
 .lista_mae {
     width: 100%;
     background-color: green;
-    display: inline-flex
-}
+    display: inline-flex }
 h2 {
-    font-style: oblique;
-}
-
+    font-style: oblique; }
 #licoes_aprendidas {
     margin-left: 100px;
-    color: rgb(255, 255, 255);
-}
-
+    color: rgb(255, 255, 255); }
 #licoes_a_aprender {
     margin-left: 700px;
-    color: rgb(255, 255, 255);
-}
+    color: rgb(255, 255, 255); }
 footer {
     text-align-last: right;
     width: 100%;
@@ -54,37 +39,28 @@ footer {
     background-color: green;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
+    font-size: 15px; }
 .link_externo2 {
-    padding:3% ;
-}
+    padding:3% ; }
 #h1-art {
-    font-style: oblique;
-}
+    font-style: oblique; }
 #h1-sec {
-    font-style: oblique;
-}
+    font-style: oblique; }
 article {
-    color: green;
-}
+    color: green; }
 aside {
-    color: green;
-}
+    color: green; }
 .art-sec {
     background-color: #c7c7c7;
-    display: flex;
-}
+    display: flex; }
 table {
+    color: green;
     width: 100%;
-    background-color: #c7c7c7;
-}
+    background-color: #c7c7c7; }
 .lista1 {
     line-height: 20px;
-    font-style:initial;
-}
+    font-style:initial; }
 
 .lista2  {
     line-height: 20px;
-    font-style:initial;
-}
+    font-style:initial; }
