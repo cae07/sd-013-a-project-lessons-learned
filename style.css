@@ -14,12 +14,29 @@ footer {
   width: 100%;
 }
 
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+
 #cabecalho {
   background-color: blueviolet;
   height: 80px;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+#minha_foto {
+  clear: both;
 }
 
 #titulo {
