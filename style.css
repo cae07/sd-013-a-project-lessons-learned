@@ -5,23 +5,23 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    text-align: center;
-    background-color: #444B54;
-    color: white;       
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #444B54;
+  color: white;       
 }
 
 #titulo {
   font-family:'Courier New', Courier, monospace;
 }
 
-.ul_nav {  
+.ul_nav {
   list-style: none;
   width: 50%;
   margin: auto;
@@ -53,7 +53,6 @@ a:visited {
 .div_licoes {
   width: 79%;
   float: left;
-  display: inline-block;
   background-color: #8199A3;
   color: white;
 }
@@ -72,8 +71,7 @@ a:visited {
   background-color: #B5AFA2;
 }
 
-
-#licoes_a_aprender {  
+#licoes_a_aprender {
   width: 30%;
   border: 2px solid black;
   margin-right: 10px;
@@ -140,8 +138,7 @@ a:visited {
   text-align: center;
   margin: auto;
   margin-bottom: 20px;
-  margin-top: 20px;
-  
+  margin-top: 20px;  
 }
 
 #rodape {
