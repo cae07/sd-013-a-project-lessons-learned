@@ -69,7 +69,8 @@ footer {
   color : steelblue;
   margin: 40px;
   font-size: 60px;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
+  line-height: 10px;
 }
 
 .center {
@@ -79,5 +80,5 @@ footer {
 table {
   border-radius: 1%;
   border-style: solid;
-  line-height: 30px;
+
 }
