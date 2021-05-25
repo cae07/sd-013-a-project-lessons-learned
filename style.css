@@ -3,6 +3,48 @@ body{
 }
 #cabecalho {
     top: 0;
-    background-color: rgb(38, 121, 6);
+    background-color: green;
     position: fixed;
+    width: 100%;
+    height: 80px;
+    text-align-last: center;
+}
+.link_externo  a {
+    color: seagreen;
+    text-decoration: none; 
+    
+}
+#titulo {
+    color: violet;
+}
+.foto {
+    background-color: #c7c7c7 ;
+    text-align:center ;
+    
+}
+#minha_foto {
+    border-radius: 30px;
+    margin-top: 85px;
+
+}
+.lista_mae {
+    width: 100%;
+    background-color: turquoise;
+    display: inline-flex
+}
+
+#licoes_a_aprender {
+    margin-left: 200px;
+    color: violet;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+}
+article {
+    background-color: gold;
+}
+aside {
+    background-color: indigo;
 }
