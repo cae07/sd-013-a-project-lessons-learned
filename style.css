@@ -66,11 +66,10 @@ img {
 
 footer {
   text-align: center;
-  color : slategray;
+  color : steelblue;
   margin: 40px;
-  font-size: 40px;
-  font-family: serif;
-  line-height: 5px;
+  font-size: 60px;
+  font-family: arial;
 }
 
 .center {
@@ -80,4 +79,5 @@ footer {
 table {
   border-radius: 1%;
   border-style: solid;
+  line-height: 30px;
 }
