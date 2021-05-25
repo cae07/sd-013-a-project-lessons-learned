@@ -11,9 +11,10 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-    border: 2px solid black;
     width: 100%;
-    text-align: center;    
+    text-align: center;
+    background-color: #444B54;
+    color: white;       
 }
 
 #titulo {
@@ -28,14 +29,19 @@ body {
 
 .ul_nav li {
   display: inline-block;
-  margin: 10px;
+  margin: 10px;  
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .sectionimagem {
-  border: 2px solid black;
   width: 79%;
   margin-top: 80px;
   float: left;
+  background-color: #E1B493;
 }
 
 #minha_foto {
@@ -45,10 +51,11 @@ body {
 }
 
 .div_licoes {
-  border: 2px solid black;
   width: 79%;
   float: left;
   display: inline-block;
+  background-color: #8199A3;
+  color: white;
 }
 
 #h2_ol {
@@ -62,6 +69,7 @@ body {
   margin-left: 5%;
   margin-top: 10px;
   padding-left: 25px;
+  background-color: #B5AFA2;
 }
 
 
@@ -73,6 +81,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   float: right;
+  background-color: #B5AFA2;
 }
 
 #h2_ul {
@@ -83,26 +92,13 @@ body {
   list-style-type: none;  
 }
 
-.links_aside {
-  border: 2px solid black;
-  width: 20%;
-  margin-top: 5px;
-  float: right;
-  height: 400px;
-  text-align: center;  
-}
-
-.links_aside ul {
-  list-style: none;
-}
-
 .lado-direito {
-  border: 2px solid black;
   width: 20%;
   margin-top: 80px;
   float: right;
-  height: 400px;  
+  height: 940px;  
   text-align: center;
+  background-color: #59A9C2;
 }
 
 .lado-direito p {
@@ -112,31 +108,29 @@ body {
 
 .lado-esquerdo {
   text-align: center;
-  border: 2px solid black;
   width: 79%;
   float: left;
+  background-color: #E1B493;
+  font-size: 20px;
 }
 
 .lado-esquerdo h2 {
-  width: 80%;
   margin: auto;
-}
-
-.lado-esquerdo p {
-  text-align: justify;
-  margin: 10px;
-}
-
-.lado-esquerdo h2 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.table_section {  
-  border: 2px solid black;
+.lado-esquerdo p {
+  text-align: justify;
+  margin: 20px;
+  line-height: 25px;
+}
+
+.table_section {
   width: 79%;
   float: left;
   margin: auto;
+  background-color: #8199A3;
 }
 
 .table_config {
@@ -156,4 +150,5 @@ body {
   float: left;
   width: 100%;
   min-height: 20%;
+  margin-top: 10px;
 }
