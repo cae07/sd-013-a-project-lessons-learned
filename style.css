@@ -116,7 +116,7 @@ header {
   background-color: white;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   margin-left: 210px;
   margin-top: 60px;
   width: 400px;
@@ -149,7 +149,7 @@ header {
   font-size: 24px;
 }
 
-.lado_direito {
+.lado-direito {
   margin-top: 150px;
   float: right;
   margin-right: 350px;
