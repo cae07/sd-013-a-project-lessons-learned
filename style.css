@@ -10,6 +10,20 @@ body {
     <font-size:15px> 
     </p>
 
+    body{ text-align:center;
+      border-radius: 32px;
+      margin-top:0%;
+      top:0%;
+
+    }
+    #titulo {
+      text-align: center;
+    }
+    .navegacao li {
+      display: inline-block;
+      width: 380px;
+    }
+    
 </Body>
 
 header {
@@ -17,7 +31,7 @@ header {
   background-color: rgb(166, 255, 0);
 }
 
-#rodape{
+   {
   .lado-direito {
     width: 450px;
     display: inline-block;
