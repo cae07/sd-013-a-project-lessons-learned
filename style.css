@@ -65,13 +65,13 @@ aside {
   margin: 0 0 50px 100px;
 }
 
-table ,th ,td {
+table , th , td {
   width: 30%;
   text-align: left;
   border: 1px solid black;
 }
 
-nav ,a {
+nav , a {
   color: white;
 }
 
