@@ -18,13 +18,12 @@ header {
 
 
 h1 {
-  color: white;
   background-position: center;
   background-size: cover;
   top: 0;
   max-width: 60%;
   text-align: center;
-  margin-left: 230px;
+  margin-left: 250px;
 }
 
 
@@ -39,46 +38,34 @@ h1 {
   padding:  5px 600px;
 }
 
-#licoes {
-  display: inline;
-  padding: 100px 30px 20px 350px;
-  font-family: sans-serif;
-  text-align: center;
+#conhecimentos {
+  display: inline-block;
+  background-color: red;
+  margin-left: 200px;
+  padding: 20px 5px 5px 20px;
+}
+
+#conhecimentos_nao_aprendidos {
+  display: inline-block;
+  margin-right: 500px;
+  padding: 5px 1px 20px 5px;
 }
 
 #licoes_a_aprender {
-  padding: 1px 20px;
-  font-family: sans-serif;
+  margin-right: 500px;
 }
 
-
-.topicos {
-  padding: 20px 20px 30px 50px;
-}
-
-
- ol {
-   display: inline-block;
-   padding: 20px 5px;
-   text-align: center;
-   margin-left: 350px;
-   font-size: 17px;
- }
-
- ul {
+ol {
   display: inline-block;
   text-align: center;
-  margin-left: 800px;
-  font-size: 17px;
- }
-
-
-.nav-links {
-  display:inline;
-  width: 100px;
-  color: white;
+  margin-left: 300px;
+  font-size: 15px;
 }
-
+li {
+  text-align: center;
+  margin-right: 450px;
+  font-size: 15px;
+}
 
 .aprendizado {
   max-width: 40%;
@@ -96,5 +83,8 @@ h1 {
 
 #rodape {
   margin-top: 80px;
+}
+table , tr , td {
+  width: 150px;
 }
 
