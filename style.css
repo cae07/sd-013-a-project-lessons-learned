@@ -1,17 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
 }
 
 body {
   background-color: rgb(253, 251, 251);
 }
-
-a, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: inherit;
-} /* comando para deixar os links sem a color e o text decoration padrão do User Agent Style Sheet */
 
 main {
   padding: 2em;
@@ -22,7 +17,6 @@ main {
 
 h2 {
   text-align: center;
-  font-weight: bold;
   font-size: 1em;
   margin-bottom: 16px;
 }
@@ -55,7 +49,8 @@ ul {
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: .1em;
-  padding: 0.5em 1em;
+  line-height: 1em;
+  padding: 1em;
   border: 0;
   border-radius: 5px;
   opacity: 80%;
