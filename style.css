@@ -1,66 +1,104 @@
 body {
-background-color: rgb(253, 251, 251); }
-#cabecalho {
-    top: 0;
-    background-color: green;
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    text-align-last: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: oblique; }
-.link_externo  a {
-    color: seagreen;
-    text-decoration: none; }
-#titulo {
-    color: rgb(255, 255, 255); }
-.foto {
-    background-color: #c7c7c7 ;
-    text-align:center ; }
-#minha_foto {
-    border-radius: 30px;
-    margin-top: 85px; }
-.lista_mae {
-    width: 100%;
-    background-color: green;
-    display: inline-flex }
-h2 {
-    font-style: oblique; }
-#licoes_aprendidas {
-    margin-left: 100px;
-    color: rgb(255, 255, 255); }
-#licoes_a_aprender {
-    margin-left: 700px;
-    color: rgb(255, 255, 255); }
-footer {
-    text-align-last: right;
-    width: 100%;
-    height: 80px;
-    background-color: green;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px; }
-.link_externo2 {
-    padding:3% ; }
-#h1-art {
-    font-style: oblique; }
-#h1-sec {
-    font-style: oblique; }
-article {
-    color: green; }
-aside {
-    color: green; }
-.art-sec {
-    background-color: #c7c7c7;
-    display: flex; }
-table {
-    color: green;
-    width: 100%;
-    background-color: #c7c7c7; }
-.lista1 {
-    line-height: 20px;
-    font-style:initial; }
+  background-color: rgb(253, 251, 251);
+}
 
-.lista2  {
-    line-height: 20px;
-    font-style:initial; }
+#cabecalho {
+  top: 0;
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  text-align-last: center;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  font-style: oblique;
+}
+
+.link_externo a {
+  color: seagreen;
+  text-decoration: none;
+}
+
+#titulo {
+  color: white;
+}
+
+.foto {
+  background-color: darkgray;
+  text-align: center;
+}
+
+#minha_foto {
+  border-radius: 30px;
+  margin-top: 85px;
+}
+
+.lista_mae {
+  width: 100%;
+  background-color: green;
+  display: inline-flex;
+}
+
+h2 {
+  font-style: oblique;
+}
+
+#licoes_aprendidas {
+  margin-left: 100px;
+  color: white;
+}
+
+#licoes_a_aprender {
+  margin-left: 700px;
+  color: white;
+}
+
+footer {
+  text-align-last: right;
+  width: 100%;
+  height: 80px;
+  background-color: green;
+  font-style: italic;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 15px;
+}
+
+.link_externo2 {
+  padding: 3%;
+}
+
+#h1-art {
+  font-style: oblique;
+}
+
+#h1-sec {
+  font-style: oblique;
+}
+
+article {
+  color: green;
+}
+
+aside {
+  color: green;
+}
+
+.art-sec {
+  background-color: darkgray;
+  display: flex;
+}
+
+table {
+  color: green;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.lista1 {
+  line-height: 20px;
+  font-style: initial;
+}
+
+.lista2 {
+  line-height: 20px;
+  font-style: initial;
+}
