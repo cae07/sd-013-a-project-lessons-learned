@@ -49,7 +49,7 @@ img {
 .lado-esquerdo {
   display: inline;
   width: 50%;
-  float:left;
+  float: left;
 }
 
 .lado-direito {
@@ -61,15 +61,15 @@ img {
 
 .main {
   padding: 20px;
-  margin: 20px
+  margin: 20px;
 }
 
 footer {
   text-align: center;
-  color:slategray;
+  color: slategray;
   margin: 40px;
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, Times, serif;
   line-height: 5px;
 }
 
