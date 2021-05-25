@@ -44,10 +44,15 @@ body {
   margin-left: 30%;
 }
 
-.section_licoes {
+.div_licoes {
   border: 2px solid black;
   width: 79%;
   float: left;
+  display: inline-block;
+}
+
+#h2_ol {
+  text-align: center;  
 }
 
 #licoes_aprendidas {
@@ -55,39 +60,33 @@ body {
   width: 30%;
   border: 2px solid black;
   margin-left: 5%;
+  margin-top: 10px;
   padding-left: 25px;
 }
 
-#h3_ol {
-  text-align: left;
-  margin-left: 15%;
-  display: inline-block;
-  width:50%;
-}
 
 #licoes_a_aprender {  
   width: 30%;
   border: 2px solid black;
-  margin-left: 58%;
+  margin-right: 10px;
   padding-left: 25px;
   margin-bottom: 10px;
+  margin-top: 10px;
+  float: right;
 }
 
-#h3_ul {
-  text-align: right;
-  margin-right: 15%;
-  display: inline-block;
-  margin-left: 25%;
+#h2_ul {
+  text-align: center;  
 }
 
 #licoes_a_aprender li {
-  list-style-type: disc;  
+  list-style-type: none;  
 }
 
 .links_aside {
   border: 2px solid black;
   width: 20%;
-  margin-top: 80px;
+  margin-top: 5px;
   float: right;
   height: 400px;
   text-align: center;  
@@ -100,7 +99,7 @@ body {
 .lado-direito {
   border: 2px solid black;
   width: 20%;
-  margin-top: 5px;
+  margin-top: 80px;
   float: right;
   height: 400px;  
   text-align: center;
@@ -131,6 +130,24 @@ body {
 .lado-esquerdo h2 {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.table_section {  
+  border: 2px solid black;
+  width: 79%;
+  float: left;
+  margin: auto;
+}
+
+.table_config {
+  border: black  solid 2px;
+  border-collapse: collapse;
+  border-radius: 0;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
 }
 
 #rodape {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css">
-    <title>Projeto Fundamentos Html e Css</title>
+    <title>Projeto de Fundamentos Html e Css</title>
   </head>
   <body>
     <header id="cabecalho">
@@ -19,35 +19,26 @@
       </nav>
     </header>
     <main id="topo">
-      <aside class="links_aside">
-        <h1>Links Inspiradores</h1>
-        <ul>
-          <li><a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank">Felipe Deschamps</a></li>
-          <li><a href="https://www.youtube.com/user/AkitaOnRails" target="_blank">Fábio Akita</a></li>
-          <li><a href="https://www.youtube.com/user/cursosemvideo" target="_blank">Curso em Vídeo</a></li>
-          <li><a href="https://www.youtube.com/channel/UCPX0gLduKAfgr-HJENa7CFw" target="_blank">Renato Cariani</a></li>      
-        </ul>
-        <h1>Contatos</h1>
-        <ul>
-          <li>LinkedIn</li>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Whatsapp</li>
-      </ul>  
-      </aside>
-      
+      <aside class="lado-direito">
+        <h1>A prática leva a perfeição!</h1>
+        <section>          
+          <p>
+            O maior desafio que estou enfrentando no aprendizado da trybe é saber qual comando usar e onde usar. Com a prática de aprender a aprender conhecemos as possibilidades. 
+          </p>
+        </section>
+      </aside>      
       <section class="sectionimagem">
         <div id="divimagem">
-          <img src="/images/Minhafoto.jpeg" id="minha_foto"/>
+          <img src="/images/Minhafoto.jpeg" alt="Minha Foto" id="minha_foto"/>
         </div>
-      </section>
-      
-      <section class="section_licoes">        
-        <section>  
-          <div>
-            <h3 id="h3_ol">Lições Aprendidas</h3>
-          </div>
+      </section>      
+      <div class="div_licoes">        
+        <div>  
+          
+          
+          
           <ol id="licoes_aprendidas">
+            <h2 id="h2_ol">Lições Aprendidas</h2>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -59,12 +50,10 @@
             <li>Liderança e Gestão</li>
             <li>Dominar o inglês</li>
           </ol>
-        </section>
-        <section>
-          <div>
-            <h3 id="h3_ul">Lições a Aprender</h3>
-          </div>
+        </div>
+        <div>          
           <ul id="licoes_a_aprender">
+            <h2 id="h2_ul">Lições a Aprender</h2>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -76,31 +65,68 @@
             <li>Liderança e Gestão</li>
             <li>Dominar o inglês</li>
           </ul>
-        </section>    
-      </section>
-      <aside class="lado-direito">
-        <h1>A prática leva a perfeição!</h1>
-        <section>          
-          <p>
-            O maior desafio que estou enfrentando no aprendizado da trybe é saber qual comando usar e onde usar. Com a prática de aprender a aprender conhecemos as possibilidades e desenvolvemos esse raciocínio lógico de programação para resolver problemas distintos. 
-          </p>
-        </section>
+        </div>    
+      </div>
+      <aside class="links_aside">
+        <h1>Links Inspiradores</h1>
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw" target="_blank">Felipe Deschamps (open in a new window)</a></li>
+          <li><a href="https://www.youtube.com/user/AkitaOnRails" target="_blank">Fábio Akita (open in a new window)</a></li>
+          <li><a href="https://www.youtube.com/user/cursosemvideo" target="_blank">Curso em Vídeo (open in a new window)</a></li>
+          <li><a href="https://www.youtube.com/channel/UCPX0gLduKAfgr-HJENa7CFw" target="_blank">Renato Cariani (open in a new window)</a></li>      
+        </ul>
+        <h1>Contatos</h1>
+        <ul>
+          <li>LinkedIn</li>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Whatsapp</li>
+      </ul>  
       </aside>
       <article class="lado-esquerdo">
         <h2>Meu aprendizado com a Trybe</h2>
         <section>  
           <p>            
             Minha caminhada na Trybe está sendo muito desafiadora. Estou redirecionando minha carreira profissional e nunca tive um contato tão profundo com essa área de tecnologia.
-            A cada dia é um desafio novo pregando uma metodologia ativa de aprendizagem e com isso vem a responsabilidade de aprender a aprender.
             Se pararmos para pensar e comparar a pessoa que éramos quando entramos e quem somos agora, podemos enxergar uma grande evolução em um curto espaço de tempo. Só tenho a agradecer!
           </p>
         </section>
       </article>
-      <table>
-        
-      </table>
-
-
+      <section class="table_section">
+        <table class="table_config">          
+          <caption>Desempenho Trybe</caption>
+          <thead>
+            <tr>
+              <th>Conteúdo</th>
+              <th>Bloco</th>
+              <th>Desempenho</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td colspan="3">Rodapé</td>
+            </tr>
+          </tfoot>            
+          <tbody>
+            <tr>
+            <td>Git</td>
+            <td>2</td>
+            <td>100%</td>
+            </tr>
+            <tr>
+              <td>HTML e CSS</td>
+              <td>3</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>4</td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+          
+        </table>
+      </section>
     </main>
     <footer id="rodape">
       <a href="#topo">Topo</a>
