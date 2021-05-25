@@ -24,6 +24,10 @@ nav {
   width: 100%;
 }
 
+p {
+  color: #f5f5f5;
+}
+
 #cabecalho {
   background-color: blueviolet;
   height: 80px;
