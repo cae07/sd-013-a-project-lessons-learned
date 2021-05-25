@@ -46,15 +46,31 @@ img {
   display: inline-block;
 }
 
-h1 h2 {
-  margin: 0;
+.lado-esquerdo {
+  display: inline;
+  width: 50%;
+  float:left;
+}
+
+.lado-direito {
+  display: inline;
+  width: 50%;
+  float: right;
+  padding-bottom: 140px;
+}
+
+.main {
+  padding: 20px;
+  margin: 20px
 }
 
 footer {
   text-align: center;
-  color: hotpink;
+  color:slategray;
+  margin: 40px;
   font-size: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 5px;
 }
 
 .center {
@@ -64,5 +80,5 @@ footer {
 table {
   border-radius: 1%;
   border-style: solid;
-  line-height: 5px;
 }
+
