@@ -81,10 +81,21 @@ li {
   float: left;
 }
 
+
+.lado-esquerdo {
+  max-width: 45%;
+  display: inline-block;
+  float: left;
+}
+
+.lado-direito {
+  max-width: 45%;
+  display: inline-block;
+  float: right;
+}
+
 #rodape {
   margin-top: 80px;
 }
-table , tr , td {
-  width: 150px;
-}
+
 
