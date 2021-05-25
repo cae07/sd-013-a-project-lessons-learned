@@ -1,12 +1,12 @@
 *{
     margin: 1;
     border: 1;
-    padding: 1; }
-
+    padding: 1; 
+}
 body{
-    background-color: rgb(253, 251, 251); }
-
-#cabecalho{
+    background-color: rgb(253, 251, 251);
+}
+.cabecalho{
     background-color: rgb(39, 6, 8);
     text-align: center;
     position: fixed;
@@ -16,22 +16,47 @@ body{
     margin-top: 0px;
     top: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: blanchedalmond; }
-
+    color: blanchedalmond; 
+}
 #minha_foto{  
     width: 120px;
     margin-top: 80px;
     border-radius: 150px;
-    margin-left: 600px; }
-
+    margin-left: 600px;
+}
 #licoes-futuras{
-    font-size: 23.5px; }
-
+    font-size: 23.5px; 
+}
 #site{
-    margin-left: 643px; }
+    margin-left: 643px;
+}    
+  
+.lado-esquerdo{ 
+     display: inline-block;
+     text-align: center;
+     width: 30%;
+     margin: 30px;
+     background-color: darkgreen;
+}
+.lado-direito{
+    display: inline-block;
+    text-align: center;
+     width: 30%;
+     margin: 30px;
+     background-color: darkgoldenrod;
+     
+     
+}
+.lado-direito p {
     
-#titulo-artigo, #conteudo-artigo{
-    text-align: left; }
-
-#artigodireita{
-    text-align: right; }
+    
+}
+#titulo-artigo{
+    
+}
+.artigo-aside{
+    padding: 20px;
+    text-align: center;
+    background-color: darkorchid;
+    
+}
