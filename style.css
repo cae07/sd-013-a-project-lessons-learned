@@ -10,7 +10,7 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0;    
+    top: 0px;
     border: 2px solid black;
     width: 100%;
     text-align: center;    
@@ -38,15 +38,13 @@ body {
   float: left;
 }
 
-#divimagem img{}
-
 #minha_foto {
   width: 300px;
   margin: 50px;
   margin-left: 30%;
 }
 
-article {
+.section_licoes {
   border: 2px solid black;
   width: 79%;
   float: left;
@@ -66,8 +64,6 @@ article {
   display: inline-block;
   width:50%;
 }
-
-#licoes_aprendidas li {}
 
 #licoes_a_aprender {  
   width: 30%;
