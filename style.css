@@ -39,7 +39,6 @@ body {
   left: 0;
   height: 30px;
   width: 100%;
-  padding: 0%;
   background-color: seagreen;
   text-align: center;
   color: white;
@@ -53,8 +52,6 @@ article {
 
 nav {
   color: white;
-  /* display: inline-block; */
-  /* position: fixed; */
   width: 100%;
   top: 150px;
 }
