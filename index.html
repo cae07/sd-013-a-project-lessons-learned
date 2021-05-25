@@ -22,7 +22,6 @@
     </header>
 
     <nav>
-        <div class="nav-wrapper">
         <p class="topicos">Links</p>
             <ul>
             
@@ -45,7 +44,7 @@
         <li>Classes Descendentes</li>
         <li>HTML Semântico</li>
       </ol>
-      <p class="topicos">Próxmios Passos</p>
+      <p class="topicos">Próximos Passos</p>
       <ul id="licoes_a_aprender">
         <li>Introdução ao Javascript</li>
         <li>História do Javascript</li>
@@ -62,29 +61,43 @@
 
 
 
-    
-  <article>
-    <p class="topicos">Aprendizados</p> 
-    Nessa "primeira etapa" do curso da trybe relacionado a programação, estudei html e css. Com esses conhecimentos foi possível desenvolver esse projeto e fazendo uma introdução ao desenvolvimento frontend. Aprendi a desenvolver a estrutura da página com HTML e a "estilizar" a página e seus elementos com o CSS.
-  </article>
-  <section>
-    <p class="topicos">A Mão que ajuda</p> 
-     Um facilitador para o meu aprendizado sobre HTML e CSS foi o site da <a href="https://www.w3schools.com/" target"_blank"> w3schools</a>  com exemplos simples e bem didáticos.
-     <aside>
-        <p class="topicos">Batendo a Cabeça</p>
-        Algumas dúvidas que surgiram durante o desenvolvimento desse projeto foram o uso de sections, id vs class , redimensionamento dinâmico sem o uso de javascript, elementos in-line e block e a manipulação das "caixas" .
-     </aside>
-  </section>
+  <div id="conhecimentos">
+    <article class="lado-esquerdo">
+      <h1 style="text-align:center" >Aprendizados</h1> 
+      <p>Nessa "primeira etapa" do curso da trybe relacionado a programação, estudei html e css. Com esses conhecimentos foi possível desenvolver esse projeto e fazendo uma introdução ao desenvolvimento frontend. Aprendi a desenvolver a estrutura da página com HTML e a "estilizar" a página e seus elementos com o CSS.</p>
+    </article>
+    <section class="lado-direito">
+      <h1 style="text-align:center">A Mão que ajuda</h1> 
+      <p>Um facilitador para o meu aprendizado sobre HTML e CSS foi o site da <a href="https://www.w3schools.com/" target"_blank"> w3schools</a>  com exemplos simples e bem didáticos.</p>
+      <aside>
+          <h2 style="text-align:center">Batendo a Cabeça</h2>
+          <p>Algumas dúvidas que surgiram durante o desenvolvimento desse projeto foram o uso de sections, id vs class , redimensionamento dinâmico sem o uso de javascript, elementos in-line e block e a manipulação das "caixas" .</p>
+      </aside>
+    </section>
+  </div>  
 
   <div id = "contatos">
-    <p class="topicos">Contatos</p>  
-    <b><ul>
-          <li> <i>junglejf@gmail.com</i></b></li>
-    <li><a href="https://github.com/junglejf" target="_blank">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/jorge-felipe-campos-chagas-352198118/" target="_blank">Linkedin</a></li>
-    </i>
-    </ul>
+    <table>
+      <caption>Segue abaixo nossa tabela de contatos.</caption>
+      <tr>
+        <th id="nomeTabela"> CONTATOS</th>
+      </tr>
+      <tr>
+        <th>junglejf@gmail.com</th>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/junglejf" target="_blank">Github(opens in new window)</a></td>
+          
+      </tr>
+      <tr>
+        <td><a href="https://www.linkedin.com/in/jorge-felipe-campos-chagas-352198118/" target="_blank">Linkedin(opens in new window)</a></td>
+      </tr>
+
+
+    </table>
 </div>
+
+
 
   <footer id="rodape">
     @2021 Jungle Dev, Inc
