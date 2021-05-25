@@ -1,3 +1,8 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
@@ -11,6 +16,7 @@ footer {
 
 #cabecalho {
   background-color: blueviolet;
+  height: 80px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,4 +25,5 @@ footer {
 #titulo {
   line-height: auto;
   text-align: center;
+  vertical-align: middle;
 }
