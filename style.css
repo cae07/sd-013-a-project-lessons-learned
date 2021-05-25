@@ -24,6 +24,7 @@ body {
   max-width: 200px;
   margin-top: 162px;
   margin-bottom: 30px;
+  border-radius: 15px;
 }
 
 .lado-direito , .lado-esquerdo {
