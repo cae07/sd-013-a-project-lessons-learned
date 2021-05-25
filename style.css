@@ -49,7 +49,7 @@ img {
 .lado-esquerdo {
   display: inline;
   width: 50%;
-  float: left;
+  float : left;
 }
 
 .lado-direito {
@@ -66,10 +66,10 @@ img {
 
 footer {
   text-align: center;
-  color: slategray;
+  color : slategray;
   margin: 40px;
   font-size: 40px;
-  font-family: Georgia, Times, serif;
+  font-family: serif;
   line-height: 5px;
 }
 
@@ -81,4 +81,3 @@ table {
   border-radius: 1%;
   border-style: solid;
 }
-
