@@ -1,16 +1,17 @@
-*{
+* {
     margin: 1;
     border: 1;
     padding: 1; 
 }
-body{
+body {
     background-color: rgb(253, 251, 251);
     font-family: sans-serif;
+    font-size: 16px;
 }
-.cabecalho{
+.cabecalho {
+    position: fixed;
     background-color: rgb(39, 6, 8);
     text-align: center;
-    position: fixed;
     left: 0;
     right: 0;
     height: 70px;
@@ -19,45 +20,35 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: blanchedalmond; 
 }
-#minha_foto{  
+#minha_foto {  
     width: 120px;
     margin-top: 80px;
     border-radius: 150px;
     margin-left: 600px;
 }
-#licoes-futuras{
+#licoes-futuras {
     font-size: 23.5px; 
 }
-#site{
+#site {
     margin-left: 643px;
 }    
   
-.lado-esquerdo{ 
+.lado-esquerdo { 
      display: inline-block;
      text-align: center;
      width: 30%;
      margin: 30px;
      background-color: darkgreen;
 }
-.lado-direito{
+.lado-direito {
     display: inline-block;
     text-align: center;
      width: 30%;
      margin: 30px;
-     background-color: darkgoldenrod;
-     
-     
+     background-color: darkgoldenrod;   
 }
-.lado-direito p {
-    
-    
-}
-#titulo-artigo{
-    
-}
-.artigo-aside{
+.artigo-aside {
     padding: 20px;
     text-align: center;
-    background-color: darkorchid;
-    
+    background-color: darkorchid;   
 }
