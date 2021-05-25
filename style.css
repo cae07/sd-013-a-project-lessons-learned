@@ -52,6 +52,9 @@ h1 h2 {
 
 footer {
   text-align: center;
+  color: hotpink;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .center {
@@ -61,4 +64,5 @@ footer {
 table {
   border-radius: 1%;
   border-style: solid;
+  line-height: 5px;
 }
