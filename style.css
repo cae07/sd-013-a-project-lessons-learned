@@ -1,5 +1,9 @@
 
-
+body{
+    font-size: 25px;
+    background-color: rgb(253,251,251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #cabecalho {
     background-color: chartreuse;
     position: fixed;
@@ -13,7 +17,7 @@ h1{
 }
 
 img {
-    position:;
+    
     width: 200px;
     height: 200px;
 }
