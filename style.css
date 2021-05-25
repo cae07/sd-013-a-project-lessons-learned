@@ -1,12 +1,10 @@
 
 body {
     background-color:rgb(253, 251, 251);
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 <Body>
-
-
-font-family: 'Libre Baskerville', serif;
+  
     <p>
     color: #1C1C1C
     <font-size:15px> 
@@ -18,3 +16,39 @@ header {
 
   background-color: rgb(166, 255, 0);
 }
+
+#rodape{
+  .lado-direito {
+    width: 450px;
+    display: inline-block;
+    position: absolute;
+    left: 700px;
+  }
+  
+  .lado-esquerdo {
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    right: 650px;
+    z-index: 1;
+  }
+  
+  .tudo {
+    position: relative;
+    margin: 0.6px;
+    border: 0.6px;
+    padding: 0.6px;
+  }
+  
+  #final {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #rodape {
+    background-color: rgb(136, 68, 45);
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+  }
