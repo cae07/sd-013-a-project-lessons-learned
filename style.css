@@ -48,7 +48,8 @@ ul {
   font-size: 0.8em;
   font-weight: 200;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  color: black;
+  letter-spacing: 0.1em;
   line-height: 1em;
   padding: 1em;
   border: 0;
@@ -74,12 +75,20 @@ ul {
   margin-bottom: 16px;
 }
 
-#top {
+.lado-esquerdo h2, .lado-direito h2{
+  text-align: center;
+  margin: 0.5em;
+}
+
+.lado-esquerdo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
-#bottom {
+.lado-direito {
+  display: inline-block;
   margin-bottom: 16px;
+  float: right;
 }
 
 #rodape {
