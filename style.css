@@ -105,7 +105,6 @@ body {
   margin-left: 40%;
   font-family: monospace;
   font-size: 14px;
-  font: 900;
 }
 
 .conteiner {
@@ -132,4 +131,8 @@ body {
   margin-top: 50px;
   margin-left: 150px;
   width: 500px;
+}
+
+.title-art{
+  margin-bottom: 10px;
 }
