@@ -89,6 +89,7 @@ body {
   margin-bottom: 80px;
   margin-left: 10px;
   list-style: none;
+  line-height: 25px;
 }
 
 #licoes_a_aprender {
@@ -96,11 +97,15 @@ body {
   margin-bottom: 80px;
   margin-left: 10px;
   list-style: none;
+  line-height: 25px;
 }
 
 #rodape {
   margin-top: 100px;
   margin-left: 40%;
+  font-family: monospace;
+  font-size: 14px;
+  font: 900;
 }
 
 .conteiner {
@@ -111,12 +116,14 @@ body {
   display: inline-block;
   margin-left: 150px;
   vertical-align: middle;
+  line-height: 30px;
 }
 
 .lado-esquerdo {
   display: inline-block;
   margin-left: 150px;
   vertical-align: middle;
+  line-height: 25px;
 }
 
 #tabela {
