@@ -5,10 +5,9 @@ body {
 
 #cabecalho {
   width: 100%;
-  margin: 0 0 20px 0;
   background-color: green;
   position: fixed;
-  padding-bottom: 20px ;
+  padding-bottom: 10px;
   padding-top: 0;
   border-top: 0;
 }
@@ -22,19 +21,62 @@ body {
 
 #minha_foto {
   width: 30%;
-  margin-top: 5%;
+  margin-top: 10%;
 
 }
 
 #licoes_aprendidas {
-
+  color: green;
 }
 
 #licoes_a_aprender {
-
+  color: green;
 }
 
 .licoes {
   display: inline-block;
   margin-top: 2%;
+}
+
+.footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.artigoaprendizado {
+  width: 40%;
+  margin: 20px 20px;
+}
+
+aside {
+  width: 20%;
+  display: inline-block;
+  position: inherit;
+  border-style: solid ;
+  padding: 20px 20px;
+  margin: 0 0 50px 100px;
+}
+
+table, th, td {
+  width: 30%;
+  text-align: left;
+  border: 1px solid black;
+}
+
+nav, a {
+  color: white;
+}
+
+li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
 }
