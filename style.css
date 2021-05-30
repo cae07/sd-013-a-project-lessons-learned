@@ -24,10 +24,12 @@ h1{
 main{
   background-color: #FDFBFB;
   font-size: 2vw;
+  line-height: 2.5vw;
   font-family: Arial, Helvetica , sans-serif;
   color: #282A35;
 }
-article{
+
+#lado-esquerdo{
   background-color: #FDFBFB;
   width:50%;
   position: absolute;
@@ -35,7 +37,7 @@ article{
   border-right: 5%;
   text-align: center;
 }
-aside{
+#lado-direito{
   background-color: #FDFBFB;
   position:  relative;
   width: 45%;
