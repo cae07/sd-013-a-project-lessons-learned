@@ -2,7 +2,6 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
   font-size: 20px;
-  font-style: normal;
 }
 
 #cabecalho {
@@ -16,6 +15,14 @@ img {
   margin-left: 20px;
 }
 
-article {
-  font
+ol {
+  color: #11a36a;
+}
+
+footer {
+  color: #11a36a;
+}
+
+div {
+  display: inline-block;
 }
