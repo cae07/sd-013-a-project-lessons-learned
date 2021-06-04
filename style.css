@@ -1,6 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
 }
 
 #cabecalho {
@@ -11,8 +13,9 @@ body {
 img {
   margin-top: 90px;
   border-radius: 100%;
+  margin-left: 20px;
 }
 
-#licoes_aprendidas {
-  
+article {
+  font
 }
