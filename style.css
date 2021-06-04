@@ -6,3 +6,8 @@ body {
   position: fixed;
   top: 0;
 }
+
+img {
+  margin-top: 90px;
+  border-radius: 100%;
+}
