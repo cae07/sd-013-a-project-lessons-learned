@@ -7,20 +7,45 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  display: flex;
+  border: 2px solid black;
+  background-color: #11a36a;
+  color: white;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
 }
 
 img {
   margin-top: 90px;
-  border-radius: 100%;
+  border-radius: 50%;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.licoes_aprendidas {
+  display: flex;
+  flex-direction: row;
 }
 
 ol {
   color: #11a36a;
 }
 
-footer {
-  color: #11a36a;
+.footer {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 div {
