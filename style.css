@@ -1,10 +1,12 @@
 body {
   font-family: sans-serif;
   background-color: rgb(253, 251, 251);
+  line-height: 20px;
   margin: 0;
 }
 
 #cabecalho {
+  font-size: 25px;
   display: block;
   border: 2px solid black;
   max-height: 80px;
@@ -68,4 +70,14 @@ body {
 
 #aside p {
   max-width: 50%;
+}
+
+#tabela {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+#tabela tr td {
+  border: 1px solid black;
+  padding: 5px;
 }
