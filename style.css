@@ -29,7 +29,7 @@ body {
   border: 2px solid black;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   margin-top: 65px;
   margin-left: 73px;
   list-style-type: upper-roman;
@@ -57,7 +57,6 @@ body {
 
 #article p {
   max-width: 60%;
-  
 }
 
 #aside {
